@@ -7,7 +7,7 @@
 - 已按可复现发布边界整理 `.gitignore`：提交代码、文档、环境锁/版本清单、最终验收结果与关键图表；本机原始资料和既有完整产物均未删除。
 - 不进入普通 Git 的内容包括下载数据与安装器、隔离环境本体、RDS/H5AD、BAM/CRAM、FASTQ、Snakemake/Nextflow 缓存、nf-core work/官方大输出、过时或失败尝试、重复历史运行目录及事务暂存目录。这些文件仍保留在虚拟机本地。
 - 提交前候选集实测约64.8 MB、1488文件，最大单文件约13.2 MB；未发现密钥文件或典型GitHub/AWS令牌。生成HTML中的通用credential/password文字命中已按报告产物处理，不是检出的访问令牌。
-- GitHub OAuth账号为`Andrew-li777`；已创建public仓库：`https://github.com/Andrew-li777/biolearn-practice`。首次提交及push状态以本节后续Git记录为准。
+- GitHub OAuth账号为`Andrew-li777`；已创建public仓库：`https://github.com/Andrew-li777/biolearn-practice`。首次提交`5d564f7`已成功推送，默认分支为`main`并跟踪`origin/main`。
 - 此次Git发布不等于跨主机新环境复现；被排除的大对象及完整历史结果仍应通过虚拟机共享目录、SFTP或rsync另行归档。
 
 ## 本次用户要求的独立干净目录验收（2026-10-10 UTC）
