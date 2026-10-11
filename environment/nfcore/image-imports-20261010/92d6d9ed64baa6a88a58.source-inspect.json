@@ -1,0 +1,39 @@
+{
+    "Name": "community.wave.seqera.io/library/bioconductor-tximeta_jq",
+    "Digest": "sha256:b8b4a40e7c126ed0182341087883eff161487814a3ddc9b168fc6ba104842189",
+    "RepoTags": [
+        "62326f54a308be62",
+        "78bccd386c46a07c",
+        "b3a71c30effcaa9d",
+        "cfad0af3e2f03e0f"
+    ],
+    "Created": "2026-07-15T09:42:23.045575006Z",
+    "DockerVersion": "",
+    "Labels": {
+        "org.opencontainers.image.version": "24.04"
+    },
+    "Architecture": "amd64",
+    "Os": "linux",
+    "Layers": [
+        "sha256:ca2678b20700c15185707964d9211b1a6406196114bf675f568b6025d37b3888",
+        "sha256:7398bba2b265091a99874c39c7ea66c31eb60e8d710fefbb044077eddc8c7de8"
+    ],
+    "LayersData": [
+        {
+            "MIMEType": "application/vnd.oci.image.layer.v1.tar+gzip",
+            "Digest": "sha256:ca2678b20700c15185707964d9211b1a6406196114bf675f568b6025d37b3888",
+            "Size": 29735601,
+            "Annotations": null
+        },
+        {
+            "MIMEType": "application/vnd.oci.image.layer.v1.tar+gzip",
+            "Digest": "sha256:7398bba2b265091a99874c39c7ea66c31eb60e8d710fefbb044077eddc8c7de8",
+            "Size": 787013588,
+            "Annotations": null
+        }
+    ],
+    "Env": [
+        "PATH=/opt/conda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+        "MAMBA_ROOT_PREFIX=/opt/conda"
+    ]
+}

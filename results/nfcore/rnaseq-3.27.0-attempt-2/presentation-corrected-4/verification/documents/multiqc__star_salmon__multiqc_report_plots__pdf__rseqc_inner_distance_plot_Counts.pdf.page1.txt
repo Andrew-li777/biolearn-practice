@@ -1,0 +1,21 @@
+−200 bp
+−150 bp
+−100 bp
+−50 bp
+0 bp
+50 bp
+100 bp
+150 bp
+200 bp
+0
+500
+1000
+1500
+2000
+2500
+3000
+3500
+RSeQC: Inner Distance
+ Counts, 3 lines 
+Inner Distance (bp)
+Counts

@@ -1,0 +1,26 @@
+reverse
+auto
+Provided  
+-
+reverse
+Salmon inferred  
+0%
+20%
+40%
+60%
+80%
+100%
+Salmon %  
+reverse
+RSeQC inferred  
+0%
+20%
+40%
+60%
+80%
+100%
+RSeQC %  
+pass
+Status  
+Strandedness inference summary
+ 5 samples 

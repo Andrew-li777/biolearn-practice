@@ -1,0 +1,19 @@
+EXECUTABLE /home/a/miniforge3/envs/biolearn-r/bin/python
+VERSION 3.15.0 | packaged by conda-forge | (main, Oct  9 2026, 18:56:31) [GCC 15.3.0]
+MISSING	numpy
+MISSING	scipy
+MISSING	pandas
+MISSING	matplotlib
+MISSING	seaborn
+MISSING	sklearn
+MISSING	scanpy
+MISSING	anndata
+MISSING	igraph
+MISSING	leidenalg
+MISSING	pydeseq2
+MISSING	h5py
+MISSING	statsmodels
+MISSING	umap
+MISSING	skmisc
+MISSING	snakemake
+MISSING	jupyterlab

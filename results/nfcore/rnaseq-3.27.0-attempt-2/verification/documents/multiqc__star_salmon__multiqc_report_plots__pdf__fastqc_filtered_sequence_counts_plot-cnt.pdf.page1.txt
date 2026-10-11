@@ -1,0 +1,23 @@
+0
+10k
+20k
+30k
+40k
+50k
+60k
+70k
+80k
+90k
+WT_REP2_2
+WT_REP2_1
+WT_REP1_2
+WT_REP1_1
+RAP1_UNINDUCED_REP2
+RAP1_UNINDUCED_REP1
+RAP1_IAA_30M_REP1_2
+RAP1_IAA_30M_REP1_1
+Unique Reads
+Duplicate Reads
+FastQC: Sequence Counts
+ 8 bars 
+Number of reads

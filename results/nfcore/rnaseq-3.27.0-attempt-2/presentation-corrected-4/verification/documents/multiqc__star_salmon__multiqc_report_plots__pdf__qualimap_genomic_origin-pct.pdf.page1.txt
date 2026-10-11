@@ -1,0 +1,17 @@
+0%
+20%
+40%
+60%
+80%
+100%
+WT_REP2
+WT_REP1
+RAP1_UNINDUCED_REP2
+RAP1_UNINDUCED_REP1
+RAP1_IAA_30M_REP1
+Exonic
+Intronic
+Intergenic
+QualiMap: RNAseq: Genomic Origin
+ 5 bars 
+Number of reads

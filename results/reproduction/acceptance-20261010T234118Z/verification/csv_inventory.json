@@ -1,0 +1,1276 @@
+[
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/bulk/vst_expression.csv",
+    "rows": 16596,
+    "columns": [
+      "Unnamed: 0",
+      "SRR1039508",
+      "SRR1039509",
+      "SRR1039512",
+      "SRR1039513",
+      "SRR1039516",
+      "SRR1039517",
+      "SRR1039520",
+      "SRR1039521"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/bulk/airway_counts.csv",
+    "rows": 63677,
+    "columns": [
+      "Unnamed: 0",
+      "SRR1039508",
+      "SRR1039509",
+      "SRR1039512",
+      "SRR1039513",
+      "SRR1039516",
+      "SRR1039517",
+      "SRR1039520",
+      "SRR1039521"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/bulk/pca_variance.csv",
+    "rows": 2,
+    "columns": [
+      "component",
+      "variance_fraction"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/bulk/edger_filter.csv",
+    "rows": 63677,
+    "columns": [
+      "gene",
+      "keep"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/bulk/comparison_edger_vs_pydeseq2.csv",
+    "rows": 16493,
+    "columns": [
+      "gene",
+      "log2FC_a",
+      "log2FC_b",
+      "padj_a",
+      "padj_b"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/bulk/analysis_summary.csv",
+    "rows": 3,
+    "columns": [
+      "method",
+      "input_genes",
+      "prefilter_genes",
+      "valid_pvalues",
+      "valid_padj",
+      "pvalue_missing",
+      "padj_missing",
+      "significant_fdr_0.1",
+      "up",
+      "down"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/bulk/comparison_deseq2_vs_edger.csv",
+    "rows": 16493,
+    "columns": [
+      "gene",
+      "log2FC_a",
+      "log2FC_b",
+      "padj_a",
+      "padj_b"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/bulk/pydeseq2_significant.csv",
+    "rows": 4685,
+    "columns": [
+      "gene",
+      "symbol",
+      "baseMean",
+      "log2FC",
+      "lfcSE",
+      "stat",
+      "pvalue",
+      "padj",
+      "significant"
+    ],
+    "NA": {
+      "symbol": 334
+    },
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/bulk/sample_distance.csv",
+    "rows": 8,
+    "columns": [
+      "Unnamed: 0",
+      "SRR1039508",
+      "SRR1039509",
+      "SRR1039512",
+      "SRR1039513",
+      "SRR1039516",
+      "SRR1039517",
+      "SRR1039520",
+      "SRR1039521"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/bulk/deseq2_apeglm.csv",
+    "rows": 16596,
+    "columns": [
+      "gene",
+      "log2FC_apeglm",
+      "lfcSE_apeglm",
+      "pvalue",
+      "padj"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/bulk/deseq2_normalized_counts.csv",
+    "rows": 16596,
+    "columns": [
+      "Unnamed: 0",
+      "SRR1039508",
+      "SRR1039509",
+      "SRR1039512",
+      "SRR1039513",
+      "SRR1039516",
+      "SRR1039517",
+      "SRR1039520",
+      "SRR1039521"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/bulk/edger_normalization.csv",
+    "rows": 8,
+    "columns": [
+      "sample",
+      "group",
+      "lib.size",
+      "norm.factors",
+      "effective_library_size"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/bulk/overlap_deseq2_vs_edger.csv",
+    "rows": 4879,
+    "columns": [
+      "gene"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/bulk/pca_scores.csv",
+    "rows": 8,
+    "columns": [
+      "PC1",
+      "PC2",
+      "group",
+      "dex",
+      "cell",
+      "name"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/bulk/sample_pairing.csv",
+    "rows": 4,
+    "columns": [
+      "cell",
+      "trt",
+      "untrt"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/bulk/top30_vst_expression.csv",
+    "rows": 30,
+    "columns": [
+      "Unnamed: 0",
+      "SRR1039508",
+      "SRR1039509",
+      "SRR1039512",
+      "SRR1039513",
+      "SRR1039516",
+      "SRR1039517",
+      "SRR1039520",
+      "SRR1039521"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/bulk/deseq2_dispersions.csv",
+    "rows": 16596,
+    "columns": [
+      "gene",
+      "dispersions.dds.",
+      "mcols.dds..dispGeneEst",
+      "mcols.dds..dispFit"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/bulk/overlap_deseq2_vs_pydeseq2.csv",
+    "rows": 4641,
+    "columns": [
+      "gene"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/bulk/airway_coldata.csv",
+    "rows": 8,
+    "columns": [
+      "Unnamed: 0",
+      "cell",
+      "dex"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/bulk/comparison_deseq2_vs_pydeseq2.csv",
+    "rows": 16596,
+    "columns": [
+      "gene",
+      "log2FC_a",
+      "log2FC_b",
+      "padj_a",
+      "padj_b"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/bulk/pydeseq2_filter.csv",
+    "rows": 63677,
+    "columns": [
+      "gene",
+      "keep"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/bulk/python_design_matrix.csv",
+    "rows": 8,
+    "columns": [
+      "Unnamed: 0",
+      "Intercept",
+      "cell[T.N061011]",
+      "cell[T.N080611]",
+      "cell[T.N61311]",
+      "dex[T.trt]"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/bulk/deseq2_size_factors.csv",
+    "rows": 8,
+    "columns": [
+      "sample",
+      "size_factor"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/bulk/pydeseq2_results.csv",
+    "rows": 16596,
+    "columns": [
+      "gene",
+      "symbol",
+      "baseMean",
+      "log2FC",
+      "lfcSE",
+      "stat",
+      "pvalue",
+      "padj",
+      "significant"
+    ],
+    "NA": {
+      "symbol": 2391
+    },
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/bulk/overlap_all_three.csv",
+    "rows": 4611,
+    "columns": [
+      "gene"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/bulk/top30_heatmap_genes.csv",
+    "rows": 30,
+    "columns": [
+      "gene",
+      "symbol",
+      "baseMean",
+      "log2FC",
+      "lfcSE",
+      "stat",
+      "pvalue",
+      "padj",
+      "significant"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/bulk/deseq2_results.csv",
+    "rows": 16596,
+    "columns": [
+      "gene",
+      "symbol",
+      "baseMean",
+      "log2FC",
+      "lfcSE",
+      "stat",
+      "pvalue",
+      "padj",
+      "significant"
+    ],
+    "NA": {
+      "symbol": 2391
+    },
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/bulk/deseq2_significant.csv",
+    "rows": 4916,
+    "columns": [
+      "gene",
+      "symbol",
+      "baseMean",
+      "log2FC",
+      "lfcSE",
+      "stat",
+      "pvalue",
+      "padj",
+      "significant"
+    ],
+    "NA": {
+      "symbol": 348
+    },
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/bulk/gene_annotation.csv",
+    "rows": 63677,
+    "columns": [
+      "gene",
+      "symbol"
+    ],
+    "NA": {
+      "symbol": 28379
+    },
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/bulk/edger_significant.csv",
+    "rows": 6550,
+    "columns": [
+      "gene",
+      "symbol",
+      "log2FC",
+      "logCPM",
+      "F",
+      "pvalue",
+      "padj",
+      "significant"
+    ],
+    "NA": {
+      "symbol": 609
+    },
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/bulk/acceptance_checks.csv",
+    "rows": 39,
+    "columns": [
+      "check",
+      "status",
+      "detail"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/bulk/deseq2_filter.csv",
+    "rows": 63677,
+    "columns": [
+      "gene",
+      "keep"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/bulk/r_design_matrix.csv",
+    "rows": 8,
+    "columns": [
+      "Unnamed: 0",
+      "(Intercept)",
+      "cellN061011",
+      "cellN080611",
+      "cellN61311",
+      "dextrt"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/bulk/comparisons.csv",
+    "rows": 3,
+    "columns": [
+      "method_a",
+      "method_b",
+      "n_sig_a",
+      "n_sig_b",
+      "n_overlap",
+      "n_union",
+      "overlap_fraction_a",
+      "overlap_fraction_b",
+      "jaccard",
+      "prefilter_shared_genes",
+      "finite_lfc_pairs",
+      "spearman_log2FC_shared",
+      "pearson_log2FC_shared",
+      "direction_shared_n",
+      "direction_agreement_shared",
+      "direction_overlap_n",
+      "direction_agreement_overlap",
+      "both_valid_padj_genes",
+      "jaccard_both_valid_padj"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/bulk/pydeseq2_size_factors.csv",
+    "rows": 8,
+    "columns": [
+      "sample",
+      "size_factor"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/bulk/r_installed_packages.csv",
+    "rows": 208,
+    "columns": [
+      "Package",
+      "Version",
+      "Built"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/bulk/edger_results.csv",
+    "rows": 16860,
+    "columns": [
+      "gene",
+      "symbol",
+      "log2FC",
+      "logCPM",
+      "F",
+      "pvalue",
+      "padj",
+      "significant"
+    ],
+    "NA": {
+      "symbol": 2473
+    },
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/bulk/deseq2_top20.csv",
+    "rows": 20,
+    "columns": [
+      "gene",
+      "symbol",
+      "baseMean",
+      "log2FC",
+      "lfcSE",
+      "stat",
+      "pvalue",
+      "padj",
+      "significant"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/bulk/overlap_edger_vs_pydeseq2.csv",
+    "rows": 4635,
+    "columns": [
+      "gene"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/pbmc3k/qc_cross_tool_differences.csv",
+    "rows": 2700,
+    "columns": [
+      "barcode",
+      "genes_difference",
+      "UMI_difference",
+      "MT_pct_difference"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/pbmc3k/cell_type_crosstab.csv",
+    "rows": 9,
+    "columns": [
+      "seurat_cell_type",
+      "B cells",
+      "CD14+ monocytes",
+      "Cytotoxic CD8 T",
+      "Dendritic-like cells",
+      "FCGR3A+ monocytes",
+      "Memory-like CD4 T",
+      "NK cells",
+      "Naive-like CD4 T",
+      "Platelet-like cells"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/pbmc3k/qc_statistics.csv",
+    "rows": 6,
+    "columns": [
+      "route",
+      "stage",
+      "cells",
+      "median_genes",
+      "median_UMI",
+      "median_mt_pct",
+      "max_genes",
+      "max_mt_pct"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/pbmc3k/scanpy_only_cells.csv",
+    "rows": 0,
+    "columns": [
+      "barcode"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/pbmc3k/analysis_summary.csv",
+    "rows": 2,
+    "columns": [
+      "route",
+      "raw_cells",
+      "before_final_QC_cells",
+      "QC_pass_cells",
+      "rejected_cells",
+      "fail_low_genes",
+      "fail_high_genes",
+      "fail_mt",
+      "clusters",
+      "marker_rows_returned",
+      "positive_marker_rows"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/pbmc3k/cluster_crosstab.csv",
+    "rows": 9,
+    "columns": [
+      "seurat_cluster",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/pbmc3k/barcode_alignment.csv",
+    "rows": 2638,
+    "columns": [
+      "barcode",
+      "seurat_cluster",
+      "scanpy_cluster",
+      "seurat_cell_type",
+      "seurat_broad_type",
+      "scanpy_cell_type",
+      "scanpy_broad_type"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/pbmc3k/cluster_crosstab_row_fraction.csv",
+    "rows": 9,
+    "columns": [
+      "seurat_cluster",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/pbmc3k/acceptance_checks.csv",
+    "rows": 83,
+    "columns": [
+      "check",
+      "status",
+      "detail"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/pbmc3k/seurat_only_cells.csv",
+    "rows": 0,
+    "columns": [
+      "barcode"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/pbmc3k/controlled_experiments.csv",
+    "rows": 6,
+    "columns": [
+      "route",
+      "variant",
+      "changed",
+      "baseline_clusters",
+      "variant_clusters",
+      "ARI_vs_route_baseline",
+      "NMI_vs_route_baseline",
+      "ARI_vs_other_route_baseline",
+      "NMI_vs_other_route_baseline",
+      "evidence_status"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/pbmc3k/cell_type_annotations.csv",
+    "rows": 18,
+    "columns": [
+      "route",
+      "cluster",
+      "cell_type",
+      "broad_type",
+      "n_cells",
+      "confidence",
+      "supporting_genes",
+      "significant_supporting_genes",
+      "top10_positive_markers",
+      "rationale",
+      "limitations",
+      "source",
+      "status"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/pbmc3k/annotation_evidence.csv",
+    "rows": 62,
+    "columns": [
+      "route",
+      "cluster",
+      "cell_type",
+      "gene",
+      "mean_log1p",
+      "pct_expressing",
+      "positive_marker_log2FC",
+      "positive_marker_padj",
+      "passes_positive_marker_filter"
+    ],
+    "NA": {
+      "positive_marker_log2FC": 3,
+      "positive_marker_padj": 3
+    },
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/pbmc3k/seurat/umap_coordinates.csv",
+    "rows": 2638,
+    "columns": [
+      "barcode",
+      "UMAP1",
+      "UMAP2"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/pbmc3k/seurat/markers_positive.csv",
+    "rows": 2187,
+    "columns": [
+      "p_val",
+      "avg_log2FC",
+      "pct.1",
+      "pct.2",
+      "p_val_adj",
+      "cluster",
+      "gene"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/pbmc3k/seurat/clusters.csv",
+    "rows": 2638,
+    "columns": [
+      "barcode",
+      "cluster"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/pbmc3k/seurat/cell_labels.csv",
+    "rows": 2638,
+    "columns": [
+      "barcode",
+      "cluster",
+      "cell_type",
+      "broad_type"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/pbmc3k/seurat/markers_all_tested.csv",
+    "rows": 6964,
+    "columns": [
+      "p_val",
+      "avg_log2FC",
+      "pct.1",
+      "pct.2",
+      "p_val_adj",
+      "cluster",
+      "gene"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/pbmc3k/seurat/feature_map.csv",
+    "rows": 32738,
+    "columns": [
+      "gene_id",
+      "source_symbol",
+      "analysis_gene"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/pbmc3k/seurat/qc_raw.csv",
+    "rows": 2700,
+    "columns": [
+      "barcode",
+      "total_counts",
+      "n_genes",
+      "pct_mt"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/pbmc3k/seurat/qc_after.csv",
+    "rows": 2638,
+    "columns": [
+      "barcode",
+      "orig.ident",
+      "nCount_RNA",
+      "nFeature_RNA",
+      "percent.mt"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/pbmc3k/seurat/canonical_marker_profiles.csv",
+    "rows": 207,
+    "columns": [
+      "cluster",
+      "gene",
+      "mean_log1p",
+      "pct_expressing",
+      "n_cells"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/pbmc3k/seurat/highly_variable_genes.csv",
+    "rows": 2000,
+    "columns": [
+      "gene"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/pbmc3k/seurat/experiment_resolution_1.csv",
+    "rows": 2638,
+    "columns": [
+      "barcode",
+      "cluster"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/pbmc3k/seurat/top10_markers.csv",
+    "rows": 90,
+    "columns": [
+      "p_val",
+      "avg_log2FC",
+      "pct.1",
+      "pct.2",
+      "p_val_adj",
+      "cluster",
+      "gene"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/pbmc3k/seurat/cell_type_annotation.csv",
+    "rows": 9,
+    "columns": [
+      "route",
+      "cluster",
+      "cell_type",
+      "broad_type",
+      "n_cells",
+      "confidence",
+      "supporting_genes",
+      "significant_supporting_genes",
+      "top10_positive_markers",
+      "rationale",
+      "limitations",
+      "source",
+      "status"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/pbmc3k/seurat/qc_before.csv",
+    "rows": 2700,
+    "columns": [
+      "barcode",
+      "orig.ident",
+      "nCount_RNA",
+      "nFeature_RNA",
+      "percent.mt",
+      "keep",
+      "fail_low_genes",
+      "fail_high_genes",
+      "fail_mt"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/pbmc3k/seurat/marker_dotplot_values.csv",
+    "rows": 207,
+    "columns": [
+      "avg.exp",
+      "pct.exp",
+      "features.plot",
+      "id",
+      "avg.exp.scaled"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/pbmc3k/seurat/r_installed_packages.csv",
+    "rows": 208,
+    "columns": [
+      "Package",
+      "Version",
+      "Built"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/pbmc3k/scanpy/experiment_variants.csv",
+    "rows": 5,
+    "columns": [
+      "variant",
+      "n_clusters"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/pbmc3k/scanpy/umap_coordinates.csv",
+    "rows": 2638,
+    "columns": [
+      "barcode",
+      "UMAP1",
+      "UMAP2"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/pbmc3k/scanpy/markers_positive.csv",
+    "rows": 10924,
+    "columns": [
+      "cluster",
+      "gene",
+      "scores",
+      "logfoldchanges",
+      "pvals",
+      "pvals_adj",
+      "pct_nz_group",
+      "pct_nz_reference"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/pbmc3k/scanpy/clusters.csv",
+    "rows": 2638,
+    "columns": [
+      "barcode",
+      "cluster"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/pbmc3k/scanpy/marker_dotplot_fraction.csv",
+    "rows": 9,
+    "columns": [
+      "Unnamed: 0",
+      "CD3D",
+      "CD3E",
+      "IL7R",
+      "CCR7",
+      "S100A4",
+      "CD8A",
+      "CD8B",
+      "CCL5",
+      "NKG7",
+      "GNLY",
+      "PRF1",
+      "MS4A1",
+      "CD79A",
+      "CD14",
+      "LYZ",
+      "S100A8",
+      "FCGR3A",
+      "MS4A7",
+      "LST1",
+      "FCER1A",
+      "CST3",
+      "PPBP",
+      "PF4"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/pbmc3k/scanpy/cell_labels.csv",
+    "rows": 2638,
+    "columns": [
+      "barcode",
+      "cluster",
+      "cell_type",
+      "broad_type"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/pbmc3k/scanpy/markers_all_tested.csv",
+    "rows": 123426,
+    "columns": [
+      "cluster",
+      "gene",
+      "scores",
+      "logfoldchanges",
+      "pvals",
+      "pvals_adj",
+      "pct_nz_group",
+      "pct_nz_reference"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/pbmc3k/scanpy/experiment_pc10.csv",
+    "rows": 2638,
+    "columns": [
+      "barcode",
+      "cluster"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/pbmc3k/scanpy/marker_dotplot_color.csv",
+    "rows": 9,
+    "columns": [
+      "Unnamed: 0",
+      "CD3D",
+      "CD3E",
+      "IL7R",
+      "CCR7",
+      "S100A4",
+      "CD8A",
+      "CD8B",
+      "CCL5",
+      "NKG7",
+      "GNLY",
+      "PRF1",
+      "MS4A1",
+      "CD79A",
+      "CD14",
+      "LYZ",
+      "S100A8",
+      "FCGR3A",
+      "MS4A7",
+      "LST1",
+      "FCER1A",
+      "CST3",
+      "PPBP",
+      "PF4"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/pbmc3k/scanpy/qc_raw.csv",
+    "rows": 2700,
+    "columns": [
+      "barcode",
+      "n_genes_by_counts",
+      "total_counts",
+      "total_counts_mt",
+      "pct_counts_mt"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/pbmc3k/scanpy/experiment_no_regression.csv",
+    "rows": 2638,
+    "columns": [
+      "barcode",
+      "cluster"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/pbmc3k/scanpy/qc_after.csv",
+    "rows": 2638,
+    "columns": [
+      "barcode",
+      "n_genes_by_counts",
+      "total_counts",
+      "total_counts_mt",
+      "pct_counts_mt",
+      "n_genes",
+      "keep",
+      "fail_low_genes",
+      "fail_high_genes",
+      "fail_mt"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/pbmc3k/scanpy/canonical_marker_profiles.csv",
+    "rows": 207,
+    "columns": [
+      "cluster",
+      "gene",
+      "mean_log1p",
+      "pct_expressing",
+      "n_cells",
+      "expressing_cell_count"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/pbmc3k/scanpy/highly_variable_genes.csv",
+    "rows": 1838,
+    "columns": [
+      "gene"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/pbmc3k/scanpy/experiment_resolution_05.csv",
+    "rows": 2638,
+    "columns": [
+      "barcode",
+      "cluster"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/pbmc3k/scanpy/top10_markers.csv",
+    "rows": 90,
+    "columns": [
+      "cluster",
+      "gene",
+      "scores",
+      "logfoldchanges",
+      "pvals",
+      "pvals_adj",
+      "pct_nz_group",
+      "pct_nz_reference"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/pbmc3k/scanpy/experiment_louvain_same_graph.csv",
+    "rows": 2638,
+    "columns": [
+      "barcode",
+      "cluster"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/pbmc3k/scanpy/cell_type_annotation.csv",
+    "rows": 9,
+    "columns": [
+      "route",
+      "cluster",
+      "cell_type",
+      "broad_type",
+      "n_cells",
+      "confidence",
+      "supporting_genes",
+      "significant_supporting_genes",
+      "top10_positive_markers",
+      "rationale",
+      "limitations",
+      "source",
+      "status"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/pbmc3k/scanpy/qc_before.csv",
+    "rows": 2700,
+    "columns": [
+      "barcode",
+      "n_genes_by_counts",
+      "total_counts",
+      "total_counts_mt",
+      "pct_counts_mt",
+      "n_genes",
+      "keep",
+      "fail_low_genes",
+      "fail_high_genes",
+      "fail_mt"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/pbmc3k/scanpy/experiment_seed_7.csv",
+    "rows": 2638,
+    "columns": [
+      "barcode",
+      "cluster"
+    ],
+    "NA": {},
+    "infinite": 0
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/pbmc3k/scanpy/feature_statistics.csv",
+    "rows": 13714,
+    "columns": [
+      "gene",
+      "gene_ids",
+      "highly_variable",
+      "means",
+      "dispersions",
+      "dispersions_norm"
+    ],
+    "NA": {
+      "dispersions": 1,
+      "dispersions_norm": 1
+    },
+    "infinite": 0
+  }
+]

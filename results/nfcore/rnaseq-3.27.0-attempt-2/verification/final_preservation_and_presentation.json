@@ -1,0 +1,39 @@
+{
+  "checked_utc": "2026-10-10T23:36:07.520361+00:00",
+  "official_output_files": 1053,
+  "changed_official_files": [],
+  "derived_output_files": 371,
+  "derived_empty_files": [
+    "output/multiqc/star_salmon/multiqc_report_data/picard_MarkIlluminaAdapters_histogram.txt",
+    "output/multiqc/star_salmon/multiqc_report_data/picard_MeanQualityByCycle_histogram.txt",
+    "output/multiqc/star_salmon/multiqc_report_data/picard_MeanQualityByCycle_histogram_1.txt",
+    "output/multiqc/star_salmon/multiqc_report_data/picard_QualityScoreDistribution_histogram.txt"
+  ],
+  "scientific_data_comparison": {
+    "raw_data_36_modules_identical": true,
+    "general_stats_14_blocks_identical": true,
+    "completed": true,
+    "no_module_failure": true,
+    "no_export_failure": true,
+    "color_conversion_errors": 0
+  },
+  "derived_pdf_files": 88,
+  "derived_html": [
+    {
+      "path": "results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/output/multiqc/star_salmon/multiqc_report.html",
+      "title": "MultiQC Report",
+      "section_count": 71,
+      "plot_count": 55,
+      "page_errors": [],
+      "expected_sample_labels": {
+        "RAP1_IAA_30M_REP1": true,
+        "RAP1_UNINDUCED_REP1": true,
+        "RAP1_UNINDUCED_REP2": true,
+        "WT_REP1": true,
+        "WT_REP2": true
+      },
+      "body_text_bytes": 46542,
+      "browser_version": "153.0.8010.12"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+Command: /home/a/miniforge3/bin/conda run --no-capture-output -n biolearn-py python scripts/verify_reproduction.py results/reproduction/acceptance-20261010T234118Z
+Started UTC: 2026-10-10T23:47:26.243271+00:00
+# Snakemake 干净输出复现验收
+
+实际目录：`results/reproduction/acceptance-20261010T234118Z`
+
+通过 16/16 项。
+
+| 项目 | 结果 |
+|---|---|
+| bulk acceptance | PASS |
+| bulk manifest | PASS |
+| bulk analysis_summary.csv | PASS |
+| bulk comparisons.csv | PASS |
+| bulk overlap_all_three.csv | PASS |
+| bulk deseq2_results.csv | PASS |
+| bulk edger_results.csv | PASS |
+| bulk pydeseq2_results.csv | PASS |
+| pbmc3k acceptance | PASS |
+| pbmc3k manifest | PASS |
+| pbmc3k/seurat/clusters.csv | PASS |
+| pbmc3k/seurat/qc_after.csv | PASS |
+| pbmc3k/scanpy/clusters.csv | PASS |
+| pbmc3k/scanpy/qc_after.csv | PASS |
+| pbmc3k comparison_metrics | PASS |
+| all declared outputs | PASS |
+
+Ended UTC: 2026-10-10T23:47:29.508640+00:00
+Exit code: 0

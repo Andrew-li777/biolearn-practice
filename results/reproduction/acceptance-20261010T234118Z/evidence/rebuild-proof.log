@@ -1,0 +1,32 @@
+Command: /home/a/miniforge3/bin/conda run --no-capture-output -n biolearn-py python results/reproduction/acceptance-20261010T234118Z/evidence/check_rebuild.py
+Started UTC: 2026-10-10T23:47:26.238504+00:00
+{
+  "checked_utc": "2026-10-10T23:47:28.673321+00:00",
+  "image": "results/reproduction/acceptance-20261010T234118Z/bulk/pca.png",
+  "image_decoded": [
+    1280,
+    960
+  ],
+  "moved_original_preserved": true,
+  "source_absent_before_rerun": true,
+  "rerun_exit": 0,
+  "new_attempt": true,
+  "bulk_completed": true,
+  "original_sha256": "041bf3aeb9392171130834b9319e85310fd12732b0d08562d24be5f851b84ca9",
+  "rebuilt_sha256": "041bf3aeb9392171130834b9319e85310fd12732b0d08562d24be5f851b84ca9",
+  "image_bytes_identical": true,
+  "other_routes_files_checked": 157,
+  "other_routes_unchanged": true,
+  "bulk_statistics_identical": {
+    "analysis_summary.csv": true,
+    "comparisons.csv": true,
+    "deseq2_results.csv": true,
+    "edger_results.csv": true,
+    "pydeseq2_results.csv": true
+  },
+  "rerun_log": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/evidence/matrix-rebuild.log",
+  "pass_": true
+}
+
+Ended UTC: 2026-10-10T23:47:28.926436+00:00
+Exit code: 0

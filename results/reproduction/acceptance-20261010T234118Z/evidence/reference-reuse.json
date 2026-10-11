@@ -1,0 +1,5 @@
+{
+  "path": "/home/a/miniforge3/envs/biolearn-py/lib/python3.11/site-packages/scanpy/datasets/10x_pbmc68k_reduced.h5ad",
+  "sha256": "e71d41e737c941559b7c57c9243bdb3d2c889c2adfdf00e3422ac6b46783676f",
+  "reuse": "Scanpy bundled reduced PBMC68k reference"
+}

@@ -1,0 +1,147 @@
+{
+    "Name": "community.wave.seqera.io/library/bedtools_coreutils",
+    "Digest": "sha256:87d2a7cad1272517e4b6e7e2f846a3763c012b46978f1ff0dc5c345f32dbeeac",
+    "RepoTags": [
+        "029d7bbbe0baf156",
+        "12870eec0e2bfb60",
+        "2bb74787b74280aa",
+        "2fbdcf9b4549aced",
+        "3c52bb85483edcec",
+        "552e4c50d744230c",
+        "80ff8ea34177b53b",
+        "8a1a7e97f43fbdd7",
+        "992a4c430b59b6fa",
+        "a623c13f66d5262b",
+        "ba273c06a3909a15",
+        "ca7e9da27f2183f1",
+        "f92042e29e9717bd"
+    ],
+    "Created": "2024-07-05T07:07:14.571259755Z",
+    "DockerVersion": "",
+    "Labels": {
+        "org.opencontainers.image.created": "2024-07-02T17:22:52.463Z",
+        "org.opencontainers.image.description": "Rapid builds of small Conda-based containers using micromamba.",
+        "org.opencontainers.image.licenses": "Apache-2.0",
+        "org.opencontainers.image.ref.name": "ubuntu",
+        "org.opencontainers.image.revision": "4d70efbe46b57aab077e8e3782429809aa7fe1d5",
+        "org.opencontainers.image.source": "https://github.com/mamba-org/micromamba-docker",
+        "org.opencontainers.image.title": "micromamba-docker",
+        "org.opencontainers.image.url": "https://github.com/mamba-org/micromamba-docker",
+        "org.opencontainers.image.version": "lunar"
+    },
+    "Architecture": "amd64",
+    "Os": "linux",
+    "Layers": [
+        "sha256:6360b371721185fefbbad6763ab745900f1b2f7714570234473232dd575fc07f",
+        "sha256:2ec3f7ad9b3ca7370ae62c6bdb36e3575239b5b0942163d36814c87efb3ff90d",
+        "sha256:7716ca30060043d1c1ba35c09e8eb2fda19788fc0d5ec491d85e866306207cc9",
+        "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
+        "sha256:8c61d418774c0c5a7be0036dd042add78077c4195d904abdba1080bad2539797",
+        "sha256:03dae77ff45c4b21a524fe292d91a7704d870b528d3e03c3624a4d48e7733d65",
+        "sha256:aab7f787139dee8557ebf54563c3e9e57c28d98e41e98f997c8af42c15b78b09",
+        "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
+        "sha256:837d55536720ebdfd52a582cc6333019e0cfe430ef7c24fb17333f8d0fb9e7ec",
+        "sha256:897362c12ca72fae6ca70474a9f2e9ced3a57c82f11f13033d4c3c73aae320a8",
+        "sha256:3893cbe24e910b5f4aa84fde0aedaf93c0cd7fbd66a423c39cb1077d420753e8",
+        "sha256:d1b61e94977bd32162b9537fa73b2bde0c0e866044bf3b973c7a20501102e11d",
+        "sha256:77684b044e50d93c2c7c41770f09c654504c0ee1ecf395276a00d31fb4dccaf8",
+        "sha256:e38d506e3695b73410a1f361fc790135a9356bc23972a6cac827ea3462728912"
+    ],
+    "LayersData": [
+        {
+            "MIMEType": "application/vnd.oci.image.layer.v1.tar+gzip",
+            "Digest": "sha256:6360b371721185fefbbad6763ab745900f1b2f7714570234473232dd575fc07f",
+            "Size": 26886018,
+            "Annotations": null
+        },
+        {
+            "MIMEType": "application/vnd.oci.image.layer.v1.tar+gzip",
+            "Digest": "sha256:2ec3f7ad9b3ca7370ae62c6bdb36e3575239b5b0942163d36814c87efb3ff90d",
+            "Size": 119852,
+            "Annotations": null
+        },
+        {
+            "MIMEType": "application/vnd.oci.image.layer.v1.tar+gzip",
+            "Digest": "sha256:7716ca30060043d1c1ba35c09e8eb2fda19788fc0d5ec491d85e866306207cc9",
+            "Size": 6060546,
+            "Annotations": null
+        },
+        {
+            "MIMEType": "application/vnd.oci.image.layer.v1.tar+gzip",
+            "Digest": "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
+            "Size": 32,
+            "Annotations": null
+        },
+        {
+            "MIMEType": "application/vnd.oci.image.layer.v1.tar+gzip",
+            "Digest": "sha256:8c61d418774c0c5a7be0036dd042add78077c4195d904abdba1080bad2539797",
+            "Size": 526,
+            "Annotations": null
+        },
+        {
+            "MIMEType": "application/vnd.oci.image.layer.v1.tar+gzip",
+            "Digest": "sha256:03dae77ff45c4b21a524fe292d91a7704d870b528d3e03c3624a4d48e7733d65",
+            "Size": 286,
+            "Annotations": null
+        },
+        {
+            "MIMEType": "application/vnd.oci.image.layer.v1.tar+gzip",
+            "Digest": "sha256:aab7f787139dee8557ebf54563c3e9e57c28d98e41e98f997c8af42c15b78b09",
+            "Size": 4082,
+            "Annotations": null
+        },
+        {
+            "MIMEType": "application/vnd.oci.image.layer.v1.tar+gzip",
+            "Digest": "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
+            "Size": 32,
+            "Annotations": null
+        },
+        {
+            "MIMEType": "application/vnd.oci.image.layer.v1.tar+gzip",
+            "Digest": "sha256:837d55536720ebdfd52a582cc6333019e0cfe430ef7c24fb17333f8d0fb9e7ec",
+            "Size": 219,
+            "Annotations": null
+        },
+        {
+            "MIMEType": "application/vnd.oci.image.layer.v1.tar+gzip",
+            "Digest": "sha256:897362c12ca72fae6ca70474a9f2e9ced3a57c82f11f13033d4c3c73aae320a8",
+            "Size": 687,
+            "Annotations": null
+        },
+        {
+            "MIMEType": "application/vnd.oci.image.layer.v1.tar+gzip",
+            "Digest": "sha256:3893cbe24e910b5f4aa84fde0aedaf93c0cd7fbd66a423c39cb1077d420753e8",
+            "Size": 649,
+            "Annotations": null
+        },
+        {
+            "MIMEType": "application/vnd.oci.image.layer.v1.tar+gzip",
+            "Digest": "sha256:d1b61e94977bd32162b9537fa73b2bde0c0e866044bf3b973c7a20501102e11d",
+            "Size": 347,
+            "Annotations": null
+        },
+        {
+            "MIMEType": "application/vnd.oci.image.layer.v1.tar+gzip",
+            "Digest": "sha256:77684b044e50d93c2c7c41770f09c654504c0ee1ecf395276a00d31fb4dccaf8",
+            "Size": 214,
+            "Annotations": null
+        },
+        {
+            "MIMEType": "application/vnd.oci.image.layer.v1.tar+gzip",
+            "Digest": "sha256:e38d506e3695b73410a1f361fc790135a9356bc23972a6cac827ea3462728912",
+            "Size": 24896622,
+            "Annotations": null
+        }
+    ],
+    "Env": [
+        "PATH=/opt/conda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+        "LANG=C.UTF-8",
+        "LC_ALL=C.UTF-8",
+        "ENV_NAME=base",
+        "MAMBA_ROOT_PREFIX=/opt/conda",
+        "MAMBA_EXE=/bin/micromamba",
+        "MAMBA_USER=mambauser",
+        "MAMBA_USER_ID=57439",
+        "MAMBA_USER_GID=57439"
+    ]
+}

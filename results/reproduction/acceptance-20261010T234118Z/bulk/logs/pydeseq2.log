@@ -1,0 +1,48 @@
+Started UTC: 2026-10-10T23:45:58.820878+00:00
+Command: ["/home/a/miniforge3/bin/conda", "run", "--no-capture-output", "-n", "biolearn-py", "python", "scripts/03_bulk_pydeseq2.py", "results/reproduction/acceptance-20261010T234118Z/.attempts/bulk-20261010T234523609628Z"]
+INPUT: 8 samples; PRE_FILTER: 16596 genes
+Fitting size factors...
+... done in 0.01 seconds.
+
+Using None as control genes, passed at DeseqDataSet initialization
+Fitting dispersions...
+... done in 7.95 seconds.
+
+Fitting dispersion trend curve...
+... done in 0.27 seconds.
+
+/home/a/miniforge3/envs/biolearn-py/lib/python3.11/site-packages/pydeseq2/dds.py:548: UserWarning: As the residual degrees of freedom is less than 3, the distribution of log dispersions is especially asymmetric and likely to be poorly estimated by the MAD.
+  self.fit_dispersion_prior()
+Fitting MAP dispersions...
+... done in 8.74 seconds.
+
+Fitting LFCs...
+... done in 5.57 seconds.
+
+Calculating cook's distance...
+... done in 0.01 seconds.
+
+Replacing 0 outlier genes.
+
+Running Wald tests...
+... done in 1.77 seconds.
+
+Log2 fold change & Wald test p-value: dex trt vs untrt
+                    baseMean  log2FoldChange  ...    pvalue      padj
+ENSG00000000003   709.879778       -0.383878  ...  0.000518  0.003536
+ENSG00000000419   521.155539        0.204153  ...  0.087574  0.231540
+ENSG00000000457   237.573163        0.035212  ...  0.812602  0.912692
+ENSG00000000460    58.034962       -0.093315  ...  0.733582  0.872677
+ENSG00000000971  5826.537783        0.423687  ...  0.000008  0.000086
+...                      ...             ...  ...       ...       ...
+ENSG00000273448    14.029438        0.059184  ...  0.905572  0.957314
+ENSG00000273472    11.084828       -0.407283  ...  0.473980  0.691045
+ENSG00000273486    15.478143       -0.152868  ...  0.750261  0.881169
+ENSG00000273487     8.176051        1.040898  ...  0.124883  0.299848
+ENSG00000273488     8.597777        0.105443  ...  0.868228  0.938804
+
+[16596 rows x 6 columns]
+SIGNIFICANT: 4685 UP: 2502 DOWN: 2183
+PASS PyDESeq2 analysis
+Ended UTC: 2026-10-10T23:46:35.566889+00:00
+Exit code: 0

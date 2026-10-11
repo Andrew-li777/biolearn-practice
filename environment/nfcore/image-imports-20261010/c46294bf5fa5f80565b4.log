@@ -1,0 +1,8 @@
+Started 2026-10-10T22:50:42.757804+00:00
+Command ["/home/a/miniforge3/envs/biolearn-container/bin/skopeo", "--command-timeout", "20m", "--override-os", "linux", "--override-arch", "amd64", "copy", "--retry-times", "2", "docker://docker.io/curlimages/curl:8.10.1", "docker-daemon:docker.io/curlimages/curl:8.10.1"]
+Getting image source signatures
+Copying blob sha256:43c4264eed91be63b206e17d93e75256a6097070ce643c5e8f0379998b44f170
+Copying blob sha256:b68d62cb323c5e6dbfa1dc8c990a0d1dba4690da661d8eae9af00943074770c0
+Copying blob sha256:4ca545ee6d5db5c1170386eeb39b2ffe3bd46e5d4a73a9acbebc805f19607eb3
+Copying config sha256:fb8656c965b90e3b1001717e567e4e908d58656fa90706b6539b8c3ba488a9ac
+Writing manifest to image destination

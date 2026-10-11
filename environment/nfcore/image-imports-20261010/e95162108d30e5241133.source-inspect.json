@@ -1,0 +1,60 @@
+{
+    "Name": "quay.io/biocontainers/ucsc-bedclip",
+    "Digest": "sha256:fc319a3c622f4d31436216bee1e7826b0e251e3c4ac12f15ac8ae12ac183fcad",
+    "RepoTags": [
+        "324--0",
+        "332--0",
+        "357--1",
+        "366--h5eb252a_0",
+        "366--hdd26221_0",
+        "377--h0b8a92a_2",
+        "377--h199ee4e_0",
+        "377--h446ed27_1",
+        "377--he0e49ee_3",
+        "377--he0e49ee_4",
+        "469--h2fca857_0",
+        "469--he08a979_1",
+        "482--h0b57e2e_0"
+    ],
+    "Created": "2025-06-26T14:44:22.760049117Z",
+    "DockerVersion": "28.0.4",
+    "Labels": {
+        "bash": "GNU bash, version 5.2.15(1)-release (x86_64-pc-linux-gnu)",
+        "busybox": "BusyBox v1.36.1 (2024-06-02 11:42:27 UTC) multi-call binary.",
+        "deb-list": "gcc-12-base_12.2.0-14_amd64.deb|libc6_2.36-9+deb12u7_amd64.deb|libgcc-s1_12.2.0-14_amd64.deb|base-passwd_3.6.1_amd64.deb|bash_5.2.15-2+b2_amd64.deb|libc-bin_2.36-9+deb12u7_amd64.deb|libcrypt1_1%3a4.4.33-2_amd64.deb|libtinfo6_6.4-4_amd64.deb|login_1%3a4.13+dfsg1-1+b1_amd64.deb|ncurses-base_6.4-4_all.deb|base-files_12.4+deb12u5_amd64.deb",
+        "glibc": "GNU C Library (Debian GLIBC 2.36-9+deb12u7) stable release version 2.36.",
+        "io.buildah.version": "1.35.4",
+        "pkg-list": "gcc-12-base|libc6|libgcc-s1|base-passwd|bash|libc-bin|libcrypt1|libtinfo6|login|ncurses-base|base-files"
+    },
+    "Architecture": "amd64",
+    "Os": "linux",
+    "Layers": [
+        "sha256:0cacab098358fffeef7e18bd537907ae734dcfa12ab45fbcd0e62cc9b37264a8",
+        "sha256:bd9ddc54bea929a22b334e73e026d4136e5b73f5cc29942896c72e4ece69b13d",
+        "sha256:e2504586e5a6dc8d526c30569abf820046387a3874298c077d81996220af2108"
+    ],
+    "LayersData": [
+        {
+            "MIMEType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+            "Digest": "sha256:0cacab098358fffeef7e18bd537907ae734dcfa12ab45fbcd0e62cc9b37264a8",
+            "Size": 4696848,
+            "Annotations": null
+        },
+        {
+            "MIMEType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+            "Digest": "sha256:bd9ddc54bea929a22b334e73e026d4136e5b73f5cc29942896c72e4ece69b13d",
+            "Size": 34,
+            "Annotations": null
+        },
+        {
+            "MIMEType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+            "Digest": "sha256:e2504586e5a6dc8d526c30569abf820046387a3874298c077d81996220af2108",
+            "Size": 22251392,
+            "Annotations": null
+        }
+    ],
+    "Env": [
+        "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+        "LANG=C.UTF-8"
+    ]
+}

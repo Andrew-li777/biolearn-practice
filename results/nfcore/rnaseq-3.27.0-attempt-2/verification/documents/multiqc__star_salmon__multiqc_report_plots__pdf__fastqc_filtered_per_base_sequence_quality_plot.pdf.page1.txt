@@ -1,0 +1,17 @@
+0 bp
+20 bp
+40 bp
+60 bp
+80 bp
+0
+5
+10
+15
+20
+25
+30
+35
+FastQC: Mean Quality Scores
+ 8 lines 
+Position (bp)
+Phred Score

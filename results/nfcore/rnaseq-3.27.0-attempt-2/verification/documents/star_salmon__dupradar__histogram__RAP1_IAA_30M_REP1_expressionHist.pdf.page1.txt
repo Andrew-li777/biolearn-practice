@@ -1,0 +1,13 @@
+reads per kilobase (RPK)
+Frequency
+0
+2
+4
+6
+8
+1
+10
+100
+1000
+Distribution of RPK values per gene
+RAP1_IAA_30M_REP1

@@ -1,0 +1,142 @@
+0M
+0.02M
+0.04M
+0.06M
+0.08M
+0.1M
+0.12M
+0.14M
+0.16M
+0.18M
+Total sequences  
+0M
+0.02M
+0.04M
+0.06M
+0.08M
+0.1M
+0.12M
+0.14M
+0.16M
+0.18M
+Mapped & paired  
+0M
+0.02M
+0.04M
+0.06M
+0.08M
+0.1M
+0.12M
+0.14M
+0.16M
+0.18M
+Properly paired  
+0M
+0.02M
+0.04M
+0.06M
+0.08M
+0.1M
+0.12M
+0.14M
+0.16M
+0.18M
+Duplicated  
+0M
+0.02M
+0.04M
+0.06M
+0.08M
+0.1M
+0.12M
+0.14M
+0.16M
+0.18M
+QC Failed  
+0M
+0.02M
+0.04M
+0.06M
+0.08M
+0.1M
+0.12M
+0.14M
+0.16M
+0.18M
+Reads MQ0  
+0Mb
+2Mb
+4Mb
+6Mb
+8Mb
+10Mb
+12Mb
+14Mb
+16Mb
+Mapped bases (CIGAR)  
+0Mb
+2Mb
+4Mb
+6Mb
+8Mb
+10Mb
+12Mb
+14Mb
+16Mb
+Bases Trimmed  
+0Mb
+2Mb
+4Mb
+6Mb
+8Mb
+10Mb
+12Mb
+14Mb
+16Mb
+Duplicated bases  
+0M
+0.02M
+0.04M
+0.06M
+0.08M
+0.1M
+0.12M
+0.14M
+0.16M
+0.18M
+Diﬀ chromosomes  
+0M
+0.02M
+0.04M
+0.06M
+0.08M
+0.1M
+0.12M
+0.14M
+0.16M
+0.18M
+Other orientation  
+0M
+0.02M
+0.04M
+0.06M
+0.08M
+0.1M
+0.12M
+0.14M
+0.16M
+0.18M
+Inward pairs  
+0M
+0.02M
+0.04M
+0.06M
+0.08M
+0.1M
+0.12M
+0.14M
+0.16M
+0.18M
+Outward pairs  
+Samtools: stats: Alignment Stats
+ 5 samples 

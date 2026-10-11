@@ -1,0 +1,19 @@
+−200 bp
+−150 bp
+−100 bp
+−50 bp
+0 bp
+50 bp
+100 bp
+150 bp
+200 bp
+0%
+1%
+2%
+3%
+4%
+5%
+RSeQC: Inner Distance
+ Percentages, 3 lines 
+Inner Distance (bp)
+Percentage

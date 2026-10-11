@@ -1,0 +1,14 @@
+method=DESeq2
+design=~ cell + dex
+contrast=trt vs untrt
+alpha=0.1
+prefilter=at least 3 samples with count >= 10
+normalization=median-of-ratios; sfType=ratio
+test=two-sided Wald; betaPrior=FALSE; lfcThreshold=0
+dispersion=parametric trend, MAP shrinkage
+p_adjust=BH with independent filtering at alpha=0.1
+cooks_filter=default results() cutoff
+minReplicatesForReplace=7
+comparison_LFC=unshrunk MLE
+plot_LFC=apeglm for MA; unshrunk MLE for volcano
+actual_dispersion_fit=parametric

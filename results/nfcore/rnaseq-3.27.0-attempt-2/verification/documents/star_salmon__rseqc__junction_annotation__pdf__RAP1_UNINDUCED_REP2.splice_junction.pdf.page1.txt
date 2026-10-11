@@ -1,0 +1,4 @@
+partial_novel 0%
+complete_novel 95%
+known 5%
+splicing junctions

@@ -1,0 +1,2 @@
+time="2026-10-10T22:47:59Z" level=fatal msg="initializing source docker://alpine:3.20: loading registries configuration: loading registries configuration \"/home/a/miniforge3/envs/biolearn-container/etc/containers/registries.conf\": registries.conf must be in v2 format but is in v1"
+ERROR conda.cli.main_run:execute(148): `conda run skopeo copy --retry-times 2 docker://docker.io/library/alpine:3.20 docker-daemon:alpine:3.20` failed. (See above for error)

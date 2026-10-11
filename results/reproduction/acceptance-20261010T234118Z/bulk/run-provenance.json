@@ -1,0 +1,78 @@
+{
+  "route": "bulk",
+  "attempt_directory": "results/reproduction/acceptance-20261010T234118Z/.attempts/bulk-20261010T234523609628Z",
+  "published_directory": "results/reproduction/acceptance-20261010T234118Z/bulk",
+  "started_utc": "2026-10-10T23:45:23.609796+00:00",
+  "completed": true,
+  "stages": [
+    {
+      "stage": "deseq2",
+      "command": [
+        "/home/a/miniforge3/bin/conda",
+        "run",
+        "--no-capture-output",
+        "-n",
+        "biolearn-r",
+        "Rscript",
+        "scripts/01_bulk_deseq2.R",
+        "results/reproduction/acceptance-20261010T234118Z/.attempts/bulk-20261010T234523609628Z"
+      ],
+      "script_sha256": "903f6a6e0cca553063a7a1f652d0c1f3fcd0f6db7c227294be9654ef9678f7cd",
+      "started_utc": "2026-10-10T23:45:23.610835+00:00",
+      "ended_utc": "2026-10-10T23:45:51.666361+00:00",
+      "exit_code": 0
+    },
+    {
+      "stage": "edger",
+      "command": [
+        "/home/a/miniforge3/bin/conda",
+        "run",
+        "--no-capture-output",
+        "-n",
+        "biolearn-r",
+        "Rscript",
+        "scripts/02_bulk_edger.R",
+        "results/reproduction/acceptance-20261010T234118Z/.attempts/bulk-20261010T234523609628Z"
+      ],
+      "script_sha256": "bca9641908ae5d497e1bb1894521803b5fbfb969cd4f078995a96a6c241aadbc",
+      "started_utc": "2026-10-10T23:45:51.666877+00:00",
+      "ended_utc": "2026-10-10T23:45:58.820063+00:00",
+      "exit_code": 0
+    },
+    {
+      "stage": "pydeseq2",
+      "command": [
+        "/home/a/miniforge3/bin/conda",
+        "run",
+        "--no-capture-output",
+        "-n",
+        "biolearn-py",
+        "python",
+        "scripts/03_bulk_pydeseq2.py",
+        "results/reproduction/acceptance-20261010T234118Z/.attempts/bulk-20261010T234523609628Z"
+      ],
+      "script_sha256": "71a9ba9519791245bdeecd83f4b70d7a52ec2b74494c9dc55ab165b0bfd852c6",
+      "started_utc": "2026-10-10T23:45:58.820878+00:00",
+      "ended_utc": "2026-10-10T23:46:35.566889+00:00",
+      "exit_code": 0
+    },
+    {
+      "stage": "report",
+      "command": [
+        "/home/a/miniforge3/bin/conda",
+        "run",
+        "--no-capture-output",
+        "-n",
+        "biolearn-py",
+        "python",
+        "scripts/04_bulk_report.py",
+        "results/reproduction/acceptance-20261010T234118Z/.attempts/bulk-20261010T234523609628Z"
+      ],
+      "script_sha256": "4675ff4220e8ed989fbad47e8bc898cb1f5ee16a1de6bdf52c232dd16ea7d019",
+      "started_utc": "2026-10-10T23:46:43.868267+00:00",
+      "ended_utc": "2026-10-10T23:46:47.393190+00:00",
+      "exit_code": 0
+    }
+  ],
+  "ended_utc": "2026-10-10T23:46:47.395434+00:00"
+}

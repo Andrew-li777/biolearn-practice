@@ -1,0 +1,20 @@
+                    variant        graph     algorithm  resolution  cells  clusters  ARI_vs_seurat  NMI_vs_seurat  ARI_vs_scanpy  NMI_vs_scanpy
+  seurat_snn_leiden_res_0.5   seurat_snn Leiden igraph         0.5   2638         9       0.961034       0.967697       0.626838       0.751747
+  seurat_snn_leiden_res_1.0   seurat_snn Leiden igraph         1.0   2638        11       0.791341       0.892047       0.533096       0.705200
+scanpy_fuzzy_leiden_res_0.5 scanpy_fuzzy Leiden igraph         0.5   2638         6       0.603260       0.760384       0.618129       0.802185
+scanpy_fuzzy_leiden_res_1.0 scanpy_fuzzy Leiden igraph         1.0   2638         9       0.627931       0.754505       1.000000       1.000000
+{
+  "completed": true,
+  "ended_utc": "2026-10-10T23:01:52.577563+00:00",
+  "primary": "/home/a/projects/biolearn-practice/results/reproduction/followup-20261010/pbmc3k",
+  "seed": 42,
+  "graph_edge_Jaccard": 0.05539603423989598,
+  "shared_directed_edges": 12270,
+  "union_directed_edges": 221496,
+  "interpretation": "Fixed Leiden implementation, seed and resolution compare saved Seurat SNN vs Scanpy fuzzy graphs. Upstream PCA/HVG/regression/k remain graph-specific; graph effect is bundled, not an isolated graph-construction formula effect. Primary outputs unchanged.",
+  "inputs": {
+    "results/reproduction/followup-20261010/pbmc3k/seurat/analysis.rds": "bb38e495bbbfe6021d33b11fd7682b36a74700d23ccee19664fa77684b2fe137",
+    "results/reproduction/followup-20261010/pbmc3k/seurat/clusters.csv": "4f3a41863be495162e3b21375671b4e59dca9d7799a7cf9aaa72a9665201ab11",
+    "results/reproduction/followup-20261010/pbmc3k/scanpy/analysis.h5ad": "7ab4ea31b7c74364cc40e5d3d86569b4c96e75c66300b190b7b9b8a23475f2d0"
+  }
+}

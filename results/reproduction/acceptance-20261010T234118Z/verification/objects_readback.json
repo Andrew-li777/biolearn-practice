@@ -1,0 +1,20 @@
+[
+  {
+    "file": "results/reproduction/acceptance-20261010T234118Z/pbmc3k/scanpy/analysis_annotated.h5ad",
+    "cells": 2638,
+    "genes": 13714,
+    "clusters": 9
+  },
+  {
+    "file": "results/reproduction/acceptance-20261010T234118Z/pbmc3k/scanpy/raw_counts.h5ad",
+    "cells": 2700,
+    "genes": 32738,
+    "clusters": null
+  },
+  {
+    "file": "results/reproduction/acceptance-20261010T234118Z/pbmc3k/scanpy/analysis.h5ad",
+    "cells": 2638,
+    "genes": 13714,
+    "clusters": 9
+  }
+]

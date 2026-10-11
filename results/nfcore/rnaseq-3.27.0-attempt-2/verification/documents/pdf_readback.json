@@ -1,0 +1,1694 @@
+[
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/bbmap-bbsplit_plot-cnt.pdf",
+    "sha256": "4cbd896ea8065b69ec374a862956f8bd0ccdb21b5e8dd7301219e25e8a2b5185",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 540,
+        "text": "0\n20k\n40k\n60k\n80k\n100k\n120k\n140k\n160k\n180k\nWT_REP2\nWT_REP1\nRAP1_UNINDUCED_REP2\nRAP1_UNINDUCED_REP1\nRAP1_IAA_30M_REP1\nprimary\nhuman\nBBTools: BBSplit alignment statistics\n 5 bars \nNumber of Reads\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__bbmap-bbsplit_plot-cnt.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/bbmap-bbsplit_plot-pct.pdf",
+    "sha256": "221c7939aadab6d234446ed864f101ac569bc23f21470e3d45127185f60720e2",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 540,
+        "text": "0%\n20%\n40%\n60%\n80%\n100%\nWT_REP2\nWT_REP1\nRAP1_UNINDUCED_REP2\nRAP1_UNINDUCED_REP1\nRAP1_IAA_30M_REP1\nprimary\nhuman\nBBTools: BBSplit alignment statistics\n 5 bars \nNumber of Reads\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__bbmap-bbsplit_plot-pct.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/bbsplit_stats_table.pdf",
+    "sha256": "c6afe4d3e64bc4ba91fcebcfde55467711ee1b7b43fae93f9e68737c19cf898b",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 619,
+        "text": "0%\n20%\n40%\n60%\n80%\n100%\nhuman % Unambig  \n0%\n20%\n40%\n60%\n80%\n100%\nhuman % Ambig  \n0%\n20%\n40%\n60%\n80%\n100%\nprimary % Unambig  \n0%\n20%\n40%\n60%\n80%\n100%\nprimary % Ambig  \nBBTools: BBSplit Statistics\n 5 samples \n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__bbsplit_stats_table.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/dupradar.pdf",
+    "sha256": "8fcf0813355da857e0019b82106fe82ca5c4fab078072db68f9cfe2bcac2acc0",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 900,
+        "text": "5\n1\n2\n5\n10\n2\n5\n100\n2\n5\n1000\n2\n5\n0%\n20%\n40%\n60%\n80%\n100%\n0.5 RPKM\n1 read/bp\nDupRadar General Linear Model\n 5 lines \nexpression (reads/kbp)\n% duplicate reads\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__dupradar.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/fastqc_filtered-status-check-heatmap.pdf",
+    "sha256": "fea7edd470491d65fe1098adfc847a90df25bac3eef67aba39f225b031271060",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 1109,
+        "text": "Basic \nStatistics\nPer Base \nSequence \nQuality\nPer \nSequence \nQuality \nScores\nPer Base \nSequence \nContent\nPer \nSequence \nGC Content\nPer Base N\n Content\nSequence \nLength \nDistribution\nSequence \nDuplication\n Levels\nOverrepresented\n Sequences\nAdapter \nContent\nRAP1_IAA_30M_REP1_1\nRAP1_IAA_30M_REP1_2\nRAP1_UNINDUCED_REP1\nRAP1_UNINDUCED_REP2\nWT_REP1_1\nWT_REP1_2\nWT_REP2_1\nWT_REP2_2\nFastQC: Status Checks\n 8 samples \n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__fastqc_filtered-status-check-heatmap.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/fastqc_filtered_overrepresented_sequences_plot.pdf",
+    "sha256": "6564fbe913c5dca5251bb1a747936425f9b8dc9a96992181006ab6e50fc8ed48",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 684,
+        "text": "0%\n1%\n2%\n3%\n4%\n5%\n6%\n7%\nWT_REP2_2\nWT_REP2_1\nWT_REP1_2\nWT_REP1_1\nRAP1_UNINDUCED_REP2\nRAP1_UNINDUCED_REP1\nRAP1_IAA_30M_REP1_2\nRAP1_IAA_30M_REP1_1\nTop overrepresented sequence\nSum of remaining overrepresented sequences\nFastQC: Overrepresented sequences sample summary\n 8 bars \nPercentage of Total Sequences\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__fastqc_filtered_overrepresented_sequences_plot.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/fastqc_filtered_per_base_n_content_plot.pdf",
+    "sha256": "41e3f699621808f4a2f528f55119837f1d4741e4095f63b2653bec9ee9de45fa",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 900,
+        "text": "0 bp\n20 bp\n40 bp\n60 bp\n80 bp\n0%\n1%\n2%\n3%\n4%\n5%\nFastQC: Per Base N Content\n 8 lines \nPosition in Read (bp)\nPercentage N-Count\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__fastqc_filtered_per_base_n_content_plot.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/fastqc_filtered_per_base_sequence_quality_plot.pdf",
+    "sha256": "bb72695c634fc93cf236b65467f7b8a993fe4705242d5bc355468eba6a32dc1f",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 900,
+        "text": "0 bp\n20 bp\n40 bp\n60 bp\n80 bp\n0\n5\n10\n15\n20\n25\n30\n35\nFastQC: Mean Quality Scores\n 8 lines \nPosition (bp)\nPhred Score\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__fastqc_filtered_per_base_sequence_quality_plot.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/fastqc_filtered_per_sequence_gc_content_plot_Counts.pdf",
+    "sha256": "f2c00a11c6b1613a15ff2c7f7887ab4ed5308128bd9d6ba86b86ef834f184ab4",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 900,
+        "text": "0%\n20%\n40%\n60%\n80%\n100%\n0\n1000\n2000\n3000\n4000\n5000\n6000\nFastQC: Per Sequence GC Content\n Counts, 8 lines \n% GC\nCount\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__fastqc_filtered_per_sequence_gc_content_plot_Counts.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/fastqc_filtered_per_sequence_gc_content_plot_Percentages.pdf",
+    "sha256": "94419e6449e2155973e2372ffa10f2ea7430e773f50345ebf63b14aee3067327",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 900,
+        "text": "0%\n20%\n40%\n60%\n80%\n100%\n0%\n1%\n2%\n3%\n4%\n5%\n6%\n7%\nFastQC: Per Sequence GC Content\n Percentages, 8 lines \n% GC\nPercentage\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__fastqc_filtered_per_sequence_gc_content_plot_Percentages.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/fastqc_filtered_per_sequence_quality_scores_plot.pdf",
+    "sha256": "1157470ba3348e6f1ef7080f4a83999fbe6774ef05e5f5ce589a929e6c0047fd",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 900,
+        "text": "0\n5\n10\n15\n20\n25\n30\n35\n0\n10k\n20k\n30k\n40k\n50k\n60k\n70k\nFastQC: Per Sequence Quality Scores\n 8 lines \nMean Sequence Quality (Phred Score)\nCount\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__fastqc_filtered_per_sequence_quality_scores_plot.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/fastqc_filtered_sequence_counts_plot-cnt.pdf",
+    "sha256": "f95d8b48b24627b67333c3ea8b1b3f8b627ef7fe08ac5ec9569bcdd2315eb12a",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 684,
+        "text": "0\n10k\n20k\n30k\n40k\n50k\n60k\n70k\n80k\n90k\nWT_REP2_2\nWT_REP2_1\nWT_REP1_2\nWT_REP1_1\nRAP1_UNINDUCED_REP2\nRAP1_UNINDUCED_REP1\nRAP1_IAA_30M_REP1_2\nRAP1_IAA_30M_REP1_1\nUnique Reads\nDuplicate Reads\nFastQC: Sequence Counts\n 8 bars \nNumber of reads\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__fastqc_filtered_sequence_counts_plot-cnt.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/fastqc_filtered_sequence_counts_plot-pct.pdf",
+    "sha256": "f16f52947eb5d195d07f373362454e41baf64fb16cbfabb315637dfa6b1639a3",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 684,
+        "text": "0%\n20%\n40%\n60%\n80%\n100%\nWT_REP2_2\nWT_REP2_1\nWT_REP1_2\nWT_REP1_1\nRAP1_UNINDUCED_REP2\nRAP1_UNINDUCED_REP1\nRAP1_IAA_30M_REP1_2\nRAP1_IAA_30M_REP1_1\nUnique Reads\nDuplicate Reads\nFastQC: Sequence Counts\n 8 bars \nNumber of reads\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__fastqc_filtered_sequence_counts_plot-pct.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/fastqc_filtered_sequence_duplication_levels_plot.pdf",
+    "sha256": "aaa6728d4cee0f485c7c4cb758124de02a198656fb41689994b971ee17deee4d",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 900,
+        "text": "1\n2\n3\n4\n5\n6\n7\n8\n9\n>10\n>50\n>100\n>500\n>1k\n>5k\n>10k+\n0%\n20%\n40%\n60%\n80%\n100%\nFastQC: Sequence Duplication Levels\n 8 lines \nSequence Duplication Level\n% of Library\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__fastqc_filtered_sequence_duplication_levels_plot.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/fastqc_filtered_top_overrepresented_sequences_table.pdf",
+    "sha256": "1f3d62da9880bdc5432d5312b77935c4bbb5720d7a508321d41126c1e4a3dccc",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 492,
+        "text": "0\n1\n2\n3\n4\n5\nReports  \n0\n200\n400\n600\n800\n1000\n1200\nOccurrences  \n0%\n20%\n40%\n60%\n80%\n100%\n% of all reads  \nFastQC: Top overrepresented sequences\n 20 samples \n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__fastqc_filtered_top_overrepresented_sequences_table.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/fastqc_raw-status-check-heatmap.pdf",
+    "sha256": "88de8d1b4ffc2f06630c1e172758f2e0e5a345a6b135101e63f63184aa263b4c",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 1109,
+        "text": "Basic \nStatistics\nPer Base \nSequence \nQuality\nPer \nSequence \nQuality \nScores\nPer Base \nSequence \nContent\nPer \nSequence \nGC Content\nPer Base N\n Content\nSequence \nLength \nDistribution\nSequence \nDuplication\n Levels\nOverrepresented\n Sequences\nAdapter \nContent\nRAP1_IAA_30M_REP1_1\nRAP1_IAA_30M_REP1_2\nRAP1_UNINDUCED_REP1\nRAP1_UNINDUCED_REP2\nWT_REP1_1\nWT_REP1_2\nWT_REP2_1\nWT_REP2_2\nFastQC: Status Checks\n 8 samples \n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__fastqc_raw-status-check-heatmap.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/fastqc_raw_adapter_content_plot.pdf",
+    "sha256": "b1538ccd4ec755c0cc1362e0e37483004f345803cae90028211be28bcd48aeda",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 900,
+        "text": "10 bp\n20 bp\n30 bp\n40 bp\n50 bp\n60 bp\n70 bp\n80 bp\n90 bp\n0%\n1%\n2%\n3%\n4%\n5%\nFastQC: Adapter Content\n 8 sample-adapter combinations \nPosition (bp)\n% of Sequences\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__fastqc_raw_adapter_content_plot.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/fastqc_raw_overrepresented_sequences_plot.pdf",
+    "sha256": "aced7045144530c21f4b20b008783a0e6e480c326d22cbe164f002c10bc5a8b9",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 684,
+        "text": "0%\n1%\n2%\n3%\n4%\n5%\n6%\n7%\nWT_REP2_2\nWT_REP2_1\nWT_REP1_2\nWT_REP1_1\nRAP1_UNINDUCED_REP2\nRAP1_UNINDUCED_REP1\nRAP1_IAA_30M_REP1_2\nRAP1_IAA_30M_REP1_1\nTop overrepresented sequence\nSum of remaining overrepresented sequences\nFastQC: Overrepresented sequences sample summary\n 8 bars \nPercentage of Total Sequences\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__fastqc_raw_overrepresented_sequences_plot.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/fastqc_raw_per_base_n_content_plot.pdf",
+    "sha256": "2654da5744508f1e0f6abc1fe847d68bd6e70abda42a328e103bd1448c500a16",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 900,
+        "text": "0 bp\n20 bp\n40 bp\n60 bp\n80 bp\n0%\n1%\n2%\n3%\n4%\n5%\nFastQC: Per Base N Content\n 8 lines \nPosition in Read (bp)\nPercentage N-Count\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__fastqc_raw_per_base_n_content_plot.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/fastqc_raw_per_base_sequence_quality_plot.pdf",
+    "sha256": "22608da9b0a588ee34ea24e05b7854b5262ba0ca5a6e683721cbdd005a0b9919",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 900,
+        "text": "0 bp\n20 bp\n40 bp\n60 bp\n80 bp\n0\n5\n10\n15\n20\n25\n30\n35\nFastQC: Mean Quality Scores\n 8 lines \nPosition (bp)\nPhred Score\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__fastqc_raw_per_base_sequence_quality_plot.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/fastqc_raw_per_sequence_gc_content_plot_Counts.pdf",
+    "sha256": "b10ef54c1d3158e0be38253c4e556ce07643b888cbdcb952286a765020957bc0",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 900,
+        "text": "0%\n20%\n40%\n60%\n80%\n100%\n0\n1000\n2000\n3000\n4000\n5000\n6000\n7000\nFastQC: Per Sequence GC Content\n Counts, 8 lines \n% GC\nCount\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__fastqc_raw_per_sequence_gc_content_plot_Counts.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/fastqc_raw_per_sequence_gc_content_plot_Percentages.pdf",
+    "sha256": "e4c26cd00296d82799187c5ea0ee1d51f442897c4f03d82ee4e7aaeb16af93c7",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 900,
+        "text": "0%\n20%\n40%\n60%\n80%\n100%\n0%\n1%\n2%\n3%\n4%\n5%\n6%\n7%\nFastQC: Per Sequence GC Content\n Percentages, 8 lines \n% GC\nPercentage\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__fastqc_raw_per_sequence_gc_content_plot_Percentages.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/fastqc_raw_per_sequence_quality_scores_plot.pdf",
+    "sha256": "5c27e12dbb776a615437013b33888dde669ff32f6b264bd5cf45e3d44dad0326",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 900,
+        "text": "0\n5\n10\n15\n20\n25\n30\n35\n0\n10k\n20k\n30k\n40k\n50k\n60k\n70k\nFastQC: Per Sequence Quality Scores\n 8 lines \nMean Sequence Quality (Phred Score)\nCount\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__fastqc_raw_per_sequence_quality_scores_plot.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/fastqc_raw_sequence_counts_plot-cnt.pdf",
+    "sha256": "32a7a9ff85b69b2b9e164813c6df6ed33e795eaa3ecb6f8610ece1822e9475f2",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 684,
+        "text": "0\n20k\n40k\n60k\n80k\n100k\nWT_REP2_2\nWT_REP2_1\nWT_REP1_2\nWT_REP1_1\nRAP1_UNINDUCED_REP2\nRAP1_UNINDUCED_REP1\nRAP1_IAA_30M_REP1_2\nRAP1_IAA_30M_REP1_1\nUnique Reads\nDuplicate Reads\nFastQC: Sequence Counts\n 8 bars \nNumber of reads\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__fastqc_raw_sequence_counts_plot-cnt.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/fastqc_raw_sequence_counts_plot-pct.pdf",
+    "sha256": "64852a1a65d2ac29be4229eaf0ad17cfede6341f0e48026007a262c987494c30",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 684,
+        "text": "0%\n20%\n40%\n60%\n80%\n100%\nWT_REP2_2\nWT_REP2_1\nWT_REP1_2\nWT_REP1_1\nRAP1_UNINDUCED_REP2\nRAP1_UNINDUCED_REP1\nRAP1_IAA_30M_REP1_2\nRAP1_IAA_30M_REP1_1\nUnique Reads\nDuplicate Reads\nFastQC: Sequence Counts\n 8 bars \nNumber of reads\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__fastqc_raw_sequence_counts_plot-pct.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/fastqc_raw_sequence_duplication_levels_plot.pdf",
+    "sha256": "7cfd1fb23977140cd6c0e9bc92665989e6f0f1965b3d0e21cce9870000f24348",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 900,
+        "text": "1\n2\n3\n4\n5\n6\n7\n8\n9\n>10\n>50\n>100\n>500\n>1k\n>5k\n>10k+\n0%\n20%\n40%\n60%\n80%\n100%\nFastQC: Sequence Duplication Levels\n 8 lines \nSequence Duplication Level\n% of Library\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__fastqc_raw_sequence_duplication_levels_plot.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/fastqc_raw_top_overrepresented_sequences_table.pdf",
+    "sha256": "78976efac09d7358b0c5905630d58e05b0b99906c91b4351626949804299df90",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 492,
+        "text": "0\n1\n2\n3\n4\n5\nReports  \n0\n200\n400\n600\n800\n1000\n1200\nOccurrences  \n0%\n20%\n40%\n60%\n80%\n100%\n% of all reads  \nFastQC: Top overrepresented sequences\n 20 samples \n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__fastqc_raw_top_overrepresented_sequences_table.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/fastqc_sequence_length_distribution_plot.pdf",
+    "sha256": "22e7a8c7cf2b61dc72f9de80141e0b8960af010e6fc29be03e2999f8eb9957ee",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 900,
+        "text": "20 bp\n30 bp\n40 bp\n50 bp\n60 bp\n70 bp\n80 bp\n90 bp\n0\n10k\n20k\n30k\n40k\n50k\n60k\n70k\n80k\nFastQC: Sequence Length Distribution\n 8 lines \nSequence Length (bp)\nRead Count\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__fastqc_sequence_length_distribution_plot.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/fastqc_trimmed-status-check-heatmap.pdf",
+    "sha256": "dbd3c25b1e9c03012fd36bde543dea23c9d1238ee3e0df3d83fa32d7f7aa8273",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 1109,
+        "text": "Basic \nStatistics\nPer Base \nSequence \nQuality\nPer \nSequence \nQuality \nScores\nPer Base \nSequence \nContent\nPer \nSequence \nGC Content\nPer Base N\n Content\nSequence \nLength \nDistribution\nSequence \nDuplication\n Levels\nOverrepresented\n Sequences\nAdapter \nContent\nRAP1_IAA_30M_REP1_1\nRAP1_IAA_30M_REP1_2\nRAP1_UNINDUCED_REP1\nRAP1_UNINDUCED_REP2\nWT_REP1_1\nWT_REP1_2\nWT_REP2_1\nWT_REP2_2\nFastQC: Status Checks\n 8 samples \n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__fastqc_trimmed-status-check-heatmap.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/fastqc_trimmed_overrepresented_sequences_plot.pdf",
+    "sha256": "a9476ed647127f0fe77838345e65001f5e25a6bb96b814ab3c3dacab55279c23",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 684,
+        "text": "0%\n1%\n2%\n3%\n4%\n5%\n6%\n7%\nWT_REP2_2\nWT_REP2_1\nWT_REP1_2\nWT_REP1_1\nRAP1_UNINDUCED_REP2\nRAP1_UNINDUCED_REP1\nRAP1_IAA_30M_REP1_2\nRAP1_IAA_30M_REP1_1\nTop overrepresented sequence\nSum of remaining overrepresented sequences\nFastQC: Overrepresented sequences sample summary\n 8 bars \nPercentage of Total Sequences\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__fastqc_trimmed_overrepresented_sequences_plot.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/fastqc_trimmed_per_base_n_content_plot.pdf",
+    "sha256": "a63f147706bf76e2ee00c1dbf50e52d9be5a311ad76829e7df24f2243994e7e2",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 900,
+        "text": "0 bp\n20 bp\n40 bp\n60 bp\n80 bp\n0%\n1%\n2%\n3%\n4%\n5%\nFastQC: Per Base N Content\n 8 lines \nPosition in Read (bp)\nPercentage N-Count\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__fastqc_trimmed_per_base_n_content_plot.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/fastqc_trimmed_per_base_sequence_quality_plot.pdf",
+    "sha256": "f4c7dbce43041e938377df191266b5b35c001f658bfef3d2055696fcde4436a9",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 900,
+        "text": "0 bp\n20 bp\n40 bp\n60 bp\n80 bp\n0\n5\n10\n15\n20\n25\n30\n35\nFastQC: Mean Quality Scores\n 8 lines \nPosition (bp)\nPhred Score\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__fastqc_trimmed_per_base_sequence_quality_plot.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/fastqc_trimmed_per_sequence_gc_content_plot_Counts.pdf",
+    "sha256": "ab1829a6bea10b1452a8cb9fabd0a71103c8a4e2ee545bc8b6f3b8483d0d70c1",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 900,
+        "text": "0%\n20%\n40%\n60%\n80%\n100%\n0\n1000\n2000\n3000\n4000\n5000\n6000\n7000\nFastQC: Per Sequence GC Content\n Counts, 8 lines \n% GC\nCount\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__fastqc_trimmed_per_sequence_gc_content_plot_Counts.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/fastqc_trimmed_per_sequence_gc_content_plot_Percentages.pdf",
+    "sha256": "620568c99e701bf6cff72bd1979226f1a10007fee3eb84228e8f7ba3838064b7",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 900,
+        "text": "0%\n20%\n40%\n60%\n80%\n100%\n0%\n1%\n2%\n3%\n4%\n5%\n6%\n7%\nFastQC: Per Sequence GC Content\n Percentages, 8 lines \n% GC\nPercentage\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__fastqc_trimmed_per_sequence_gc_content_plot_Percentages.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/fastqc_trimmed_per_sequence_quality_scores_plot.pdf",
+    "sha256": "ad9016b61238275c50ccf0b461f6dfba98518450c286afd79a5c511f7f518cc1",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 900,
+        "text": "0\n5\n10\n15\n20\n25\n30\n35\n0\n10k\n20k\n30k\n40k\n50k\n60k\n70k\nFastQC: Per Sequence Quality Scores\n 8 lines \nMean Sequence Quality (Phred Score)\nCount\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__fastqc_trimmed_per_sequence_quality_scores_plot.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/fastqc_trimmed_sequence_counts_plot-cnt.pdf",
+    "sha256": "d9b8c2ee60a3ef90f6f360e4860e5860e42e27739ce2de22fd747b80069db95e",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 684,
+        "text": "0\n10k\n20k\n30k\n40k\n50k\n60k\n70k\n80k\n90k\nWT_REP2_2\nWT_REP2_1\nWT_REP1_2\nWT_REP1_1\nRAP1_UNINDUCED_REP2\nRAP1_UNINDUCED_REP1\nRAP1_IAA_30M_REP1_2\nRAP1_IAA_30M_REP1_1\nUnique Reads\nDuplicate Reads\nFastQC: Sequence Counts\n 8 bars \nNumber of reads\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__fastqc_trimmed_sequence_counts_plot-cnt.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/fastqc_trimmed_sequence_counts_plot-pct.pdf",
+    "sha256": "59c1343832219a0c08ac00334bf877668bcbfbeb1571ba8119c0b895a4353302",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 684,
+        "text": "0%\n20%\n40%\n60%\n80%\n100%\nWT_REP2_2\nWT_REP2_1\nWT_REP1_2\nWT_REP1_1\nRAP1_UNINDUCED_REP2\nRAP1_UNINDUCED_REP1\nRAP1_IAA_30M_REP1_2\nRAP1_IAA_30M_REP1_1\nUnique Reads\nDuplicate Reads\nFastQC: Sequence Counts\n 8 bars \nNumber of reads\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__fastqc_trimmed_sequence_counts_plot-pct.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/fastqc_trimmed_sequence_duplication_levels_plot.pdf",
+    "sha256": "21cd53464c0bf6d6f32787c694b05d8f0a0d0794f5d0aaedff3711b4469234d5",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 900,
+        "text": "1\n2\n3\n4\n5\n6\n7\n8\n9\n>10\n>50\n>100\n>500\n>1k\n>5k\n>10k+\n0%\n20%\n40%\n60%\n80%\n100%\nFastQC: Sequence Duplication Levels\n 8 lines \nSequence Duplication Level\n% of Library\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__fastqc_trimmed_sequence_duplication_levels_plot.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/fastqc_trimmed_top_overrepresented_sequences_table.pdf",
+    "sha256": "b9228ef07a694d63ad1a761f923a4012494c2732c8e2bea54b1729d78b7f3abf",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 492,
+        "text": "0\n1\n2\n3\n4\n5\nReports  \n0\n200\n400\n600\n800\n1000\n1200\nOccurrences  \n0%\n20%\n40%\n60%\n80%\n100%\n% of all reads  \nFastQC: Top overrepresented sequences\n 20 samples \n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__fastqc_trimmed_top_overrepresented_sequences_table.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/featurecounts_biotype_plot-cnt.pdf",
+    "sha256": "9debc57f20530cce68434f8d629770c083a2c1f7f21b8f3ef9d9b7344f527e40",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 540,
+        "text": "0\n20k\n40k\n60k\n80k\n100k\n120k\n140k\n160k\nWT_REP2\nWT_REP1\nRAP1_UNINDUCED_REP2\nRAP1_UNINDUCED_REP1\nRAP1_IAA_30M_REP1\nprotein_coding\nncRNA\ntRNA\nsnoRNA\npseudogene\nfeatureCounts: Biotypes\n 5 bars \n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__featurecounts_biotype_plot-cnt.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/featurecounts_biotype_plot-pct.pdf",
+    "sha256": "da918ce54e078b84bf252a7a24e281f77f4e391f47914350174e8fd9b2b27939",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 540,
+        "text": "0%\n20%\n40%\n60%\n80%\n100%\nWT_REP2\nWT_REP1\nRAP1_UNINDUCED_REP2\nRAP1_UNINDUCED_REP1\nRAP1_IAA_30M_REP1\nprotein_coding\nncRNA\ntRNA\nsnoRNA\npseudogene\nfeatureCounts: Biotypes\n 5 bars \n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__featurecounts_biotype_plot-pct.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/picard_deduplication-cnt.pdf",
+    "sha256": "8d131fa8b41c2b5351c6685df495f46cdd50a583e744b3a2b31be8a9b8f02247",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 540,
+        "text": "0\n20k\n40k\n60k\n80k\n100k\n120k\n140k\n160k\n180k\nWT_REP2\nWT_REP1\nRAP1_UNINDUCED_REP2\nRAP1_UNINDUCED_REP1\nRAP1_IAA_30M_REP1\nUnique Pairs\nUnique Unpaired\nDuplicate Pairs Nonoptical\nDuplicate Unpaired\nPicard: Deduplication Stats\n 5 bars \n# Reads\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__picard_deduplication-cnt.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/picard_deduplication-pct.pdf",
+    "sha256": "afe7e907932598ff87938ff891bd27f7afb020d6bb07576eb9288fcd7ae59904",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 540,
+        "text": "0%\n20%\n40%\n60%\n80%\n100%\nWT_REP2\nWT_REP1\nRAP1_UNINDUCED_REP2\nRAP1_UNINDUCED_REP1\nRAP1_IAA_30M_REP1\nUnique Pairs\nUnique Unpaired\nDuplicate Pairs Nonoptical\nDuplicate Unpaired\nPicard: Deduplication Stats\n 5 bars \n# Reads\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__picard_deduplication-pct.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/qualimap_gene_coverage_profile_Counts.pdf",
+    "sha256": "6bc0730436760f51d8adefba39bef0216481f17f3b408b63976e128ea1d30f9e",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 900,
+        "text": "0%\n20%\n40%\n60%\n80%\n100%\n0\n20\n40\n60\n80\n100\n120\nQualiMap: RNAseq: Coverage Pro\ufb01le Along Genes (total)\n Counts, 5 lines \nTranscript Position 5'->3' (%)\nCumulative mapped-read depth\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__qualimap_gene_coverage_profile_Counts.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/qualimap_gene_coverage_profile_Normalised.pdf",
+    "sha256": "8bee1e42a855b473410ccb571b1fad5df3dd47835472d8ad8235a647130f42e3",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 900,
+        "text": "0%\n20%\n40%\n60%\n80%\n100%\n0%\n0.2%\n0.4%\n0.6%\n0.8%\n1%\n1.2%\nQualiMap: RNAseq: Coverage Pro\ufb01le Along Genes (total)\n Normalised, 5 lines \nTranscript Position 5'->3' (%)\nPercentage total cumulative mapped-read depth\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__qualimap_gene_coverage_profile_Normalised.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/qualimap_genomic_origin-cnt.pdf",
+    "sha256": "2361e3a14ff243b94780925542e3d53d0a3fd70ce960dec6faa206183591fb6c",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 540,
+        "text": "0\n20k\n40k\n60k\n80k\n100k\n120k\n140k\n160k\nWT_REP2\nWT_REP1\nRAP1_UNINDUCED_REP2\nRAP1_UNINDUCED_REP1\nRAP1_IAA_30M_REP1\nExonic\nIntronic\nIntergenic\nQualiMap: RNAseq: Genomic Origin\n 5 bars \nNumber of reads\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__qualimap_genomic_origin-cnt.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/qualimap_genomic_origin-pct.pdf",
+    "sha256": "8806557db2c47d57389e4848c21fb02aada6f8d441ca74d478519d5f04451cb7",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 540,
+        "text": "0%\n20%\n40%\n60%\n80%\n100%\nWT_REP2\nWT_REP1\nRAP1_UNINDUCED_REP2\nRAP1_UNINDUCED_REP1\nRAP1_IAA_30M_REP1\nExonic\nIntronic\nIntergenic\nQualiMap: RNAseq: Genomic Origin\n 5 bars \nNumber of reads\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__qualimap_genomic_origin-pct.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/rseqc_bam_stat.pdf",
+    "sha256": "baa29ab03de10396c448ca3caacc498ca69464b6ee5c4129646b1793fcbe47ff",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 1879,
+        "text": "0M\n0.02M\n0.04M\n0.06M\n0.08M\n0.1M\n0.12M\n0.14M\n0.16M\n0.18M\nTotal records  \n0M\n0.02M\n0.04M\n0.06M\n0.08M\n0.1M\n0.12M\n0.14M\n0.16M\n0.18M\nQC failed  \n0M\n0.02M\n0.04M\n0.06M\n0.08M\n0.1M\n0.12M\n0.14M\n0.16M\n0.18M\nDuplicates  \n0M\n0.02M\n0.04M\n0.06M\n0.08M\n0.1M\n0.12M\n0.14M\n0.16M\n0.18M\nNon primary hit  \n0M\n0.02M\n0.04M\n0.06M\n0.08M\n0.1M\n0.12M\n0.14M\n0.16M\n0.18M\nUnmapped  \n0M\n0.02M\n0.04M\n0.06M\n0.08M\n0.1M\n0.12M\n0.14M\n0.16M\n0.18M\nUnique  \n0M\n0.02M\n0.04M\n0.06M\n0.08M\n0.1M\n0.12M\n0.14M\n0.16M\n0.18M\nRead-1  \n0M\n0.02M\n0.04M\n0.06M\n0.08M\n0.1M\n0.12M\n0.14M\n0.16M\n0.18M\nRead-2  \n0M\n0.02M\n0.04M\n0.06M\n0.08M\n0.1M\n0.12M\n0.14M\n0.16M\n0.18M\n+ve strand  \n0M\n0.02M\n0.04M\n0.06M\n0.08M\n0.1M\n0.12M\n0.14M\n0.16M\n0.18M\n-ve strand  \n0M\n0.02M\n0.04M\n0.06M\n0.08M\n0.1M\n0.12M\n0.14M\n0.16M\n0.18M\nNon-splice reads  \n0M\n0.02M\n0.04M\n0.06M\n0.08M\n0.1M\n0.12M\n0.14M\n0.16M\n0.18M\nSplice reads  \n0M\n0.02M\n0.04M\n0.06M\n0.08M\n0.1M\n0.12M\n0.14M\n0.16M\n0.18M\nProper pairs  \n0M\n0.02M\n0.04M\n0.06M\n0.08M\n0.1M\n0.12M\n0.14M\n0.16M\n0.18M\nDi\ufb00erent chrom  \nRSeQC: Bam Stat\n 5 samples \n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__rseqc_bam_stat.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/rseqc_infer_experiment_plot.pdf",
+    "sha256": "c671adf1cfbe0b777f78022aa50873998857a8de7cc94126323dc946383cd3c3",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 540,
+        "text": "0%\n20%\n40%\n60%\n80%\n100%\nWT_REP2\nWT_REP1\nRAP1_UNINDUCED_REP2\nRAP1_UNINDUCED_REP1\nRAP1_IAA_30M_REP1\nSense\nAntisense\nUndetermined\nRSeQC: Infer experiment\n 5 bars \n% Tags\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__rseqc_infer_experiment_plot.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/rseqc_inner_distance_plot_Counts.pdf",
+    "sha256": "9e85cfda2d601b85906808a22aba2ae58c76b0c6b6cf9b6443a8c4a46573c9e4",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 900,
+        "text": "\u2212200 bp\n\u2212150 bp\n\u2212100 bp\n\u221250 bp\n0 bp\n50 bp\n100 bp\n150 bp\n200 bp\n0\n500\n1000\n1500\n2000\n2500\n3000\n3500\nRSeQC: Inner Distance\n Counts, 3 lines \nInner Distance (bp)\nCounts\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__rseqc_inner_distance_plot_Counts.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/rseqc_inner_distance_plot_Percentages.pdf",
+    "sha256": "0b3ac003fc4a387432d8ae2a5defe9b4dd52b578675c27eb6c52f67a6fed6f5c",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 900,
+        "text": "\u2212200 bp\n\u2212150 bp\n\u2212100 bp\n\u221250 bp\n0 bp\n50 bp\n100 bp\n150 bp\n200 bp\n0%\n1%\n2%\n3%\n4%\n5%\nRSeQC: Inner Distance\n Percentages, 3 lines \nInner Distance (bp)\nPercentage\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__rseqc_inner_distance_plot_Percentages.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/rseqc_junction_annotation_junctions_plot_Events-cnt.pdf",
+    "sha256": "8e336edc52e8385205819edd0636abd16b40f0fab89bc8e499f123bc1fdac442",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 540,
+        "text": "0%\n200%\n400%\n600%\n800%\n1000%\nWT_REP2\nWT_REP1\nRAP1_UNINDUCED_REP2\nRAP1_UNINDUCED_REP1\nRAP1_IAA_30M_REP1\nKnown Splicing Events\nNovel Splicing Events\nRSeQC: Splicing Junctions\n Events, 5 bars \n% Junctions\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__rseqc_junction_annotation_junctions_plot_Events-cnt.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/rseqc_junction_annotation_junctions_plot_Events-pct.pdf",
+    "sha256": "bfafd295e42599a511a0fe024c3e64c62aa01a388a956b079247d7c7d5dff5f8",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 540,
+        "text": "0%\n20%\n40%\n60%\n80%\n100%\nWT_REP2\nWT_REP1\nRAP1_UNINDUCED_REP2\nRAP1_UNINDUCED_REP1\nRAP1_IAA_30M_REP1\nKnown Splicing Events\nNovel Splicing Events\nRSeQC: Splicing Junctions\n Events, 5 bars \n% Junctions\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__rseqc_junction_annotation_junctions_plot_Events-pct.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/rseqc_junction_annotation_junctions_plot_Junctions-cnt.pdf",
+    "sha256": "7d811e18e299a46e918ab934ceaa47965e514792c52e8b00dc21ef8799440c28",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 540,
+        "text": "0%\n20%\n40%\n60%\n80%\n100%\n120%\nWT_REP2\nWT_REP1\nRAP1_UNINDUCED_REP2\nRAP1_UNINDUCED_REP1\nRAP1_IAA_30M_REP1\nKnown Splicing Junctions\nNovel Splicing Junctions\nRSeQC: Splicing Junctions\n Junctions, 5 bars \n% Junctions\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__rseqc_junction_annotation_junctions_plot_Junctions-cnt.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/rseqc_junction_annotation_junctions_plot_Junctions-pct.pdf",
+    "sha256": "19db36e8391f5b44e31c027d07c4dd8ce3a1bb00d9a5abc2096ef88edddf1a0c",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 540,
+        "text": "0%\n20%\n40%\n60%\n80%\n100%\nWT_REP2\nWT_REP1\nRAP1_UNINDUCED_REP2\nRAP1_UNINDUCED_REP1\nRAP1_IAA_30M_REP1\nKnown Splicing Junctions\nNovel Splicing Junctions\nRSeQC: Splicing Junctions\n Junctions, 5 bars \n% Junctions\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__rseqc_junction_annotation_junctions_plot_Junctions-pct.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/rseqc_junction_saturation_plot_All_Junctions.pdf",
+    "sha256": "7e038a1d59d3d143a109bf88ee7f28e9ca1f30c6601cdfdc9a81aacd58281476",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 900,
+        "text": "0%\n20%\n40%\n60%\n80%\n100%\n0%\n20%\n40%\n60%\n80%\n100%\nRSeQC: Junction Saturation\n All Junctions, 5 lines \nPercent of reads\nPercent of Junctions\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__rseqc_junction_saturation_plot_All_Junctions.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/rseqc_junction_saturation_plot_Known_Junctions.pdf",
+    "sha256": "1b5e618cb81fc4dc710312283d2724c1224ac30c2f292e8557ce9b4c995f9392",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 900,
+        "text": "0%\n20%\n40%\n60%\n80%\n100%\n0%\n20%\n40%\n60%\n80%\n100%\nRSeQC: Junction Saturation\n Known Junctions, 5 lines \nPercent of reads\nPercent of Junctions\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__rseqc_junction_saturation_plot_Known_Junctions.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/rseqc_junction_saturation_plot_Novel_Junctions.pdf",
+    "sha256": "4808bed99294f6bb4137d1e73d0bc2ae4c29027c3ad1d62e516fbe1144b4d488",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 900,
+        "text": "0%\n20%\n40%\n60%\n80%\n100%\n0%\n20%\n40%\n60%\n80%\n100%\nRSeQC: Junction Saturation\n Novel Junctions, 5 lines \nPercent of reads\nPercent of Junctions\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__rseqc_junction_saturation_plot_Novel_Junctions.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/rseqc_read_distribution_plot-cnt.pdf",
+    "sha256": "23629674833a687d90d5220d12e192c15a07ceb82000239a044fde64b722df97",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 540,
+        "text": "0\n20k\n40k\n60k\n80k\n100k\n120k\n140k\nWT_REP2\nWT_REP1\nRAP1_UNINDUCED_REP2\nRAP1_UNINDUCED_REP1\nRAP1_IAA_30M_REP1\nCDS_Exons\nIntrons\nOther_intergenic\nRSeQC: Read Distribution\n 5 bars \n# Tags\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__rseqc_read_distribution_plot-cnt.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/rseqc_read_distribution_plot-pct.pdf",
+    "sha256": "cc0e206f08c7c4afff2959ce9db88aba7e986129f6e5995630bf60cc182a9385",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 540,
+        "text": "0%\n20%\n40%\n60%\n80%\n100%\nWT_REP2\nWT_REP1\nRAP1_UNINDUCED_REP2\nRAP1_UNINDUCED_REP1\nRAP1_IAA_30M_REP1\nCDS_Exons\nIntrons\nOther_intergenic\nRSeQC: Read Distribution\n 5 bars \n# Tags\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__rseqc_read_distribution_plot-pct.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/rseqc_read_dups_plot.pdf",
+    "sha256": "deb8b1669ab0d1072e5b367b3fc18da2e83682a5149ab86d2b31f1c11142c346",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 900,
+        "text": "50\n100\n150\n200\n250\n300\n350\n1\n2\n5\n10\n2\n5\n100\n2\n5\n1000\n2\n5\n10k\n2\nRSeQC: Read Duplication\n 5 lines \nOccurrence of read\nNumber of Reads (log10)\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__rseqc_read_dups_plot.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/salmon_deseq2_clustering.pdf",
+    "sha256": "78409388396f6bace9de97895e636fd4e00da70e58479d2a621fa835a976f23f",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 828,
+        "text": "0.00\n2.67\n2.36\n2.87\n2.92\n2.67\n0.00\n2.23\n3.11\n3.03\n2.36\n2.23\n0.00\n3.34\n3.33\n2.87\n3.11\n3.34\n0.00\n2.15\n2.92\n3.03\n3.33\n2.15\n0.00\nRAP1_IAA_30M_REP1\nRAP1_UNINDUCED_REP1\nRAP1_UNINDUCED_REP2\nWT_REP1\nWT_REP2\nRAP1_IAA_30M_REP1\nRAP1_UNINDUCED_REP1\nRAP1_UNINDUCED_REP2\nWT_REP1\nWT_REP2\n0\n0.5\n1\n1.5\n2\n2.5\n3\nDESeq2: Heatmap of the sample-to-sample distances\n 5 samples \n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__salmon_deseq2_clustering.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/salmon_deseq2_pca.pdf",
+    "sha256": "782ec65e9413fabc8fcba1202c7df2ffb348ec14eac73cbb738a195154127eea",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 910,
+        "text": "RAP1_UNINDUCED_REP2\nRAP1_UNINDUCED_REP1\nRAP1_IAA_30M_REP1\nWT_REP2\nWT_REP1\n\u22121.5\n\u22121\n\u22120.5\n0\n0.5\n1\n1.5\n\u22121\n\u22120.5\n0\n0.5\n1\n1.5\nDESeq2: Principal component plot\n 5 points \nPC1\nPC2\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__salmon_deseq2_pca.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/salmon_plot.pdf",
+    "sha256": "cd1cd1b79392a07afe5ee5b7df8329b78302cb0f109f137bd4d2fa51bd8d3a8f",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 900,
+        "text": "0 bp\n200 bp\n400 bp\n600 bp\n800 bp\n0\n0.002\n0.004\n0.006\n0.008\n0.01\n0.012\n0.014\n0.016\nSalmon: Fragment Length Distribution\n 5 lines \nFragment Length (bp)\nFraction\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__salmon_plot.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/samtools-flagstat-pct-table.pdf",
+    "sha256": "c03b495abe62706a20cb5eefd62a997e522584614923cba9d1b70b48578897e9",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 1500,
+        "text": "0%\n20%\n40%\n60%\n80%\n100%\nTotal Reads  \n0%\n20%\n40%\n60%\n80%\n100%\nTotal Passed QC  \n0%\n20%\n40%\n60%\n80%\n100%\nMapped  \n0%\n20%\n40%\n60%\n80%\n100%\nSecondary Alignments  \n0%\n20%\n40%\n60%\n80%\n100%\nDuplicates  \n0%\n20%\n40%\n60%\n80%\n100%\nPaired in Sequencing  \n0%\n20%\n40%\n60%\n80%\n100%\nProperly Paired  \n0%\n20%\n40%\n60%\n80%\n100%\nSelf and mate mapped  \n0%\n20%\n40%\n60%\n80%\n100%\nSingletons  \n0%\n20%\n40%\n60%\n80%\n100%\nMate mapped to di\ufb00 chr  \n0%\n20%\n40%\n60%\n80%\n100%\nDi\ufb00 chr (mapQ >= 5)  \nSamtools: \ufb02agstat: percentage of total\n 5 samples \n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__samtools-flagstat-pct-table.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/samtools-flagstat-table.pdf",
+    "sha256": "0e4da4f7d744f686e621eb626d1bcf8eddd0c685b3f56cf54d37382eee98c5fe",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 1500,
+        "text": "0 M\n0.02 M\n0.04 M\n0.06 M\n0.08 M\n0.1 M\n0.12 M\n0.14 M\n0.16 M\n0.18 M\nTotal Reads  \n0 M\n0.02 M\n0.04 M\n0.06 M\n0.08 M\n0.1 M\n0.12 M\n0.14 M\n0.16 M\n0.18 M\nTotal Passed QC  \n0 M\n0.02 M\n0.04 M\n0.06 M\n0.08 M\n0.1 M\n0.12 M\n0.14 M\n0.16 M\n0.18 M\nMapped  \n0 M\n0.02 M\n0.04 M\n0.06 M\n0.08 M\n0.1 M\n0.12 M\n0.14 M\n0.16 M\n0.18 M\nSecondary Alignments  \n0 M\n0.02 M\n0.04 M\n0.06 M\n0.08 M\n0.1 M\n0.12 M\n0.14 M\n0.16 M\n0.18 M\nDuplicates  \n0 M\n0.02 M\n0.04 M\n0.06 M\n0.08 M\n0.1 M\n0.12 M\n0.14 M\n0.16 M\n0.18 M\nPaired in Sequencing  \n0 M\n0.02 M\n0.04 M\n0.06 M\n0.08 M\n0.1 M\n0.12 M\n0.14 M\n0.16 M\n0.18 M\nProperly Paired  \n0 M\n0.02 M\n0.04 M\n0.06 M\n0.08 M\n0.1 M\n0.12 M\n0.14 M\n0.16 M\n0.18 M\nSelf and mate mapped  \n0 M\n0.02 M\n0.04 M\n0.06 M\n0.08 M\n0.1 M\n0.12 M\n0.14 M\n0.16 M\n0.18 M\nSingletons  \n0 M\n0.02 M\n0.04 M\n0.06 M\n0.08 M\n0.1 M\n0.12 M\n0.14 M\n0.16 M\n0.18 M\nMate mapped to di\ufb00 chr  \n0 M\n0.02 M\n0.04 M\n0.06 M\n0.08 M\n0.1 M\n0.12 M\n0.14 M\n0.16 M\n0.18 M\nDi\ufb00 chr (mapQ >= 5)  \nSamtools: \ufb02agstat: read count\n 5 samples \n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__samtools-flagstat-table.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/samtools-idxstats-mapped-reads-plot_Normalised_Counts-cnt.pdf",
+    "sha256": "75d59c55cefc40d98fa9ed7b1b16bc8b1b2cc271980d405eb63a8060920aab46",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 900,
+        "text": "I\n0\n0.5\n1\n1.5\n2\nSamtools: idxstats: Mapped reads per contig\n Normalised Counts, 5 lines \nChromosome name\nFraction of total count\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__samtools-idxstats-mapped-reads-plot_Normalised_Counts-cnt.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/samtools-idxstats-mapped-reads-plot_Normalised_Counts-log.pdf",
+    "sha256": "b77ac4503859391ef952e496d7f629e1ed09a0dd6b9dd0d031aa1fbc50676e6d",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 900,
+        "text": "I\n0.1\n2\n3\n4\n5\n6\n7\n8\n9\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\nSamtools: idxstats: Mapped reads per contig\n Normalised Counts, 5 lines \nChromosome name\nFraction of total count\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__samtools-idxstats-mapped-reads-plot_Normalised_Counts-log.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/samtools-idxstats-mapped-reads-plot_Observed_over_Expected_Counts-cnt.pdf",
+    "sha256": "1b3b7970fdb2eef484d3dbafbe058829ebf603f1077784724219f283552f1e17",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 900,
+        "text": "I\n0.5\n1\n1.5\n2\nSamtools: idxstats: Mapped reads per contig\n Observed over Expected Counts, 5 lines \nChromosome name\nlog10 ( Observed over expected counts )\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__samtools-idxstats-mapped-reads-plot_Observed_over_Expected_Counts-cnt.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/samtools-idxstats-mapped-reads-plot_Observed_over_Expected_Counts-log.pdf",
+    "sha256": "55ca52ac4ad818af0f4876617c1f4925d7de5028e43b9d681907e6ed3ecad476",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 900,
+        "text": "I\n2\n3\n4\n5\n6\n7\n8\n9\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\nSamtools: idxstats: Mapped reads per contig\n Observed over Expected Counts, 5 lines \nChromosome name\nlog10 ( Observed over expected counts )\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__samtools-idxstats-mapped-reads-plot_Observed_over_Expected_Counts-log.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/samtools-idxstats-mapped-reads-plot_Raw_Counts-cnt.pdf",
+    "sha256": "2e6f472dcc87f50c9eafa51531a1d276ffe650564bdf9b682f5e89b5c87c9b88",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 900,
+        "text": "I\n40k\n60k\n80k\n100k\n120k\n140k\n160k\n180k\nSamtools: idxstats: Mapped reads per contig\n Raw Counts, 5 lines \nChromosome name\n# mapped reads\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__samtools-idxstats-mapped-reads-plot_Raw_Counts-cnt.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/samtools-idxstats-mapped-reads-plot_Raw_Counts-log.pdf",
+    "sha256": "40073e358040d151c1d913b3f446c18a8cf588b6b87bb3980b4380f0c074381d",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 900,
+        "text": "I\n60k\n80k\n100k\n120k\n140k\n160k\n180k\n200k\nSamtools: idxstats: Mapped reads per contig\n Raw Counts, 5 lines \nChromosome name\n# mapped reads\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__samtools-idxstats-mapped-reads-plot_Raw_Counts-log.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/samtools-stats-dp.pdf",
+    "sha256": "b4e0c65b67339cad31b126d5896d726a2c6dfb8cb0ea239c0e39eff6d661916b",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 1752,
+        "text": "0M\n0.02M\n0.04M\n0.06M\n0.08M\n0.1M\n0.12M\n0.14M\n0.16M\n0.18M\nTotal sequences  \n0M\n0.02M\n0.04M\n0.06M\n0.08M\n0.1M\n0.12M\n0.14M\n0.16M\n0.18M\nMapped & paired  \n0M\n0.02M\n0.04M\n0.06M\n0.08M\n0.1M\n0.12M\n0.14M\n0.16M\n0.18M\nProperly paired  \n0M\n0.02M\n0.04M\n0.06M\n0.08M\n0.1M\n0.12M\n0.14M\n0.16M\n0.18M\nDuplicated  \n0M\n0.02M\n0.04M\n0.06M\n0.08M\n0.1M\n0.12M\n0.14M\n0.16M\n0.18M\nQC Failed  \n0M\n0.02M\n0.04M\n0.06M\n0.08M\n0.1M\n0.12M\n0.14M\n0.16M\n0.18M\nReads MQ0  \n0Mb\n2Mb\n4Mb\n6Mb\n8Mb\n10Mb\n12Mb\n14Mb\n16Mb\nMapped bases (CIGAR)  \n0Mb\n2Mb\n4Mb\n6Mb\n8Mb\n10Mb\n12Mb\n14Mb\n16Mb\nBases Trimmed  \n0Mb\n2Mb\n4Mb\n6Mb\n8Mb\n10Mb\n12Mb\n14Mb\n16Mb\nDuplicated bases  \n0M\n0.02M\n0.04M\n0.06M\n0.08M\n0.1M\n0.12M\n0.14M\n0.16M\n0.18M\nDi\ufb00 chromosomes  \n0M\n0.02M\n0.04M\n0.06M\n0.08M\n0.1M\n0.12M\n0.14M\n0.16M\n0.18M\nOther orientation  \n0M\n0.02M\n0.04M\n0.06M\n0.08M\n0.1M\n0.12M\n0.14M\n0.16M\n0.18M\nInward pairs  \n0M\n0.02M\n0.04M\n0.06M\n0.08M\n0.1M\n0.12M\n0.14M\n0.16M\n0.18M\nOutward pairs  \nSamtools: stats: Alignment Stats\n 5 samples \n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__samtools-stats-dp.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/samtools_alignment_plot-cnt.pdf",
+    "sha256": "d769b1b298d2218bf08ab1a2d590592a901e86d319a91f7c86651a253c5d5e07",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 540,
+        "text": "0\n20k\n40k\n60k\n80k\n100k\n120k\n140k\n160k\n180k\nWT_REP2\nWT_REP1\nRAP1_UNINDUCED_REP2\nRAP1_UNINDUCED_REP1\nRAP1_IAA_30M_REP1\nMapped (with MQ>0)\nMQ0\nSamtools: stats: Alignment Scores\n 5 bars \n# Reads\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__samtools_alignment_plot-cnt.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/samtools_alignment_plot-pct.pdf",
+    "sha256": "075b1d793a29d9430ab7f48b13375b08a1efa930386438e622a05cb40ba0ba30",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 540,
+        "text": "0%\n20%\n40%\n60%\n80%\n100%\nWT_REP2\nWT_REP1\nRAP1_UNINDUCED_REP2\nRAP1_UNINDUCED_REP1\nRAP1_IAA_30M_REP1\nMapped (with MQ>0)\nMQ0\nSamtools: stats: Alignment Scores\n 5 bars \n# Reads\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__samtools_alignment_plot-pct.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/samtools_insert_size.pdf",
+    "sha256": "9ef6abdc133a9a267326618baf0ab6fe4c66f5b776128974d1ec54ebeaba380f",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 900,
+        "text": "0 bp\n100 bp\n200 bp\n300 bp\n400 bp\n500 bp\n0\n100\n200\n300\n400\n500\n600\n700\n800\nSamtools: stats: Insert size distribution\n 3 lines \nInsert size (bp)\nRead pairs\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__samtools_insert_size.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/star_alignment_plot-cnt.pdf",
+    "sha256": "3f12363113e07ed33ec5b95bc46ab14212a1920b4d3e82f7e844aee34eb39519",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 540,
+        "text": "0\n10k\n20k\n30k\n40k\n50k\n60k\n70k\n80k\n90k\nWT_REP2\nWT_REP1\nRAP1_UNINDUCED_REP2\nRAP1_UNINDUCED_REP1\nRAP1_IAA_30M_REP1\nUniquely mapped\nMapped to multiple loci\nMapped to too many loci\nUnmapped: too short\nUnmapped: other\nSTAR: Alignment Scores\n 5 bars \n# Reads\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__star_alignment_plot-cnt.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/star_alignment_plot-pct.pdf",
+    "sha256": "14107a611063f3197806ba659f7083e4bef2b4802dc7f6566bdac83547f61bd7",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 540,
+        "text": "0%\n20%\n40%\n60%\n80%\n100%\nWT_REP2\nWT_REP1\nRAP1_UNINDUCED_REP2\nRAP1_UNINDUCED_REP1\nRAP1_IAA_30M_REP1\nUniquely mapped\nMapped to multiple loci\nMapped to too many loci\nUnmapped: too short\nUnmapped: other\nSTAR: Alignment Scores\n 5 bars \n# Reads\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__star_alignment_plot-pct.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/star_salmon_deseq2_clustering.pdf",
+    "sha256": "c4b41237907958fc79642a9642ac51cfe5d1c4002063db9182396e8442e1c321",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 828,
+        "text": "0.00\n2.64\n2.33\n2.89\n2.92\n2.64\n0.00\n2.11\n3.00\n2.98\n2.33\n2.11\n0.00\n3.32\n3.34\n2.89\n3.00\n3.32\n0.00\n2.16\n2.92\n2.98\n3.34\n2.16\n0.00\nRAP1_IAA_30M_REP1\nRAP1_UNINDUCED_REP1\nRAP1_UNINDUCED_REP2\nWT_REP1\nWT_REP2\nRAP1_IAA_30M_REP1\nRAP1_UNINDUCED_REP1\nRAP1_UNINDUCED_REP2\nWT_REP1\nWT_REP2\n0\n0.5\n1\n1.5\n2\n2.5\n3\nDESeq2: Heatmap of the sample-to-sample distances\n 5 samples \n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__star_salmon_deseq2_clustering.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/star_salmon_deseq2_pca.pdf",
+    "sha256": "af0514137f06188571ebe3c6c4f50ab717e147bc23faa32a4ab3f64d2bc95f16",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 910,
+        "text": "RAP1_UNINDUCED_REP2\nRAP1_UNINDUCED_REP1\nRAP1_IAA_30M_REP1\nWT_REP1\nWT_REP2\n\u22121.5\n\u22121\n\u22120.5\n0\n0.5\n1\n1.5\n\u22121\n\u22120.5\n0\n0.5\n1\n1.5\nDESeq2: Principal component plot\n 5 points \nPC1\nPC2\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__star_salmon_deseq2_pca.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/star_summary_table.pdf",
+    "sha256": "776ea99aa6c1bf895f0838ee6b573b879b4d97a8e1e490ea9ddfc8b062cb2409",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 1375,
+        "text": "0 M\n0.02 M\n0.04 M\n0.06 M\n0.08 M\nTotal reads  \n0%\n10%\n20%\n30%\n40%\n50%\n60%\n70%\n80%\n90%\nAligned  \n0%\n10%\n20%\n30%\n40%\n50%\n60%\n70%\n80%\n90%\nUniq aligned  \n0bp\n20bp\n40bp\n60bp\n80bp\n100bp\n120bp\n140bp\n160bp\n180bp\nAvg. mapped len  \n0 M\n0.02 M\n0.04 M\n0.06 M\n0.08 M\nAnnotated splices  \n0%\n0.2%\n0.4%\n0.6%\n0.8%\n1%\nMismatch rate  \n0%\n0.005%\n0.01%\n0.015%\n0.02%\nDel rate  \n0bp\n0.2bp\n0.4bp\n0.6bp\n0.8bp\n1bp\n1.2bp\nDel len  \n0.00\nIns rate  \n0bp\n0.2bp\n0.4bp\n0.6bp\n0.8bp\n1bp\n1.2bp\nIns len  \nSTAR: Summary Statistics\n 5 samples \n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__star_summary_table.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/strand_check_composition_bargraph_RSeQC.pdf",
+    "sha256": "c4864af53d8e6934139f21cb893c77a0ca521bc7070e18932f6c44df58e50cac",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 540,
+        "text": "0%\n20%\n40%\n60%\n80%\n100%\nWT_REP2\nWT_REP1\nRAP1_UNINDUCED_REP2\nRAP1_UNINDUCED_REP1\nRAP1_IAA_30M_REP1\nSense\nAntisense\nUnstranded\nStrandedness read composition\n RSeQC, 5 bars \n% of fragments\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__strand_check_composition_bargraph_RSeQC.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/strand_check_composition_bargraph_Salmon.pdf",
+    "sha256": "21abc6b69b62bef481b0e513981f42fdc7976c1a6f8c0a921ca5683db57a0ce6",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 540,
+        "text": "0%\n20%\n40%\n60%\n80%\n100%\nWT_REP1\nSense\nAntisense\nStrandedness read composition\n Salmon \n% of fragments\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__strand_check_composition_bargraph_Salmon.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/strand_check_summary_table.pdf",
+    "sha256": "32d126f4543f693a2a9857ed3ccf39d8264162f44e2282773a010beaea37b200",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 871,
+        "text": "reverse\nauto\nProvided  \n-\nreverse\nSalmon inferred  \n0%\n20%\n40%\n60%\n80%\n100%\nSalmon %  \nreverse\nRSeQC inferred  \n0%\n20%\n40%\n60%\n80%\n100%\nRSeQC %  \npass\nStatus  \nStrandedness inference summary\n 5 samples \n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__strand_check_summary_table.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/trim_galore_adapter_length_plot.pdf",
+    "sha256": "68c7f2214e303dbb973f4835b3ff5b02578cc2d147ce4ea99e0f8288ae7df460",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 900,
+        "text": "10 bp\n20 bp\n30 bp\n40 bp\n50 bp\n60 bp\n70 bp\n0\n5k\n10k\n15k\n20k\n25k\n30k\nTrim Galore: Adapter Length Distribution\n 8 lines \nAdapter overlap length (bp)\nReads (count)\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__trim_galore_adapter_length_plot.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/trim_galore_filtered_reads_plot-cnt.pdf",
+    "sha256": "a0220be2438048c2efc6d721b4c10d47f86bf37159b181063b8a122d95afd319",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 684,
+        "text": "0\n20k\n40k\n60k\n80k\n100k\nWT_REP2_2\nWT_REP2_1\nWT_REP1_2\nWT_REP1_1\nRAP1_UNINDUCED_REP2\nRAP1_UNINDUCED_REP1\nRAP1_IAA_30M_REP1_2\nRAP1_IAA_30M_REP1_1\nPassed \ufb01lters\nToo short\nTrim Galore: Read Filtering\n 8 bars \nNumber of reads\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__trim_galore_filtered_reads_plot-cnt.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/trim_galore_filtered_reads_plot-pct.pdf",
+    "sha256": "78a029aafbf08e566fc76b280ad11294fe0c8c3448eea9154d9fbe4235392920",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 684,
+        "text": "0%\n20%\n40%\n60%\n80%\n100%\nWT_REP2_2\nWT_REP2_1\nWT_REP1_2\nWT_REP1_1\nRAP1_UNINDUCED_REP2\nRAP1_UNINDUCED_REP1\nRAP1_IAA_30M_REP1_2\nRAP1_IAA_30M_REP1_1\nPassed \ufb01lters\nToo short\nTrim Galore: Read Filtering\n 8 bars \nNumber of reads\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__trim_galore_filtered_reads_plot-pct.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_plots/pdf/trim_galore_pair_validation_table.pdf",
+    "sha256": "b082543a1a5f23f71550a647a1259be93606e19fab6b0eff253cb0bcc59c7008",
+    "pages": [
+      {
+        "page": 1,
+        "width": 1980,
+        "height": 871,
+        "text": "0 M\n0.02 M\n0.04 M\n0.06 M\n0.08 M\n0.1 M\nPairs analysed  \n0 M\n0.02 M\n0.04 M\n0.06 M\n0.08 M\n0.1 M\nPairs removed  \n0 M\n0.02 M\n0.04 M\n0.06 M\n0.08 M\n0.1 M\nPairs removed (N content)  \n0 M\n0.02 M\n0.04 M\n0.06 M\n0.08 M\n0.1 M\nPairs removed (too long)  \n0 M\n0.02 M\n0.04 M\n0.06 M\n0.08 M\n0.1 M\nR1 unpaired  \n0 M\n0.02 M\n0.04 M\n0.06 M\n0.08 M\n0.1 M\nR2 unpaired  \nTrim Galore: Pair Validation\n 3 samples \n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/multiqc__star_salmon__multiqc_report_plots__pdf__trim_galore_pair_validation_table.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/salmon/deseq2_qc/deseq2.plots.pdf",
+    "sha256": "c72334bf4e6ca3518430779d345703aea64ad91ecea905026d1ecf0a10b2f4ef",
+    "pages": [
+      {
+        "page": 1,
+        "width": 605,
+        "height": 605,
+        "text": " RAP1_UNINDUCED_REP2 \n RAP1_UNINDUCED_REP1 \n RAP1_IAA_30M_REP1 \n WT_REP2 \n WT_REP1 \n\u22121.0\n\u22120.5\n0.0\n0.5\n1.0\n1.5\n\u22121\n0\n1\nPC1: 51% variance\nPC2: 22% variance\nTop 500 genes\nFirst PCs on vst\u2212transformed data\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/salmon__deseq2_qc__deseq2.plots.pdf.page1.png"
+      },
+      {
+        "page": 2,
+        "width": 605,
+        "height": 605,
+        "text": " RAP1_UNINDUCED_REP2 \n RAP1_UNINDUCED_REP1 \n RAP1_IAA_30M_REP1 \n WT_REP2 \n WT_REP1 \n\u22121.0\n\u22120.5\n0.0\n0.5\n1.0\n1.5\n\u22121\n0\n1\nPC1: 51% variance\nPC2: 22% variance\nAll genes\nFirst PCs on vst\u2212transformed data\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/salmon__deseq2_qc__deseq2.plots.pdf.page2.png"
+      },
+      {
+        "page": 3,
+        "width": 605,
+        "height": 605,
+        "text": "Euclidean distance between vst of samples\nWT_REP1\nWT_REP2\nRAP1_IAA_30M_REP1\nRAP1_UNINDUCED_REP1\nRAP1_UNINDUCED_REP2\nWT_REP1\nWT_REP2\nRAP1_IAA_30M_REP1\nRAP1_UNINDUCED_REP1\nRAP1_UNINDUCED_REP2\n0\n0.5\n1\n1.5\n2\n2.5\n3\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/salmon__deseq2_qc__deseq2.plots.pdf.page3.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/star_salmon/deseq2_qc/deseq2.plots.pdf",
+    "sha256": "5f0b16f33b6c552101df46b0e2dfdca15cc274dd91e51483ed8a3729ad288a81",
+    "pages": [
+      {
+        "page": 1,
+        "width": 605,
+        "height": 605,
+        "text": " RAP1_UNINDUCED_REP2 \n RAP1_UNINDUCED_REP1 \n RAP1_IAA_30M_REP1 \n WT_REP1 \n WT_REP2 \n\u22121.0\n\u22120.5\n0.0\n0.5\n1.0\n1.5\n\u22121\n0\n1\nPC1: 52% variance\nPC2: 22% variance\nTop 500 genes\nFirst PCs on vst\u2212transformed data\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/star_salmon__deseq2_qc__deseq2.plots.pdf.page1.png"
+      },
+      {
+        "page": 2,
+        "width": 605,
+        "height": 605,
+        "text": " RAP1_UNINDUCED_REP2 \n RAP1_UNINDUCED_REP1 \n RAP1_IAA_30M_REP1 \n WT_REP1 \n WT_REP2 \n\u22121.0\n\u22120.5\n0.0\n0.5\n1.0\n1.5\n\u22121\n0\n1\nPC1: 52% variance\nPC2: 22% variance\nAll genes\nFirst PCs on vst\u2212transformed data\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/star_salmon__deseq2_qc__deseq2.plots.pdf.page2.png"
+      },
+      {
+        "page": 3,
+        "width": 605,
+        "height": 605,
+        "text": "Euclidean distance between vst of samples\nWT_REP1\nWT_REP2\nRAP1_IAA_30M_REP1\nRAP1_UNINDUCED_REP1\nRAP1_UNINDUCED_REP2\nWT_REP1\nWT_REP2\nRAP1_IAA_30M_REP1\nRAP1_UNINDUCED_REP1\nRAP1_UNINDUCED_REP2\n0\n0.5\n1\n1.5\n2\n2.5\n3\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/star_salmon__deseq2_qc__deseq2.plots.pdf.page3.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/star_salmon/dupradar/box_plot/RAP1_IAA_30M_REP1_duprateExpBoxplot.pdf",
+    "sha256": "f4915ac7b18681a7867f57f55c89f5e355cced1aacc15a618f16ad7eff4a22c5",
+    "pages": [
+      {
+        "page": 1,
+        "width": 605,
+        "height": 605,
+        "text": "duplication (%)\n0.0\n0.2\n0.4\n0.6\n0.8\n1.0\n0 \u2212 5 % / NaN\n5 \u2212 10 % / NaN\n10 \u2212 15 % / NaN\n15 \u2212 20 % / NaN\n20 \u2212 25 % / NaN\n25 \u2212 30 % / 0.2\n30 \u2212 35 % / 3\n35 \u2212 40 % / 6.4\n40 \u2212 45 % / 9.6\n45 \u2212 50 % / 11.4\n50 \u2212 55 % / 13.9\n55 \u2212 60 % / 16.4\n60 \u2212 65 % / 19.9\n65 \u2212 70 % / 24.7\n70 \u2212 75 % / 28.2\n75 \u2212 80 % / 32.6\n80 \u2212 85 % / 44.1\n85 \u2212 90 % / 56.6\n90 \u2212 95 % / 116.6\n95 \u2212 100 % / 2353.7\nmean expression (reads/kbp)\nPercent Duplication by Expression\nRAP1_IAA_30M_REP1\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/star_salmon__dupradar__box_plot__RAP1_IAA_30M_REP1_duprateExpBoxplot.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/star_salmon/dupradar/box_plot/RAP1_UNINDUCED_REP1_duprateExpBoxplot.pdf",
+    "sha256": "aee4dc60994053b9202bd9930485639ff9f71fc0353f6c681c58cdaa3f8c765d",
+    "pages": [
+      {
+        "page": 1,
+        "width": 605,
+        "height": 605,
+        "text": "duplication (%)\n0.0\n0.2\n0.4\n0.6\n0.8\n1.0\n0 \u2212 5 % / NaN\n5 \u2212 10 % / NaN\n10 \u2212 15 % / NaN\n15 \u2212 20 % / NaN\n20 \u2212 25 % / NaN\n25 \u2212 30 % / 0.1\n30 \u2212 35 % / 2.1\n35 \u2212 40 % / 5.6\n40 \u2212 45 % / 9.8\n45 \u2212 50 % / 11.4\n50 \u2212 55 % / 12.9\n55 \u2212 60 % / 16.6\n60 \u2212 65 % / 19.3\n65 \u2212 70 % / 22.5\n70 \u2212 75 % / 28.6\n75 \u2212 80 % / 35.1\n80 \u2212 85 % / 45.7\n85 \u2212 90 % / 70.8\n90 \u2212 95 % / 135.8\n95 \u2212 100 % / 2439.3\nmean expression (reads/kbp)\nPercent Duplication by Expression\nRAP1_UNINDUCED_REP1\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/star_salmon__dupradar__box_plot__RAP1_UNINDUCED_REP1_duprateExpBoxplot.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/star_salmon/dupradar/box_plot/RAP1_UNINDUCED_REP2_duprateExpBoxplot.pdf",
+    "sha256": "2a4f98344dc3f3cd81bd3a3d9b09616e1c4e81cf24458acb748fa9e6305768a3",
+    "pages": [
+      {
+        "page": 1,
+        "width": 605,
+        "height": 605,
+        "text": "duplication (%)\n0.0\n0.2\n0.4\n0.6\n0.8\n1.0\n0 \u2212 5 % / NaN\n5 \u2212 10 % / NaN\n10 \u2212 15 % / NaN\n15 \u2212 20 % / NaN\n20 \u2212 25 % / 0.2\n25 \u2212 30 % / 3.2\n30 \u2212 35 % / 6.6\n35 \u2212 40 % / 14.2\n40 \u2212 45 % / 22.6\n45 \u2212 50 % / 24.9\n50 \u2212 55 % / 29.3\n55 \u2212 60 % / 34.4\n60 \u2212 65 % / 46.2\n65 \u2212 70 % / 56.8\n70 \u2212 75 % / 63.3\n75 \u2212 80 % / 76.8\n80 \u2212 85 % / 97.3\n85 \u2212 90 % / 152\n90 \u2212 95 % / 275.1\n95 \u2212 100 % / 4983.6\nmean expression (reads/kbp)\nPercent Duplication by Expression\nRAP1_UNINDUCED_REP2\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/star_salmon__dupradar__box_plot__RAP1_UNINDUCED_REP2_duprateExpBoxplot.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/star_salmon/dupradar/box_plot/WT_REP1_duprateExpBoxplot.pdf",
+    "sha256": "a482bc4e91cefe432a083f00dff224d195bf4eb825d8887019437ae3f7a4f0d3",
+    "pages": [
+      {
+        "page": 1,
+        "width": 605,
+        "height": 605,
+        "text": "duplication (%)\n0.0\n0.2\n0.4\n0.6\n0.8\n1.0\n0 \u2212 5 % / NaN\n5 \u2212 10 % / NaN\n10 \u2212 15 % / NaN\n15 \u2212 20 % / NaN\n20 \u2212 25 % / NaN\n25 \u2212 30 % / 0.3\n30 \u2212 35 % / 3.6\n35 \u2212 40 % / 6.6\n40 \u2212 45 % / 9\n45 \u2212 50 % / 11.4\n50 \u2212 55 % / 15.9\n55 \u2212 60 % / 19.3\n60 \u2212 65 % / 23.1\n65 \u2212 70 % / 29.5\n70 \u2212 75 % / 38.6\n75 \u2212 80 % / 46\n80 \u2212 85 % / 61.3\n85 \u2212 90 % / 92\n90 \u2212 95 % / 169.6\n95 \u2212 100 % / 4289.1\nmean expression (reads/kbp)\nPercent Duplication by Expression\nWT_REP1\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/star_salmon__dupradar__box_plot__WT_REP1_duprateExpBoxplot.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/star_salmon/dupradar/box_plot/WT_REP2_duprateExpBoxplot.pdf",
+    "sha256": "ba6c5a5712f5ebc5b7782eba537b45078ba6982c3d5398dff06d849c217ae194",
+    "pages": [
+      {
+        "page": 1,
+        "width": 605,
+        "height": 605,
+        "text": "duplication (%)\n0.0\n0.2\n0.4\n0.6\n0.8\n1.0\n0 \u2212 5 % / NaN\n5 \u2212 10 % / NaN\n10 \u2212 15 % / NaN\n15 \u2212 20 % / NaN\n20 \u2212 25 % / NaN\n25 \u2212 30 % / 0\n30 \u2212 35 % / 1\n35 \u2212 40 % / 3.3\n40 \u2212 45 % / 5.3\n45 \u2212 50 % / 6.8\n50 \u2212 55 % / 8.5\n55 \u2212 60 % / 10.5\n60 \u2212 65 % / 13\n65 \u2212 70 % / 18.1\n70 \u2212 75 % / 23.3\n75 \u2212 80 % / 27.2\n80 \u2212 85 % / 32\n85 \u2212 90 % / 49.3\n90 \u2212 95 % / 111.3\n95 \u2212 100 % / 2313.9\nmean expression (reads/kbp)\nPercent Duplication by Expression\nWT_REP2\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/star_salmon__dupradar__box_plot__WT_REP2_duprateExpBoxplot.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/star_salmon/dupradar/histogram/RAP1_IAA_30M_REP1_expressionHist.pdf",
+    "sha256": "306cea2196ae7dc92201c5f1e475233acf65fee188d4e0bf917c6335f2b0bd77",
+    "pages": [
+      {
+        "page": 1,
+        "width": 605,
+        "height": 605,
+        "text": "reads per kilobase (RPK)\nFrequency\n0\n2\n4\n6\n8\n1\n10\n100\n1000\nDistribution of RPK values per gene\nRAP1_IAA_30M_REP1\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/star_salmon__dupradar__histogram__RAP1_IAA_30M_REP1_expressionHist.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/star_salmon/dupradar/histogram/RAP1_UNINDUCED_REP1_expressionHist.pdf",
+    "sha256": "467d8fbd07db514f8048b5a378ce8dcc9b4c83b4f301b5f42a56945a5febbbd5",
+    "pages": [
+      {
+        "page": 1,
+        "width": 605,
+        "height": 605,
+        "text": "reads per kilobase (RPK)\nFrequency\n0\n1\n2\n3\n4\n5\n6\n7\n10\n100\n1000\nDistribution of RPK values per gene\nRAP1_UNINDUCED_REP1\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/star_salmon__dupradar__histogram__RAP1_UNINDUCED_REP1_expressionHist.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/star_salmon/dupradar/histogram/RAP1_UNINDUCED_REP2_expressionHist.pdf",
+    "sha256": "73f8cc4e2e00cc3cc914962d494b6fbb44e06150bf47faf59a29d706d7e2cdd5",
+    "pages": [
+      {
+        "page": 1,
+        "width": 605,
+        "height": 605,
+        "text": "reads per kilobase (RPK)\nFrequency\n0\n2\n4\n6\n8\n10\n100\n1000\n10000\nDistribution of RPK values per gene\nRAP1_UNINDUCED_REP2\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/star_salmon__dupradar__histogram__RAP1_UNINDUCED_REP2_expressionHist.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/star_salmon/dupradar/histogram/WT_REP1_expressionHist.pdf",
+    "sha256": "df958b7e9c940b33549fa3cedbabb0332520f9030ce26d30906f435c60823284",
+    "pages": [
+      {
+        "page": 1,
+        "width": 605,
+        "height": 605,
+        "text": "reads per kilobase (RPK)\nFrequency\n0\n1\n2\n3\n4\n5\n1\n10\n100\n1000\n10000\nDistribution of RPK values per gene\nWT_REP1\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/star_salmon__dupradar__histogram__WT_REP1_expressionHist.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/star_salmon/dupradar/histogram/WT_REP2_expressionHist.pdf",
+    "sha256": "7a53e38dda161211ad9ff2d4b135c96f5154f723ce1da5457ec35a8765765490",
+    "pages": [
+      {
+        "page": 1,
+        "width": 605,
+        "height": 605,
+        "text": "reads per kilobase (RPK)\nFrequency\n0\n1\n2\n3\n4\n5\n6\n1\n10\n100\n1000\nDistribution of RPK values per gene\nWT_REP2\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/star_salmon__dupradar__histogram__WT_REP2_expressionHist.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/star_salmon/dupradar/scatter_plot/RAP1_IAA_30M_REP1_duprateExpDens.pdf",
+    "sha256": "70ac10adf92cc75aed02e4d312baaade53b43b08e9b97a36579ac895eaa11fc4",
+    "pages": [
+      {
+        "page": 1,
+        "width": 605,
+        "height": 605,
+        "text": "expression (reads/kbp)\n% duplicate reads\n0\n25\n50\n75\n100\n1\n10\n100\n1000\nInt: 0\nSl: 6.21\n1 read/bp\n0.5 RPKM\nDensity scatter plot\nRAP1_IAA_30M_REP1\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/star_salmon__dupradar__scatter_plot__RAP1_IAA_30M_REP1_duprateExpDens.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/star_salmon/dupradar/scatter_plot/RAP1_UNINDUCED_REP1_duprateExpDens.pdf",
+    "sha256": "4bbf6089d1384b10a7c0f4863a4b592ecb67812a7d8cd9068ed4fcedc8bf61f4",
+    "pages": [
+      {
+        "page": 1,
+        "width": 605,
+        "height": 605,
+        "text": "expression (reads/kbp)\n% duplicate reads\n0\n25\n50\n75\n100\n10\n100\n1000\nInt: 0\nSl: 7.45\n1 read/bp\n0.5 RPKM\nDensity scatter plot\nRAP1_UNINDUCED_REP1\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/star_salmon__dupradar__scatter_plot__RAP1_UNINDUCED_REP1_duprateExpDens.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/star_salmon/dupradar/scatter_plot/RAP1_UNINDUCED_REP2_duprateExpDens.pdf",
+    "sha256": "045c3e2d831cffe3d0b09b99098d77d9ae1382908a979b8aea4f2b300089ca07",
+    "pages": [
+      {
+        "page": 1,
+        "width": 605,
+        "height": 605,
+        "text": "expression (reads/kbp)\n% duplicate reads\n0\n25\n50\n75\n100\n10\n100\n1000\n10000\nInt: 0\nSl: 7.45\n1 read/bp\n0.5 RPKM\nDensity scatter plot\nRAP1_UNINDUCED_REP2\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/star_salmon__dupradar__scatter_plot__RAP1_UNINDUCED_REP2_duprateExpDens.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/star_salmon/dupradar/scatter_plot/WT_REP1_duprateExpDens.pdf",
+    "sha256": "85aa2716849f4e59b7a4e8a59d312b9065925316ad701b5da19944316c2e3031",
+    "pages": [
+      {
+        "page": 1,
+        "width": 605,
+        "height": 605,
+        "text": "expression (reads/kbp)\n% duplicate reads\n0\n25\n50\n75\n100\n1\n10\n100\n1000\n10000\nInt: 0\nSl: 3.85\n1 read/bp\n0.5 RPKM\nDensity scatter plot\nWT_REP1\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/star_salmon__dupradar__scatter_plot__WT_REP1_duprateExpDens.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/star_salmon/dupradar/scatter_plot/WT_REP2_duprateExpDens.pdf",
+    "sha256": "2b683e60fd9ca87212c1ed8d1d14537ceb77bdec034a64048ad244841b44f419",
+    "pages": [
+      {
+        "page": 1,
+        "width": 605,
+        "height": 605,
+        "text": "expression (reads/kbp)\n% duplicate reads\n0\n25\n50\n75\n100\n1\n10\n100\n1000\nInt: 0\nSl: 6.5\n1 read/bp\n0.5 RPKM\nDensity scatter plot\nWT_REP2\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/star_salmon__dupradar__scatter_plot__WT_REP2_duprateExpDens.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/star_salmon/rseqc/inner_distance/pdf/RAP1_IAA_30M_REP1.inner_distance_plot.pdf",
+    "sha256": "42f29b021ae0fd669df5cad1cafaccc858a89fa7d1da252afb4fbb3e5b13b9f4",
+    "pages": [
+      {
+        "page": 1,
+        "width": 605,
+        "height": 605,
+        "text": "Mean=\u221226.366577478196;SD=63.6115456106019\nmRNA insert size (bp)\nDensity\n\u2212100\n\u221250\n0\n50\n100\n150\n200\n250\n0.000\n0.002\n0.004\n0.006\n0.008\n0.010\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/star_salmon__rseqc__inner_distance__pdf__RAP1_IAA_30M_REP1.inner_distance_plot.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/star_salmon/rseqc/inner_distance/pdf/WT_REP1.inner_distance_plot.pdf",
+    "sha256": "519778bf4d4769d1d68f3b187833b2fdd0a550e5099b0d47dbaf0dcdc3ac9ce4",
+    "pages": [
+      {
+        "page": 1,
+        "width": 605,
+        "height": 605,
+        "text": "Mean=\u221225.0832753017642;SD=65.5435497278824\nmRNA insert size (bp)\nDensity\n\u2212100\n\u221250\n0\n50\n100\n150\n200\n250\n0.000\n0.002\n0.004\n0.006\n0.008\n0.010\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/star_salmon__rseqc__inner_distance__pdf__WT_REP1.inner_distance_plot.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/star_salmon/rseqc/inner_distance/pdf/WT_REP2.inner_distance_plot.pdf",
+    "sha256": "2cd1b3776b6c95657d4c32b2eda26fc817c5be3a9e827506dd77c45015d2e169",
+    "pages": [
+      {
+        "page": 1,
+        "width": 605,
+        "height": 605,
+        "text": "Mean=\u221227.3765286306618;SD=65.4248165077219\nmRNA insert size (bp)\nDensity\n\u2212100\n\u221250\n0\n50\n100\n150\n200\n250\n0.000\n0.002\n0.004\n0.006\n0.008\n0.010\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/star_salmon__rseqc__inner_distance__pdf__WT_REP2.inner_distance_plot.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/star_salmon/rseqc/junction_annotation/pdf/RAP1_IAA_30M_REP1.splice_events.pdf",
+    "sha256": "4a723f4c587675863337b7c33529573d295a49902c5f0d86f6dd60c1e66c75ce",
+    "pages": [
+      {
+        "page": 1,
+        "width": 605,
+        "height": 605,
+        "text": "partial_novel 0%\ncomplete_novel 36%\nknown 54%\nsplicing events\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/star_salmon__rseqc__junction_annotation__pdf__RAP1_IAA_30M_REP1.splice_events.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/star_salmon/rseqc/junction_annotation/pdf/RAP1_IAA_30M_REP1.splice_junction.pdf",
+    "sha256": "7051778ca8dbe0381d8917b19235c4def6766e524d90cd23f523357bef0b20c6",
+    "pages": [
+      {
+        "page": 1,
+        "width": 605,
+        "height": 605,
+        "text": "partial_novel 0%\ncomplete_novel 95%\nknown 5%\nsplicing junctions\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/star_salmon__rseqc__junction_annotation__pdf__RAP1_IAA_30M_REP1.splice_junction.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/star_salmon/rseqc/junction_annotation/pdf/RAP1_UNINDUCED_REP1.splice_events.pdf",
+    "sha256": "ddbd4f4037ce18df32826dcce6c0fc31dc32dc436a1d65b8901a4d16bf4b9c23",
+    "pages": [
+      {
+        "page": 1,
+        "width": 605,
+        "height": 605,
+        "text": "partial_novel 0%\ncomplete_novel 53%\nknown 43%\nsplicing events\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/star_salmon__rseqc__junction_annotation__pdf__RAP1_UNINDUCED_REP1.splice_events.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/star_salmon/rseqc/junction_annotation/pdf/RAP1_UNINDUCED_REP1.splice_junction.pdf",
+    "sha256": "eea6fcd54711b9a66f41d6d2f6ac9f6bb608b08508009fddb3edf1e61ffa570a",
+    "pages": [
+      {
+        "page": 1,
+        "width": 605,
+        "height": 605,
+        "text": "partial_novel 0%\ncomplete_novel 95%\nknown 5%\nsplicing junctions\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/star_salmon__rseqc__junction_annotation__pdf__RAP1_UNINDUCED_REP1.splice_junction.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/star_salmon/rseqc/junction_annotation/pdf/RAP1_UNINDUCED_REP2.splice_events.pdf",
+    "sha256": "eca3d437732f6de57696c8b056401301db0b8e4966f3d7311050060df27978bc",
+    "pages": [
+      {
+        "page": 1,
+        "width": 605,
+        "height": 605,
+        "text": "partial_novel 0%\ncomplete_novel 51%\nknown 45%\nsplicing events\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/star_salmon__rseqc__junction_annotation__pdf__RAP1_UNINDUCED_REP2.splice_events.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/star_salmon/rseqc/junction_annotation/pdf/RAP1_UNINDUCED_REP2.splice_junction.pdf",
+    "sha256": "734f2b12285c95cbe11d06138782b0053da7185d6c12b4eb8c43cb11df6ba169",
+    "pages": [
+      {
+        "page": 1,
+        "width": 605,
+        "height": 605,
+        "text": "partial_novel 0%\ncomplete_novel 95%\nknown 5%\nsplicing junctions\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/star_salmon__rseqc__junction_annotation__pdf__RAP1_UNINDUCED_REP2.splice_junction.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/star_salmon/rseqc/junction_annotation/pdf/WT_REP1.splice_events.pdf",
+    "sha256": "b9ed662ea686cb1b7ebdd0101b2c11a26b7b88ecf842474051bcaa4f2b1442d5",
+    "pages": [
+      {
+        "page": 1,
+        "width": 605,
+        "height": 605,
+        "text": "partial_novel 0%\ncomplete_novel 45%\nknown 46%\nsplicing events\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/star_salmon__rseqc__junction_annotation__pdf__WT_REP1.splice_events.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/star_salmon/rseqc/junction_annotation/pdf/WT_REP1.splice_junction.pdf",
+    "sha256": "dc02063fb0e2bdfb4cbc3c9cb82bfca69c6cd595f350052a70a06a1f6a0dd712",
+    "pages": [
+      {
+        "page": 1,
+        "width": 605,
+        "height": 605,
+        "text": "partial_novel 0%\ncomplete_novel 98%\nknown 2%\nsplicing junctions\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/star_salmon__rseqc__junction_annotation__pdf__WT_REP1.splice_junction.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/star_salmon/rseqc/junction_annotation/pdf/WT_REP2.splice_events.pdf",
+    "sha256": "283e4cbc3ec3ddd0671e06ec8b7ae5c76ad57bae7189952e27aa4b76c4e16c58",
+    "pages": [
+      {
+        "page": 1,
+        "width": 605,
+        "height": 605,
+        "text": "partial_novel 0%\ncomplete_novel 38%\nknown 53%\nsplicing events\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/star_salmon__rseqc__junction_annotation__pdf__WT_REP2.splice_events.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/star_salmon/rseqc/junction_annotation/pdf/WT_REP2.splice_junction.pdf",
+    "sha256": "d3b0883bb51be14444ca4c3ebbd97cc3bf1fbeba168a02b83d0f2afc7c6764d3",
+    "pages": [
+      {
+        "page": 1,
+        "width": 605,
+        "height": 605,
+        "text": "partial_novel 0%\ncomplete_novel 97%\nknown 3%\nsplicing junctions\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/star_salmon__rseqc__junction_annotation__pdf__WT_REP2.splice_junction.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/star_salmon/rseqc/junction_saturation/pdf/RAP1_IAA_30M_REP1.junctionSaturation_plot.pdf",
+    "sha256": "007d700d8a0be9ea930d103c1da3f9e76380ab69a4ebf32323a20e882cc8607c",
+    "pages": [
+      {
+        "page": 1,
+        "width": 605,
+        "height": 605,
+        "text": "20\n40\n60\n80\n100\n\u22121.0\n\u22120.5\n0.0\n0.5\n1.0\npercent of total reads\nNumber of splicing junctions (x1000)\nAll junctions\nknown junctions\nnovel junctions\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/star_salmon__rseqc__junction_saturation__pdf__RAP1_IAA_30M_REP1.junctionSaturation_plot.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/star_salmon/rseqc/junction_saturation/pdf/RAP1_UNINDUCED_REP1.junctionSaturation_plot.pdf",
+    "sha256": "9de03f77903f9dc6280caf51d12719a36da8d18785ff7677b05c0a8de99a146d",
+    "pages": [
+      {
+        "page": 1,
+        "width": 605,
+        "height": 605,
+        "text": "20\n40\n60\n80\n100\n\u22121.0\n\u22120.5\n0.0\n0.5\n1.0\npercent of total reads\nNumber of splicing junctions (x1000)\nAll junctions\nknown junctions\nnovel junctions\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/star_salmon__rseqc__junction_saturation__pdf__RAP1_UNINDUCED_REP1.junctionSaturation_plot.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/star_salmon/rseqc/junction_saturation/pdf/RAP1_UNINDUCED_REP2.junctionSaturation_plot.pdf",
+    "sha256": "9d98e94eb40294085a2116e5cf98c0c5ccdba18093f2fbfad4e7c29509da1cb7",
+    "pages": [
+      {
+        "page": 1,
+        "width": 605,
+        "height": 605,
+        "text": "20\n40\n60\n80\n100\n\u22121.0\n\u22120.5\n0.0\n0.5\n1.0\npercent of total reads\nNumber of splicing junctions (x1000)\nAll junctions\nknown junctions\nnovel junctions\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/star_salmon__rseqc__junction_saturation__pdf__RAP1_UNINDUCED_REP2.junctionSaturation_plot.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/star_salmon/rseqc/junction_saturation/pdf/WT_REP1.junctionSaturation_plot.pdf",
+    "sha256": "2698e3dd4b03b58eea7a6b0b59f77841f88bea3f08de694244712e040bb91cbd",
+    "pages": [
+      {
+        "page": 1,
+        "width": 605,
+        "height": 605,
+        "text": "20\n40\n60\n80\n100\n\u22121.0\n\u22120.5\n0.0\n0.5\n1.0\npercent of total reads\nNumber of splicing junctions (x1000)\nAll junctions\nknown junctions\nnovel junctions\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/star_salmon__rseqc__junction_saturation__pdf__WT_REP1.junctionSaturation_plot.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/star_salmon/rseqc/junction_saturation/pdf/WT_REP2.junctionSaturation_plot.pdf",
+    "sha256": "d859874d3e819239af36fa48e84b70eb4c80272e630063def87fc619c79da175",
+    "pages": [
+      {
+        "page": 1,
+        "width": 605,
+        "height": 605,
+        "text": "20\n40\n60\n80\n100\n\u22121.0\n\u22120.5\n0.0\n0.5\n1.0\npercent of total reads\nNumber of splicing junctions (x1000)\nAll junctions\nknown junctions\nnovel junctions\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/star_salmon__rseqc__junction_saturation__pdf__WT_REP2.junctionSaturation_plot.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/star_salmon/rseqc/read_duplication/pdf/RAP1_IAA_30M_REP1.DupRate_plot.pdf",
+    "sha256": "f27c482aa2652b959438835d716685911739c204e1149b66ecc2325a0427bfd3",
+    "pages": [
+      {
+        "page": 1,
+        "width": 605,
+        "height": 605,
+        "text": "0\n100\n200\n300\n400\n500\nOccurrence of read\nNumber of Reads (log10)\nSequence\u2212based\nMapping\u2212based\n0\n1\n2\n3\n4\n1\n7\n17\nReads %\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/star_salmon__rseqc__read_duplication__pdf__RAP1_IAA_30M_REP1.DupRate_plot.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/star_salmon/rseqc/read_duplication/pdf/RAP1_UNINDUCED_REP1.DupRate_plot.pdf",
+    "sha256": "9a34ec448f24a70d400e24efe386cc0063f0b2c48f64d62eef867e333c359307",
+    "pages": [
+      {
+        "page": 1,
+        "width": 605,
+        "height": 605,
+        "text": "0\n100\n200\n300\n400\n500\nOccurrence of read\nNumber of Reads (log10)\nSequence\u2212based\nMapping\u2212based\n0\n1\n2\n3\n4\n1\n2\n4\n26\nReads %\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/star_salmon__rseqc__read_duplication__pdf__RAP1_UNINDUCED_REP1.DupRate_plot.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/star_salmon/rseqc/read_duplication/pdf/RAP1_UNINDUCED_REP2.DupRate_plot.pdf",
+    "sha256": "a7c2f779c6d7b66a9570b89c835ee744696f835fd2fd902d7c915adcd5b39b2a",
+    "pages": [
+      {
+        "page": 1,
+        "width": 605,
+        "height": 605,
+        "text": "0\n100\n200\n300\n400\n500\nOccurrence of read\nNumber of Reads (log10)\nSequence\u2212based\nMapping\u2212based\n0\n1\n2\n3\n4\n1\n1\n3\n20\nReads %\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/star_salmon__rseqc__read_duplication__pdf__RAP1_UNINDUCED_REP2.DupRate_plot.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/star_salmon/rseqc/read_duplication/pdf/WT_REP1.DupRate_plot.pdf",
+    "sha256": "af673f8dcf874e93d489cbeb03df2e4d7831de2dd8cb715935ce3bf31e2ab5b2",
+    "pages": [
+      {
+        "page": 1,
+        "width": 605,
+        "height": 605,
+        "text": "0\n100\n200\n300\n400\n500\nOccurrence of read\nNumber of Reads (log10)\nSequence\u2212based\nMapping\u2212based\n0\n1\n2\n3\n4\n1\n5\n11\nReads %\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/star_salmon__rseqc__read_duplication__pdf__WT_REP1.DupRate_plot.pdf.page1.png"
+      }
+    ]
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/star_salmon/rseqc/read_duplication/pdf/WT_REP2.DupRate_plot.pdf",
+    "sha256": "d3cc9f648fe4a1554183ace2c905e3859fd6ae0545147cfafc8cb43a87024310",
+    "pages": [
+      {
+        "page": 1,
+        "width": 605,
+        "height": 605,
+        "text": "0\n100\n200\n300\n400\n500\nOccurrence of read\nNumber of Reads (log10)\nSequence\u2212based\nMapping\u2212based\n0\n1\n2\n3\n4\n1\n7\n15\nReads %\n",
+        "image": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/documents/star_salmon__rseqc__read_duplication__pdf__WT_REP2.DupRate_plot.pdf.page1.png"
+      }
+    ]
+  }
+]

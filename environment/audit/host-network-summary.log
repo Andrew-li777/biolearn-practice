@@ -1,0 +1,166 @@
+{
+  "tools": {
+    "R": {
+      "PATH": null,
+      "candidates": [
+        {
+          "path": "/home/a/miniforge3/envs/biolearn-r/bin/R",
+          "exit": 0,
+          "output": "R version 4.4.3 (2025-02-28) -- \"Trophy Case\"\nCopyright (C) 2025 The R Foundation for Statistical Computing\nPlatform: x86_64-conda-linux-gnu\n\nR is free software and comes with ABSOLUTELY NO WARRANTY.\nYou are welcome to redistribute it under the terms of the\nGNU General Public License versions 2 or 3.\nFor more information about these matters see\nhttps://www.gnu.org/licenses/."
+        }
+      ]
+    },
+    "Rscript": {
+      "PATH": null,
+      "candidates": [
+        {
+          "path": "/home/a/miniforge3/envs/biolearn-r/bin/Rscript",
+          "exit": 0,
+          "output": "Rscript (R) version 4.4.3 (2025-02-28)"
+        }
+      ]
+    },
+    "python": {
+      "PATH": null,
+      "candidates": [
+        {
+          "path": "/home/a/miniforge3/bin/python",
+          "exit": 0,
+          "output": "Python 3.14.7"
+        },
+        {
+          "path": "/home/a/miniforge3/envs/biolearn-r/bin/python",
+          "exit": 0,
+          "output": "Python 3.15.0"
+        },
+        {
+          "path": "/home/a/miniforge3/envs/biolearn-py/bin/python",
+          "exit": 0,
+          "output": "Python 3.11.17"
+        }
+      ]
+    },
+    "python3": {
+      "PATH": "/usr/bin/python3",
+      "candidates": [
+        {
+          "path": "/usr/bin/python3",
+          "exit": 0,
+          "output": "Python 3.12.3"
+        },
+        {
+          "path": "/home/a/miniforge3/bin/python3",
+          "exit": 0,
+          "output": "Python 3.14.7"
+        },
+        {
+          "path": "/home/a/miniforge3/envs/biolearn-r/bin/python3",
+          "exit": 0,
+          "output": "Python 3.15.0"
+        },
+        {
+          "path": "/home/a/miniforge3/envs/biolearn-py/bin/python3",
+          "exit": 0,
+          "output": "Python 3.11.17"
+        }
+      ]
+    },
+    "conda": {
+      "PATH": null,
+      "candidates": [
+        {
+          "path": "/home/a/miniforge3/bin/conda",
+          "exit": 0,
+          "output": "conda 26.7.2"
+        }
+      ]
+    },
+    "mamba": {
+      "PATH": null,
+      "candidates": [
+        {
+          "path": "/home/a/miniforge3/bin/mamba",
+          "exit": 0,
+          "output": "2.9.0"
+        }
+      ]
+    },
+    "git": {
+      "PATH": "/usr/bin/git",
+      "candidates": [
+        {
+          "path": "/usr/bin/git",
+          "exit": 0,
+          "output": "git version 2.43.0"
+        }
+      ]
+    },
+    "docker": {
+      "PATH": null,
+      "candidates": []
+    },
+    "java": {
+      "PATH": null,
+      "candidates": []
+    },
+    "nextflow": {
+      "PATH": null,
+      "candidates": []
+    },
+    "snakemake": {
+      "PATH": null,
+      "candidates": []
+    }
+  },
+  "network": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/conda-forge/miniforge/releases/latest",
+      "exit": 0,
+      "metrics": "200\t0\t1.924132",
+      "status": "PASS"
+    },
+    {
+      "name": "conda-forge",
+      "url": "https://conda.anaconda.org/conda-forge/linux-64/repodata.json",
+      "exit": 0,
+      "metrics": "200\t0\t1.055368",
+      "status": "PASS"
+    },
+    {
+      "name": "bioconda",
+      "url": "https://conda.anaconda.org/bioconda/linux-64/repodata.json",
+      "exit": 0,
+      "metrics": "200\t0\t1.027568",
+      "status": "PASS"
+    },
+    {
+      "name": "CRAN",
+      "url": "https://cloud.r-project.org/",
+      "exit": 0,
+      "metrics": "200\t0\t1.244868",
+      "status": "PASS"
+    },
+    {
+      "name": "Bioconductor",
+      "url": "https://bioconductor.org/packages/release/bioc/",
+      "exit": 0,
+      "metrics": "200\t0\t1.235890",
+      "status": "PASS"
+    },
+    {
+      "name": "PyPI",
+      "url": "https://pypi.org/simple/scanpy/",
+      "exit": 0,
+      "metrics": "200\t0\t1.240141",
+      "status": "PASS"
+    },
+    {
+      "name": "PBMC3k",
+      "url": "https://cf.10xgenomics.com/samples/cell/pbmc3k/pbmc3k_filtered_gene_bc_matrices.tar.gz",
+      "exit": 0,
+      "metrics": "200\t0\t1.049034",
+      "status": "PASS"
+    }
+  ]
+}

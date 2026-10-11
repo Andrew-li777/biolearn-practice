@@ -1,0 +1,70 @@
+{
+    "Name": "quay.io/biocontainers/bioconductor-summarizedexperiment",
+    "Digest": "sha256:17fe194827b1e08aeda6e0505439aaec24e677a52d785da2f7d8b3ff35758687",
+    "RepoTags": [
+        "1.0.2--1",
+        "1.10.1--r341_0",
+        "1.10.1--r351_0",
+        "1.12.0--r351_0",
+        "1.14.0--r36_1",
+        "1.16.0--r36_0",
+        "1.18.1--r40_0",
+        "1.20.0--r40_0",
+        "1.20.0--r40hdfd78af_1",
+        "1.22.0--r41hdfd78af_0",
+        "1.2.3--r3.3.1_0",
+        "1.24.0--r41hdfd78af_0",
+        "1.28.0--r42hdfd78af_0",
+        "1.30.2--r43hdfd78af_0",
+        "1.32.0--r43hdfd78af_0",
+        "1.36.0--r44hdfd78af_0",
+        "1.40.0--r45hdfd78af_0",
+        "1.4.0--r3.3.1_0",
+        "1.4.0--r3.3.2_2",
+        "1.4.0--r3.4.1_2",
+        "1.42.0--r45hdfd78af_0",
+        "1.6.5--r3.4.1_0",
+        "1.8.0--r3.4.1_0"
+    ],
+    "Created": "2023-12-05T17:11:41.549136161Z",
+    "DockerVersion": "24.0.7",
+    "Labels": {
+        "bash": "GNU bash, version 5.2.15(1)-release (x86_64-pc-linux-gnu)",
+        "busybox": "BusyBox v1.36.1 (2023-10-17 11:19:33 UTC) multi-call binary.",
+        "deb-list": "gcc-12-base_12.2.0-14_amd64.deb|libc6_2.36-9+deb12u3_amd64.deb|libgcc-s1_12.2.0-14_amd64.deb|base-passwd_3.6.1_amd64.deb|bash_5.2.15-2+b2_amd64.deb|libc-bin_2.36-9+deb12u3_amd64.deb|libcrypt1_1%3a4.4.33-2_amd64.deb|libtinfo6_6.4-4_amd64.deb|login_1%3a4.13+dfsg1-1+b1_amd64.deb|ncurses-base_6.4-4_all.deb|base-files_12.4+deb12u2_amd64.deb",
+        "glibc": "GNU C Library (Debian GLIBC 2.36-9+deb12u3) stable release version 2.36.",
+        "io.buildah.version": "1.23.1",
+        "pkg-list": "gcc-12-base|libc6|libgcc-s1|base-passwd|bash|libc-bin|libcrypt1|libtinfo6|login|ncurses-base|base-files"
+    },
+    "Architecture": "amd64",
+    "Os": "linux",
+    "Layers": [
+        "sha256:fa7e54f17dc087a7664298695e36b2bea9e6f3dc43de4d86e58dd3bf3c5c449a",
+        "sha256:4ca545ee6d5db5c1170386eeb39b2ffe3bd46e5d4a73a9acbebc805f19607eb3",
+        "sha256:0e4b4f1a3eb3521a4679fa370808cee6a9c805c97dbefebe8bd322b3650431b0"
+    ],
+    "LayersData": [
+        {
+            "MIMEType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+            "Digest": "sha256:fa7e54f17dc087a7664298695e36b2bea9e6f3dc43de4d86e58dd3bf3c5c449a",
+            "Size": 4704897,
+            "Annotations": null
+        },
+        {
+            "MIMEType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+            "Digest": "sha256:4ca545ee6d5db5c1170386eeb39b2ffe3bd46e5d4a73a9acbebc805f19607eb3",
+            "Size": 42,
+            "Annotations": null
+        },
+        {
+            "MIMEType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+            "Digest": "sha256:0e4b4f1a3eb3521a4679fa370808cee6a9c805c97dbefebe8bd322b3650431b0",
+            "Size": 404793913,
+            "Annotations": null
+        }
+    ],
+    "Env": [
+        "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+        "LANG=C.UTF-8"
+    ]
+}

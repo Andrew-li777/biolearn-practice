@@ -1,0 +1,13 @@
+{
+  "data/pbmc3k/pbmc3k_filtered_gene_bc_matrices.tar.gz": "847d6ebd9a1ec9a768f2be7e40ca42cbfe75ebeb6d76a4c24167041699dc28b5",
+  "data/pbmc3k/filtered_gene_bc_matrices/hg19/genes.tsv": "8778dd78085086be6dcafa8334f95f7cf76b25526e8ef2b63186db5127a1492c",
+  "data/pbmc3k/filtered_gene_bc_matrices/hg19/barcodes.tsv": "58c2a224a2b4258f7e8799a18890bda6d23824b247b80db2b08a0dcc36a4c660",
+  "data/pbmc3k/filtered_gene_bc_matrices/hg19/matrix.mtx": "7d92358b9d29128a225c50f2a662d6ccca9c71bc665e0af82692ed1361eb94e4",
+  "environment/biolearn-py.linux-64.explicit.txt": "26a7533cc7bd0d899ad75bb2d6bf270fdeac18f278658c2be9dfaf15ebda6849",
+  "environment/biolearn-container.linux-64.explicit.txt": "a1f87a86b4a3332a8a20f16812f34c419c2ff650de35e6dc415f6f14e3fd58b2",
+  "environment/biolearn-r.linux-64.explicit.txt": "fac88ad76cd73701d8df52a33623ecb0e335c9fd08863e65580a18ccd5a19eff",
+  "environment/biolearn-doclib.linux-64.explicit.txt": "ac58f64487fb8a7fb05868d713f26d191126c938571a62bf204629fc88e6f740",
+  "environment/biolearn-workflow.linux-64.explicit.txt": "00139e2a283d647dc6c47622fa44ae7989135053638174e885ea2dbe8c134b10",
+  "environment/validation-venv/pyvenv.cfg": "1e667ea1874aee0d794caf092ef512a0ee2ea04fa454923c99e9eb580890b2f7",
+  "environment/validation-extra-requirements.txt": "704e2bd7cd0fb8f88ef427320475412816c344332aa2ca63822f843a4f848288"
+}

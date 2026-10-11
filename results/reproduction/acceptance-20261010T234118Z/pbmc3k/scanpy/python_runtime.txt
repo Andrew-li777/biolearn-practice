@@ -1,0 +1,2 @@
+3.11.17 (main, Oct  7 2026, 00:02:24) [GCC 15.3.0]
+/home/a/miniforge3/envs/biolearn-py/bin/python

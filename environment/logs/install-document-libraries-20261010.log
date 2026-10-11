@@ -1,0 +1,133 @@
+Using Cached Shard Index for conda-forge/linux-64                                                   ✔ Done
+Using Cached Shard Index for conda-forge/noarch                                                     ✔ Done
+Fetching and Parsing Packages' Shards                                                           ⧖ Starting
+Fetching and Parsing Packages' Shards                                                     ✔ Done (5.5 sec)
+
+Resolving Environment                                                                           ⧖ Starting
+Resolving Environment                                                                     ✔ Done (0.2 sec)
+
+Transaction
+
+  Prefix: /home/a/miniforge3/envs/biolearn-doclib
+
+  Updating specs:
+
+   - nss
+   - nspr
+   - atk-1.0
+   - at-spi2-atk
+   - xorg-libxcomposite
+   - xorg-libxdamage
+   - xorg-libxfixes
+   - xorg-libxrandr
+   - libgbm
+   - alsa-lib
+
+
+  Package                Version  Build          Channel           Size
+─────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────
+
+  + _openmp_mutex            4.5  20_gnu         conda-forge     Cached
+  + alsa-lib            1.2.16.1  h7cc23a3_1     conda-forge     Cached
+  + at-spi2-atk           2.38.0  h0630a04_3     conda-forge      340kB
+  + at-spi2-core          2.40.3  h0630a04_0     conda-forge      658kB
+  + atk-1.0               2.38.0  h04ea711_2     conda-forge      356kB
+  + bzip2                  1.0.8  hda65f42_10    conda-forge     Cached
+  + dbus                  1.16.2  he8c428d_2     conda-forge      450kB
+  + libdrm               2.4.129  h7cc23a3_0     conda-forge      313kB
+  + libexpat               2.8.5  hd2095e1_0     conda-forge     Cached
+  + libffi                 3.7.0  h81df57d_1     conda-forge     Cached
+  + libgbm                 1.0.9  hee9eb32_0     conda-forge       34kB
+  + libgcc                16.2.0  ha9f2e26_7     conda-forge     Cached
+  + libgcc-ng             16.2.0  h69a702a_7     conda-forge     Cached
+  + libglib               2.90.0  h569388d_0     conda-forge     Cached
+  + libgomp               16.2.0  he0feb66_7     conda-forge     Cached
+  + libiconv                1.18  h0cb94f2_3     conda-forge     Cached
+  + libpciaccess            0.19  hb03c661_1     conda-forge       30kB
+  + libsqlite             3.54.0  h0737f62_101   conda-forge      979kB
+  + libstdcxx             16.2.0  h934c35e_7     conda-forge     Cached
+  + libstdcxx-ng          16.2.0  hdf11a46_7     conda-forge     Cached
+  + libxcb                1.17.0  hb83e432_2     conda-forge     Cached
+  + libzlib                1.3.2  h25fd6f3_3     conda-forge     Cached
+  + nspr                    4.40  h29cc59b_0     conda-forge      231kB
+  + nss                    3.118  h445c969_0     conda-forge        2MB
+  + pcre2                  10.47  h8b3dc9c_1     conda-forge     Cached
+  + pthread-stubs            0.4  h7cc23a3_1004  conda-forge     Cached
+  + xorg-libx11           1.8.13  he1eb515_1     conda-forge     Cached
+  + xorg-libxau           1.0.12  h7cc23a3_2     conda-forge     Cached
+  + xorg-libxcomposite     0.4.7  hb03c661_0     conda-forge       14kB
+  + xorg-libxdamage        1.1.6  hb9d3cd8_0     conda-forge       13kB
+  + xorg-libxdmcp          1.1.5  h7cc23a3_2     conda-forge     Cached
+  + xorg-libxext           1.3.7  h7cc23a3_1     conda-forge     Cached
+  + xorg-libxfixes         6.0.2  h7cc23a3_1     conda-forge     Cached
+  + xorg-libxi             1.8.3  h7cc23a3_1     conda-forge     Cached
+  + xorg-libxrandr         1.5.5  h7cc23a3_1     conda-forge     Cached
+  + xorg-libxrender       0.9.12  hb03c661_1     conda-forge     Cached
+  + xorg-libxtst           1.2.5  h7cc23a3_4     conda-forge     Cached
+
+  Summary:
+
+  Install: 37 packages
+
+  Total download: 5MB
+
+─────────────────────────────────────────────────────────────────────────
+
+
+warning  libmamba Security Warning: This transaction includes executing package scripts (pre/post-link/unlink) if present. These scripts can contain arbitrary code. Please ensure you trust the package sources.
+
+Transaction starting
+warning  libmamba Download error (56) Failure when receiving data from the peer [https://conda.anaconda.org/conda-forge/linux-64/atk-1.0-2.38.0-h04ea711_2.conda]
+    OpenSSL SSL_read: OpenSSL/3.6.4: error:0A0001BB:SSL routines::bad record type, errno 0
+warning  libmamba Retrying in 2 seconds
+Linking libzlib-1.3.2-h25fd6f3_3
+Linking libgomp-16.2.0-he0feb66_7
+Linking _openmp_mutex-4.5-20_gnu
+Linking libgcc-16.2.0-ha9f2e26_7
+Linking xorg-libxau-1.0.12-h7cc23a3_2
+Linking xorg-libxdmcp-1.1.5-h7cc23a3_2
+Linking libexpat-2.8.5-hd2095e1_0
+Linking bzip2-1.0.8-hda65f42_10
+Linking libsqlite-3.54.0-h0737f62_101
+Linking libiconv-1.18-h0cb94f2_3
+Linking libffi-3.7.0-h81df57d_1
+Linking libpciaccess-0.19-hb03c661_1
+Linking pthread-stubs-0.4-h7cc23a3_1004
+Linking libstdcxx-16.2.0-h934c35e_7
+Linking libgcc-ng-16.2.0-h69a702a_7
+Linking alsa-lib-1.2.16.1-h7cc23a3_1
+Linking pcre2-10.47-h8b3dc9c_1
+Linking libdrm-2.4.129-h7cc23a3_0
+Linking libxcb-1.17.0-hb83e432_2
+Linking libstdcxx-ng-16.2.0-hdf11a46_7
+Linking nspr-4.40-h29cc59b_0
+Linking libglib-2.90.0-h569388d_0
+Linking libgbm-1.0.9-hee9eb32_0
+Linking xorg-libx11-1.8.13-he1eb515_1
+Linking nss-3.118-h445c969_0
+Linking dbus-1.16.2-he8c428d_2
+Linking atk-1.0-2.38.0-h04ea711_2
+Linking xorg-libxrender-0.9.12-hb03c661_1
+Linking xorg-libxext-1.3.7-h7cc23a3_1
+Linking xorg-libxfixes-6.0.2-h7cc23a3_1
+Linking xorg-libxrandr-1.5.5-h7cc23a3_1
+Linking xorg-libxi-1.8.3-h7cc23a3_1
+Linking xorg-libxdamage-1.1.6-hb9d3cd8_0
+Linking xorg-libxcomposite-0.4.7-hb03c661_0
+Linking xorg-libxtst-1.2.5-h7cc23a3_4
+Linking at-spi2-core-2.40.3-h0630a04_0
+Linking at-spi2-atk-2.38.0-h0630a04_3
+
+Transaction finished
+
+
+To activate this environment, use:
+
+    mamba activate biolearn-doclib
+
+Or to execute a single command in this environment, use:
+
+    mamba run -n biolearn-doclib mycommand
+

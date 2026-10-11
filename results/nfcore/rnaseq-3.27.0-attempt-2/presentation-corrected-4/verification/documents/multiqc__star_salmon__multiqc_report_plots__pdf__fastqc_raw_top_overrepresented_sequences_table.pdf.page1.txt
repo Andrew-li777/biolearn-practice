@@ -1,0 +1,24 @@
+0
+1
+2
+3
+4
+5
+Reports  
+0
+200
+400
+600
+800
+1000
+1200
+Occurrences  
+0%
+20%
+40%
+60%
+80%
+100%
+% of all reads  
+FastQC: Top overrepresented sequences
+ 20 samples 

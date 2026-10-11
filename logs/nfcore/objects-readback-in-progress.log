@@ -1,0 +1,4 @@
+Error in is.finite(m) : default method not implemented for type 'list'
+Calls: read_one -> stopifnot
+Execution halted
+ERROR conda.cli.main_run:execute(148): `conda run Rscript scripts/verify_nfcore_objects.R results/nfcore/rnaseq-3.27.0-attempt-2 results/nfcore/rnaseq-3.27.0-attempt-2/verification/objects-readback-in-progress.json` failed. (See above for error)

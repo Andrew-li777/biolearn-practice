@@ -1,0 +1,5 @@
+Imported docker.io/curlimages/curl:8.10.1 source_digest=sha256:d9b4541e214bcd85196d6e92e2753ac6d0ea699f0af5741f8c6cccbfcf00ef4b
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1335  100  1335    0     0   1269      0  0:00:01  0:00:01 --:--:--  1270
+http_code=200 bytes=1335

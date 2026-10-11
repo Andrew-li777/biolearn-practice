@@ -1,0 +1,22 @@
+Sample	RAP1_IAA_30M_REP1	RAP1_UNINDUCED_REP1	RAP1_UNINDUCED_REP2	WT_REP1	WT_REP2
+aqhist					
+bbsplit	{'data': {'primary': [99.60033, 9.84157, 0.00201, 0.000109, 99184, 2, 99184, 9841570], 'human': [0.0, 0.0, 0.00201, 0.000109, 0, 2, 2, 109]}, 'kv': {}}	{'data': {'primary': [97.19426, 4.810283, 0.0, 0.0, 48567, 0, 48567, 4810283]}, 'kv': {}}	{'data': {'primary': [97.68233, 9.682041, 0.0, 0.0, 97654, 0, 97654, 9682041], 'human': [0.001, 2.6e-05, 0.0, 0.0, 1, 0, 1, 26]}, 'kv': {}}	{'data': {'primary': [99.65751, 19.671757, 0.0, 0.0, 198450, 0, 198450, 19671757]}, 'kv': {}}	{'data': {'primary': [99.57797, 9.81732, 0.00201, 0.00012, 99100, 2, 99100, 9817320], 'human': [0.0, 0.0, 0.00201, 0.00012, 0, 2, 2, 120]}, 'kv': {}}
+bhist					
+bincov					
+bqhist					
+covhist					
+covstats					
+ehist					
+gchist					
+idhist					
+ihist					
+indelhist					
+lhist					
+mhist					
+qahist					
+qchist					
+qhist					
+rpkm					
+stats					
+statsfile					
+statsfile_machine					

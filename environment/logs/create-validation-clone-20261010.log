@@ -1,0 +1,18 @@
+Retrieving notices: ...working... done
+
+CondaSSLError: Encountered an SSL error. Most likely a certificate verification issue.
+
+Exception: [SSL: RECORD_LAYER_FAILURE] record layer failure (_ssl.c:2713)
+
+
+CondaSSLError: Encountered an SSL error. Most likely a certificate verification issue.
+
+Exception: [SSL: RECORD_LAYER_FAILURE] record layer failure (_ssl.c:2713)
+
+
+Source:      /home/a/miniforge3/envs/biolearn-py
+Destination: /home/a/miniforge3/envs/biolearn-validation
+Packages: 285
+Files: 89
+
+Downloading and Extracting Packages: ...working... done

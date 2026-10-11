@@ -1,0 +1,211 @@
+barcode,true_label,prediction
+CTTCACCTGTCTAG-4,B cells,B cells
+CCCTTACTGTTAGC-7,Dendritic cells,Monocytes
+AGTAAGGATTTACC-1,B cells,B cells
+TTACAGCTTGGAGG-5,Monocytes,Monocytes
+TAGAGAGATCGTGA-5,Dendritic cells,Dendritic cells
+AGGGTGGACAGCTA-8,CD8 T,CD8 T
+ACTAAAACGGAAAT-4,Dendritic cells,Monocytes
+GTCACCTGTGGGAG-8,CD34+ (not a primary PBMC3k class),CD34+ (not a primary PBMC3k class)
+ATGCAGACAAGGCG-3,CD4 T,CD4 T
+AAGTAACTACGCAT-2,B cells,B cells
+TTGTAGCTCAAAGA-6,CD8 T,CD8 T
+AGAGAATGTCACCC-7,CD8 T,CD8 T
+GTACGTGAGGTAAA-4,Monocytes,Monocytes
+CGGATAACGGTGGA-2,CD4 T,CD4 T
+ACGGATTGGCTGAT-4,Monocytes,Monocytes
+AAGATGGAGTGTTG-4,B cells,B cells
+GAAGTCACTGTCGA-4,Dendritic cells,Dendritic cells
+TCAATCACCCTTCG-8,B cells,B cells
+ATTCGGGATAACGC-5,Dendritic cells,Dendritic cells
+CAAGGTTGGAGGCA-4,Dendritic cells,Dendritic cells
+AGCTGTGAAGCAAA-5,Dendritic cells,Dendritic cells
+CAGATGACGAGGTG-2,Monocytes,Monocytes
+GCCGACGACCTTCG-1,CD8 T,CD8 T
+TGGAGACTAGTAGA-8,Monocytes,Monocytes
+ACCTTTGAGGATTC-5,CD8 T,CD8 T
+TGAGCAACTCGTTT-4,Dendritic cells,Dendritic cells
+AGTTCTACTTCCGC-4,Dendritic cells,Dendritic cells
+GTTCAGGAACCAGT-4,Dendritic cells,Monocytes
+TATAGATGAGCTCA-2,Dendritic cells,Dendritic cells
+TTCCTAGAGACAGG-6,Dendritic cells,CD8 T
+CATCTCCTAGCGTT-1,CD4 T,CD4 T
+AACACGTGGTCTTT-1,NK cells,NK cells
+CTGAAGACATCTCT-7,B cells,B cells
+TGGACCCTCAGCTA-5,NK cells,CD8 T
+GTGGTAACACCCAA-8,B cells,B cells
+CTGAATCTAGGTTC-2,CD8 T,CD4 T
+CTTTAGTGCTCTTA-5,CD8 T,CD8 T
+GACAACTGCGGGAA-7,CD4 T,CD4 T
+CTCCATCTAGCCAT-2,Dendritic cells,Monocytes
+ATGAGAGAATCTCT-4,NK cells,NK cells
+CAAGACTGATTCTC-7,B cells,B cells
+CTACCTCTCCCTCA-6,B cells,B cells
+AAGTGCACGTGCTA-1,CD4 T,CD4 T
+GGTATGACGAATCC-8,B cells,B cells
+TAGGTTCTGACACT-3,Dendritic cells,Dendritic cells
+TAGAAACTTAGAAG-1,CD4 T,CD8 T
+TGATTCACGGGATG-7,NK cells,NK cells
+TAATGAACATGACC-7,CD4 T,CD4 T
+TGGATCGAACCATG-4,Monocytes,Monocytes
+CTACGCACAGGGTG-3,CD4 T,CD4 T
+TAGGTTCTGTACCA-1,Dendritic cells,Dendritic cells
+ATTACCTGGACACT-5,Dendritic cells,Dendritic cells
+GATGACACCAGATC-4,CD4 T,CD4 T
+TACCGCTGTCTTAC-1,Dendritic cells,Dendritic cells
+CCGAAAACACTAGC-4,CD4 T,B cells
+TATAGCCTTTCAGG-8,CD8 T,CD8 T
+GAGGATCTGGAGGT-1,Monocytes,Monocytes
+AGAAAGTGTGAACC-1,CD8 T,CD8 T
+GGTATCGATAAGGA-8,Monocytes,Dendritic cells
+TTATGAGATGTGAC-6,Dendritic cells,Dendritic cells
+CAAGACTGATGCCA-2,CD4 T,CD4 T
+TCATTGACACTTTC-2,Monocytes,Monocytes
+GCCGGAACCTGACA-1,Monocytes,Monocytes
+GGATTTCTTGGAGG-1,Monocytes,Monocytes
+TAGATCCTGGGCAA-2,B cells,B cells
+ATGTAAACTTTCGT-1,CD4 T,CD4 T
+TAAACAACTACTTC-1,NK cells,CD8 T
+TAAGAACTTCCCAC-8,B cells,B cells
+GCTGATGATTTACC-8,Monocytes,Monocytes
+CGAGGCACCCAACA-3,Monocytes,Monocytes
+AACGCCCTTGTAGC-5,B cells,B cells
+GGGAAGTGCAGGAG-3,CD8 T,CD8 T
+AAGCAAGATGTCCC-8,B cells,B cells
+ATACCTACTGAACC-7,Dendritic cells,Dendritic cells
+CTGAACGATCAGAC-7,Monocytes,Monocytes
+TGTAGGTGGGTCAT-6,B cells,B cells
+GTAGCTGAGGAACG-8,B cells,B cells
+GCACGGACTTGCAG-7,CD8 T,CD8 T
+AAACGCACCTATGG-7,CD4 T,CD4 T
+ATTGATGACAGAGG-5,Monocytes,Monocytes
+GACCAAACGTTGCA-7,B cells,B cells
+ACGTTTACAGAATG-7,Dendritic cells,Dendritic cells
+CTAGGTGACCGCTT-3,CD4 T,CD4 T
+AGCAAGCTCATCAG-2,Monocytes,Monocytes
+CCATATACCTCTTA-5,CD4 T,CD8 T
+TTTCTACTGGTCTA-7,Dendritic cells,Monocytes
+TAATCGCTCATTCT-4,Monocytes,Monocytes
+TGTATGCTACGCTA-5,Dendritic cells,Dendritic cells
+ATTCGGGAACTACG-8,B cells,B cells
+TATGTCTGTTCCCG-5,CD34+ (not a primary PBMC3k class),CD34+ (not a primary PBMC3k class)
+AACGTCGAACGTGT-5,Dendritic cells,Dendritic cells
+ACTAAAACCATTCT-8,CD8 T,CD4 T
+AACCGATGCGTACA-6,B cells,B cells
+ACGCCGGAAGCCTA-6,CD8 T,CD8 T
+TGTAATGAACTTTC-3,CD4 T,CD4 T
+CCTAGAGATACAGC-4,NK cells,CD8 T
+AAGTGCACCATGGT-8,Dendritic cells,Monocytes
+GCATCAGAAGGTCT-3,B cells,B cells
+ATTTCCGACATGAC-3,CD8 T,CD8 T
+AATCCTTGCCTTCG-2,Dendritic cells,Dendritic cells
+GTGATGACTGGGAG-4,CD4 T,CD4 T
+ATGGGTACCTGGTA-1,CD8 T,CD8 T
+CTATCAACCCTCCA-5,B cells,B cells
+TTCTACGACAGAGG-4,CD4 T,CD4 T
+GACCATGACTAAGC-3,Monocytes,Monocytes
+GCTTAACTTCCAGA-1,Dendritic cells,Monocytes
+GGAATCTGCGACTA-1,Dendritic cells,Dendritic cells
+CACTTTGAAGGTTC-5,Dendritic cells,Dendritic cells
+ACGGAACTAGTCGT-7,Monocytes,Monocytes
+GGCTAAACTCTTTG-5,CD4 T,CD4 T
+CTTGAACTTGTGCA-8,Monocytes,Monocytes
+GTGATTCTGTTACG-2,Monocytes,Monocytes
+CTGCAGCTTTCGGA-5,Dendritic cells,Dendritic cells
+AACAGCACGCTGTA-6,Dendritic cells,Dendritic cells
+GGCTAATGTAGAAG-6,CD4 T,CD4 T
+GCAATTCTGACGAG-1,Dendritic cells,Dendritic cells
+TATACAGAGGTATC-6,Dendritic cells,Dendritic cells
+GCAGCTCTGCAGTT-1,Dendritic cells,Dendritic cells
+TGCGTAGACTGTGA-3,CD4 T,CD8 T
+TGAGCTGAGTAGGG-1,CD8 T,CD8 T
+GAGGGTGACCTATT-1,CD4 T,CD4 T
+CAACGATGCACTGA-7,Dendritic cells,Dendritic cells
+ATGTTGCTGGGCAA-7,Monocytes,Monocytes
+ATTTCGTGGACTAC-2,CD8 T,CD8 T
+TGGTATCTTATCTC-7,Dendritic cells,Dendritic cells
+CGGCGATGCGGTAT-7,Monocytes,Monocytes
+CTATAGCTGTTCGA-3,CD8 T,CD8 T
+AATCTAGAGTTGCA-3,Dendritic cells,Dendritic cells
+ACTGGCCTCGAATC-8,Dendritic cells,Monocytes
+TCTGATACTGCACA-1,Dendritic cells,Monocytes
+CTAGGATGACGACT-2,Dendritic cells,Dendritic cells
+TCAATAGATCTCGC-3,CD8 T,CD8 T
+GGTATCGACTCGAA-1,Dendritic cells,Monocytes
+GTCCCATGTTCGTT-1,Dendritic cells,Dendritic cells
+CTTTAGTGGTTACG-6,B cells,B cells
+ACCAGCCTCTCTAT-2,Dendritic cells,Dendritic cells
+TAGCCCACTTTCTG-8,Dendritic cells,Dendritic cells
+TCTAACTGGCTATG-4,Dendritic cells,Dendritic cells
+GCCTGACTAGCATC-4,NK cells,CD8 T
+TAAGTAACAACTGC-3,B cells,B cells
+AACCGCCTTATCTC-5,Dendritic cells,Dendritic cells
+GCGCATCTACCGAT-6,Dendritic cells,Dendritic cells
+CTGCAGCTGTACGT-4,Monocytes,Monocytes
+CGTGAATGACGACT-6,Monocytes,Monocytes
+AGGCAACTTGGTAC-3,Dendritic cells,Monocytes
+ATACCGGATCCGAA-4,NK cells,CD8 T
+AATCTCACTGATGC-2,CD8 T,B cells
+AGTGACACCAGTTG-8,Dendritic cells,Monocytes
+AGTTAAACAAACAG-1,B cells,B cells
+AACCAGTGGGTATC-3,B cells,B cells
+TAAGAACTGCTCCT-1,Dendritic cells,Dendritic cells
+GAACTGTGAACTGC-7,CD34+ (not a primary PBMC3k class),CD34+ (not a primary PBMC3k class)
+ATTCGGGAAGCATC-6,Monocytes,Monocytes
+ATTGAAACAGATCC-6,Monocytes,Monocytes
+GACTTTACAGGTTC-2,CD34+ (not a primary PBMC3k class),CD34+ (not a primary PBMC3k class)
+CGCAGGTGACGTAC-6,CD8 T,CD8 T
+ACCCGTACCTCGAA-4,Dendritic cells,Dendritic cells
+CGATCCACGAGATA-7,Dendritic cells,Dendritic cells
+TGACTTACGGTCTA-8,B cells,B cells
+TAACTAGATGTCTT-6,CD8 T,Monocytes
+TCTAACACAACCGT-4,Monocytes,Monocytes
+GTGAACACAGGTTC-7,Dendritic cells,Dendritic cells
+CCTCTACTGTTCTT-6,NK cells,NK cells
+ACCGCGGACTACCC-8,CD8 T,CD8 T
+AGCCTCTGTGTCAG-7,Dendritic cells,Dendritic cells
+CTCAGCTGGGCGAA-8,Dendritic cells,Dendritic cells
+TAAGCTCTACCCTC-6,Dendritic cells,Dendritic cells
+CACACCTGTGGATC-6,CD8 T,CD8 T
+AATATCGAAAGGCG-5,CD8 T,CD8 T
+TAATCCACTCCTCG-4,CD4 T,CD4 T
+CACCCATGTGCGTA-6,Dendritic cells,Dendritic cells
+ATGTCGGAGTCGAT-6,Dendritic cells,Dendritic cells
+AGGCAACTGAGCAG-6,Monocytes,Monocytes
+CACCGTACGCTGTA-1,Dendritic cells,Dendritic cells
+GTGTCAGATCTACT-6,Monocytes,Monocytes
+CTAAACCTCACTCC-5,B cells,B cells
+TACTTTCTAGAGAT-8,Monocytes,Monocytes
+AGCCTCACCCTCGT-7,Dendritic cells,Dendritic cells
+GGACTATGCTCTAT-4,CD8 T,CD8 T
+CGAGGCACCCACCT-2,Monocytes,Monocytes
+GGGCACACGGAGTG-2,Dendritic cells,Dendritic cells
+CGCAAATGTGCTAG-8,Monocytes,Monocytes
+AACCACGACGTTGA-3,Dendritic cells,Monocytes
+TATGTGCTGTAGGG-7,Monocytes,Monocytes
+ATTAGATGGGGAGT-1,Dendritic cells,Monocytes
+TTGATCTGCTTAGG-2,B cells,B cells
+ATGAAGGATGCAGT-2,Dendritic cells,Dendritic cells
+TGCAACGACTTGGA-7,Dendritic cells,Dendritic cells
+CATGTACTCCTTGC-8,Dendritic cells,Dendritic cells
+CATGGATGTACTCT-2,Dendritic cells,Dendritic cells
+CTGATACTTCGACA-2,CD4 T,CD4 T
+AGCGGCACCTGTGA-6,CD8 T,CD8 T
+ATTGCACTTCAGTG-2,CD8 T,CD4 T
+GGAAGGACTAAGCC-6,B cells,B cells
+ACAAGAGACCTTGC-6,CD8 T,B cells
+TGTCAGGATGGTGT-6,CD4 T,CD8 T
+AACTCTTGCATGGT-7,Monocytes,Monocytes
+GCCGACGATGCTTT-8,Dendritic cells,Dendritic cells
+TTCCTAGACAGAGG-4,Dendritic cells,Dendritic cells
+GAACGGGACCACAA-7,CD4 T,CD4 T
+AAACGGCTAGCAAA-2,Monocytes,Dendritic cells
+ACCCTCGAGTGAGG-1,Dendritic cells,Dendritic cells
+AATACTGACGTGAT-5,CD4 T,CD4 T
+TGACTTACCTCTTA-6,Monocytes,Monocytes
+GACGAGGATGACAC-7,Monocytes,Monocytes
+TAACATGACTTGAG-1,Dendritic cells,Dendritic cells
+TACATCACGTCGTA-4,Dendritic cells,Dendritic cells
+TATCAGCTATGTCG-5,Monocytes,Monocytes
+ATTTCTCTTGCACA-6,Dendritic cells,Dendritic cells
+TGGATGACATGTGC-3,CD4 T,CD4 T

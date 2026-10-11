@@ -1,0 +1,40 @@
+check,status,detail
+input sample alignment,PASS,63677 genes x 8 samples
+raw nonnegative integer counts,PASS,raw counts; no TPM/FPKM
+paired donor design,PASS,"{'trt': {'N052611': 1, 'N061011': 1, 'N080611': 1, 'N61311': 1}, 'untrt': {'N052611': 1, 'N061011': 1, 'N080611': 1, 'N61311': 1}}"
+full-rank design r_design_matrix.csv,PASS,8 x 5
+full-rank design python_design_matrix.csv,PASS,8 x 5
+deseq2 unique genes,PASS,16596
+deseq2 schema,PASS,"['symbol', 'baseMean', 'log2FC', 'lfcSE', 'stat', 'pvalue', 'padj', 'significant']"
+deseq2 pvalue validity,PASS,16596 valid; 0 missing
+deseq2 padj validity,PASS,16596 valid; 0 missing
+deseq2 finite LFC,PASS,16596
+deseq2 significance derived from padj,PASS,FDR < 0.1; no LFC threshold
+deseq2 prefilter matches table,PASS,16596
+deseq2 prescribed prefilter,PASS,at least 3 samples with count >= 10
+edger unique genes,PASS,16860
+edger schema,PASS,"['symbol', 'log2FC', 'logCPM', 'F', 'pvalue', 'padj', 'significant']"
+edger pvalue validity,PASS,16860 valid; 0 missing
+edger padj validity,PASS,16860 valid; 0 missing
+edger finite LFC,PASS,16860
+edger significance derived from padj,PASS,FDR < 0.1; no LFC threshold
+edger prefilter matches table,PASS,16860
+pydeseq2 unique genes,PASS,16596
+pydeseq2 schema,PASS,"['symbol', 'baseMean', 'log2FC', 'lfcSE', 'stat', 'pvalue', 'padj', 'significant']"
+pydeseq2 pvalue validity,PASS,16596 valid; 0 missing
+pydeseq2 padj validity,PASS,16596 valid; 0 missing
+pydeseq2 finite LFC,PASS,16596
+pydeseq2 significance derived from padj,PASS,FDR < 0.1; no LFC threshold
+pydeseq2 prefilter matches table,PASS,16596
+pydeseq2 prescribed prefilter,PASS,at least 3 samples with count >= 10
+DESeq2 / PyDESeq2 identical prefilter,PASS,16596
+apeglm preserves testing results,PASS,unshrunk testing and shrunk plotting kept separate
+figure pca.png,PASS,PNG decoded successfully
+figure sample_distance.png,PASS,PNG decoded successfully
+figure ma_plot.png,PASS,PNG decoded successfully
+figure ma_unshrunk.png,PASS,PNG decoded successfully
+figure volcano.png,PASS,PNG decoded successfully
+figure top30_heatmap.png,PASS,PNG decoded successfully
+sample distances,PASS,"symmetric, aligned, zero diagonal"
+heatmap source,PASS,top30 VST matrix saved
+all analysis stages exited zero,PASS,"[{'stage': 'deseq2', 'exit': 0}, {'stage': 'edger', 'exit': 0}, {'stage': 'pydeseq2', 'exit': 0}]"

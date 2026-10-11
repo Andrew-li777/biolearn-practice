@@ -1,0 +1,20 @@
+{
+  "checked_at_utc": "2026-10-10T23:23:46.578079+00:00",
+  "pipeline": "nf-core/rnaseq",
+  "version": "3.27.0",
+  "commit": "a1fcdddd3b826fe46eb46f0479f2ff8a7815af05",
+  "profile": "test,docker",
+  "exit_code": 0,
+  "multiqc_reports": [
+    "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report.html"
+  ],
+  "trace_rows": 234,
+  "trace_status_counts": {
+    "COMPLETED": 234
+  },
+  "unresolved_tasks": [],
+  "completed": true,
+  "scope": "Official small test dataset; NOT a reproduction of airway original FASTQ.",
+  "blocker": null,
+  "state": "completed"
+}

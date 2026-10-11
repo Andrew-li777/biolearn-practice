@@ -1,0 +1,2266 @@
+{
+  "declared_total": 217,
+  "total_files": 232,
+  "readable": 232,
+  "inventory": [
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/acceptance.md",
+      "declared": true,
+      "bytes": 7573,
+      "sha256": "8757c488c3ffe2ea2b7ed80befede903bac896f3636fb06310f382caf803e140",
+      "reader": "UTF-8 text",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/acceptance_checks.csv",
+      "declared": true,
+      "bytes": 2339,
+      "sha256": "04ec9f2ce9c5a35c4925c2d2ebfd7bb6f773b29e1407382ffb4e52ae5210d84f",
+      "reader": "pandas CSV",
+      "rows": 39,
+      "columns": 3,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/airway_coldata.csv",
+      "declared": true,
+      "bytes": 254,
+      "sha256": "c5c3c152699ff33a3b3f4713d1fc51b9032e1045a713fb50b79de45cb5349479",
+      "reader": "pandas CSV",
+      "rows": 8,
+      "columns": 3,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/airway_counts.csv",
+      "declared": true,
+      "bytes": 2415056,
+      "sha256": "940cb4ce486af9269cc9731b34230d18a3262979e73b4d6ea5257fd5421d8fd8",
+      "reader": "pandas CSV",
+      "rows": 63677,
+      "columns": 9,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/analysis_summary.csv",
+      "declared": true,
+      "bytes": 267,
+      "sha256": "26abb660ee625d7e6716e3530f3841659ebe5419a60ca886344cce338b6901cd",
+      "reader": "pandas CSV",
+      "rows": 3,
+      "columns": 10,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/bulk-methods.md",
+      "declared": true,
+      "bytes": 6052,
+      "sha256": "a8f35760ff2dae23ff8149587587f855d82f4ee34112a26d7f06159f5caed895",
+      "reader": "UTF-8 text",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/comparison_deseq2_vs_edger.csv",
+      "declared": true,
+      "bytes": 1482543,
+      "sha256": "f89195593bb0f507181610cae440fc5b6a2078d3659657e7be8f3ee5c81860f6",
+      "reader": "pandas CSV",
+      "rows": 16493,
+      "columns": 5,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/comparison_deseq2_vs_pydeseq2.csv",
+      "declared": true,
+      "bytes": 1519745,
+      "sha256": "00a126d7d8c7b938c7ea141e4ec5c99e3ce3bdbdbb5aeb2b2d066498b1be80f8",
+      "reader": "pandas CSV",
+      "rows": 16596,
+      "columns": 5,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/comparison_edger_vs_pydeseq2.csv",
+      "declared": true,
+      "bytes": 1508720,
+      "sha256": "bc38341d5433811c232d631dd118d4824664a540a6ab1d68503d29da59df670e",
+      "reader": "pandas CSV",
+      "rows": 16493,
+      "columns": 5,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/comparisons.csv",
+      "declared": true,
+      "bytes": 921,
+      "sha256": "ff499439efac0bb3f2c3d729dd43ec2d2b4e63e0ac18b0023d25b89e98ba3d2e",
+      "reader": "pandas CSV",
+      "rows": 3,
+      "columns": 19,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/deseq2_apeglm.csv",
+      "declared": true,
+      "bytes": 1527022,
+      "sha256": "c89a51a55d96194276ab487b066f31c6b6a5c3ec17bf0329f2bbc96e7d5100d7",
+      "reader": "pandas CSV",
+      "rows": 16596,
+      "columns": 5,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/deseq2_dispersions.csv",
+      "declared": true,
+      "bytes": 1134937,
+      "sha256": "fc8439368d5341242477babcc7aa336771aa98881f7f0b7332dc4503275efd28",
+      "reader": "pandas CSV",
+      "rows": 16596,
+      "columns": 4,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/deseq2_filter.csv",
+      "declared": true,
+      "bytes": 1511666,
+      "sha256": "be87a7ff83002ff8cd83aafbfec5a450d3b1591a55194e512eb4421502652607",
+      "reader": "pandas CSV",
+      "rows": 63677,
+      "columns": 2,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/deseq2_method.txt",
+      "declared": true,
+      "bytes": 479,
+      "sha256": "ce135ba3c38d52e8e6e3039d67742e1e19e7fae4354ae2af0dda6d3934c5658c",
+      "reader": "UTF-8 text",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/deseq2_normalized_counts.csv",
+      "declared": true,
+      "bytes": 2537520,
+      "sha256": "e880e3174acf367883e4de2b633bf948dbcd9115678b14c9737d8fb931554baa",
+      "reader": "pandas CSV",
+      "rows": 16596,
+      "columns": 9,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/deseq2_results.csv",
+      "declared": true,
+      "bytes": 2325180,
+      "sha256": "b889e5061ddea002bef0fafc99d85151e9ee9d99da7d26e7a4fa7325d50beae5",
+      "reader": "pandas CSV",
+      "rows": 16596,
+      "columns": 9,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/deseq2_results_metadata.txt",
+      "declared": true,
+      "bytes": 2704,
+      "sha256": "400b2c4ba0f3dd18641873eca6d6ed7b19049a0f87dc030f63646e6ffa6c8289",
+      "reader": "UTF-8 text",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/deseq2_significant.csv",
+      "declared": true,
+      "bytes": 674100,
+      "sha256": "1a93d6a974566efd0fb52e25d925330b6c311e05cc793e799aac0c0b6f1a985d",
+      "reader": "pandas CSV",
+      "rows": 4916,
+      "columns": 9,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/deseq2_size_factors.csv",
+      "declared": true,
+      "bytes": 267,
+      "sha256": "bb4026450ed09c18ed56210189b8f548163cf5774bbaec5846601d48974cc62d",
+      "reader": "pandas CSV",
+      "rows": 8,
+      "columns": 2,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/deseq2_top20.csv",
+      "declared": true,
+      "bytes": 2940,
+      "sha256": "28f1bb400a6e876397e65f4e7e7871eca5546ca1d4963ae77268405c5dca1236",
+      "reader": "pandas CSV",
+      "rows": 20,
+      "columns": 9,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/edger_filter.csv",
+      "declared": true,
+      "bytes": 1511402,
+      "sha256": "db439e62ce1e43e71047daaeabd82701ae086d372c818b9b63a0dd80e5b80646",
+      "reader": "pandas CSV",
+      "rows": 63677,
+      "columns": 2,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/edger_method.txt",
+      "declared": true,
+      "bytes": 590,
+      "sha256": "cf484ffac2662165ae1a4118685b66c66c73ed5c660c6d3ea217b66d10b30105",
+      "reader": "UTF-8 text",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/edger_normalization.csv",
+      "declared": true,
+      "bytes": 552,
+      "sha256": "a1264c253d7ae60f9803379a22bb3ad930d878998cbed434b658ae7d8b036a7b",
+      "reader": "pandas CSV",
+      "rows": 8,
+      "columns": 5,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/edger_results.csv",
+      "declared": true,
+      "bytes": 2054912,
+      "sha256": "2d9cc1bc648470e5a80f133ff560005a9a7705accbdf17d6cb223a1ee9b48abd",
+      "reader": "pandas CSV",
+      "rows": 16860,
+      "columns": 8,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/edger_significant.csv",
+      "declared": true,
+      "bytes": 770338,
+      "sha256": "a5ba97512f9448eb4ab881a31136bc3979a2de489aa2dcfe6f91040fddcd280c",
+      "reader": "pandas CSV",
+      "rows": 6550,
+      "columns": 8,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/environment/biolearn-py.linux-64.explicit.txt",
+      "declared": true,
+      "bytes": 23865,
+      "sha256": "26a7533cc7bd0d899ad75bb2d6bf270fdeac18f278658c2be9dfaf15ebda6849",
+      "reader": "UTF-8 text",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/environment/biolearn-py.packages.json",
+      "declared": true,
+      "bytes": 80459,
+      "sha256": "a899d60dcda0421c43f234d9e46109c952ab379958f5632b3742d01def64c3c3",
+      "reader": "JSON",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/environment/biolearn-py.resolved.yml",
+      "declared": true,
+      "bytes": 9849,
+      "sha256": "fd4beec9558a4f42bcea09b3fe6c67459a86de8fe31e7f762c4450be22c99981",
+      "reader": "YAML",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/environment/biolearn-r.linux-64.explicit.txt",
+      "declared": true,
+      "bytes": 25742,
+      "sha256": "fac88ad76cd73701d8df52a33623ecb0e335c9fd08863e65580a18ccd5a19eff",
+      "reader": "UTF-8 text",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/environment/biolearn-r.packages.json",
+      "declared": true,
+      "bytes": 86102,
+      "sha256": "114058a72d02228cd7e9a6b6ba0817f600c349e42037bc2f0055917a65a3e9bd",
+      "reader": "JSON",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/environment/biolearn-r.resolved.yml",
+      "declared": true,
+      "bytes": 10754,
+      "sha256": "9e34ea883491c72d27eafbb3466952b903b949a660c18c14bed1d7a58f3f3bd0",
+      "reader": "YAML",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/gene_annotation.csv",
+      "declared": true,
+      "bytes": 1575862,
+      "sha256": "f59a528d321626a4654fdc070baf340316448d553c18626a107b3c89c40b30db",
+      "reader": "pandas CSV",
+      "rows": 63677,
+      "columns": 2,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/logs/deseq2.log",
+      "declared": true,
+      "bytes": 1372,
+      "sha256": "794f828305a484e9975e0246ba571fc2cc92e4208aee10e56d6cc2601571ec32",
+      "reader": "UTF-8 text",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/logs/edger.log",
+      "declared": true,
+      "bytes": 426,
+      "sha256": "37c9c6b92bfde3f1966d1b9bb5ae6199d686402159697c14ac72218f7b502bb0",
+      "reader": "UTF-8 text",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/logs/exit-status.tsv",
+      "declared": true,
+      "bytes": 37,
+      "sha256": "2335e305c5d93a8aa5dd9832c221afee8cd03dfe32f1a07a38622d180f12425b",
+      "reader": "UTF-8 text",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/logs/pydeseq2.log",
+      "declared": true,
+      "bytes": 2099,
+      "sha256": "d54680b83bd78cb3abcc7223f9496de871504c62f196a81ecc3996e68a25838a",
+      "reader": "UTF-8 text",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/logs/report.log",
+      "declared": true,
+      "bytes": 2336,
+      "sha256": "577e5bcf2f06e6cdec5afdbd096f1d5940f70d791118d17fc045436d5ca4f091",
+      "reader": "UTF-8 text",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/ma_plot.png",
+      "declared": true,
+      "bytes": 51716,
+      "sha256": "f2c00a86cf3cc85abc275411ea366c9672db624ed126d38cc4c249feee6571d5",
+      "reader": "Pillow full decode",
+      "size": [
+        1200,
+        850
+      ],
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/ma_unshrunk.png",
+      "declared": true,
+      "bytes": 54595,
+      "sha256": "97bfa374f08e06308bffb243f3e11d29c62f6039b0f50bda7db930ac811f65b0",
+      "reader": "Pillow full decode",
+      "size": [
+        1200,
+        850
+      ],
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/overlap_all_three.csv",
+      "declared": true,
+      "bytes": 73781,
+      "sha256": "3311f1bc0f5d248f9678657d02965f323c328eb692058ebb5d3ccfbf2f4d8b40",
+      "reader": "pandas CSV",
+      "rows": 4611,
+      "columns": 1,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/overlap_deseq2_vs_edger.csv",
+      "declared": true,
+      "bytes": 78069,
+      "sha256": "d7b8f9be454bdaa7ad6377bf6c4f9386f49dd859efc10a89ca4cad28e0392249",
+      "reader": "pandas CSV",
+      "rows": 4879,
+      "columns": 1,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/overlap_deseq2_vs_pydeseq2.csv",
+      "declared": true,
+      "bytes": 74261,
+      "sha256": "2adfb9e299a446cd702d1ac031566fe12c29aebab4390693974f6e3ed8ca21e0",
+      "reader": "pandas CSV",
+      "rows": 4641,
+      "columns": 1,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/overlap_edger_vs_pydeseq2.csv",
+      "declared": true,
+      "bytes": 74165,
+      "sha256": "bd681aa965057242bc6b7bba22d301e1335648dc13993c1377d13f3b29c48e25",
+      "reader": "pandas CSV",
+      "rows": 4635,
+      "columns": 1,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/pca.png",
+      "declared": true,
+      "bytes": 57706,
+      "sha256": "041bf3aeb9392171130834b9319e85310fd12732b0d08562d24be5f851b84ca9",
+      "reader": "Pillow full decode",
+      "size": [
+        1280,
+        960
+      ],
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/pca_scores.csv",
+      "declared": true,
+      "bytes": 679,
+      "sha256": "6475e1347bedb4a7eab7bacc9a8d393e60e1b7479a43635911a2dad755dc4310",
+      "reader": "pandas CSV",
+      "rows": 8,
+      "columns": 6,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/pca_variance.csv",
+      "declared": true,
+      "bytes": 80,
+      "sha256": "179e1b4fa59e7c307439bf10339685b5e8dde2dc2360d2289fd16a502caa14d4",
+      "reader": "pandas CSV",
+      "rows": 2,
+      "columns": 2,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/pydeseq2_filter.csv",
+      "declared": true,
+      "bytes": 1384308,
+      "sha256": "b6f8f6d23a2d5edad06b08a1ca6184c1d747b122fff84f08b3febe7f1448ae88",
+      "reader": "pandas CSV",
+      "rows": 63677,
+      "columns": 2,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/pydeseq2_method.txt",
+      "declared": true,
+      "bytes": 505,
+      "sha256": "7ec704fe3d3ffb88609e7d5f89a46a0062f0881687fc89a5f2e6d87692d64258",
+      "reader": "UTF-8 text",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/pydeseq2_results.csv",
+      "declared": true,
+      "bytes": 2407132,
+      "sha256": "c6d176ad87ae40c3970b840f5f7cde6d533c5c834590b4faa2aedb420f3027b2",
+      "reader": "pandas CSV",
+      "rows": 16596,
+      "columns": 9,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/pydeseq2_significant.csv",
+      "declared": true,
+      "bytes": 668551,
+      "sha256": "d38b88e0195a95003dc79fe43cc62b1a16adda2c05ae0608a39cd26644668798",
+      "reader": "pandas CSV",
+      "rows": 4685,
+      "columns": 9,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/pydeseq2_size_factors.csv",
+      "declared": true,
+      "bytes": 259,
+      "sha256": "fb4d71c7f7efd4d03ebed3fc7c12b530c8fce081ae2105cc9042ba703caab805",
+      "reader": "pandas CSV",
+      "rows": 8,
+      "columns": 2,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/python_design_matrix.csv",
+      "declared": true,
+      "bytes": 253,
+      "sha256": "72bc85e856c82e7c59483a5376357d2f9b7b66993162de0a5d31f8be316dec46",
+      "reader": "pandas CSV",
+      "rows": 8,
+      "columns": 6,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/python_distribution_versions.json",
+      "declared": true,
+      "bytes": 4134,
+      "sha256": "aae7e0cfe194fe957dd45ca519e5092d7ddfc93586143273bb4803bfffe63adc",
+      "reader": "JSON",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/python_runtime.txt",
+      "declared": true,
+      "bytes": 1402,
+      "sha256": "12e02f491c6e9c303358b2a1cec932c22c81d3c7637b94770f749885b1df0fff",
+      "reader": "UTF-8 text",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/r_design_matrix.csv",
+      "declared": true,
+      "bytes": 251,
+      "sha256": "cba549fe426d842f178c3ff1309af077091989b8c7ab2046348d0ba9feaa55e4",
+      "reader": "pandas CSV",
+      "rows": 8,
+      "columns": 6,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/r_installed_packages.csv",
+      "declared": true,
+      "bytes": 5599,
+      "sha256": "878b52795b9bfdb36e0caf4bc2fde4f11741db97b21e427bf7e5f05dbb6803df",
+      "reader": "pandas CSV",
+      "rows": 208,
+      "columns": 3,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/reference_diagnostics.json",
+      "declared": true,
+      "bytes": 279,
+      "sha256": "0afdabd5e377e79838a5f74c9a42c0ee88acd1bd5c8c3a9cd25ed8a293d8c196",
+      "reader": "JSON",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/run-provenance.json",
+      "declared": true,
+      "bytes": 2620,
+      "sha256": "fa07b7ec847cc1d480520f6ca3f92bb2af5e60177e818a478e7411d36f880c23",
+      "reader": "JSON",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/sample_distance.csv",
+      "declared": true,
+      "bytes": 1171,
+      "sha256": "a472a8a853c5ab91757831b579979fb8e5142e17e6486ebb32be28a18b3db3d5",
+      "reader": "pandas CSV",
+      "rows": 8,
+      "columns": 9,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/sample_distance.png",
+      "declared": true,
+      "bytes": 159419,
+      "sha256": "ad288cde2430d0a0c41de59e2bf1999560eda39321cd03ba772b6de21db413fa",
+      "reader": "Pillow full decode",
+      "size": [
+        2400,
+        2100
+      ],
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/sample_pairing.csv",
+      "declared": true,
+      "bytes": 62,
+      "sha256": "9227220aa4ea0a3ed065fa4c39841b8309b3c15d11500acaf08ddb7a9c293edc",
+      "reader": "pandas CSV",
+      "rows": 4,
+      "columns": 3,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/scripts/01_bulk_deseq2.R",
+      "declared": false,
+      "bytes": 6376,
+      "sha256": "903f6a6e0cca553063a7a1f652d0c1f3fcd0f6db7c227294be9654ef9678f7cd",
+      "reader": "UTF-8 text",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/scripts/02_bulk_edger.R",
+      "declared": false,
+      "bytes": 2694,
+      "sha256": "bca9641908ae5d497e1bb1894521803b5fbfb969cd4f078995a96a6c241aadbc",
+      "reader": "UTF-8 text",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/scripts/03_bulk_pydeseq2.py",
+      "declared": false,
+      "bytes": 3170,
+      "sha256": "71a9ba9519791245bdeecd83f4b70d7a52ec2b74494c9dc55ab165b0bfd852c6",
+      "reader": "UTF-8 text",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/scripts/04_bulk_report.py",
+      "declared": false,
+      "bytes": 12815,
+      "sha256": "4675ff4220e8ed989fbad47e8bc898cb1f5ee16a1de6bdf52c232dd16ea7d019",
+      "reader": "UTF-8 text",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/scripts/05_bulk_manifest.py",
+      "declared": false,
+      "bytes": 383,
+      "sha256": "64a1e483d48c1ed9b81c49a9a57ca2ddb0bee33dbfc4c782b773ded6b351005c",
+      "reader": "UTF-8 text",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/scripts/run_matrix.py",
+      "declared": false,
+      "bytes": 4263,
+      "sha256": "ea8b0caff57444aed5c7cb1349af343f4c40030e474731bd2bf54ed3a560ddfc",
+      "reader": "UTF-8 text",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/sessionInfo_deseq2.txt",
+      "declared": true,
+      "bytes": 2874,
+      "sha256": "bfd0c346a2c3721ec04f367413d948c11dbddb4f52ddf3c4539f0dfbf30155d1",
+      "reader": "UTF-8 text",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/sessionInfo_edger.txt",
+      "declared": true,
+      "bytes": 864,
+      "sha256": "e6686877523c9c7d846d878a29380ab398a3bedd1654594ec477b6cf23a63599",
+      "reader": "UTF-8 text",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/sha256-manifest.json",
+      "declared": true,
+      "bytes": 7105,
+      "sha256": "ee13035aab73396fc1657acf9c792d685f0b0a4b01397c6b5efa87ec6ca247ca",
+      "reader": "JSON",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/top30_heatmap.png",
+      "declared": true,
+      "bytes": 413909,
+      "sha256": "9cc9320cd9914ac901a8ddf0df0e9342e99767dd96b2295398bc40b76a1cfc0c",
+      "reader": "Pillow full decode",
+      "size": [
+        3000,
+        3300
+      ],
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/top30_heatmap_genes.csv",
+      "declared": true,
+      "bytes": 4365,
+      "sha256": "c8e690b9d3ad3acfd64142525c9fb8ac1e66831b36d1f101dffec80009cda9e7",
+      "reader": "pandas CSV",
+      "rows": 30,
+      "columns": 9,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/top30_vst_expression.csv",
+      "declared": true,
+      "bytes": 4685,
+      "sha256": "9fdc732705668d3d7917ce2f252e925759f9babe4e1a2bcbf61161778a993c9e",
+      "reader": "pandas CSV",
+      "rows": 30,
+      "columns": 9,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/volcano.png",
+      "declared": true,
+      "bytes": 139164,
+      "sha256": "bd0d6eab0681405ffe9b6d3bb9bf696b7d648b858b2cbfddb0a6a9b26d7eafa3",
+      "reader": "Pillow full decode",
+      "size": [
+        1280,
+        960
+      ],
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/vst_expression.csv",
+      "declared": true,
+      "bytes": 2541601,
+      "sha256": "b456a53153333c9bbe97b120718de38ebd7df5ed59794c4180217713f17651c9",
+      "reader": "pandas CSV",
+      "rows": 16596,
+      "columns": 9,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/acceptance.md",
+      "declared": true,
+      "bytes": 16806,
+      "sha256": "792b0d2d2c6f721d8dca9c73b4c32278cf9706a23972b72d09c44826d48c5cfb",
+      "reader": "UTF-8 text",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/acceptance_checks.csv",
+      "declared": true,
+      "bytes": 5394,
+      "sha256": "2c59c82c1a255697d29715b6c7bed06876c4197b1992c8d0404744d502456cb3",
+      "reader": "pandas CSV",
+      "rows": 83,
+      "columns": 3,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/analysis_summary.csv",
+      "declared": true,
+      "bytes": 248,
+      "sha256": "7ea6445897e6fa4c3ef2f828742871829cd4b0006eecdcec1e7f03f7ce3241aa",
+      "reader": "pandas CSV",
+      "rows": 2,
+      "columns": 11,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/annotation_evidence.csv",
+      "declared": true,
+      "bytes": 6073,
+      "sha256": "a8c5b8c24153f5a3d30a229b84447740a42a22b66b4975096e854f5d25639fc1",
+      "reader": "pandas CSV",
+      "rows": 62,
+      "columns": 9,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/barcode_alignment.csv",
+      "declared": true,
+      "bytes": 183726,
+      "sha256": "7cbb78f649d66cff9ab7e8b51026106d91eeb7a488827980a0e79322afd92d9b",
+      "reader": "pandas CSV",
+      "rows": 2638,
+      "columns": 7,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/cell_type_annotations.csv",
+      "declared": true,
+      "bytes": 8801,
+      "sha256": "71ee2d49492654876419e9340e525557313e8c660faac8009a1c8cba7a2612be",
+      "reader": "pandas CSV",
+      "rows": 18,
+      "columns": 13,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/cell_type_crosstab.csv",
+      "declared": true,
+      "bytes": 490,
+      "sha256": "7288df3f758dcb9c8ae7296729f67895f71b18b3a9ce4d0331984d4e69da190d",
+      "reader": "pandas CSV",
+      "rows": 9,
+      "columns": 10,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/cluster_crosstab.csv",
+      "declared": true,
+      "bytes": 238,
+      "sha256": "f0a51b2ab689953cf30472585aafb27b23f093bef295b7d31c1aafa8d2d8ec3c",
+      "reader": "pandas CSV",
+      "rows": 9,
+      "columns": 10,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/cluster_crosstab.png",
+      "declared": true,
+      "bytes": 80361,
+      "sha256": "92fd3581bfbb9521043adf733aa84ce5e66575e30b11eac1cf432434f8dca429",
+      "reader": "Pillow full decode",
+      "size": [
+        1600,
+        1120
+      ],
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/cluster_crosstab_row_fraction.csv",
+      "declared": true,
+      "bytes": 762,
+      "sha256": "f496c88fa0ab80aca8a78154bf2d79a539991c02e8f55bebd17f9c92c629e72c",
+      "reader": "pandas CSV",
+      "rows": 9,
+      "columns": 10,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/comparison_metrics.json",
+      "declared": true,
+      "bytes": 234,
+      "sha256": "9648bfdd9818b32514ad31e9eeb5e406c122703bb533ece4b84b6a37b9455407",
+      "reader": "JSON",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/controlled_experiments.csv",
+      "declared": true,
+      "bytes": 1685,
+      "sha256": "6afa709deeec118eedd1a94f9067fc84e6555266aaeaa6f2329443d9a80fd5a7",
+      "reader": "pandas CSV",
+      "rows": 6,
+      "columns": 10,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/data_source.json",
+      "declared": true,
+      "bytes": 1068,
+      "sha256": "6761f67b555e68fb388826fca8e2f225f59c65162be4dfd59d7b8b16c7db3841",
+      "reader": "JSON",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/environment/biolearn-py.linux-64.explicit.txt",
+      "declared": true,
+      "bytes": 23865,
+      "sha256": "26a7533cc7bd0d899ad75bb2d6bf270fdeac18f278658c2be9dfaf15ebda6849",
+      "reader": "UTF-8 text",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/environment/biolearn-py.packages.json",
+      "declared": true,
+      "bytes": 80459,
+      "sha256": "a899d60dcda0421c43f234d9e46109c952ab379958f5632b3742d01def64c3c3",
+      "reader": "JSON",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/environment/biolearn-py.resolved.yml",
+      "declared": true,
+      "bytes": 9849,
+      "sha256": "fd4beec9558a4f42bcea09b3fe6c67459a86de8fe31e7f762c4450be22c99981",
+      "reader": "YAML",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/environment/biolearn-r.linux-64.explicit.txt",
+      "declared": true,
+      "bytes": 25742,
+      "sha256": "fac88ad76cd73701d8df52a33623ecb0e335c9fd08863e65580a18ccd5a19eff",
+      "reader": "UTF-8 text",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/environment/biolearn-r.packages.json",
+      "declared": true,
+      "bytes": 86102,
+      "sha256": "114058a72d02228cd7e9a6b6ba0817f600c349e42037bc2f0055917a65a3e9bd",
+      "reader": "JSON",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/environment/biolearn-r.resolved.yml",
+      "declared": true,
+      "bytes": 10754,
+      "sha256": "9e34ea883491c72d27eafbb3466952b903b949a660c18c14bed1d7a58f3f3bd0",
+      "reader": "YAML",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/hvg_overlap.json",
+      "declared": true,
+      "bytes": 106,
+      "sha256": "e54971b8c687595c793f87a930cd58b98670f64936cd503496cba4423ac97e58",
+      "reader": "JSON",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/logs/annotation_python.log",
+      "declared": true,
+      "bytes": 439,
+      "sha256": "96e54f680a49fad78236a6d2feb6acc57c7bd689612722855fd269d55c22a754",
+      "reader": "UTF-8 text",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/logs/annotation_r.log",
+      "declared": true,
+      "bytes": 374,
+      "sha256": "0998d77802ae7a1fe38138239668ed6328e442fddca4b75de12002615939fba3",
+      "reader": "UTF-8 text",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/logs/exit-status.tsv",
+      "declared": true,
+      "bytes": 72,
+      "sha256": "f309996e4e18c76861ad0b2c33e63ebc48ff481d9c64e323baad7f59476eef2d",
+      "reader": "UTF-8 text",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/logs/prepare.log",
+      "declared": true,
+      "bytes": 438,
+      "sha256": "19d85855c2dee92b5fadab44a1d26e8a009f31bdec68bcaf3492c4860a92d763",
+      "reader": "UTF-8 text",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/logs/report.log",
+      "declared": true,
+      "bytes": 3565,
+      "sha256": "1522d99b3d4049fcc38bba0f812f9069a89d064d7339e03652d0d12b57ca4f5c",
+      "reader": "UTF-8 text",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/logs/scanpy.log",
+      "declared": true,
+      "bytes": 2391,
+      "sha256": "a546753b6a37e7adb650717d0d105db81fe59b8c0d19f3dd2c1de1cbb0dffd88",
+      "reader": "UTF-8 text",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/logs/seurat.log",
+      "declared": true,
+      "bytes": 1458,
+      "sha256": "f58c22a594a559dc26b6bf9e4286eed358feda56b2a34a92fa353d79d573bbe4",
+      "reader": "UTF-8 text",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/pbmc3k-methods.md",
+      "declared": true,
+      "bytes": 7516,
+      "sha256": "6b111f392f8365f16150002181e9b301fcef50ea255ac09894f357e9e9c2105e",
+      "reader": "UTF-8 text",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/qc_cross_tool_differences.csv",
+      "declared": true,
+      "bytes": 123521,
+      "sha256": "4b8ef0052d9fcb3b8159b0a147667311a9b4b05d9a29ee5be57d4b0db9947ed8",
+      "reader": "pandas CSV",
+      "rows": 2700,
+      "columns": 4,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/qc_statistics.csv",
+      "declared": true,
+      "bytes": 494,
+      "sha256": "0dbb91ce9bad0d35f3f867ae14c90c0e3a49f3b459ea29f90de8cb650a426247",
+      "reader": "pandas CSV",
+      "rows": 6,
+      "columns": 8,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/run-provenance.json",
+      "declared": true,
+      "bytes": 3963,
+      "sha256": "4cc9908ec9f6d55a54d986099ea73379e998cfb9f7c1fab6f2a79d85da43d2a8",
+      "reader": "JSON",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/scanpy/analysis.h5ad",
+      "declared": true,
+      "bytes": 26499254,
+      "sha256": "7ab4ea31b7c74364cc40e5d3d86569b4c96e75c66300b190b7b9b8a23475f2d0",
+      "reader": "AnnData full read",
+      "shape": [
+        2638,
+        13714
+      ],
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/scanpy/analysis_annotated.h5ad",
+      "declared": true,
+      "bytes": 26522279,
+      "sha256": "090fe95926b5de3311ceaad32d44cef6cc023300eaa654d97d550cc1bbefaf08",
+      "reader": "AnnData full read",
+      "shape": [
+        2638,
+        13714
+      ],
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/scanpy/canonical_marker_profiles.csv",
+      "declared": true,
+      "bytes": 8684,
+      "sha256": "63bdc63ef17fc057a0b6efac9eafc14b4be93810b82a3199bd0886f0c97b7733",
+      "reader": "pandas CSV",
+      "rows": 207,
+      "columns": 6,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/scanpy/cell_labels.csv",
+      "declared": true,
+      "bytes": 114307,
+      "sha256": "550a00e9ef097e2817f5e6e08894a45ec7898974c486c97dc1b8df4f568bf744",
+      "reader": "pandas CSV",
+      "rows": 2638,
+      "columns": 4,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/scanpy/cell_type_annotation.csv",
+      "declared": true,
+      "bytes": 4478,
+      "sha256": "c07b01448f02d790b9cf9f2fefcb865445cf321eb3aa9d59b6338a7bb18e55db",
+      "reader": "pandas CSV",
+      "rows": 9,
+      "columns": 13,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/scanpy/clusters.csv",
+      "declared": true,
+      "bytes": 50138,
+      "sha256": "ae27d0781d33226dba537605a3b58c93a5ab2443717165e491acf2a677038bd1",
+      "reader": "pandas CSV",
+      "rows": 2638,
+      "columns": 2,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/scanpy/experiment_louvain_same_graph.csv",
+      "declared": true,
+      "bytes": 50138,
+      "sha256": "6833035c83176708055acf552a6413353fe31aac870149f10e1ef1ffc3601149",
+      "reader": "pandas CSV",
+      "rows": 2638,
+      "columns": 2,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/scanpy/experiment_no_regression.csv",
+      "declared": true,
+      "bytes": 50138,
+      "sha256": "6da06941b7212917cd1a1bcd8ceda2863e765f94fca667aa0237a73a8cba903d",
+      "reader": "pandas CSV",
+      "rows": 2638,
+      "columns": 2,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/scanpy/experiment_pc10.csv",
+      "declared": true,
+      "bytes": 50680,
+      "sha256": "457f3d79795c52e12c55f13262f0f8e043f8ee9759438c9aa9926ab6aa204311",
+      "reader": "pandas CSV",
+      "rows": 2638,
+      "columns": 2,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/scanpy/experiment_resolution_05.csv",
+      "declared": true,
+      "bytes": 50138,
+      "sha256": "9f1cdc47f7a354a12bf8a7b04f5dc0cd94c51969c1cc522f2b3552e7d78ab28d",
+      "reader": "pandas CSV",
+      "rows": 2638,
+      "columns": 2,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/scanpy/experiment_seed_7.csv",
+      "declared": true,
+      "bytes": 50138,
+      "sha256": "209a52fbd771652f339ae2ded8a1d9ac1bf75f09b3694aef1a0367b3e545a1ad",
+      "reader": "pandas CSV",
+      "rows": 2638,
+      "columns": 2,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/scanpy/experiment_variants.csv",
+      "declared": true,
+      "bytes": 89,
+      "sha256": "e6bff71cc58ed77cee9772e3de12c6b2a7a803aff1218f40e967f2942dd97d4e",
+      "reader": "pandas CSV",
+      "rows": 5,
+      "columns": 2,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/scanpy/feature_statistics.csv",
+      "declared": true,
+      "bytes": 1083615,
+      "sha256": "c254c6d502db66f95f3fafa9cb5d4873a1dbf6539852e0f98cd177aefa6eaa06",
+      "reader": "pandas CSV",
+      "rows": 13714,
+      "columns": 6,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/scanpy/highly_variable_genes.csv",
+      "declared": true,
+      "bytes": 12379,
+      "sha256": "336edd92ae817474c048cac7e6d003b34cf0a0f8fef5d6558b8142deba03604c",
+      "reader": "pandas CSV",
+      "rows": 1838,
+      "columns": 1,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/scanpy/marker_dotplot.png",
+      "declared": true,
+      "bytes": 107505,
+      "sha256": "05c5ff2995d910f18a5a0a4fe915e5c51a09cbf872e2d4c35a9492112e2646ff",
+      "reader": "Pillow full decode",
+      "size": [
+        1315,
+        635
+      ],
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/scanpy/marker_dotplot_cell_types.png",
+      "declared": true,
+      "bytes": 114563,
+      "sha256": "b5e2b78d2c5429206e0bc7c6cbcba1d7e4158b23d81d2e259daaf07d9db2f775",
+      "reader": "Pillow full decode",
+      "size": [
+        1370,
+        635
+      ],
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/scanpy/marker_dotplot_color.csv",
+      "declared": true,
+      "bytes": 2191,
+      "sha256": "8721eca3c29e32867e299b88827874bdfa95db248da924c2be591890df09a5c9",
+      "reader": "pandas CSV",
+      "rows": 9,
+      "columns": 24,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/scanpy/marker_dotplot_fraction.csv",
+      "declared": true,
+      "bytes": 3955,
+      "sha256": "1ec012f8206df29a0dd6e3ca9feaaaf20ce35578073dfd15e053c0add83e54c5",
+      "reader": "pandas CSV",
+      "rows": 9,
+      "columns": 24,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/scanpy/markers_all_tested.csv",
+      "declared": true,
+      "bytes": 13161693,
+      "sha256": "d01c724833fb9a5eeca6bf63ca56bac01b98348755f772acf178fc0578da63b4",
+      "reader": "pandas CSV",
+      "rows": 123426,
+      "columns": 8,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/scanpy/markers_positive.csv",
+      "declared": true,
+      "bytes": 1216884,
+      "sha256": "51567061be6a035630865f424b35f609a0691988c08bba9c6e936a7ce08dbdc4",
+      "reader": "pandas CSV",
+      "rows": 10924,
+      "columns": 8,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/scanpy/method.txt",
+      "declared": true,
+      "bytes": 901,
+      "sha256": "44dfdd5ee486bf75ec124ebe16fc31efc9897152211a7889711bb7724a4280f7",
+      "reader": "UTF-8 text",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/scanpy/object_validation.txt",
+      "declared": true,
+      "bytes": 162,
+      "sha256": "55c9c5a6b3fe8fcafe3681a3c2f35930ce3b213adb94ee615087415528be282c",
+      "reader": "UTF-8 text",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/scanpy/python_distribution_versions.json",
+      "declared": true,
+      "bytes": 4134,
+      "sha256": "aae7e0cfe194fe957dd45ca519e5092d7ddfc93586143273bb4803bfffe63adc",
+      "reader": "JSON",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/scanpy/python_runtime.txt",
+      "declared": true,
+      "bytes": 98,
+      "sha256": "193167fbe923db43d8a35f1a58b64fe0da835ff9c60fe67e80227a38d180685d",
+      "reader": "UTF-8 text",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/scanpy/qc_after.csv",
+      "declared": true,
+      "bytes": 185278,
+      "sha256": "f6b7c1044d3d5fbdbb45633cc2aa21465bdc31a8e161fd4da1010aa1ff47c8b4",
+      "reader": "pandas CSV",
+      "rows": 2638,
+      "columns": 10,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/scanpy/qc_before.csv",
+      "declared": true,
+      "bytes": 189590,
+      "sha256": "25c349f6e22e64caaa344b48decbae079225111c7933a121da2542de5856c72f",
+      "reader": "pandas CSV",
+      "rows": 2700,
+      "columns": 10,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/scanpy/qc_raw.csv",
+      "declared": true,
+      "bytes": 116093,
+      "sha256": "edc848cabcf5f9220360bcecb8b831ba63059ff4221f21588f603480d7b012dd",
+      "reader": "pandas CSV",
+      "rows": 2700,
+      "columns": 5,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/scanpy/qc_scatter.png",
+      "declared": true,
+      "bytes": 74446,
+      "sha256": "3994bfb7c199494e70fe0ab4869436056f47732df2ebb9b784f4faeb560a8034",
+      "reader": "Pillow full decode",
+      "size": [
+        1120,
+        800
+      ],
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/scanpy/qc_violin.png",
+      "declared": true,
+      "bytes": 64250,
+      "sha256": "d09fd3bc6218be94f60181b7df8e3513e19f37f6accfb55bcdfd7ced2a7dcc0a",
+      "reader": "Pillow full decode",
+      "size": [
+        1760,
+        640
+      ],
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/scanpy/raw_counts.h5ad",
+      "declared": true,
+      "bytes": 7550181,
+      "sha256": "1cf5bd8a60ea9505fe5748af51b808a01d3d7ad2c9a8fa0caae71c1f75912a78",
+      "reader": "AnnData full read",
+      "shape": [
+        2700,
+        32738
+      ],
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/scanpy/top10_markers.csv",
+      "declared": true,
+      "bytes": 9469,
+      "sha256": "15dcca5e66bbddd651db3c52d0a26a091279dee95c4fdf6508284ec4e4990e86",
+      "reader": "pandas CSV",
+      "rows": 90,
+      "columns": 8,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/scanpy/umap_cell_types.png",
+      "declared": true,
+      "bytes": 141248,
+      "sha256": "0202ac0ba3f47cc090bc7fd4eecc768b3a6551a7316f568a6a2f85ac54cbdf5a",
+      "reader": "Pillow full decode",
+      "size": [
+        1181,
+        688
+      ],
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/scanpy/umap_clusters.png",
+      "declared": true,
+      "bytes": 115238,
+      "sha256": "bdd97d31c23edc9108799d783755ebb282455b9b869b17bd52080986749324f7",
+      "reader": "Pillow full decode",
+      "size": [
+        856,
+        688
+      ],
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/scanpy/umap_coordinates.csv",
+      "declared": true,
+      "bytes": 96379,
+      "sha256": "dc5d647c1af0e1311944477f356a394b618559884e185a14cadcc6f3cab233dc",
+      "reader": "pandas CSV",
+      "rows": 2638,
+      "columns": 3,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/scanpy_only_cells.csv",
+      "declared": true,
+      "bytes": 8,
+      "sha256": "f637bdb80c7ee887fdffef9ffc98a9489350b4d48c82e2833ec485f8c6ecc54b",
+      "reader": "pandas CSV",
+      "rows": 0,
+      "columns": 1,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/scripts/05_bulk_manifest.py",
+      "declared": false,
+      "bytes": 383,
+      "sha256": "64a1e483d48c1ed9b81c49a9a57ca2ddb0bee33dbfc4c782b773ded6b351005c",
+      "reader": "UTF-8 text",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/scripts/10_pbmc_prepare.py",
+      "declared": false,
+      "bytes": 1417,
+      "sha256": "e94ac983f47a00b97b039199e691247a60cdb9c509923731b7ddf63b362f5fc4",
+      "reader": "UTF-8 text",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/scripts/11_pbmc_seurat.R",
+      "declared": false,
+      "bytes": 7801,
+      "sha256": "d6a4a42cc382d4c79cce7fbc5252f3356c8f1e6da25586696e9cb4f0c50bca5d",
+      "reader": "UTF-8 text",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/scripts/12_pbmc_scanpy.py",
+      "declared": false,
+      "bytes": 10213,
+      "sha256": "79bd9c480ba8b0f79fab8a6673b2ef854004150e1109ff5a6a74859a2b1bf48d",
+      "reader": "UTF-8 text",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/scripts/13_pbmc_annotate.py",
+      "declared": false,
+      "bytes": 4857,
+      "sha256": "2eb86b7b9c7435a0ecb9b9c9e51494447371bdce82141d9eba59a9a89de4d92a",
+      "reader": "UTF-8 text",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/scripts/14_pbmc_annotate_seurat.R",
+      "declared": false,
+      "bytes": 1674,
+      "sha256": "2651faf201cd91d4f090b8ac823da629834a9bd62efe8f9583d6418d0291dccb",
+      "reader": "UTF-8 text",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/scripts/15_pbmc_report.py",
+      "declared": false,
+      "bytes": 22566,
+      "sha256": "bbe3db03c888b2101c29333f43c61b6d166eca5097750f15f7ae95cfc3d8f809",
+      "reader": "UTF-8 text",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/scripts/pbmc_annotation_plan.json",
+      "declared": false,
+      "bytes": 8699,
+      "sha256": "7eb5669f6d2cf85ceee4c378593d21f7381ca20ed6a079216068a6b89543b564",
+      "reader": "JSON",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/scripts/run_matrix.py",
+      "declared": false,
+      "bytes": 4263,
+      "sha256": "ea8b0caff57444aed5c7cb1349af343f4c40030e474731bd2bf54ed3a560ddfc",
+      "reader": "UTF-8 text",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/seurat/analysis.rds",
+      "declared": true,
+      "bytes": 19683436,
+      "sha256": "2dd29d526b041b570758ca4e84053bb4d2229934dc2eaa3cbea0cc978a5cb059",
+      "reader": "R readRDS independent verification",
+      "object": {
+        "cells": 2638,
+        "genes": 13714,
+        "clusters": 9
+      },
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/seurat/analysis_annotated.rds",
+      "declared": true,
+      "bytes": 19688646,
+      "sha256": "abefd5fe9a0220ca9ef48089b84d1f82846ec456b28846838f051d3b3caf3664",
+      "reader": "R readRDS independent verification",
+      "object": {
+        "cells": 2638,
+        "genes": 13714,
+        "clusters": 9
+      },
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/seurat/annotation_object_validation.txt",
+      "declared": true,
+      "bytes": 112,
+      "sha256": "a7937182dd5af19db7be3130b1998c37e7dd2714f0e5dd4a2a8c6f9f1a00d478",
+      "reader": "UTF-8 text",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/seurat/canonical_marker_profiles.csv",
+      "declared": true,
+      "bytes": 9724,
+      "sha256": "0994f759e9f2935a673e27be6306568a0e675e630c167a2313cef3cf08ccc7a4",
+      "reader": "pandas CSV",
+      "rows": 207,
+      "columns": 5,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/seurat/cell_labels.csv",
+      "declared": true,
+      "bytes": 114231,
+      "sha256": "8ba54d2f766d9c026b20be669a875832c6baf0cb6a726db9448111ef2d230e44",
+      "reader": "pandas CSV",
+      "rows": 2638,
+      "columns": 4,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/seurat/cell_type_annotation.csv",
+      "declared": true,
+      "bytes": 4482,
+      "sha256": "e81e0a3b7e03763ff814350a8c2681b5276b796519f201a6a9e64ee6362e3f15",
+      "reader": "pandas CSV",
+      "rows": 9,
+      "columns": 13,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/seurat/clusters.csv",
+      "declared": true,
+      "bytes": 60694,
+      "sha256": "4f3a41863be495162e3b21375671b4e59dca9d7799a7cf9aaa72a9665201ab11",
+      "reader": "pandas CSV",
+      "rows": 2638,
+      "columns": 2,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/seurat/experiment_resolution_1.csv",
+      "declared": true,
+      "bytes": 60707,
+      "sha256": "60e10c68305ca448ac24a1b2563ff9d4679d2d665131c0e774ea480bed7ec830",
+      "reader": "pandas CSV",
+      "rows": 2638,
+      "columns": 2,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/seurat/feature_map.csv",
+      "declared": true,
+      "bytes": 1306756,
+      "sha256": "2eb7b40870c4b7382f4835b6950e0590320a8c3438a1f7f84c9dace14aed8c07",
+      "reader": "pandas CSV",
+      "rows": 32738,
+      "columns": 3,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/seurat/highly_variable_genes.csv",
+      "declared": true,
+      "bytes": 17327,
+      "sha256": "e6f96a5bbc3b07abd2696ee9f16602c904e5db2c2f97e72e6f8948d73ab2a673",
+      "reader": "pandas CSV",
+      "rows": 2000,
+      "columns": 1,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/seurat/marker_dotplot.png",
+      "declared": true,
+      "bytes": 134748,
+      "sha256": "338a0af0a28d75af599d69e4b3e12ee20b87f688b26a73c01301e98cd7a579e8",
+      "reader": "Pillow full decode",
+      "size": [
+        2080,
+        960
+      ],
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/seurat/marker_dotplot_cell_types.png",
+      "declared": true,
+      "bytes": 146671,
+      "sha256": "7f2a83f264bd2fbcedae963bb859daa5dcfae0a155d9f950f7747845ef1ebdd8",
+      "reader": "Pillow full decode",
+      "size": [
+        2080,
+        1120
+      ],
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/seurat/marker_dotplot_values.csv",
+      "declared": true,
+      "bytes": 12614,
+      "sha256": "f4aa8022f853d2485db975dacce71f550a8e7327c299cab69961a2b824133f54",
+      "reader": "pandas CSV",
+      "rows": 207,
+      "columns": 5,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/seurat/markers_all_tested.csv",
+      "declared": true,
+      "bytes": 518736,
+      "sha256": "0d269a70d5c0ed1256cf041dd37b82549c56411ac2c623327d49cf8f767ff38b",
+      "reader": "pandas CSV",
+      "rows": 6964,
+      "columns": 7,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/seurat/markers_positive.csv",
+      "declared": true,
+      "bytes": 180754,
+      "sha256": "8caa7b9269c88095db02085c4e4ef4496ff73feb0488667e2c04f2481d09ea10",
+      "reader": "pandas CSV",
+      "rows": 2187,
+      "columns": 7,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/seurat/method.txt",
+      "declared": true,
+      "bytes": 846,
+      "sha256": "41e428d8897b74d88131bb6930c028d68519d9bf943335d68b463bc847211bc9",
+      "reader": "UTF-8 text",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/seurat/object_validation.txt",
+      "declared": true,
+      "bytes": 159,
+      "sha256": "f4c943057a2f6498d6c563715a165e215e5ea5fe684140ddb91a6cbf28bc3ecb",
+      "reader": "UTF-8 text",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/seurat/qc_after.csv",
+      "declared": true,
+      "bytes": 142542,
+      "sha256": "8aee2c8ddf824d459065a4d0afba6e87ba47e2a0973a408b6c8a526eb39ca569",
+      "reader": "pandas CSV",
+      "rows": 2638,
+      "columns": 5,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/seurat/qc_before.csv",
+      "declared": true,
+      "bytes": 207990,
+      "sha256": "90ee71b90215f5874def4b903ba22b9f1663f429affb14d378594e120d8151dd",
+      "reader": "pandas CSV",
+      "rows": 2700,
+      "columns": 9,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/seurat/qc_raw.csv",
+      "declared": true,
+      "bytes": 121506,
+      "sha256": "bc0a0b0ddce076ac8ccf941d91bd36ca461f0b8f7f39701d09200262d0c2075f",
+      "reader": "pandas CSV",
+      "rows": 2700,
+      "columns": 4,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/seurat/qc_scatter.png",
+      "declared": true,
+      "bytes": 64615,
+      "sha256": "d18fad9456c224f43d52847a57c00689de3032342b337c7eb6104a5c64f548a7",
+      "reader": "Pillow full decode",
+      "size": [
+        1120,
+        800
+      ],
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/seurat/qc_violin.png",
+      "declared": true,
+      "bytes": 90685,
+      "sha256": "5ced2e80b603002b922ffb18077737829f10c509fed62243cf6e238d7a9132b8",
+      "reader": "Pillow full decode",
+      "size": [
+        1760,
+        640
+      ],
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/seurat/r_installed_packages.csv",
+      "declared": true,
+      "bytes": 5599,
+      "sha256": "878b52795b9bfdb36e0caf4bc2fde4f11741db97b21e427bf7e5f05dbb6803df",
+      "reader": "pandas CSV",
+      "rows": 208,
+      "columns": 3,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/seurat/raw_counts.rds",
+      "declared": true,
+      "bytes": 5428255,
+      "sha256": "571888c0a1fa432bf0a37201e2430f4a87e0b2086fa89a0aa0403aa9d6639e66",
+      "reader": "R readRDS independent verification",
+      "object": {
+        "cells": 2700,
+        "genes": 32738,
+        "clusters": "NA"
+      },
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/seurat/sessionInfo.txt",
+      "declared": true,
+      "bytes": 3414,
+      "sha256": "1569cec8cd06e5cf4d5a4cba5b0ad64389ddf3677d9ea532b32e9c7491e48a22",
+      "reader": "UTF-8 text",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/seurat/top10_markers.csv",
+      "declared": true,
+      "bytes": 6932,
+      "sha256": "d3f12284c50aaefe0e9cb21027a077be5117b4cafa554e0cc158098aef2b73ba",
+      "reader": "pandas CSV",
+      "rows": 90,
+      "columns": 7,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/seurat/umap_cell_types.png",
+      "declared": true,
+      "bytes": 212759,
+      "sha256": "f661ee1dba71d89db43caa8f4aba2850821968f433e0c07f146944e40920fd9a",
+      "reader": "Pillow full decode",
+      "size": [
+        1760,
+        960
+      ],
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/seurat/umap_clusters.png",
+      "declared": true,
+      "bytes": 170704,
+      "sha256": "5479d4cedc58d7c59736c07e041bc46c48598463058425a0390c0ed7e4f80334",
+      "reader": "Pillow full decode",
+      "size": [
+        1280,
+        960
+      ],
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/seurat/umap_coordinates.csv",
+      "declared": true,
+      "bytes": 142064,
+      "sha256": "2490662c9151f068d448e461dfce168aceb1e573a958863979e6f49085fb8583",
+      "reader": "pandas CSV",
+      "rows": 2638,
+      "columns": 3,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/seurat_only_cells.csv",
+      "declared": true,
+      "bytes": 8,
+      "sha256": "f637bdb80c7ee887fdffef9ffc98a9489350b4d48c82e2833ec485f8c6ecc54b",
+      "reader": "pandas CSV",
+      "rows": 0,
+      "columns": 1,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/sha256-manifest.json",
+      "declared": true,
+      "bytes": 10472,
+      "sha256": "251ec5516ff47324d225adbe8e5ed94ce94d8823b18bc99d7848a2245e09cfbe",
+      "reader": "JSON",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc_validation/16_pbmc_validation.py",
+      "declared": true,
+      "bytes": 10979,
+      "sha256": "b4b2b5995484e00dc494fe31d3868c1dd29154d13d96bb38f8e3b99f21d36b53",
+      "reader": "UTF-8 text",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc_validation/additional_controlled_experiments.csv",
+      "declared": true,
+      "bytes": 358,
+      "sha256": "2e54a6b69b5970f43ed5e53acf4abe6d685030d672876a5c0e0c5e41d659e425",
+      "reader": "pandas CSV",
+      "rows": 3,
+      "columns": 7,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc_validation/analysis_with_diagnostics.h5ad",
+      "declared": true,
+      "bytes": 26569792,
+      "sha256": "61fdc7b0eaddfa5c51f5cd32dce646536b3ea15ee667a845bbfd5e8a801baf48",
+      "reader": "AnnData full read",
+      "shape": [
+        2638,
+        13714
+      ],
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc_validation/doublet_scores.csv",
+      "declared": true,
+      "bytes": 130582,
+      "sha256": "0692e5f25ede2ef73c09e4c5394458a0513b1c8bb036ae7304823d886c363741",
+      "reader": "pandas CSV",
+      "rows": 2700,
+      "columns": 4,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc_validation/doublet_umap.png",
+      "declared": true,
+      "bytes": 292582,
+      "sha256": "ccefe50ef3b736b0c746028eb30ca5f29196eca2f26a8c384f18abf97ee3744e",
+      "reader": "Pillow full decode",
+      "size": [
+        1800,
+        750
+      ],
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc_validation/exact_neighbors10_clusters.csv",
+      "declared": true,
+      "bytes": 50141,
+      "sha256": "c260696bcda7a552facfcbf4f659ae3647814a4dea3069d22cd36dd13a4c2b62",
+      "reader": "pandas CSV",
+      "rows": 2638,
+      "columns": 2,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc_validation/logs/execution.log",
+      "declared": true,
+      "bytes": 2995,
+      "sha256": "809981e6ac3fac43773a51d1a9f70e3884d5b80b1951de29a00a399abe0c3c92",
+      "reader": "UTF-8 text",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc_validation/neighbors20_clusters.csv",
+      "declared": true,
+      "bytes": 50141,
+      "sha256": "469d17833a2262816982a528700333647ec6acac41a0875ebd8328133347f0a2",
+      "reader": "pandas CSV",
+      "rows": 2638,
+      "columns": 2,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc_validation/provenance.json",
+      "declared": true,
+      "bytes": 1685,
+      "sha256": "32080c6cd19e4e78858f9194209316057cab6a642c0a23482881c68345cdbeaf",
+      "reader": "JSON",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc_validation/python-freeze.txt",
+      "declared": true,
+      "bytes": 16692,
+      "sha256": "1255c75327fe904698a198bbcbaf66dfe3d56e606c6648f1f927a966bc1a6402",
+      "reader": "UTF-8 text",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc_validation/raw_with_doublet_diagnostics.h5ad",
+      "declared": true,
+      "bytes": 7604474,
+      "sha256": "9b5dd4ff6304411712e8851dac3bda1638f50b420fa9a048ce1bc4f96957cbb8",
+      "reader": "AnnData full read",
+      "shape": [
+        2700,
+        32738
+      ],
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc_validation/reference_common_genes.csv",
+      "declared": true,
+      "bytes": 4837,
+      "sha256": "8393c1488441721c47e9535f5a2ec79de27b5157be49b209d8cba1d09ceab7fb",
+      "reader": "pandas CSV",
+      "rows": 764,
+      "columns": 1,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc_validation/reference_holdout_crosstab.csv",
+      "declared": true,
+      "bytes": 295,
+      "sha256": "75c1c1b5a801b22af792e6311c6411509db7d5cccb73873bc967fbc1ce8fbc86",
+      "reader": "pandas CSV",
+      "rows": 7,
+      "columns": 8,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc_validation/reference_holdout_predictions.csv",
+      "declared": true,
+      "bytes": 8187,
+      "sha256": "ddc13b66343f5b00951893cbe675f1ca1a33f3aebad3680aa73ec3382debdf55",
+      "reader": "pandas CSV",
+      "rows": 210,
+      "columns": 3,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc_validation/reference_observations.csv",
+      "declared": true,
+      "bytes": 57431,
+      "sha256": "f941f2e88992d623d8aa7d4567bb643db15a4d7fd24b908b4eb6d4f9c05c94cb",
+      "reader": "pandas CSV",
+      "rows": 700,
+      "columns": 9,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc_validation/reference_predictions.csv",
+      "declared": true,
+      "bytes": 129572,
+      "sha256": "64f7f951d759167c8d8443f5265944dad3cc78fbaac4148b2c05858fcde0cf8a",
+      "reader": "pandas CSV",
+      "rows": 2638,
+      "columns": 4,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc_validation/reference_probabilities.csv",
+      "declared": true,
+      "bytes": 201231,
+      "sha256": "5bb875ae093c1ade840ded3cf142378e598b548a2d534678faba78635b1ccf42",
+      "reader": "pandas CSV",
+      "rows": 2638,
+      "columns": 8,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc_validation/run-provenance.json",
+      "declared": true,
+      "bytes": 1873,
+      "sha256": "a22493f3850343d0673a1848fb7e1c589d7068832ff14efcaa76ba761810c4d3",
+      "reader": "JSON",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc_validation/scanpy_diagnostic_labels.csv",
+      "declared": true,
+      "bytes": 328667,
+      "sha256": "ee141cccca1d6490a2233c4486884125858c4c3879eeccbe2514367116772e7d",
+      "reader": "pandas CSV",
+      "rows": 2638,
+      "columns": 13,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc_validation/scanpy_doublets_by_cluster.csv",
+      "declared": true,
+      "bytes": 90,
+      "sha256": "c21d9595a235e12af2cdd8e805c8d1b18da170168f11330807bb1c96ded4344e",
+      "reader": "pandas CSV",
+      "rows": 9,
+      "columns": 3,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc_validation/scanpy_reference_crosstab.csv",
+      "declared": true,
+      "bytes": 285,
+      "sha256": "270b0f153e5859794f0c6c78bb2710256ff939a7f5c599fc5cd0891aceef5912",
+      "reader": "pandas CSV",
+      "rows": 7,
+      "columns": 8,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc_validation/scanpy_reference_crosstab.png",
+      "declared": true,
+      "bytes": 89760,
+      "sha256": "d2341a12f30b9d3761a4ad31015c647f9feb4e975c4e36bcced357e32a144a27",
+      "reader": "Pillow full decode",
+      "size": [
+        1650,
+        900
+      ],
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc_validation/scripts/run_pbmc_diagnostics.py",
+      "declared": true,
+      "bytes": 3406,
+      "sha256": "06d44588160ab3b4049c91775ed3a7bca33c0566f563a47672b74bf2fe6d7305",
+      "reader": "UTF-8 text",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc_validation/scrublet_parameters.json",
+      "declared": true,
+      "bytes": 324059,
+      "sha256": "01c6593c1636ee3bf1db8c767c9db07c12bc73fddea2a02928440e8654ad2c3c",
+      "reader": "JSON",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc_validation/seurat_diagnostic_labels.csv",
+      "declared": true,
+      "bytes": 328562,
+      "sha256": "1c321c0cc320c8f3d72793a7319c733876e4b38ad9233eebfe83f5e7e0ba27c7",
+      "reader": "pandas CSV",
+      "rows": 2638,
+      "columns": 13,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc_validation/seurat_doublets_by_cluster.csv",
+      "declared": true,
+      "bytes": 91,
+      "sha256": "5c1a1cf54b3b06129f9549376d37ea20a3a687e4f5857e8e909b2fe52ec37394",
+      "reader": "pandas CSV",
+      "rows": 9,
+      "columns": 3,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc_validation/seurat_hvg_clusters.csv",
+      "declared": true,
+      "bytes": 50141,
+      "sha256": "6224752d9a32bdd12392118e6f6c5d42d9027b09ca2d64d3f292f35db011fbdc",
+      "reader": "pandas CSV",
+      "rows": 2638,
+      "columns": 2,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc_validation/seurat_reference_crosstab.csv",
+      "declared": true,
+      "bytes": 285,
+      "sha256": "206cd8f2dd3129c2ee25bcecced6ade13069feced1e6fab51875382b1161ceea",
+      "reader": "pandas CSV",
+      "rows": 7,
+      "columns": 8,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc_validation/seurat_reference_crosstab.png",
+      "declared": true,
+      "bytes": 89732,
+      "sha256": "a004ae00f12c58e656a736b0d9e233755040e707034e075e5a991ccc933fd955",
+      "reader": "Pillow full decode",
+      "size": [
+        1650,
+        900
+      ],
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc_validation/sha256-manifest.json",
+      "declared": true,
+      "bytes": 3329,
+      "sha256": "890be4453d363f0e03d2e3212e6a4e64d59686c867e63ccb88ce5a2101b6dbfd",
+      "reader": "JSON",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc_validation/validation_summary.json",
+      "declared": true,
+      "bytes": 1245,
+      "sha256": "b305b17399305680ad0de4dbe3a7db8e01417187431ebc3855893ba40e50d215",
+      "reader": "JSON",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc_validation/verification/checks.json",
+      "declared": true,
+      "bytes": 2573,
+      "sha256": "09a89d146a9999ef48144aa7e656caa06cf7cb2fff6c600401ab8e17e7657a75",
+      "reader": "JSON",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc_validation/verification/conditional_comparison.json",
+      "declared": true,
+      "bytes": 238,
+      "sha256": "963b6a506fcc746256ee2962801dbc76efba9a36e5492b705b421805cd795162",
+      "reader": "JSON",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc_validation/verification/reference_marker_coverage.csv",
+      "declared": true,
+      "bytes": 401,
+      "sha256": "99f49542ac32d61205bd6aac3fead01b991e496442094a5d312f00c0c75600b1",
+      "reader": "pandas CSV",
+      "rows": 23,
+      "columns": 3,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc_graph/17_pbmc_graph_diagnostic.R",
+      "declared": true,
+      "bytes": 601,
+      "sha256": "d0f37e0e4b4c0100d2ad36f719c7b4975e58a1461c69a3a27e0748eb793e7d11",
+      "reader": "UTF-8 text",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc_graph/17_pbmc_graph_diagnostic.py",
+      "declared": true,
+      "bytes": 3196,
+      "sha256": "39b0bed53ddc674c2398bad384c58ad0c71a358aa3793eb35dac63e732c5fa25",
+      "reader": "UTF-8 text",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc_graph/graph_resolution_experiments.csv",
+      "declared": true,
+      "bytes": 637,
+      "sha256": "0631060c7213103d8bd61381a3ee69b00727d74f172d7c3c32bea04e3a405a11",
+      "reader": "pandas CSV",
+      "rows": 4,
+      "columns": 10,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc_graph/graph_statistics.csv",
+      "declared": true,
+      "bytes": 185,
+      "sha256": "d18fd02afe4f928caacfd0102ce11488850957c19b458fe396868e150f03ccd9",
+      "reader": "pandas CSV",
+      "rows": 2,
+      "columns": 6,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc_graph/logs/execution.log",
+      "declared": true,
+      "bytes": 3608,
+      "sha256": "e3637ca26c289a5ad1b1bc9c65dd96598aa61c68c3f71c795402b958d56fc888",
+      "reader": "UTF-8 text",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc_graph/provenance.json",
+      "declared": true,
+      "bytes": 1058,
+      "sha256": "9c12bab5b2b0c2f069dbabd2af6be96a16f948590fd177725938a1c70d9dcfa3",
+      "reader": "JSON",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc_graph/run-provenance.json",
+      "declared": true,
+      "bytes": 2773,
+      "sha256": "7e571796ca8858dc1417d24fbe26ec80b5da3f55e0da420b97d18e02070f9d7b",
+      "reader": "JSON",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc_graph/scanpy_fuzzy_leiden_res_0.5_clusters.csv",
+      "declared": true,
+      "bytes": 50141,
+      "sha256": "44a696adae8ab328b8f12a7201579b42214e99378f37702a8bfbe856aeca0095",
+      "reader": "pandas CSV",
+      "rows": 2638,
+      "columns": 2,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc_graph/scanpy_fuzzy_leiden_res_1.0_clusters.csv",
+      "declared": true,
+      "bytes": 50141,
+      "sha256": "c69ae548665c98f667d2342c520c340e2be502de503505160c88376e695450c5",
+      "reader": "pandas CSV",
+      "rows": 2638,
+      "columns": 2,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc_graph/scripts/run_pbmc_diagnostics.py",
+      "declared": true,
+      "bytes": 3406,
+      "sha256": "06d44588160ab3b4049c91775ed3a7bca33c0566f563a47672b74bf2fe6d7305",
+      "reader": "UTF-8 text",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc_graph/sessionInfo.txt",
+      "declared": true,
+      "bytes": 3334,
+      "sha256": "54dae81a1c9f2155450f7d71254e9acbde6aba95009fa7d19bfc072fb48727d4",
+      "reader": "UTF-8 text",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc_graph/seurat_snn.mtx",
+      "declared": true,
+      "bytes": 2614162,
+      "sha256": "c432069a6de9559ef77ad735856c77174578d2e28297dc42bbe26d24edbd2ac6",
+      "reader": "scipy Matrix Market",
+      "shape": [
+        2638,
+        2638
+      ],
+      "nnz": 194492,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc_graph/seurat_snn_barcodes.csv",
+      "declared": true,
+      "bytes": 50132,
+      "sha256": "982754b00307de46ea31867a8e11a129ff15ac38221e4f2b20e5a05f62c519c0",
+      "reader": "pandas CSV",
+      "rows": 2638,
+      "columns": 1,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc_graph/seurat_snn_leiden_res_0.5_clusters.csv",
+      "declared": true,
+      "bytes": 50141,
+      "sha256": "e735b84d11139f955731ad7b0b1d2792d92eb5a94a9060eb0c328f817e821b60",
+      "reader": "pandas CSV",
+      "rows": 2638,
+      "columns": 2,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc_graph/seurat_snn_leiden_res_1.0_clusters.csv",
+      "declared": true,
+      "bytes": 50154,
+      "sha256": "0e3e4919ccb56273f93fd21be157fb0dc9e346f65e72ba99381723bcdf9fb169",
+      "reader": "pandas CSV",
+      "rows": 2638,
+      "columns": 2,
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc_graph/sha256-manifest.json",
+      "declared": true,
+      "bytes": 1600,
+      "sha256": "7e9a23ddabca3bc2782873018bd51c7670c9c0fbdba250c2330c71b1496c1008",
+      "reader": "JSON",
+      "readable": true
+    },
+    {
+      "path": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc_graph/verification.json",
+      "declared": true,
+      "bytes": 590,
+      "sha256": "9e58e169525beeb534adc3f1f3105813f16b787ddf19263db30fb041f04d649e",
+      "reader": "JSON",
+      "readable": true
+    }
+  ],
+  "checks": [
+    {
+      "check": "bulk manifest",
+      "pass_": true,
+      "files": 74,
+      "bad": []
+    },
+    {
+      "check": "bulk complete/zero stages",
+      "pass_": true,
+      "provenance": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/run-provenance.json"
+    },
+    {
+      "check": "pbmc3k manifest",
+      "pass_": true,
+      "files": 105,
+      "bad": []
+    },
+    {
+      "check": "pbmc3k complete/zero stages",
+      "pass_": true,
+      "provenance": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/run-provenance.json"
+    },
+    {
+      "check": "pbmc_validation manifest",
+      "pass_": true,
+      "files": 33,
+      "bad": []
+    },
+    {
+      "check": "pbmc_validation complete/zero stages",
+      "pass_": true,
+      "provenance": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc_validation/run-provenance.json"
+    },
+    {
+      "check": "pbmc_graph manifest",
+      "pass_": true,
+      "files": 16,
+      "bad": []
+    },
+    {
+      "check": "pbmc_graph complete/zero stages",
+      "pass_": true,
+      "provenance": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc_graph/run-provenance.json"
+    }
+  ],
+  "pass_": true
+}

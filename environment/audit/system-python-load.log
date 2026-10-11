@@ -1,0 +1,19 @@
+EXECUTABLE /usr/bin/python3
+VERSION 3.12.3 (main, Jul 15 2026, 23:46:41) [GCC 13.3.0]
+MISSING	numpy
+MISSING	scipy
+MISSING	pandas
+MISSING	matplotlib
+MISSING	seaborn
+MISSING	sklearn
+MISSING	scanpy
+MISSING	anndata
+MISSING	igraph
+MISSING	leidenalg
+MISSING	pydeseq2
+MISSING	h5py
+MISSING	statsmodels
+MISSING	umap
+MISSING	skmisc
+MISSING	snakemake
+MISSING	jupyterlab

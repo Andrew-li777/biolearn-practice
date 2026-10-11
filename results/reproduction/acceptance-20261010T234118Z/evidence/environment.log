@@ -1,0 +1,28 @@
+Command: python3 results/reproduction/acceptance-20261010T234118Z/evidence/environment_check.py
+Started UTC: 2026-10-10T23:41:55.144195+00:00
+[
+  {
+    "environment": "biolearn-r",
+    "prefix": "/home/a/miniforge3/envs/biolearn-r",
+    "explicit_exit": 0,
+    "packages_exit": 0,
+    "exact_lock_match": true
+  },
+  {
+    "environment": "biolearn-py",
+    "prefix": "/home/a/miniforge3/envs/biolearn-py",
+    "explicit_exit": 0,
+    "packages_exit": 0,
+    "exact_lock_match": true
+  },
+  {
+    "environment": "biolearn-workflow",
+    "prefix": "/home/a/miniforge3/envs/biolearn-workflow",
+    "explicit_exit": 0,
+    "packages_exit": 0,
+    "exact_lock_match": true
+  }
+]
+
+Ended UTC: 2026-10-10T23:42:06.108315+00:00
+Exit code: 0

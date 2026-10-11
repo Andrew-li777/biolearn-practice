@@ -1,0 +1,45 @@
+{
+  "route": "pbmc_validation",
+  "primary": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k",
+  "started_utc": "2026-10-10T23:44:19.984860+00:00",
+  "completed": true,
+  "commands": [
+    [
+      "/home/a/projects/biolearn-practice/environment/validation-venv/bin/python",
+      "scripts/16_pbmc_validation.py",
+      "results/reproduction/acceptance-20261010T234118Z/pbmc3k",
+      "results/reproduction/acceptance-20261010T234118Z/.attempts/pbmc_validation-20261010T234419984751Z"
+    ],
+    [
+      "/home/a/projects/biolearn-practice/environment/validation-venv/bin/python",
+      "scripts/verify_pbmc_validation.py",
+      "results/reproduction/acceptance-20261010T234118Z/.attempts/pbmc_validation-20261010T234419984751Z",
+      "results/reproduction/acceptance-20261010T234118Z/pbmc3k"
+    ]
+  ],
+  "stages": [
+    {
+      "command": [
+        "/home/a/projects/biolearn-practice/environment/validation-venv/bin/python",
+        "scripts/16_pbmc_validation.py",
+        "results/reproduction/acceptance-20261010T234118Z/pbmc3k",
+        "results/reproduction/acceptance-20261010T234118Z/.attempts/pbmc_validation-20261010T234419984751Z"
+      ],
+      "started_utc": "2026-10-10T23:44:19.984954+00:00",
+      "exit_code": 0,
+      "ended_utc": "2026-10-10T23:44:44.752179+00:00"
+    },
+    {
+      "command": [
+        "/home/a/projects/biolearn-practice/environment/validation-venv/bin/python",
+        "scripts/verify_pbmc_validation.py",
+        "results/reproduction/acceptance-20261010T234118Z/.attempts/pbmc_validation-20261010T234419984751Z",
+        "results/reproduction/acceptance-20261010T234118Z/pbmc3k"
+      ],
+      "started_utc": "2026-10-10T23:44:44.752464+00:00",
+      "exit_code": 0,
+      "ended_utc": "2026-10-10T23:44:48.260583+00:00"
+    }
+  ],
+  "ended_utc": "2026-10-10T23:44:48.262070+00:00"
+}

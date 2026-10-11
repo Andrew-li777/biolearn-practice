@@ -1,0 +1,124 @@
+[
+  {
+    "check": "manifest",
+    "pass": true,
+    "detail": {
+      "files": 27,
+      "bad": []
+    }
+  },
+  {
+    "check": "complete with unchanged inputs",
+    "pass": true,
+    "detail": []
+  },
+  {
+    "check": "2700 unique finite doublet scores",
+    "pass": true,
+    "detail": {
+      "flags": 36,
+      "range": [
+        0.0055511498810467,
+        0.5064935064935057
+      ]
+    }
+  },
+  {
+    "check": "automatic flags agree threshold",
+    "pass": true,
+    "detail": "default expected rate.05; automatic threshold"
+  },
+  {
+    "check": "diagnostic H5ADs actual readback",
+    "pass": true,
+    "detail": "raw2700\u00d732738; analysis2638\u00d713714"
+  },
+  {
+    "check": "primary counts clusters UMAP unchanged",
+    "pass": true,
+    "detail": "no diagnostic removal or main re-clustering"
+  },
+  {
+    "check": "mapping unique aligned finite",
+    "pass": true,
+    "detail": {
+      "cells": 2638,
+      "low_confidence": 29
+    }
+  },
+  {
+    "check": "reference probability rows and predictions",
+    "pass": true,
+    "detail": "distance weighted votes, not calibrated probabilities"
+  },
+  {
+    "check": "holdout metrics recomputed",
+    "pass": true,
+    "detail": {
+      "accuracy": 0.8428571428571429,
+      "macro_f1": 0.8347724920084263
+    }
+  },
+  {
+    "check": "seurat reference count/agreement",
+    "pass": true,
+    "detail": {
+      "represented_cells": 2625,
+      "unrepresented_cells": 13,
+      "reference_agreement_represented": 0.8125714285714286
+    }
+  },
+  {
+    "check": "seurat plot table exact",
+    "pass": true,
+    "detail": "each plotted count matches barcode table"
+  },
+  {
+    "check": "seurat doublet cluster totals",
+    "pass": true,
+    "detail": "34 primary QC cells flagged"
+  },
+  {
+    "check": "scanpy reference count/agreement",
+    "pass": true,
+    "detail": {
+      "represented_cells": 2625,
+      "unrepresented_cells": 13,
+      "reference_agreement_represented": 0.804952380952381
+    }
+  },
+  {
+    "check": "scanpy plot table exact",
+    "pass": true,
+    "detail": "each plotted count matches barcode table"
+  },
+  {
+    "check": "scanpy doublet cluster totals",
+    "pass": true,
+    "detail": "34 primary QC cells flagged"
+  },
+  {
+    "check": "seurat_reference_crosstab.png decoded",
+    "pass": true,
+    "detail": [
+      1650,
+      900
+    ]
+  },
+  {
+    "check": "scanpy_reference_crosstab.png decoded",
+    "pass": true,
+    "detail": [
+      1650,
+      900
+    ]
+  },
+  {
+    "check": "doublet_umap.png decoded",
+    "pass": true,
+    "detail": [
+      1800,
+      750
+    ]
+  }
+]

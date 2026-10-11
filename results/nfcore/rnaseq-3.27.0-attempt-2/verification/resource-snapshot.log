@@ -1,0 +1,5 @@
+Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   48G   40G  5.7G  88% /
+               total        used        free      shared  buff/cache   available
+Mem:            15Gi       1.3Gi       4.8Gi       1.3Mi       9.8Gi        14Gi
+Swap:          4.0Gi          0B       4.0Gi

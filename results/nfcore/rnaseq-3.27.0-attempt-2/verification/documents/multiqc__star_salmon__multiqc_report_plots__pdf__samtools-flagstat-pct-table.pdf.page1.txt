@@ -1,0 +1,79 @@
+0%
+20%
+40%
+60%
+80%
+100%
+Total Reads  
+0%
+20%
+40%
+60%
+80%
+100%
+Total Passed QC  
+0%
+20%
+40%
+60%
+80%
+100%
+Mapped  
+0%
+20%
+40%
+60%
+80%
+100%
+Secondary Alignments  
+0%
+20%
+40%
+60%
+80%
+100%
+Duplicates  
+0%
+20%
+40%
+60%
+80%
+100%
+Paired in Sequencing  
+0%
+20%
+40%
+60%
+80%
+100%
+Properly Paired  
+0%
+20%
+40%
+60%
+80%
+100%
+Self and mate mapped  
+0%
+20%
+40%
+60%
+80%
+100%
+Singletons  
+0%
+20%
+40%
+60%
+80%
+100%
+Mate mapped to diﬀ chr  
+0%
+20%
+40%
+60%
+80%
+100%
+Diﬀ chr (mapQ >= 5)  
+Samtools: ﬂagstat: percentage of total
+ 5 samples 

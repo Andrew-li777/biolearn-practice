@@ -1,0 +1,18 @@
+{
+  "image": "quay.io/biocontainers/ucsc-bedclip:482--h0b57e2e_0",
+  "started_utc": "2026-10-10T23:19:22.747386+00:00",
+  "source": "docker://quay.io/biocontainers/ucsc-bedclip:482--h0b57e2e_0",
+  "transport": "skopeo -> docker-daemon; existing client proxy inherited; no system proxy changes",
+  "completed": true,
+  "exit_code": 0,
+  "ended_utc": "2026-10-10T23:19:35.318869+00:00",
+  "source_digest": "sha256:fc319a3c622f4d31436216bee1e7826b0e251e3c4ac12f15ac8ae12ac183fcad",
+  "architecture": "amd64",
+  "docker_image_id": "sha256:7c69f48225a445d0edbd1a58698bcd909a7b3808d4c5b067ee72b7bd80336015",
+  "docker_size": 26952475,
+  "docker_layers": [
+    "sha256:75bcd7b1af8fb3a7adfb936d50be93d10ff35ccc86c71ddd031c097c1b63bc50",
+    "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef",
+    "sha256:6489f5281dab8047f4f70e7d28dd24157d0dbfd8ef0a57262383c070d4e9cbed"
+  ]
+}

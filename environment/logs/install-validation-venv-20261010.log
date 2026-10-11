@@ -1,0 +1,25 @@
+Collecting scikit-image
+  Downloading scikit_image-0.26.0-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (15 kB)
+Requirement already satisfied: numpy>=1.24 in /home/a/miniforge3/envs/biolearn-py/lib/python3.11/site-packages (from scikit-image) (2.4.6)
+Requirement already satisfied: scipy>=1.11.4 in /home/a/miniforge3/envs/biolearn-py/lib/python3.11/site-packages (from scikit-image) (1.17.1)
+Requirement already satisfied: networkx>=3.0 in /home/a/miniforge3/envs/biolearn-py/lib/python3.11/site-packages (from scikit-image) (3.6.1)
+Requirement already satisfied: pillow>=10.1 in /home/a/miniforge3/envs/biolearn-py/lib/python3.11/site-packages (from scikit-image) (12.3.0)
+Collecting imageio!=2.35.0,>=2.33 (from scikit-image)
+  Downloading imageio-2.38.1-py3-none-any.whl.metadata (9.7 kB)
+Collecting tifffile>=2022.8.12 (from scikit-image)
+  Downloading tifffile-2026.3.3-py3-none-any.whl.metadata (31 kB)
+Requirement already satisfied: packaging>=21 in /home/a/miniforge3/envs/biolearn-py/lib/python3.11/site-packages (from scikit-image) (26.3)
+Collecting lazy-loader>=0.4 (from scikit-image)
+  Downloading lazy_loader-0.6-py3-none-any.whl.metadata (6.0 kB)
+Downloading scikit_image-0.26.0-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (13.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.7/13.7 MB 2.5 MB/s eta 0:00:00
+Downloading imageio-2.38.1-py3-none-any.whl (328 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 328.4/328.4 kB 930.9 kB/s eta 0:00:00
+Downloading lazy_loader-0.6-py3-none-any.whl (8.8 kB)
+Downloading tifffile-2026.3.3-py3-none-any.whl (243 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 244.0/244.0 kB 709.5 kB/s eta 0:00:00
+Installing collected packages: tifffile, lazy-loader, imageio, scikit-image
+Successfully installed imageio-2.38.1 lazy-loader-0.6 scikit-image-0.26.0 tifffile-2026.3.3
+
+[notice] A new release of pip is available: 24.0 -> 26.2.1
+[notice] To update, run: /home/a/projects/biolearn-practice/environment/validation-venv/bin/python -m pip install --upgrade pip

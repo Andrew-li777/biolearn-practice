@@ -1,0 +1,88 @@
+check,status,detail
+no duplicate source barcodes,PASS,2700 source cells
+raw H5AD counts equal source matrix,PASS,"(2700, 32738)"
+raw H5AD source barcodes preserved,PASS,"exact IDs, preserve -1 suffix"
+integer raw counts,PASS,not normalized counts
+unique barcodes: seurat/clusters.csv,PASS,0
+unique barcodes: seurat/cell_labels.csv,PASS,0
+seurat annotations cover observed clusters,PASS,9
+seurat cell annotations align,PASS,2638
+seurat QC mask matches fixed thresholds,PASS,strict 200 < genes < 2500 and MT % < 5
+seurat postQC membership from real QC mask,PASS,2638
+seurat source membership,PASS,2638
+seurat marker table covers clusters,PASS,6964
+seurat unique cluster/gene marker rows,PASS,6964
+seurat valid marker probabilities,PASS,"finite in [0,1]"
+seurat marker finite logFC,PASS,6964
+seurat positive marker filter,PASS,2187
+seurat UMAP aligned and finite,PASS,"(2638, 2)"
+seurat raw and analysis object reopened,PASS,"PASS raw RDS reopened and equals source counts
+PASS analysis RDS reopened; counts equal source subset; UMAP finite
+PASS no duplicate source or postQC barcodes"
+seurat object raw_counts.rds,PASS,5428255
+seurat object analysis.rds,PASS,19683436
+seurat object analysis_annotated.rds,PASS,19688646
+seurat figure qc_violin.png,PASS,decoded PNG
+seurat figure qc_scatter.png,PASS,decoded PNG
+seurat figure umap_clusters.png,PASS,decoded PNG
+seurat figure umap_cell_types.png,PASS,decoded PNG
+seurat figure marker_dotplot.png,PASS,decoded PNG
+seurat figure marker_dotplot_cell_types.png,PASS,decoded PNG
+unique barcodes: scanpy/clusters.csv,PASS,0
+unique barcodes: scanpy/cell_labels.csv,PASS,0
+scanpy annotations cover observed clusters,PASS,9
+scanpy cell annotations align,PASS,2638
+scanpy QC mask matches fixed thresholds,PASS,strict 200 < genes < 2500 and MT % < 5
+scanpy postQC membership from real QC mask,PASS,2638
+scanpy source membership,PASS,2638
+scanpy marker table covers clusters,PASS,123426
+scanpy unique cluster/gene marker rows,PASS,123426
+scanpy valid marker probabilities,PASS,"finite in [0,1]"
+scanpy marker finite logFC,PASS,123426
+scanpy positive marker filter,PASS,10924
+scanpy UMAP aligned and finite,PASS,"(2638, 2)"
+scanpy raw and analysis object reopened,PASS,"PASS raw H5AD reopened; counts equal input
+PASS analysis H5AD reopened; counts layer equals input subset; UMAP finite
+PASS no duplicate source or postQC barcodes"
+scanpy object raw_counts.h5ad,PASS,7550181
+scanpy object analysis.h5ad,PASS,26499254
+scanpy object analysis_annotated.h5ad,PASS,26522279
+scanpy figure qc_violin.png,PASS,decoded PNG
+scanpy figure qc_scatter.png,PASS,decoded PNG
+scanpy figure umap_clusters.png,PASS,decoded PNG
+scanpy figure umap_cell_types.png,PASS,decoded PNG
+scanpy figure marker_dotplot.png,PASS,decoded PNG
+scanpy figure marker_dotplot_cell_types.png,PASS,decoded PNG
+unique barcodes: seurat/cell_labels.csv,PASS,0
+unique barcodes: scanpy/cell_labels.csv,PASS,0
+contingency conserves shared cells,PASS,2638
+metric bounds,PASS,"{'n_a': 2638, 'n_b': 2638, 'shared': 2638, 'only_a': 0, 'only_b': 0, 'clusters_a': 9, 'clusters_b': 9, 'ARI': 0.6279310734626542, 'NMI_arithmetic': 0.7545047834392827, 'broad_type_agreement': 0.9499620924943138}"
+two routes QC metrics equal on matched cells,PASS,"max differences={'genes_difference': 0.0, 'UMI_difference': 0.0, 'MT_pct_difference': 1.6486485989730681e-06}"
+analysis.h5ad labels match exported table,PASS,"(2638, 13714)"
+analysis.h5ad count layer equals raw source subset,PASS,integer counts preserved
+analysis.h5ad marker expression is log-normalized,PASS,full-gene X and raw; not scaled residuals
+analysis_annotated.h5ad labels match exported table,PASS,"(2638, 13714)"
+analysis_annotated.h5ad count layer equals raw source subset,PASS,integer counts preserved
+analysis_annotated.h5ad marker expression is log-normalized,PASS,full-gene X and raw; not scaled residuals
+annotated H5AD cell types match table,PASS,2638
+annotated RDS validated,PASS,R process reopened annotated object and checked labels/counts
+unique barcodes: scanpy/experiment_louvain_same_graph.csv,PASS,0
+experiment same cell universe louvain_same_graph,PASS,2638
+unique barcodes: scanpy/experiment_no_regression.csv,PASS,0
+experiment same cell universe no_regression,PASS,2638
+unique barcodes: scanpy/experiment_pc10.csv,PASS,0
+experiment same cell universe pc10,PASS,2638
+unique barcodes: scanpy/experiment_resolution_05.csv,PASS,0
+experiment same cell universe resolution_05,PASS,2638
+unique barcodes: scanpy/experiment_seed_7.csv,PASS,0
+experiment same cell universe seed_7,PASS,2638
+unique barcodes: seurat/experiment_resolution_1.csv,PASS,0
+Seurat resolution experiment same cells,PASS,2638
+annotations have recorded expression evidence,PASS,62
+Scanpy expression count schema,PASS,"['cluster', 'gene', 'mean_log1p', 'pct_expressing', 'n_cells', 'expressing_cell_count']"
+Scanpy expression counts integer and bounded,PASS,207
+Scanpy expression proportions from integer counts,PASS,207
+annotation evidence unique full key,PASS,62
+annotation evidence missing tests explicitly unsupported,PASS,3
+annotation signature supported,PASS,at least two positive canonical markers per cluster; reviewed source annotations
+analysis and annotation processes exit zero,PASS,"[{'stage': 'prepare', 'exit': 0}, {'stage': 'seurat', 'exit': 0}, {'stage': 'scanpy', 'exit': 0}, {'stage': 'annotation_python', 'exit': 0}, {'stage': 'annotation_r', 'exit': 0}]"

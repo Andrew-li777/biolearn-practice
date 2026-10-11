@@ -1,0 +1,17 @@
+expression (reads/kbp)
+% duplicate reads
+0
+25
+50
+75
+100
+1
+10
+100
+1000
+Int: 0
+Sl: 6.21
+1 read/bp
+0.5 RPKM
+Density scatter plot
+RAP1_IAA_30M_REP1

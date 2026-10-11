@@ -1,0 +1,72 @@
+{
+  "files": 8,
+  "objects": [
+    {
+      "file": "results/nfcore/rnaseq-3.27.0-attempt-2/output/salmon/deseq2_qc/deseq2.dds.RData",
+      "name": "dds",
+      "class": "DESeqDataSet",
+      "genes": 125,
+      "samples": 5,
+      "sample_ids": ["RAP1_IAA_30M_REP1", "RAP1_UNINDUCED_REP1", "RAP1_UNINDUCED_REP2", "WT_REP1", "WT_REP2"],
+      "assays": ["counts", "vst"]
+    },
+    {
+      "file": "results/nfcore/rnaseq-3.27.0-attempt-2/output/salmon/deseq2_qc/size_factors/deseq2.size_factors.RData",
+      "name": "normFactors",
+      "class": "numeric",
+      "checked": "readable non-SE object; numeric values finite"
+    },
+    {
+      "file": "results/nfcore/rnaseq-3.27.0-attempt-2/output/salmon/salmon.merged.gene.SummarizedExperiment.rds",
+      "name": "RDS",
+      "class": "SummarizedExperiment",
+      "genes": 125,
+      "samples": 5,
+      "sample_ids": ["RAP1_IAA_30M_REP1", "RAP1_UNINDUCED_REP1", "RAP1_UNINDUCED_REP2", "WT_REP1", "WT_REP2"],
+      "assays": ["counts", "counts_length_scaled", "counts_scaled", "lengths", "tpm"]
+    },
+    {
+      "file": "results/nfcore/rnaseq-3.27.0-attempt-2/output/salmon/salmon.merged.transcript.SummarizedExperiment.rds",
+      "name": "RDS",
+      "class": "SummarizedExperiment",
+      "genes": 125,
+      "samples": 5,
+      "sample_ids": ["RAP1_IAA_30M_REP1", "RAP1_UNINDUCED_REP1", "RAP1_UNINDUCED_REP2", "WT_REP1", "WT_REP2"],
+      "assays": ["counts", "lengths", "tpm"]
+    },
+    {
+      "file": "results/nfcore/rnaseq-3.27.0-attempt-2/output/star_salmon/deseq2_qc/deseq2.dds.RData",
+      "name": "dds",
+      "class": "DESeqDataSet",
+      "genes": 125,
+      "samples": 5,
+      "sample_ids": ["RAP1_IAA_30M_REP1", "RAP1_UNINDUCED_REP1", "RAP1_UNINDUCED_REP2", "WT_REP1", "WT_REP2"],
+      "assays": ["counts", "vst"]
+    },
+    {
+      "file": "results/nfcore/rnaseq-3.27.0-attempt-2/output/star_salmon/deseq2_qc/size_factors/deseq2.size_factors.RData",
+      "name": "normFactors",
+      "class": "numeric",
+      "checked": "readable non-SE object; numeric values finite"
+    },
+    {
+      "file": "results/nfcore/rnaseq-3.27.0-attempt-2/output/star_salmon/salmon.merged.gene.SummarizedExperiment.rds",
+      "name": "RDS",
+      "class": "SummarizedExperiment",
+      "genes": 125,
+      "samples": 5,
+      "sample_ids": ["RAP1_IAA_30M_REP1", "RAP1_UNINDUCED_REP1", "RAP1_UNINDUCED_REP2", "WT_REP1", "WT_REP2"],
+      "assays": ["counts", "counts_length_scaled", "counts_scaled", "lengths", "tpm"]
+    },
+    {
+      "file": "results/nfcore/rnaseq-3.27.0-attempt-2/output/star_salmon/salmon.merged.transcript.SummarizedExperiment.rds",
+      "name": "RDS",
+      "class": "SummarizedExperiment",
+      "genes": 125,
+      "samples": 5,
+      "sample_ids": ["RAP1_IAA_30M_REP1", "RAP1_UNINDUCED_REP1", "RAP1_UNINDUCED_REP2", "WT_REP1", "WT_REP2"],
+      "assays": ["counts", "lengths", "tpm"]
+    }
+  ],
+  "completed": true
+}

@@ -1,0 +1,4 @@
+method,input_genes,prefilter_genes,valid_pvalues,valid_padj,pvalue_missing,padj_missing,significant_fdr_0.1,up,down
+deseq2,63677,16596,16596,16596,0,0,4916,2618,2298
+edger,63677,16860,16860,16860,0,0,6550,3302,3248
+pydeseq2,63677,16596,16596,16596,0,0,4685,2502,2183

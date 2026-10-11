@@ -1,0 +1,8 @@
+broad_type,B cells,CD34+ (not a primary PBMC3k class),CD4 T,CD8 T,Dendritic cells,Monocytes,NK cells
+B cells,337,0,4,3,0,0,0
+CD4 T,0,4,965,208,0,0,0
+CD8 T,0,0,15,258,0,0,1
+Dendritic cells,0,0,1,0,31,0,0
+Monocytes,0,0,0,0,230,413,0
+NK cells,0,0,0,26,0,0,129
+Platelet-like,1,2,1,0,8,1,0

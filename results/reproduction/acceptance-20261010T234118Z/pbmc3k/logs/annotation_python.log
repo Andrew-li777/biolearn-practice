@@ -1,0 +1,5 @@
+Started UTC: 2026-10-10T23:43:45.934035+00:00
+Command: ["/home/a/miniforge3/bin/conda", "run", "--no-capture-output", "-n", "biolearn-py", "python", "scripts/13_pbmc_annotate.py", "results/reproduction/acceptance-20261010T234118Z/.attempts/pbmc3k-20261010T234141455855Z", "scripts/pbmc_annotation_plan.json"]
+PASS reviewed annotations for 18 clusters; 62 gene/cluster evidence rows
+Ended UTC: 2026-10-10T23:43:52.101163+00:00
+Exit code: 0

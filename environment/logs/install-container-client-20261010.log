@@ -1,0 +1,51 @@
+Using Cached Shard Index for conda-forge/linux-64                                                   ✔ Done
+Using Cached Shard Index for conda-forge/noarch                                                     ✔ Done
+Fetching and Parsing Packages' Shards                                                           ⧖ Starting
+Fetching and Parsing Packages' Shards                                                     ✔ Done (5.2 sec)
+
+Resolving Environment                                                                           ⧖ Starting
+Resolving Environment                                                                     ✔ Done (0.1 sec)
+
+Transaction
+
+  Prefix: /home/a/miniforge3/envs/biolearn-container
+
+  Updating specs:
+
+   - skopeo
+
+
+  Package              Version  Build       Channel         Size
+──────────────────────────────────────────────────────────────────
+  Install:
+──────────────────────────────────────────────────────────────────
+
+  + containers-common   0.64.2  ha770c72_0  conda-forge     26kB
+  + skopeo              1.24.1  hfc2019e_0  conda-forge     19MB
+
+  Summary:
+
+  Install: 2 packages
+
+  Total download: 19MB
+
+──────────────────────────────────────────────────────────────────
+
+
+warning  libmamba Security Warning: This transaction includes executing package scripts (pre/post-link/unlink) if present. These scripts can contain arbitrary code. Please ensure you trust the package sources.
+
+Transaction starting
+Linking containers-common-0.64.2-ha770c72_0
+Linking skopeo-1.24.1-hfc2019e_0
+
+Transaction finished
+
+
+To activate this environment, use:
+
+    mamba activate biolearn-container
+
+Or to execute a single command in this environment, use:
+
+    mamba run -n biolearn-container mycommand
+

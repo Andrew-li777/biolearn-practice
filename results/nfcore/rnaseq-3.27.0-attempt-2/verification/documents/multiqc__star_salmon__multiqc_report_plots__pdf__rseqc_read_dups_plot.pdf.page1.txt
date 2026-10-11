@@ -1,0 +1,25 @@
+50
+100
+150
+200
+250
+300
+350
+1
+2
+5
+10
+2
+5
+100
+2
+5
+1000
+2
+5
+10k
+2
+RSeQC: Read Duplication
+ 5 lines 
+Occurrence of read
+Number of Reads (log10)

@@ -1,0 +1,17 @@
+{
+  "image": "community.wave.seqera.io/library/bioconductor-tximeta_jq:78bccd386c46a07c",
+  "started_utc": "2026-10-10T23:10:19.841447+00:00",
+  "source": "docker://community.wave.seqera.io/library/bioconductor-tximeta_jq:78bccd386c46a07c",
+  "transport": "skopeo -> docker-daemon; existing client proxy inherited; no system proxy changes",
+  "completed": true,
+  "exit_code": 0,
+  "ended_utc": "2026-10-10T23:13:16.678334+00:00",
+  "source_digest": "sha256:b8b4a40e7c126ed0182341087883eff161487814a3ddc9b168fc6ba104842189",
+  "architecture": "amd64",
+  "docker_image_id": "sha256:21c75be869e25eed94190bc572885d8ddcbcecff2f8128a8c83bb9280b453c49",
+  "docker_size": 816751686,
+  "docker_layers": [
+    "sha256:f103cd120fdd6cbc7f3d0e1d5bfb3e16290c32ead7b822d15c34460ecdf64b29",
+    "sha256:e1c34bac82fa695457e7cc31892f5ab62c25de7ebbad329aa55a329eac9a0e74"
+  ]
+}

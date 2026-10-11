@@ -1,0 +1,107 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/nf-core/test-datasets/626c8fab639062eade4b10747e919341cbf9b41a/reference/bbsplit_fasta_list.txt",
+    "http_code": "200",
+    "curl_exit": 0
+  },
+  {
+    "url": "https://raw.githubusercontent.com/nf-core/test-datasets/626c8fab639062eade4b10747e919341cbf9b41a/reference/genes.gff.gz",
+    "http_code": "200",
+    "curl_exit": 0
+  },
+  {
+    "url": "https://raw.githubusercontent.com/nf-core/test-datasets/626c8fab639062eade4b10747e919341cbf9b41a/reference/genes_with_empty_tid.gtf.gz",
+    "http_code": "200",
+    "curl_exit": 0
+  },
+  {
+    "url": "https://raw.githubusercontent.com/nf-core/test-datasets/626c8fab639062eade4b10747e919341cbf9b41a/reference/genome.fasta",
+    "http_code": "200",
+    "curl_exit": 0
+  },
+  {
+    "url": "https://raw.githubusercontent.com/nf-core/test-datasets/626c8fab639062eade4b10747e919341cbf9b41a/reference/gfp.fa.gz",
+    "http_code": "200",
+    "curl_exit": 0
+  },
+  {
+    "url": "https://raw.githubusercontent.com/nf-core/test-datasets/626c8fab639062eade4b10747e919341cbf9b41a/reference/hisat2.tar.gz",
+    "http_code": "200",
+    "curl_exit": 0
+  },
+  {
+    "url": "https://raw.githubusercontent.com/nf-core/test-datasets/626c8fab639062eade4b10747e919341cbf9b41a/reference/transcriptome.fasta",
+    "http_code": "200",
+    "curl_exit": 0
+  },
+  {
+    "url": "https://raw.githubusercontent.com/nf-core/test-datasets/626c8fab639062eade4b10747e919341cbf9b41a/samplesheet/v3.10/samplesheet_test.csv",
+    "http_code": "200",
+    "curl_exit": 0
+  },
+  {
+    "url": "https://raw.githubusercontent.com/nf-core/test-datasets/cad884e7fbe5617dcd55bdd07d9ddf65b54febe4/reference/salmon_2.7.0.tar.gz",
+    "http_code": "200",
+    "curl_exit": 0
+  },
+  {
+    "url": "https://raw.githubusercontent.com/nf-core/test-datasets/eb0cbf73c3f103f8aeda9878ba200e92b4d045d8/data/genomics/sarscov2/genome/db/kraken2.tar.gz",
+    "http_code": "200",
+    "curl_exit": 0
+  },
+  {
+    "url": "https://raw.githubusercontent.com/nf-core/test-datasets/rnaseq/testdata/GSE110004/SRR6357070_1.fastq.gz",
+    "http_code": "200",
+    "curl_exit": 0
+  },
+  {
+    "url": "https://raw.githubusercontent.com/nf-core/test-datasets/rnaseq/testdata/GSE110004/SRR6357070_2.fastq.gz",
+    "http_code": "200",
+    "curl_exit": 0
+  },
+  {
+    "url": "https://raw.githubusercontent.com/nf-core/test-datasets/rnaseq/testdata/GSE110004/SRR6357071_1.fastq.gz",
+    "http_code": "200",
+    "curl_exit": 0
+  },
+  {
+    "url": "https://raw.githubusercontent.com/nf-core/test-datasets/rnaseq/testdata/GSE110004/SRR6357071_2.fastq.gz",
+    "http_code": "200",
+    "curl_exit": 0
+  },
+  {
+    "url": "https://raw.githubusercontent.com/nf-core/test-datasets/rnaseq/testdata/GSE110004/SRR6357072_1.fastq.gz",
+    "http_code": "200",
+    "curl_exit": 0
+  },
+  {
+    "url": "https://raw.githubusercontent.com/nf-core/test-datasets/rnaseq/testdata/GSE110004/SRR6357072_2.fastq.gz",
+    "http_code": "200",
+    "curl_exit": 0
+  },
+  {
+    "url": "https://raw.githubusercontent.com/nf-core/test-datasets/rnaseq/testdata/GSE110004/SRR6357073_1.fastq.gz",
+    "http_code": "200",
+    "curl_exit": 0
+  },
+  {
+    "url": "https://raw.githubusercontent.com/nf-core/test-datasets/rnaseq/testdata/GSE110004/SRR6357074_1.fastq.gz",
+    "http_code": "200",
+    "curl_exit": 0
+  },
+  {
+    "url": "https://raw.githubusercontent.com/nf-core/test-datasets/rnaseq/testdata/GSE110004/SRR6357075_1.fastq.gz",
+    "http_code": "200",
+    "curl_exit": 0
+  },
+  {
+    "url": "https://raw.githubusercontent.com/nf-core/test-datasets/rnaseq/testdata/GSE110004/SRR6357076_1.fastq.gz",
+    "http_code": "200",
+    "curl_exit": 0
+  },
+  {
+    "url": "https://raw.githubusercontent.com/nf-core/test-datasets/rnaseq/testdata/GSE110004/SRR6357076_2.fastq.gz",
+    "http_code": "200",
+    "curl_exit": 0
+  }
+]

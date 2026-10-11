@@ -1,0 +1,18 @@
+{
+  "image": "quay.io/biocontainers/bioconductor-summarizedexperiment:1.32.0--r43hdfd78af_0",
+  "started_utc": "2026-10-10T23:18:04.736563+00:00",
+  "source": "docker://quay.io/biocontainers/bioconductor-summarizedexperiment:1.32.0--r43hdfd78af_0",
+  "transport": "skopeo -> docker-daemon; existing client proxy inherited; no system proxy changes",
+  "completed": true,
+  "exit_code": 0,
+  "ended_utc": "2026-10-10T23:19:04.401678+00:00",
+  "source_digest": "sha256:17fe194827b1e08aeda6e0505439aaec24e677a52d785da2f7d8b3ff35758687",
+  "architecture": "amd64",
+  "docker_image_id": "sha256:463258d47ea01bfc8254df01db67f03a2e05089a72cb58d21f832b91b3cddd8d",
+  "docker_size": 409503048,
+  "docker_layers": [
+    "sha256:70a2756904ec8ee2777ae17e263046c49758c2b0cdb389903503835b03d3d21a",
+    "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef",
+    "sha256:ccd7f46c6bdc0a1e79f04bf8c2807bddac87a16281b38c26778d70110e293f23"
+  ]
+}

@@ -1,0 +1,22 @@
+RAP1_UNINDUCED_REP2
+RAP1_UNINDUCED_REP1
+RAP1_IAA_30M_REP1
+WT_REP2
+WT_REP1
+−1.5
+−1
+−0.5
+0
+0.5
+1
+1.5
+−1
+−0.5
+0
+0.5
+1
+1.5
+DESeq2: Principal component plot
+ 5 points 
+PC1
+PC2

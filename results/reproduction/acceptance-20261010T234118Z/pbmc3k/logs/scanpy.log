@@ -1,0 +1,26 @@
+Started UTC: 2026-10-10T23:43:11.540977+00:00
+Command: ["/home/a/miniforge3/bin/conda", "run", "--no-capture-output", "-n", "biolearn-py", "python", "scripts/12_pbmc_scanpy.py", "results/reproduction/acceptance-20261010T234118Z/.attempts/pbmc3k-20261010T234141455855Z/scanpy", "data/pbmc3k/filtered_gene_bc_matrices/hg19"]
+/home/a/miniforge3/envs/biolearn-py/lib/python3.11/site-packages/scanpy/tools/_rank_genes_groups.py:380: RuntimeWarning: invalid value encountered in divide
+  scores[group_index, :] = (
+/home/a/miniforge3/envs/biolearn-py/lib/python3.11/site-packages/scanpy/tools/_rank_genes_groups.py:380: RuntimeWarning: invalid value encountered in divide
+  scores[group_index, :] = (
+/home/a/miniforge3/envs/biolearn-py/lib/python3.11/site-packages/scanpy/tools/_rank_genes_groups.py:380: RuntimeWarning: invalid value encountered in divide
+  scores[group_index, :] = (
+/home/a/miniforge3/envs/biolearn-py/lib/python3.11/site-packages/scanpy/tools/_rank_genes_groups.py:380: RuntimeWarning: invalid value encountered in divide
+  scores[group_index, :] = (
+/home/a/miniforge3/envs/biolearn-py/lib/python3.11/site-packages/scanpy/tools/_rank_genes_groups.py:380: RuntimeWarning: invalid value encountered in divide
+  scores[group_index, :] = (
+/home/a/miniforge3/envs/biolearn-py/lib/python3.11/site-packages/scanpy/tools/_rank_genes_groups.py:380: RuntimeWarning: invalid value encountered in divide
+  scores[group_index, :] = (
+/home/a/miniforge3/envs/biolearn-py/lib/python3.11/site-packages/scanpy/tools/_rank_genes_groups.py:380: RuntimeWarning: invalid value encountered in divide
+  scores[group_index, :] = (
+/home/a/miniforge3/envs/biolearn-py/lib/python3.11/site-packages/scanpy/tools/_rank_genes_groups.py:380: RuntimeWarning: invalid value encountered in divide
+  scores[group_index, :] = (
+/home/a/miniforge3/envs/biolearn-py/lib/python3.11/site-packages/scanpy/tools/_rank_genes_groups.py:380: RuntimeWarning: invalid value encountered in divide
+  scores[group_index, :] = (
+/home/a/miniforge3/envs/biolearn-py/lib/python3.11/functools.py:909: UserWarning: zero-centering a sparse array/matrix densifies it.
+  return dispatch(args[0].__class__)(*args, **kw)
+INPUT 2700 cells x 32738 genes; POSTQC 2638 cells x 13714 genes; HVGs 1838; CLUSTERS 9
+PASS Scanpy analysis, markers, plots, H5AD and controlled variants
+Ended UTC: 2026-10-10T23:43:45.930887+00:00
+Exit code: 0

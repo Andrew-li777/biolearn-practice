@@ -1,0 +1,18 @@
+{
+  "image": "quay.io/biocontainers/fastqc:0.12.1--hdfd78af_0",
+  "started_utc": "2026-10-10T22:56:16.936054+00:00",
+  "source": "docker://quay.io/biocontainers/fastqc:0.12.1--hdfd78af_0",
+  "transport": "skopeo -> docker-daemon; existing client proxy inherited; no system proxy changes",
+  "completed": true,
+  "exit_code": 0,
+  "ended_utc": "2026-10-10T22:56:54.718980+00:00",
+  "source_digest": "sha256:e194048df39c3145d9b4e0a14f4da20b59d59250465b6f2a9cb698445fd45900",
+  "architecture": "amd64",
+  "docker_image_id": "sha256:7300132badda42ed29615886d60db3d5c81154d29e244060b384b996ae4b08eb",
+  "docker_size": 295720057,
+  "docker_layers": [
+    "sha256:968f331861f0ab0535ba337d320dac4aaca7ee4b11048be407a4dbd4915004f5",
+    "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef",
+    "sha256:24b1f314c7a3d555bd7dd60232266cb664bafac3ec7c26bf0fc08697ea53cc39"
+  ]
+}

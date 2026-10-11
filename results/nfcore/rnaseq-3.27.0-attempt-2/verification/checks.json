@@ -1,0 +1,2105 @@
+[
+  {
+    "check": "workflow exit zero",
+    "pass": true,
+    "detail": "0"
+  },
+  {
+    "check": "fixed pipeline commit",
+    "pass": true,
+    "detail": "a1fcdddd3b826fe46eb46f0479f2ff8a7815af05"
+  },
+  {
+    "check": "all final tasks completed",
+    "pass": true,
+    "detail": {
+      "rows": 234,
+      "statuses": {
+        "COMPLETED": 234
+      }
+    }
+  },
+  {
+    "check": "task ab/d9931c actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:PREPARE_GENOME_REFERENCES:GUNZIP_ADDITIONAL_FASTA (gfp.fa.gz)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 1e/f4ef40 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:PREPARE_GENOME_REFERENCES:GUNZIP_GTF (genes_with_empty_tid.gtf.gz)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 2b/7dfad5 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:PREPARE_GENOME_INDICES:UNTAR_SALMON_INDEX (salmon_2.7.0.tar.gz)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 90/761043 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:FASTQ_QC_TRIM_FILTER_SETSTRANDEDNESS:CAT_FASTQ (RAP1_UNINDUCED_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 0e/51d653 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:FASTQ_QC_TRIM_FILTER_SETSTRANDEDNESS:CAT_FASTQ (WT_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 94/cea4ef actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:FASTQ_QC_TRIM_FILTER_SETSTRANDEDNESS:FQ_LINT (RAP1_IAA_30M_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 17/73692a actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:FASTQ_QC_TRIM_FILTER_SETSTRANDEDNESS:FQ_LINT (RAP1_UNINDUCED_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 75/bfa392 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:FASTQ_QC_TRIM_FILTER_SETSTRANDEDNESS:FQ_LINT (WT_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task cb/774292 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:FASTQ_QC_TRIM_FILTER_SETSTRANDEDNESS:FQ_LINT (RAP1_UNINDUCED_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 8d/b12357 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:FASTQ_QC_TRIM_FILTER_SETSTRANDEDNESS:FQ_LINT (WT_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 2e/9bb1c1 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:PREPARE_GENOME_REFERENCES:CUSTOM_GTFFILTER (genes_with_empty_tid.filtered)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 51/d58411 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:FASTQ_QC_TRIM_FILTER_SETSTRANDEDNESS:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:TRIMGALORE (RAP1_UNINDUCED_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 32/eb828b actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:FASTQ_QC_TRIM_FILTER_SETSTRANDEDNESS:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:FASTQC (RAP1_UNINDUCED_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task cc/d9cb51 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:FASTQ_QC_TRIM_FILTER_SETSTRANDEDNESS:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:FASTQC (WT_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task ff/7e82f4 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:FASTQ_QC_TRIM_FILTER_SETSTRANDEDNESS:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:TRIMGALORE (WT_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 90/ac1861 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:FASTQ_QC_TRIM_FILTER_SETSTRANDEDNESS:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:TRIMGALORE (RAP1_UNINDUCED_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 79/dff2da actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:FASTQ_QC_TRIM_FILTER_SETSTRANDEDNESS:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:FASTQC (RAP1_UNINDUCED_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 8e/934006 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:FASTQ_QC_TRIM_FILTER_SETSTRANDEDNESS:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:FASTQC (RAP1_IAA_30M_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 58/7eb19d actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:FASTQ_QC_TRIM_FILTER_SETSTRANDEDNESS:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:TRIMGALORE (RAP1_IAA_30M_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task a5/398d87 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:FASTQ_QC_TRIM_FILTER_SETSTRANDEDNESS:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:TRIMGALORE (WT_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 12/9b70bd actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:FASTQ_QC_TRIM_FILTER_SETSTRANDEDNESS:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:FASTQC (WT_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task a5/858353 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:PREPARE_GENOME_REFERENCES:CUSTOM_CATADDITIONALFASTA (genome_transcriptome)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 2f/50ba17 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:FASTQ_QC_TRIM_FILTER_SETSTRANDEDNESS:FQ_LINT_AFTER_TRIMMING (RAP1_UNINDUCED_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task a1/684dfc actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:FASTQ_QC_TRIM_FILTER_SETSTRANDEDNESS:FQ_LINT_AFTER_TRIMMING (WT_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 3f/474adc actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:FASTQ_QC_TRIM_FILTER_SETSTRANDEDNESS:FQ_LINT_AFTER_TRIMMING (RAP1_UNINDUCED_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 51/e6e4a2 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:FASTQ_QC_TRIM_FILTER_SETSTRANDEDNESS:FQ_LINT_AFTER_TRIMMING (RAP1_IAA_30M_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 05/34c7dc actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:FASTQ_QC_TRIM_FILTER_SETSTRANDEDNESS:FQ_LINT_AFTER_TRIMMING (WT_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task e6/3ae810 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:PREPARE_GENOME_REFERENCES:SAMTOOLS_FAIDX (genome_gfp.fasta)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task e7/ee783f actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:PREPARE_GENOME_REFERENCES:EAUTILS_GTF2BED (genome_gfp)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 7a/30b230 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:PREPARE_GENOME_INDICES:STAR_GENOMEGENERATE (genome_gfp.fasta)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task e3/6d59d6 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:PREPARE_GENOME_INDICES:BBMAP_BBSPLIT (null)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 81/acd7af actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:FASTQ_QC_TRIM_FILTER_SETSTRANDEDNESS:BBMAP_BBSPLIT (RAP1_IAA_30M_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 5a/9a63fd actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:FASTQ_QC_TRIM_FILTER_SETSTRANDEDNESS:BBMAP_BBSPLIT (RAP1_UNINDUCED_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 8e/a2217d actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:FASTQ_QC_TRIM_FILTER_SETSTRANDEDNESS:BBMAP_BBSPLIT (RAP1_UNINDUCED_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task e1/0279ed actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:FASTQ_QC_TRIM_FILTER_SETSTRANDEDNESS:BBMAP_BBSPLIT (WT_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task fd/da9056 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:FASTQ_QC_TRIM_FILTER_SETSTRANDEDNESS:BBMAP_BBSPLIT (WT_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task e0/ba46ba actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:FASTQ_QC_TRIM_FILTER_SETSTRANDEDNESS:FQ_LINT_AFTER_BBSPLIT (RAP1_IAA_30M_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task c9/0d73cf actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:FASTQ_QC_TRIM_FILTER_SETSTRANDEDNESS:FQ_LINT_AFTER_BBSPLIT (RAP1_UNINDUCED_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 72/26e165 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:FASTQ_QC_TRIM_FILTER_SETSTRANDEDNESS:FQ_LINT_AFTER_BBSPLIT (RAP1_UNINDUCED_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 8c/3abca9 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:FASTQ_QC_TRIM_FILTER_SETSTRANDEDNESS:FQ_LINT_AFTER_BBSPLIT (WT_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 0d/9212e6 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:FASTQ_QC_TRIM_FILTER_SETSTRANDEDNESS:FQ_LINT_AFTER_BBSPLIT (WT_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 5b/4a35cc actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:FASTQ_QC_TRIM_FILTER_SETSTRANDEDNESS:FASTQC_FILTERED (RAP1_IAA_30M_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task bd/61c772 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:ALIGN_STAR:STAR_ALIGN (RAP1_IAA_30M_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 1e/e72015 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:QUANTIFY_PSEUDO_ALIGNMENT:SALMON_QUANT (RAP1_IAA_30M_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task be/ad359a actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:FASTQ_QC_TRIM_FILTER_SETSTRANDEDNESS:FASTQC_FILTERED (RAP1_UNINDUCED_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 3e/12c96f actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:QUANTIFY_PSEUDO_ALIGNMENT:SALMON_QUANT (RAP1_UNINDUCED_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task af/55398a actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:ALIGN_STAR:STAR_ALIGN (RAP1_UNINDUCED_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 7c/9356f7 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:FASTQ_QC_TRIM_FILTER_SETSTRANDEDNESS:FASTQC_FILTERED (RAP1_UNINDUCED_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 64/0370be actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:QUANTIFY_PSEUDO_ALIGNMENT:SALMON_QUANT (RAP1_UNINDUCED_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 9b/d48d0c actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:ALIGN_STAR:STAR_ALIGN (RAP1_UNINDUCED_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 3b/00ca9c actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:FASTQ_QC_TRIM_FILTER_SETSTRANDEDNESS:FASTQC_FILTERED (WT_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task bd/215362 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:FASTQ_QC_TRIM_FILTER_SETSTRANDEDNESS:FASTQ_SUBSAMPLE_FQ_SALMON:FQ_SUBSAMPLE (WT_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 7c/95689f actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:FASTQ_QC_TRIM_FILTER_SETSTRANDEDNESS:FASTQC_FILTERED (WT_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task e5/718149 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:ALIGN_STAR:STAR_ALIGN (WT_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task ac/60d188 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:QUANTIFY_PSEUDO_ALIGNMENT:SALMON_QUANT (WT_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task e5/73eb39 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:ALIGN_STAR:BAM_SORT_STATS_SAMTOOLS:SAMTOOLS_SORT (RAP1_IAA_30M_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 15/915b3e actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:QUANTIFY_BAM_SALMON:SALMON_QUANT (RAP1_IAA_30M_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 6e/aa4967 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:ALIGN_STAR:BAM_SORT_STATS_SAMTOOLS:SAMTOOLS_SORT (RAP1_UNINDUCED_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 1f/7bf48c actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:QUANTIFY_BAM_SALMON:SALMON_QUANT (RAP1_UNINDUCED_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 01/456939 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:ALIGN_STAR:BAM_SORT_STATS_SAMTOOLS:SAMTOOLS_SORT (RAP1_UNINDUCED_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task b4/9d99dc actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:QUANTIFY_BAM_SALMON:SALMON_QUANT (RAP1_UNINDUCED_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task d0/a9d247 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:FASTQ_QC_TRIM_FILTER_SETSTRANDEDNESS:FASTQ_SUBSAMPLE_FQ_SALMON:SALMON_QUANT (WT_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 1e/49e23e actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:ALIGN_STAR:BAM_SORT_STATS_SAMTOOLS:SAMTOOLS_SORT (WT_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 26/78e138 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:ALIGN_STAR:BAM_SORT_STATS_SAMTOOLS:SAMTOOLS_INDEX (RAP1_IAA_30M_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task cc/568983 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:QUANTIFY_BAM_SALMON:SALMON_QUANT (WT_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 84/f034df actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:ALIGN_STAR:BAM_SORT_STATS_SAMTOOLS:SAMTOOLS_INDEX (RAP1_UNINDUCED_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 6c/9c47ee actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:ALIGN_STAR:BAM_SORT_STATS_SAMTOOLS:SAMTOOLS_INDEX (RAP1_UNINDUCED_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task bf/8efc62 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:QUANTIFY_PSEUDO_ALIGNMENT:SALMON_QUANT (WT_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 0a/5f9f94 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:ALIGN_STAR:STAR_ALIGN (WT_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task dc/ac73a3 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:ALIGN_STAR:BAM_SORT_STATS_SAMTOOLS:SAMTOOLS_INDEX (WT_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 24/161f96 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:ALIGN_STAR:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_FLAGSTAT (RAP1_IAA_30M_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task f4/6454ee actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:ALIGN_STAR:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_STATS (RAP1_IAA_30M_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 7a/3ef7c5 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:ALIGN_STAR:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_IDXSTATS (RAP1_UNINDUCED_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 6d/bb6cf7 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:ALIGN_STAR:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_IDXSTATS (RAP1_IAA_30M_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 9b/df0722 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:ALIGN_STAR:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_FLAGSTAT (RAP1_UNINDUCED_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 99/0bce19 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:ALIGN_STAR:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_STATS (RAP1_UNINDUCED_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 9b/0117c7 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:ALIGN_STAR:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_IDXSTATS (RAP1_UNINDUCED_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 48/8e4726 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:ALIGN_STAR:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_FLAGSTAT (RAP1_UNINDUCED_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 1a/fe5f66 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:ALIGN_STAR:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_STATS (RAP1_UNINDUCED_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 8a/940d6a actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:ALIGN_STAR:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_IDXSTATS (WT_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task b0/41e353 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:ALIGN_STAR:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_STATS (WT_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 25/1ede07 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:ALIGN_STAR:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_FLAGSTAT (WT_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task f3/0ff28d actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:QUANTIFY_PSEUDO_ALIGNMENT:QUANT_TXIMPORT_SUMMARIZEDEXPERIMENT:CUSTOM_TX2GENE (null)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task ce/ebcf7e actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_MARKDUPLICATES_PICARD:PICARD_MARKDUPLICATES (RAP1_IAA_30M_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 20/5ba6f4 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_MARKDUPLICATES_PICARD:PICARD_MARKDUPLICATES (RAP1_UNINDUCED_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 01/60e7cc actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_MARKDUPLICATES_PICARD:PICARD_MARKDUPLICATES (RAP1_UNINDUCED_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 91/ba1466 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:ALIGN_STAR:BAM_SORT_STATS_SAMTOOLS:SAMTOOLS_SORT (WT_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 56/92e1db actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_MARKDUPLICATES_PICARD:PICARD_MARKDUPLICATES (WT_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 95/428ebe actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:QUANTIFY_BAM_SALMON:SALMON_QUANT (WT_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task ed/4151d2 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:QUANTIFY_PSEUDO_ALIGNMENT:QUANT_TXIMPORT_SUMMARIZEDEXPERIMENT:TXIMETA_TXIMPORT (all_samples)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 6f/fe07a7 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_MARKDUPLICATES_PICARD:SAMTOOLS_INDEX (RAP1_IAA_30M_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 9d/551317 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BEDTOOLS_GENOMECOV_FW (RAP1_IAA_30M_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 2b/dbfa40 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BEDTOOLS_GENOMECOV_REV (RAP1_IAA_30M_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 99/57d624 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BEDTOOLS_GENOMECOV_FW (RAP1_UNINDUCED_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task a2/95d76c actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BEDTOOLS_GENOMECOV_COMBINED (RAP1_IAA_30M_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 67/c53f51 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BEDTOOLS_GENOMECOV_REV (RAP1_UNINDUCED_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task f5/0ca55b actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BEDTOOLS_GENOMECOV_COMBINED (RAP1_UNINDUCED_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 88/828891 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BEDTOOLS_GENOMECOV_COMBINED (RAP1_UNINDUCED_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 32/2798e6 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BEDTOOLS_GENOMECOV_REV (RAP1_UNINDUCED_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 74/6e5150 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BEDTOOLS_GENOMECOV_FW (RAP1_UNINDUCED_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 23/1c850c actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BEDTOOLS_GENOMECOV_FW (WT_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task a7/fb9f33 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BEDTOOLS_GENOMECOV_COMBINED (WT_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task d0/9a8685 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BEDTOOLS_GENOMECOV_REV (WT_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task f0/5b0aa0 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:QUANTIFY_BAM_SALMON:QUANT_TXIMPORT_SUMMARIZEDEXPERIMENT:CUSTOM_TX2GENE (null)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 51/5d7153 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_MARKDUPLICATES_PICARD:BAM_STATS_SAMTOOLS:SAMTOOLS_FLAGSTAT (RAP1_IAA_30M_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task ca/15c922 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_MARKDUPLICATES_PICARD:BAM_STATS_SAMTOOLS:SAMTOOLS_IDXSTATS (RAP1_IAA_30M_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 87/dad36e actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_MARKDUPLICATES_PICARD:BAM_STATS_SAMTOOLS:SAMTOOLS_STATS (RAP1_IAA_30M_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task ec/e7b774 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_QC_RNASEQ:DUPRADAR (RAP1_IAA_30M_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task d2/d67699 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:STRINGTIE_STRINGTIE (RAP1_IAA_30M_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 80/8b1e8e actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_MARKDUPLICATES_PICARD:SAMTOOLS_INDEX (RAP1_UNINDUCED_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task e3/9a0f35 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:STRINGTIE_STRINGTIE (RAP1_UNINDUCED_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task c9/690f33 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_MARKDUPLICATES_PICARD:SAMTOOLS_INDEX (RAP1_UNINDUCED_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task ad/7c3b1c actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:STRINGTIE_STRINGTIE (RAP1_UNINDUCED_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 3f/bad6cd actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:ALIGN_STAR:BAM_SORT_STATS_SAMTOOLS:SAMTOOLS_INDEX (WT_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 0d/e0b74b actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:STRINGTIE_STRINGTIE (WT_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 3d/b32a9c actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_MARKDUPLICATES_PICARD:SAMTOOLS_INDEX (WT_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 41/886be9 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:DESEQ2_QC_PSEUDO",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 91/609fc7 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_QC_RNASEQ:BAM_RSEQC:RSEQC_INNERDISTANCE (RAP1_IAA_30M_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 63/c181ee actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_QC_RNASEQ:BAM_RSEQC:RSEQC_READDISTRIBUTION (RAP1_IAA_30M_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 1f/878794 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_QC_RNASEQ:BAM_RSEQC:RSEQC_JUNCTIONANNOTATION (RAP1_IAA_30M_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task e7/ccbaf8 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_QC_RNASEQ:BAM_RSEQC:RSEQC_JUNCTIONSATURATION (RAP1_IAA_30M_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 20/a7c318 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_QC_RNASEQ:SAMTOOLS_SORT_QUALIMAP (RAP1_IAA_30M_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 29/c3c901 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_QC_RNASEQ:SUBREAD_FEATURECOUNTS (RAP1_IAA_30M_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task ee/20b37c actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_QC_RNASEQ:BAM_RSEQC:RSEQC_READDUPLICATION (RAP1_IAA_30M_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 3f/7a7b3d actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_QC_RNASEQ:BAM_RSEQC:RSEQC_INFEREXPERIMENT (RAP1_IAA_30M_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task a2/4bd384 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_QC_RNASEQ:BAM_RSEQC:RSEQC_BAMSTAT (RAP1_IAA_30M_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 43/4bffd8 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:QUANTIFY_PSEUDO_ALIGNMENT:QUANT_TXIMPORT_SUMMARIZEDEXPERIMENT:SE_TRANSCRIPT_UNIFIED (all_samples)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 27/09441c actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:QUANTIFY_PSEUDO_ALIGNMENT:QUANT_TXIMPORT_SUMMARIZEDEXPERIMENT:SE_GENE_UNIFIED (all_samples)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 6e/a17c23 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BEDGRAPH_BEDCLIP_BEDGRAPHTOBIGWIG_FORWARD:UCSC_BEDCLIP (RAP1_IAA_30M_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 45/be3fe7 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BEDGRAPH_BEDCLIP_BEDGRAPHTOBIGWIG_REVERSE:UCSC_BEDCLIP (RAP1_IAA_30M_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task b6/8419d7 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BEDGRAPH_BEDCLIP_BEDGRAPHTOBIGWIG_FORWARD:UCSC_BEDCLIP (RAP1_UNINDUCED_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task a8/72e7da actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BEDGRAPH_BEDCLIP_BEDGRAPHTOBIGWIG_COMBINED:UCSC_BEDCLIP (RAP1_IAA_30M_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 98/6aced0 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BEDGRAPH_BEDCLIP_BEDGRAPHTOBIGWIG_REVERSE:UCSC_BEDCLIP (RAP1_UNINDUCED_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task f3/7f80ba actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BEDGRAPH_BEDCLIP_BEDGRAPHTOBIGWIG_COMBINED:UCSC_BEDCLIP (RAP1_UNINDUCED_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task e0/4d7b5c actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BEDGRAPH_BEDCLIP_BEDGRAPHTOBIGWIG_COMBINED:UCSC_BEDCLIP (RAP1_UNINDUCED_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 0e/cda916 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BEDGRAPH_BEDCLIP_BEDGRAPHTOBIGWIG_REVERSE:UCSC_BEDCLIP (RAP1_UNINDUCED_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 9c/dfa630 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BEDGRAPH_BEDCLIP_BEDGRAPHTOBIGWIG_FORWARD:UCSC_BEDCLIP (RAP1_UNINDUCED_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task bc/10e13e actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BEDGRAPH_BEDCLIP_BEDGRAPHTOBIGWIG_FORWARD:UCSC_BEDCLIP (WT_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 0b/a7a528 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BEDGRAPH_BEDCLIP_BEDGRAPHTOBIGWIG_COMBINED:UCSC_BEDCLIP (WT_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 01/cc5d45 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BEDGRAPH_BEDCLIP_BEDGRAPHTOBIGWIG_REVERSE:UCSC_BEDCLIP (WT_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 4e/2aba0d actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:QUANTIFY_BAM_SALMON:QUANT_TXIMPORT_SUMMARIZEDEXPERIMENT:TXIMETA_TXIMPORT (all_samples)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task e0/c91290 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_MARKDUPLICATES_PICARD:BAM_STATS_SAMTOOLS:SAMTOOLS_STATS (RAP1_UNINDUCED_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 3b/8a55b0 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_MARKDUPLICATES_PICARD:BAM_STATS_SAMTOOLS:SAMTOOLS_FLAGSTAT (RAP1_UNINDUCED_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 1a/9d0b8c actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_MARKDUPLICATES_PICARD:BAM_STATS_SAMTOOLS:SAMTOOLS_IDXSTATS (RAP1_UNINDUCED_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 19/dbd80e actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_MARKDUPLICATES_PICARD:BAM_STATS_SAMTOOLS:SAMTOOLS_IDXSTATS (RAP1_UNINDUCED_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 0d/c922fc actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_MARKDUPLICATES_PICARD:BAM_STATS_SAMTOOLS:SAMTOOLS_STATS (RAP1_UNINDUCED_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 85/e30b87 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_MARKDUPLICATES_PICARD:BAM_STATS_SAMTOOLS:SAMTOOLS_FLAGSTAT (RAP1_UNINDUCED_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task f1/061efc actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_QC_RNASEQ:DUPRADAR (RAP1_UNINDUCED_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 00/b5b10b actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:ALIGN_STAR:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_IDXSTATS (WT_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task ba/49434e actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:ALIGN_STAR:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_FLAGSTAT (WT_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task c3/849d68 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:ALIGN_STAR:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_STATS (WT_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task c2/645761 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_QC_RNASEQ:DUPRADAR (RAP1_UNINDUCED_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 91/6e9c74 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_MARKDUPLICATES_PICARD:BAM_STATS_SAMTOOLS:SAMTOOLS_IDXSTATS (WT_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task b1/6895f1 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_MARKDUPLICATES_PICARD:BAM_STATS_SAMTOOLS:SAMTOOLS_STATS (WT_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task a0/5335ef actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_MARKDUPLICATES_PICARD:BAM_STATS_SAMTOOLS:SAMTOOLS_FLAGSTAT (WT_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 7e/d247a4 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_QC_RNASEQ:DUPRADAR (WT_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 50/a9956f actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BEDGRAPH_BEDCLIP_BEDGRAPHTOBIGWIG_FORWARD:UCSC_BEDGRAPHTOBIGWIG (RAP1_IAA_30M_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 77/f6f321 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BEDGRAPH_BEDCLIP_BEDGRAPHTOBIGWIG_REVERSE:UCSC_BEDGRAPHTOBIGWIG (RAP1_IAA_30M_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 5b/ffb6c8 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BEDGRAPH_BEDCLIP_BEDGRAPHTOBIGWIG_FORWARD:UCSC_BEDGRAPHTOBIGWIG (RAP1_UNINDUCED_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 77/0bb9b4 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BEDGRAPH_BEDCLIP_BEDGRAPHTOBIGWIG_COMBINED:UCSC_BEDGRAPHTOBIGWIG (RAP1_IAA_30M_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 32/5c780d actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BEDGRAPH_BEDCLIP_BEDGRAPHTOBIGWIG_REVERSE:UCSC_BEDGRAPHTOBIGWIG (RAP1_UNINDUCED_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task b3/5638c1 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BEDGRAPH_BEDCLIP_BEDGRAPHTOBIGWIG_COMBINED:UCSC_BEDGRAPHTOBIGWIG (RAP1_UNINDUCED_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 51/c7daad actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BEDGRAPH_BEDCLIP_BEDGRAPHTOBIGWIG_COMBINED:UCSC_BEDGRAPHTOBIGWIG (RAP1_UNINDUCED_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 77/854fc4 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BEDGRAPH_BEDCLIP_BEDGRAPHTOBIGWIG_REVERSE:UCSC_BEDGRAPHTOBIGWIG (RAP1_UNINDUCED_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 61/b5a2f5 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BEDGRAPH_BEDCLIP_BEDGRAPHTOBIGWIG_FORWARD:UCSC_BEDGRAPHTOBIGWIG (RAP1_UNINDUCED_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task f0/b052f8 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BEDGRAPH_BEDCLIP_BEDGRAPHTOBIGWIG_FORWARD:UCSC_BEDGRAPHTOBIGWIG (WT_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task a6/05e33c actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BEDGRAPH_BEDCLIP_BEDGRAPHTOBIGWIG_COMBINED:UCSC_BEDGRAPHTOBIGWIG (WT_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 54/3d9939 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BEDGRAPH_BEDCLIP_BEDGRAPHTOBIGWIG_REVERSE:UCSC_BEDGRAPHTOBIGWIG (WT_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 18/f420d6 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_QC_RNASEQ:CUSTOM_MULTIQCCUSTOMBIOTYPE (RAP1_IAA_30M_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 70/7efada actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_QC_RNASEQ:SUBREAD_FEATURECOUNTS (RAP1_UNINDUCED_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task e5/7bfae3 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_QC_RNASEQ:BAM_RSEQC:RSEQC_READDISTRIBUTION (RAP1_UNINDUCED_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task e9/f1d5cc actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_QC_RNASEQ:BAM_RSEQC:RSEQC_BAMSTAT (RAP1_UNINDUCED_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 24/5a5821 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_QC_RNASEQ:BAM_RSEQC:RSEQC_JUNCTIONANNOTATION (RAP1_UNINDUCED_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task bc/4c5b78 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_QC_RNASEQ:SAMTOOLS_SORT_QUALIMAP (RAP1_UNINDUCED_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 23/b1d19c actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_QC_RNASEQ:BAM_RSEQC:RSEQC_JUNCTIONSATURATION (RAP1_UNINDUCED_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task dd/b5e51f actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_QC_RNASEQ:BAM_RSEQC:RSEQC_INNERDISTANCE (RAP1_UNINDUCED_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task f5/e9e4e9 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_QC_RNASEQ:BAM_RSEQC:RSEQC_INFEREXPERIMENT (RAP1_UNINDUCED_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 2c/7386cd actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_QC_RNASEQ:BAM_RSEQC:RSEQC_READDUPLICATION (RAP1_UNINDUCED_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 31/1dfe7b actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_QC_RNASEQ:BAM_RSEQC:RSEQC_INFEREXPERIMENT (RAP1_UNINDUCED_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 6f/b57bec actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_QC_RNASEQ:SAMTOOLS_SORT_QUALIMAP (RAP1_UNINDUCED_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 98/e1594b actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_QC_RNASEQ:BAM_RSEQC:RSEQC_READDISTRIBUTION (RAP1_UNINDUCED_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 97/13309f actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_QC_RNASEQ:BAM_RSEQC:RSEQC_BAMSTAT (RAP1_UNINDUCED_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task bf/bc01ab actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_QC_RNASEQ:BAM_RSEQC:RSEQC_JUNCTIONSATURATION (RAP1_UNINDUCED_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 29/735283 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_QC_RNASEQ:BAM_RSEQC:RSEQC_JUNCTIONANNOTATION (RAP1_UNINDUCED_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task cf/d5ee3c actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_QC_RNASEQ:SUBREAD_FEATURECOUNTS (RAP1_UNINDUCED_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 5d/5656b4 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_QC_RNASEQ:BAM_RSEQC:RSEQC_READDUPLICATION (RAP1_UNINDUCED_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 21/81587c actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_QC_RNASEQ:BAM_RSEQC:RSEQC_INNERDISTANCE (RAP1_UNINDUCED_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task fe/bc7ac6 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_MARKDUPLICATES_PICARD:PICARD_MARKDUPLICATES (WT_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task ac/8abbd6 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_QC_RNASEQ:SAMTOOLS_SORT_QUALIMAP (WT_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task fb/0cdb07 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_QC_RNASEQ:BAM_RSEQC:RSEQC_INNERDISTANCE (WT_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 9c/7aa229 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_QC_RNASEQ:SUBREAD_FEATURECOUNTS (WT_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 74/0e44eb actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_QC_RNASEQ:BAM_RSEQC:RSEQC_BAMSTAT (WT_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 49/853d93 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_QC_RNASEQ:BAM_RSEQC:RSEQC_INFEREXPERIMENT (WT_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 33/ec34de actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_QC_RNASEQ:BAM_RSEQC:RSEQC_JUNCTIONANNOTATION (WT_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 2c/ecc399 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_QC_RNASEQ:BAM_RSEQC:RSEQC_READDUPLICATION (WT_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 65/0d2806 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_QC_RNASEQ:BAM_RSEQC:RSEQC_JUNCTIONSATURATION (WT_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task c4/e95bd2 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_QC_RNASEQ:BAM_RSEQC:RSEQC_READDISTRIBUTION (WT_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task b7/667c97 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_QC_RNASEQ:QUALIMAP_RNASEQ (RAP1_IAA_30M_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 86/a0ae59 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:DESEQ2_QC_BAM_SALMON",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 74/027514 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:QUANTIFY_BAM_SALMON:QUANT_TXIMPORT_SUMMARIZEDEXPERIMENT:SE_GENE_UNIFIED (all_samples)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 7a/a4762f actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:QUANTIFY_BAM_SALMON:QUANT_TXIMPORT_SUMMARIZEDEXPERIMENT:SE_TRANSCRIPT_UNIFIED (all_samples)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 39/e7203c actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_QC_RNASEQ:CUSTOM_MULTIQCCUSTOMBIOTYPE (RAP1_UNINDUCED_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 40/24af3b actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_QC_RNASEQ:CUSTOM_MULTIQCCUSTOMBIOTYPE (RAP1_UNINDUCED_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 11/c17028 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BEDTOOLS_GENOMECOV_FW (WT_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task a8/758fb3 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BEDTOOLS_GENOMECOV_REV (WT_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task e4/6f945d actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_QC_RNASEQ:CUSTOM_MULTIQCCUSTOMBIOTYPE (WT_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 04/0856c6 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BEDTOOLS_GENOMECOV_COMBINED (WT_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 9a/965cb1 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_QC_RNASEQ:QUALIMAP_RNASEQ (RAP1_UNINDUCED_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 99/48e424 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_QC_RNASEQ:QUALIMAP_RNASEQ (RAP1_UNINDUCED_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 26/5ea70b actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_MARKDUPLICATES_PICARD:SAMTOOLS_INDEX (WT_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task bf/6a5bd7 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:STRINGTIE_STRINGTIE (WT_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task e1/c6a3e2 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_QC_RNASEQ:QUALIMAP_RNASEQ (WT_REP2)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 80/4b6945 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BEDGRAPH_BEDCLIP_BEDGRAPHTOBIGWIG_FORWARD:UCSC_BEDCLIP (WT_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 8a/e7611f actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BEDGRAPH_BEDCLIP_BEDGRAPHTOBIGWIG_REVERSE:UCSC_BEDCLIP (WT_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 05/dd561f actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BEDGRAPH_BEDCLIP_BEDGRAPHTOBIGWIG_COMBINED:UCSC_BEDCLIP (WT_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 15/7c0f0f actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_MARKDUPLICATES_PICARD:BAM_STATS_SAMTOOLS:SAMTOOLS_IDXSTATS (WT_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 6c/c98b3b actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_MARKDUPLICATES_PICARD:BAM_STATS_SAMTOOLS:SAMTOOLS_STATS (WT_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task a7/9b2f56 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_MARKDUPLICATES_PICARD:BAM_STATS_SAMTOOLS:SAMTOOLS_FLAGSTAT (WT_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 6f/f8b12b actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BEDGRAPH_BEDCLIP_BEDGRAPHTOBIGWIG_FORWARD:UCSC_BEDGRAPHTOBIGWIG (WT_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 8b/7dc2d8 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BEDGRAPH_BEDCLIP_BEDGRAPHTOBIGWIG_REVERSE:UCSC_BEDGRAPHTOBIGWIG (WT_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task c9/bb8658 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BEDGRAPH_BEDCLIP_BEDGRAPHTOBIGWIG_COMBINED:UCSC_BEDGRAPHTOBIGWIG (WT_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 18/21c4cf actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_QC_RNASEQ:DUPRADAR (WT_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task ec/2208fb actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_QC_RNASEQ:BAM_RSEQC:RSEQC_INFEREXPERIMENT (WT_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 81/fcaa19 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_QC_RNASEQ:SAMTOOLS_SORT_QUALIMAP (WT_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task bd/a9d71e actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_QC_RNASEQ:BAM_RSEQC:RSEQC_READDUPLICATION (WT_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task ce/4f1e1d actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_QC_RNASEQ:SUBREAD_FEATURECOUNTS (WT_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task dd/a15483 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_QC_RNASEQ:BAM_RSEQC:RSEQC_BAMSTAT (WT_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task f1/1d0ef3 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_QC_RNASEQ:BAM_RSEQC:RSEQC_READDISTRIBUTION (WT_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 99/25dbf1 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_QC_RNASEQ:BAM_RSEQC:RSEQC_JUNCTIONANNOTATION (WT_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 92/6e919d actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_QC_RNASEQ:BAM_RSEQC:RSEQC_INNERDISTANCE (WT_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task ca/8d49ce actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_QC_RNASEQ:BAM_RSEQC:RSEQC_JUNCTIONSATURATION (WT_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 5f/2a95f5 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_QC_RNASEQ:QUALIMAP_RNASEQ (WT_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task 20/223b09 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:BAM_QC_RNASEQ:CUSTOM_MULTIQCCUSTOMBIOTYPE (WT_REP1)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "task c8/9e3fe5 actual exit matches trace",
+    "pass": true,
+    "detail": {
+      "task": "NFCORE_RNASEQ:RNASEQ:MULTIQC_RNASEQ:MULTIQC (multiqc_report)",
+      "exit": "0"
+    }
+  },
+  {
+    "check": "workflow success log",
+    "pass": true,
+    "detail": "s > NFCORE_RNASEQ:RNASEQ:BAM_MARKDUPLICATES_PICARD:BAM_STATS_SAMTOOLS:SAMTOOLS_FLAGSTAT (WT_REP1)\n[6f/f8b12b] Submitted process > NFCORE_RNASEQ:RNASEQ:BEDGRAPH_BEDCLIP_BEDGRAPHTOBIGWIG_FORWARD:UCSC_BEDGRAPHTOBIGWIG (WT_REP1)\n[8b/7dc2d8] Submitted process > NFCORE_RNASEQ:RNASEQ:BEDGRAPH_BEDCLIP_BEDGRAPHTOBIGWIG_REVERSE:UCSC_BEDGRAPHTOBIGWIG (WT_REP1)\n[c9/bb8658] Submitted process > NFCORE_RNASEQ:RNASEQ:BEDGRAPH_BEDCLIP_BEDGRAPHTOBIGWIG_COMBINED:UCSC_BEDGRAPHTOBIGWIG (WT_REP1)\n[ec/2208fb] Submitted process > NFCORE_RNASEQ:RNASEQ:BAM_QC_RNASEQ:BAM_RSEQC:RSEQC_INFEREXPERIMENT (WT_REP1)\n[81/fcaa19] Submitted process > NFCORE_RNASEQ:RNASEQ:BAM_QC_RNASEQ:SAMTOOLS_SORT_QUALIMAP (WT_REP1)\n[bd/a9d71e] Submitted process > NFCORE_RNASEQ:RNASEQ:BAM_QC_RNASEQ:BAM_RSEQC:RSEQC_READDUPLICATION (WT_REP1)\n[ce/4f1e1d] Submitted process > NFCORE_RNASEQ:RNASEQ:BAM_QC_RNASEQ:SUBREAD_FEATURECOUNTS (WT_REP1)\n[dd/a15483] Submitted process > NFCORE_RNASEQ:RNASEQ:BAM_QC_RNASEQ:BAM_RSEQC:RSEQC_BAMSTAT (WT_REP1)\n[f1/1d0ef3] Submitted process > NFCORE_RNASEQ:RNASEQ:BAM_QC_RNASEQ:BAM_RSEQC:RSEQC_READDISTRIBUTION (WT_REP1)\n[99/25dbf1] Submitted process > NFCORE_RNASEQ:RNASEQ:BAM_QC_RNASEQ:BAM_RSEQC:RSEQC_JUNCTIONANNOTATION (WT_REP1)\n[92/6e919d] Submitted process > NFCORE_RNASEQ:RNASEQ:BAM_QC_RNASEQ:BAM_RSEQC:RSEQC_INNERDISTANCE (WT_REP1)\n[ca/8d49ce] Submitted process > NFCORE_RNASEQ:RNASEQ:BAM_QC_RNASEQ:BAM_RSEQC:RSEQC_JUNCTIONSATURATION (WT_REP1)\n[5f/2a95f5] Submitted process > NFCORE_RNASEQ:RNASEQ:BAM_QC_RNASEQ:QUALIMAP_RNASEQ (WT_REP1)\n[20/223b09] Submitted process > NFCORE_RNASEQ:RNASEQ:BAM_QC_RNASEQ:CUSTOM_MULTIQCCUSTOMBIOTYPE (WT_REP1)\n[c8/9e3fe5] Submitted process > NFCORE_RNASEQ:RNASEQ:MULTIQC_RNASEQ:MULTIQC (multiqc_report)\n-\u001b[0;35m[nf-core/rnaseq]\u001b[0;32m Pipeline completed successfully \u001b[0m-\n"
+  },
+  {
+    "check": "no unhandled Nextflow errors",
+    "pass": true,
+    "detail": []
+  },
+  {
+    "check": "one parameter snapshot",
+    "pass": true,
+    "detail": [
+      "results/nfcore/rnaseq-3.27.0-attempt-2/output/pipeline_info/params_2026-10-10_22-50-38.json"
+    ]
+  },
+  {
+    "check": "official test input and algorithms",
+    "pass": true,
+    "detail": {
+      "input": "https://raw.githubusercontent.com/nf-core/test-datasets/626c8fab639062eade4b10747e919341cbf9b41a/samplesheet/v3.10/samplesheet_test.csv",
+      "aligner": "star_salmon",
+      "pseudo_aligner": "salmon"
+    }
+  },
+  {
+    "check": "actual samplesheet lanes uniquely identified",
+    "pass": true,
+    "detail": {
+      "rows": 7,
+      "sample_ids": [
+        "WT_REP1",
+        "WT_REP1",
+        "WT_REP2",
+        "RAP1_UNINDUCED_REP1",
+        "RAP1_UNINDUCED_REP2",
+        "RAP1_UNINDUCED_REP2",
+        "RAP1_IAA_30M_REP1"
+      ],
+      "note": "Repeated sample IDs are official lane merging, not duplicate result columns."
+    }
+  },
+  {
+    "check": "MultiQC nonempty readable",
+    "pass": true,
+    "detail": [
+      "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report.html"
+    ]
+  },
+  {
+    "check": "MultiQC data JSON readable",
+    "pass": true,
+    "detail": [
+      "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report_data/multiqc_data.json"
+    ]
+  },
+  {
+    "check": "raw and trimmed FastQC eight read files",
+    "pass": true,
+    "detail": {
+      "raw": 8,
+      "trimmed": 8
+    }
+  },
+  {
+    "check": "output/fastqc/raw/WT_REP1_raw_1_fastqc.zip readable ZIP",
+    "pass": true,
+    "detail": 368508
+  },
+  {
+    "check": "output/fastqc/raw/WT_REP2_raw_2_fastqc.zip readable ZIP",
+    "pass": true,
+    "detail": 357296
+  },
+  {
+    "check": "output/fastqc/raw/RAP1_IAA_30M_REP1_raw_1_fastqc.zip readable ZIP",
+    "pass": true,
+    "detail": 365509
+  },
+  {
+    "check": "output/fastqc/raw/WT_REP2_raw_1_fastqc.zip readable ZIP",
+    "pass": true,
+    "detail": 364674
+  },
+  {
+    "check": "output/fastqc/raw/RAP1_UNINDUCED_REP2_raw_fastqc.zip readable ZIP",
+    "pass": true,
+    "detail": 366947
+  },
+  {
+    "check": "output/fastqc/raw/RAP1_IAA_30M_REP1_raw_2_fastqc.zip readable ZIP",
+    "pass": true,
+    "detail": 357217
+  },
+  {
+    "check": "output/fastqc/raw/RAP1_UNINDUCED_REP1_raw_fastqc.zip readable ZIP",
+    "pass": true,
+    "detail": 365198
+  },
+  {
+    "check": "output/fastqc/raw/WT_REP1_raw_2_fastqc.zip readable ZIP",
+    "pass": true,
+    "detail": 358984
+  },
+  {
+    "check": "output/fastqc/trim/RAP1_IAA_30M_REP1_trimmed_2_val_2_fastqc.zip readable ZIP",
+    "pass": true,
+    "detail": 357532
+  },
+  {
+    "check": "output/fastqc/trim/RAP1_IAA_30M_REP1_trimmed_1_val_1_fastqc.zip readable ZIP",
+    "pass": true,
+    "detail": 369355
+  },
+  {
+    "check": "output/fastqc/trim/WT_REP2_trimmed_1_val_1_fastqc.zip readable ZIP",
+    "pass": true,
+    "detail": 367466
+  },
+  {
+    "check": "output/fastqc/trim/WT_REP2_trimmed_2_val_2_fastqc.zip readable ZIP",
+    "pass": true,
+    "detail": 359581
+  },
+  {
+    "check": "output/fastqc/trim/RAP1_UNINDUCED_REP1_trimmed_trimmed_fastqc.zip readable ZIP",
+    "pass": true,
+    "detail": 367048
+  },
+  {
+    "check": "output/fastqc/trim/WT_REP1_trimmed_2_val_2_fastqc.zip readable ZIP",
+    "pass": true,
+    "detail": 359907
+  },
+  {
+    "check": "output/fastqc/trim/RAP1_UNINDUCED_REP2_trimmed_trimmed_fastqc.zip readable ZIP",
+    "pass": true,
+    "detail": 367512
+  },
+  {
+    "check": "output/fastqc/trim/WT_REP1_trimmed_1_val_1_fastqc.zip readable ZIP",
+    "pass": true,
+    "detail": 366807
+  },
+  {
+    "check": "both quantification branches merged gene matrices",
+    "pass": true,
+    "detail": [
+      "results/nfcore/rnaseq-3.27.0-attempt-2/output/salmon/salmon.merged.gene_counts.tsv",
+      "results/nfcore/rnaseq-3.27.0-attempt-2/output/star_salmon/salmon.merged.gene_counts.tsv"
+    ]
+  },
+  {
+    "check": "output/salmon/salmon.merged.gene_counts.tsv sample IDs/gene IDs/count ranges",
+    "pass": true,
+    "detail": {
+      "genes": 125,
+      "samples": [
+        "RAP1_IAA_30M_REP1",
+        "RAP1_UNINDUCED_REP1",
+        "RAP1_UNINDUCED_REP2",
+        "WT_REP1",
+        "WT_REP2"
+      ],
+      "min": 0.0,
+      "max": 39095.0
+    }
+  },
+  {
+    "check": "output/star_salmon/salmon.merged.gene_counts.tsv sample IDs/gene IDs/count ranges",
+    "pass": true,
+    "detail": {
+      "genes": 125,
+      "samples": [
+        "RAP1_IAA_30M_REP1",
+        "RAP1_UNINDUCED_REP1",
+        "RAP1_UNINDUCED_REP2",
+        "WT_REP1",
+        "WT_REP2"
+      ],
+      "min": 0.0,
+      "max": 35808.0
+    }
+  },
+  {
+    "check": "five final alignment BAMs",
+    "pass": true,
+    "detail": [
+      "results/nfcore/rnaseq-3.27.0-attempt-2/output/star_salmon/WT_REP2.markdup.sorted.bam",
+      "results/nfcore/rnaseq-3.27.0-attempt-2/output/star_salmon/WT_REP1.markdup.sorted.bam",
+      "results/nfcore/rnaseq-3.27.0-attempt-2/output/star_salmon/RAP1_UNINDUCED_REP1.markdup.sorted.bam",
+      "results/nfcore/rnaseq-3.27.0-attempt-2/output/star_salmon/RAP1_UNINDUCED_REP2.markdup.sorted.bam",
+      "results/nfcore/rnaseq-3.27.0-attempt-2/output/star_salmon/RAP1_IAA_30M_REP1.markdup.sorted.bam"
+    ]
+  },
+  {
+    "check": "BAMs actual samtools quickcheck",
+    "pass": true,
+    "detail": {
+      "exit_code": 0,
+      "evidence": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/bam-quickcheck.log"
+    }
+  },
+  {
+    "check": "actual staged downloads readable",
+    "pass": true,
+    "detail": {
+      "files": 19
+    }
+  }
+]

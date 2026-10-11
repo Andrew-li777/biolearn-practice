@@ -1,0 +1,32 @@
+{
+  "raw_cells": 2700,
+  "primary_cells": 2638,
+  "predicted_doublets_raw": 36,
+  "predicted_doublets_primary": 34,
+  "scrublet_threshold": 0.246042051581765,
+  "reference_cells": 700,
+  "reference_genes": 765,
+  "common_genes": 764,
+  "holdout_cells": 210,
+  "holdout_accuracy": 0.8428571428571429,
+  "holdout_macro_f1": 0.8347724920084263,
+  "low_confidence_query_cells": 29,
+  "method": "Reference-only z scaling and PCA30, distance-weighted kNN15; seed42; stratified30% holdout.",
+  "limitations": [
+    "Independent PBMC68k donor A reduced reference; not PBMC3k ground truth.",
+    "Only common reference genes; reference has no platelets or FCGR3A-specific monocytes.",
+    "Monocyte subtypes pooled; CD4 subtypes pooled. Confidence is a kNN vote, not calibrated probability.",
+    "Scrublet rate .05 is an assumed default; automatic flags are diagnostic, no cells removed.",
+    "Protein measurements absent. No claim of experimental cell-type accuracy."
+  ],
+  "seurat": {
+    "represented_cells": 2625,
+    "unrepresented_cells": 13,
+    "reference_agreement_represented": 0.8125714285714286
+  },
+  "scanpy": {
+    "represented_cells": 2625,
+    "unrepresented_cells": 13,
+    "reference_agreement_represented": 0.804952380952381
+  }
+}

@@ -1,0 +1,11 @@
+method=edgeR
+design=~ cell + dex
+contrast=dextrt; trt vs untrt
+alpha=0.1
+prefilter=filterByExpr(design): min.count=10, min.total.count=15, large.n=10, min.prop=0.7
+normalization=TMM after resetting filtered library sizes
+dispersion=estimateDisp robust=TRUE; glmQLFit robust=TRUE, abundance.trend=TRUE
+test=two-sided quasi-likelihood F; default poisson.bound=TRUE
+p_adjust=BH over all edgeR prefiltered genes; no DESeq2-style independent filtering
+comparison_LFC=edgeR logFC; default glmQLFit prior.count=0.125 (mild prior-count shrinkage)
+QL low-count handling=installed edgeR 4.4 defaults

@@ -1,0 +1,88 @@
+[
+  {
+    "route": "salmon",
+    "pca_rows": 5,
+    "pca_columns": [
+      "PC1: 51% variance",
+      "PC2: 22% variance"
+    ],
+    "pca_values": {
+      "RAP1_UNINDUCED_REP2": {
+        "PC1: 51% variance": -1.51501467957917,
+        "PC2: 22% variance": 0.0560798567345868
+      },
+      "RAP1_UNINDUCED_REP1": {
+        "PC1: 51% variance": -0.979502787804682,
+        "PC2: 22% variance": -1.22083745601682
+      },
+      "RAP1_IAA_30M_REP1": {
+        "PC1: 51% variance": -0.545457623186563,
+        "PC2: 22% variance": 1.39821506790191
+      },
+      "WT_REP2": {
+        "PC1: 51% variance": 1.50315047197715,
+        "PC2: 22% variance": -0.314733064750663
+      },
+      "WT_REP1": {
+        "PC1: 51% variance": 1.53682461859327,
+        "PC2: 22% variance": 0.0812755961309817
+      }
+    },
+    "sample_distance_shape": [
+      5,
+      5
+    ],
+    "sample_ids": [
+      "RAP1_IAA_30M_REP1",
+      "RAP1_UNINDUCED_REP1",
+      "RAP1_UNINDUCED_REP2",
+      "WT_REP1",
+      "WT_REP2"
+    ],
+    "pass": true,
+    "plot_caption": "Official Top500 is ntop=500 upper bound; actual test has125 genes, so Top500 and all-genes PCA use same125."
+  },
+  {
+    "route": "star_salmon",
+    "pca_rows": 5,
+    "pca_columns": [
+      "PC1: 52% variance",
+      "PC2: 22% variance"
+    ],
+    "pca_values": {
+      "RAP1_UNINDUCED_REP2": {
+        "PC1: 52% variance": -1.53674567609115,
+        "PC2: 22% variance": -0.0750427431486691
+      },
+      "RAP1_UNINDUCED_REP1": {
+        "PC1: 52% variance": -0.906391492431966,
+        "PC2: 22% variance": -1.16060861948622
+      },
+      "RAP1_IAA_30M_REP1": {
+        "PC1: 52% variance": -0.582198135357696,
+        "PC2: 22% variance": 1.44890120196827
+      },
+      "WT_REP1": {
+        "PC1: 52% variance": 1.50647989977141,
+        "PC2: 22% variance": -0.0125941694905506
+      },
+      "WT_REP2": {
+        "PC1: 52% variance": 1.5188554041094,
+        "PC2: 22% variance": -0.20065566984283
+      }
+    },
+    "sample_distance_shape": [
+      5,
+      5
+    ],
+    "sample_ids": [
+      "RAP1_IAA_30M_REP1",
+      "RAP1_UNINDUCED_REP1",
+      "RAP1_UNINDUCED_REP2",
+      "WT_REP1",
+      "WT_REP2"
+    ],
+    "pass": true,
+    "plot_caption": "Official Top500 is ntop=500 upper bound; actual test has125 genes, so Top500 and all-genes PCA use same125."
+  }
+]

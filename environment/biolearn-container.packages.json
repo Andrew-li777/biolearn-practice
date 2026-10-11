@@ -1,0 +1,22 @@
+[
+  {
+    "base_url": "https://conda.anaconda.org/conda-forge",
+    "build_number": 0,
+    "build_string": "ha770c72_0",
+    "channel": "conda-forge",
+    "dist_name": "containers-common-0.64.2-ha770c72_0",
+    "name": "containers-common",
+    "platform": "linux-64",
+    "version": "0.64.2"
+  },
+  {
+    "base_url": "https://conda.anaconda.org/conda-forge",
+    "build_number": 0,
+    "build_string": "hfc2019e_0",
+    "channel": "conda-forge",
+    "dist_name": "skopeo-1.24.1-hfc2019e_0",
+    "name": "skopeo",
+    "platform": "linux-64",
+    "version": "1.24.1"
+  }
+]

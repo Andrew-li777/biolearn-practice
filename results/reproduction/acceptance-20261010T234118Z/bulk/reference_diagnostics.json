@@ -1,0 +1,13 @@
+{
+  "reference_sig_count": 4381,
+  "actual_deseq2_sig_count": 4916,
+  "actual_minus_reference": 535,
+  "top20_reference_hits": [
+    "DUSP1",
+    "GPX3",
+    "MAOA",
+    "SAMHD1",
+    "SPARCL1"
+  ],
+  "policy": "diagnostic only; no pass/fail threshold and no parameter tuning"
+}

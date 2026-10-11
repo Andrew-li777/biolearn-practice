@@ -1,0 +1,64 @@
+Started UTC: 2026-10-10T23:44:19.992041+00:00
+Command: ["/home/a/miniforge3/bin/conda", "run", "--no-capture-output", "-n", "biolearn-r", "Rscript", "scripts/17_pbmc_graph_diagnostic.R", "results/reproduction/acceptance-20261010T234118Z/pbmc3k/seurat/analysis.rds", "results/reproduction/acceptance-20261010T234118Z/.attempts/pbmc_graph-20261010T234419991652Z"]
+NULL
+Actual Seurat graph: 2638 cells 194492 nonzero entries
+Ended UTC: 2026-10-10T23:44:30.524752+00:00
+Exit code: 0
+Started UTC: 2026-10-10T23:44:30.525084+00:00
+Command: ["/home/a/projects/biolearn-practice/environment/validation-venv/bin/python", "scripts/17_pbmc_graph_diagnostic.py", "results/reproduction/acceptance-20261010T234118Z/pbmc3k", "results/reproduction/acceptance-20261010T234118Z/.attempts/pbmc_graph-20261010T234419991652Z"]
+                    variant        graph     algorithm  resolution  cells  clusters  ARI_vs_seurat  NMI_vs_seurat  ARI_vs_scanpy  NMI_vs_scanpy
+  seurat_snn_leiden_res_0.5   seurat_snn Leiden igraph         0.5   2638         9       0.961034       0.967697       0.626838       0.751747
+  seurat_snn_leiden_res_1.0   seurat_snn Leiden igraph         1.0   2638        11       0.791341       0.892047       0.533096       0.705200
+scanpy_fuzzy_leiden_res_0.5 scanpy_fuzzy Leiden igraph         0.5   2638         6       0.603260       0.760384       0.618129       0.802185
+scanpy_fuzzy_leiden_res_1.0 scanpy_fuzzy Leiden igraph         1.0   2638         9       0.627931       0.754505       1.000000       1.000000
+{
+  "completed": true,
+  "ended_utc": "2026-10-10T23:44:33.936055+00:00",
+  "primary": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k",
+  "seed": 42,
+  "graph_edge_Jaccard": 0.05539603423989598,
+  "shared_directed_edges": 12270,
+  "union_directed_edges": 221496,
+  "interpretation": "Fixed Leiden implementation, seed and resolution compare saved Seurat SNN vs Scanpy fuzzy graphs. Upstream PCA/HVG/regression/k remain graph-specific; graph effect is bundled, not an isolated graph-construction formula effect. Primary outputs unchanged.",
+  "inputs": {
+    "results/reproduction/acceptance-20261010T234118Z/pbmc3k/seurat/analysis.rds": "2dd29d526b041b570758ca4e84053bb4d2229934dc2eaa3cbea0cc978a5cb059",
+    "results/reproduction/acceptance-20261010T234118Z/pbmc3k/seurat/clusters.csv": "4f3a41863be495162e3b21375671b4e59dca9d7799a7cf9aaa72a9665201ab11",
+    "results/reproduction/acceptance-20261010T234118Z/pbmc3k/scanpy/analysis.h5ad": "7ab4ea31b7c74364cc40e5d3d86569b4c96e75c66300b190b7b9b8a23475f2d0"
+  }
+}
+Ended UTC: 2026-10-10T23:44:34.488102+00:00
+Exit code: 0
+Started UTC: 2026-10-10T23:44:34.488631+00:00
+Command: ["/home/a/projects/biolearn-practice/environment/validation-venv/bin/python", "scripts/verify_pbmc_graph.py", "results/reproduction/acceptance-20261010T234118Z/.attempts/pbmc_graph-20261010T234419991652Z", "results/reproduction/acceptance-20261010T234118Z/pbmc3k"]
+{
+  "manifest_files": 12,
+  "hash_mismatch": [],
+  "changed_inputs": [],
+  "symmetric_seurat_graph": true,
+  "variants": [
+    {
+      "variant": "seurat_snn_leiden_res_0.5",
+      "pass": true,
+      "clusters": 9
+    },
+    {
+      "variant": "seurat_snn_leiden_res_1.0",
+      "pass": true,
+      "clusters": 11
+    },
+    {
+      "variant": "scanpy_fuzzy_leiden_res_0.5",
+      "pass": true,
+      "clusters": 6
+    },
+    {
+      "variant": "scanpy_fuzzy_leiden_res_1.0",
+      "pass": true,
+      "clusters": 9
+    }
+  ],
+  "pass": true,
+  "graph_edge_Jaccard": 0.05539603423989598
+}
+Ended UTC: 2026-10-10T23:44:38.061737+00:00
+Exit code: 0

@@ -1,0 +1,4 @@
+partial_novel 0%
+complete_novel 36%
+known 54%
+splicing events

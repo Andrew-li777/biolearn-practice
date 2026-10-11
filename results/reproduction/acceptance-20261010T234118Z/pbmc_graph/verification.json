@@ -1,0 +1,30 @@
+{
+  "manifest_files": 12,
+  "hash_mismatch": [],
+  "changed_inputs": [],
+  "symmetric_seurat_graph": true,
+  "variants": [
+    {
+      "variant": "seurat_snn_leiden_res_0.5",
+      "pass": true,
+      "clusters": 9
+    },
+    {
+      "variant": "seurat_snn_leiden_res_1.0",
+      "pass": true,
+      "clusters": 11
+    },
+    {
+      "variant": "scanpy_fuzzy_leiden_res_0.5",
+      "pass": true,
+      "clusters": 6
+    },
+    {
+      "variant": "scanpy_fuzzy_leiden_res_1.0",
+      "pass": true,
+      "clusters": 9
+    }
+  ],
+  "pass": true,
+  "graph_edge_Jaccard": 0.05539603423989598
+}

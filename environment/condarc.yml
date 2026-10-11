@@ -1,0 +1,5 @@
+channels:
+  - conda-forge
+  - bioconda
+channel_priority: strict
+use_sharded_repodata: false

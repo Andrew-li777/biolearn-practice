@@ -1,0 +1,72 @@
+{
+  "route": "pbmc_graph",
+  "primary": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k",
+  "started_utc": "2026-10-10T23:44:19.991891+00:00",
+  "completed": true,
+  "commands": [
+    [
+      "/home/a/miniforge3/bin/conda",
+      "run",
+      "--no-capture-output",
+      "-n",
+      "biolearn-r",
+      "Rscript",
+      "scripts/17_pbmc_graph_diagnostic.R",
+      "results/reproduction/acceptance-20261010T234118Z/pbmc3k/seurat/analysis.rds",
+      "results/reproduction/acceptance-20261010T234118Z/.attempts/pbmc_graph-20261010T234419991652Z"
+    ],
+    [
+      "/home/a/projects/biolearn-practice/environment/validation-venv/bin/python",
+      "scripts/17_pbmc_graph_diagnostic.py",
+      "results/reproduction/acceptance-20261010T234118Z/pbmc3k",
+      "results/reproduction/acceptance-20261010T234118Z/.attempts/pbmc_graph-20261010T234419991652Z"
+    ],
+    [
+      "/home/a/projects/biolearn-practice/environment/validation-venv/bin/python",
+      "scripts/verify_pbmc_graph.py",
+      "results/reproduction/acceptance-20261010T234118Z/.attempts/pbmc_graph-20261010T234419991652Z",
+      "results/reproduction/acceptance-20261010T234118Z/pbmc3k"
+    ]
+  ],
+  "stages": [
+    {
+      "command": [
+        "/home/a/miniforge3/bin/conda",
+        "run",
+        "--no-capture-output",
+        "-n",
+        "biolearn-r",
+        "Rscript",
+        "scripts/17_pbmc_graph_diagnostic.R",
+        "results/reproduction/acceptance-20261010T234118Z/pbmc3k/seurat/analysis.rds",
+        "results/reproduction/acceptance-20261010T234118Z/.attempts/pbmc_graph-20261010T234419991652Z"
+      ],
+      "started_utc": "2026-10-10T23:44:19.992041+00:00",
+      "exit_code": 0,
+      "ended_utc": "2026-10-10T23:44:30.524752+00:00"
+    },
+    {
+      "command": [
+        "/home/a/projects/biolearn-practice/environment/validation-venv/bin/python",
+        "scripts/17_pbmc_graph_diagnostic.py",
+        "results/reproduction/acceptance-20261010T234118Z/pbmc3k",
+        "results/reproduction/acceptance-20261010T234118Z/.attempts/pbmc_graph-20261010T234419991652Z"
+      ],
+      "started_utc": "2026-10-10T23:44:30.525084+00:00",
+      "exit_code": 0,
+      "ended_utc": "2026-10-10T23:44:34.488102+00:00"
+    },
+    {
+      "command": [
+        "/home/a/projects/biolearn-practice/environment/validation-venv/bin/python",
+        "scripts/verify_pbmc_graph.py",
+        "results/reproduction/acceptance-20261010T234118Z/.attempts/pbmc_graph-20261010T234419991652Z",
+        "results/reproduction/acceptance-20261010T234118Z/pbmc3k"
+      ],
+      "started_utc": "2026-10-10T23:44:34.488631+00:00",
+      "exit_code": 0,
+      "ended_utc": "2026-10-10T23:44:38.061737+00:00"
+    }
+  ],
+  "ended_utc": "2026-10-10T23:44:38.063783+00:00"
+}

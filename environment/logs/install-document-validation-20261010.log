@@ -1,0 +1,9 @@
+Collecting PyMuPDF
+  Downloading pymupdf-1.28.2-cp310-abi3-manylinux_2_28_x86_64.whl.metadata (26 kB)
+Downloading pymupdf-1.28.2-cp310-abi3-manylinux_2_28_x86_64.whl (25.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 25.8/25.8 MB 9.7 MB/s eta 0:00:00
+Installing collected packages: PyMuPDF
+Successfully installed PyMuPDF-1.28.2
+
+[notice] A new release of pip is available: 24.0 -> 26.2.1
+[notice] To update, run: /home/a/projects/biolearn-practice/environment/document-validation-venv/bin/python -m pip install --upgrade pip

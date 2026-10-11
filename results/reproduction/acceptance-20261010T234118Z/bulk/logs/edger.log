@@ -1,0 +1,7 @@
+Started UTC: 2026-10-10T23:45:51.666877+00:00
+Command: ["/home/a/miniforge3/bin/conda", "run", "--no-capture-output", "-n", "biolearn-r", "Rscript", "scripts/02_bulk_edger.R", "results/reproduction/acceptance-20261010T234118Z/.attempts/bulk-20261010T234523609628Z"]
+INPUT: 63677 genes; PRE_FILTER: 16860 genes
+SIGNIFICANT: 6550 UP: 3302 DOWN: 3248 
+PASS edgeR analysis
+Ended UTC: 2026-10-10T23:45:58.820063+00:00
+Exit code: 0

@@ -1,0 +1,3 @@
+Passed 156/158 checks
+FAIL {'check': 'pbmc3k annotation_python script SHA', 'pass': False, 'detail': '2eb86b7b9c7435a0ecb9b9c9e51494447371bdce82141d9eba59a9a89de4d92a'}
+FAIL {'check': 'RDS actual independent readback', 'pass': False, 'detail': {'exit_code': 1, 'evidence': 'results/reproduction/followup-20261010/verification/rds_readback.json'}}

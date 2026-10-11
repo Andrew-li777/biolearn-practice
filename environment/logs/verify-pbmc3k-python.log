@@ -1,0 +1,3 @@
+/home/a/miniforge3/envs/biolearn-py/lib/python3.11/functools.py:909: UserWarning: zero-centering a sparse array/matrix densifies it.
+  return dispatch(args[0].__class__)(*args, **kw)
+PASS PBMC3k Scanpy: input=2700 x 32738; QC cells=2638; clusters=9

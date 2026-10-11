@@ -1,0 +1,82 @@
+[
+  {
+    "check": "bulk acceptance",
+    "pass": true,
+    "detail": "39"
+  },
+  {
+    "check": "bulk manifest",
+    "pass": true,
+    "detail": "[]"
+  },
+  {
+    "check": "bulk analysis_summary.csv",
+    "pass": true,
+    "detail": "compared with prior verified run; rtol=1e-8 atol=1e-10"
+  },
+  {
+    "check": "bulk comparisons.csv",
+    "pass": true,
+    "detail": "compared with prior verified run; rtol=1e-8 atol=1e-10"
+  },
+  {
+    "check": "bulk overlap_all_three.csv",
+    "pass": true,
+    "detail": "compared with prior verified run; rtol=1e-8 atol=1e-10"
+  },
+  {
+    "check": "bulk deseq2_results.csv",
+    "pass": true,
+    "detail": "compared with prior verified run; rtol=1e-8 atol=1e-10"
+  },
+  {
+    "check": "bulk edger_results.csv",
+    "pass": true,
+    "detail": "compared with prior verified run; rtol=1e-8 atol=1e-10"
+  },
+  {
+    "check": "bulk pydeseq2_results.csv",
+    "pass": true,
+    "detail": "compared with prior verified run; rtol=1e-8 atol=1e-10"
+  },
+  {
+    "check": "pbmc3k acceptance",
+    "pass": true,
+    "detail": "83"
+  },
+  {
+    "check": "pbmc3k manifest",
+    "pass": true,
+    "detail": "[]"
+  },
+  {
+    "check": "pbmc3k/seurat/clusters.csv",
+    "pass": true,
+    "detail": "compared by saved barcode rows and values"
+  },
+  {
+    "check": "pbmc3k/seurat/qc_after.csv",
+    "pass": true,
+    "detail": "compared by saved barcode rows and values"
+  },
+  {
+    "check": "pbmc3k/scanpy/clusters.csv",
+    "pass": true,
+    "detail": "compared by saved barcode rows and values"
+  },
+  {
+    "check": "pbmc3k/scanpy/qc_after.csv",
+    "pass": true,
+    "detail": "compared by saved barcode rows and values"
+  },
+  {
+    "check": "pbmc3k comparison_metrics",
+    "pass": true,
+    "detail": "{\"n_a\": 2638, \"n_b\": 2638, \"shared\": 2638, \"only_a\": 0, \"only_b\": 0, \"clusters_a\": 9, \"clusters_b\": 9, \"ARI\": 0.6279310734626542, \"NMI_arithmetic\": 0.7545047834392827, \"broad_type_agreement\": 0.9499620924943138}"
+  },
+  {
+    "check": "all declared outputs",
+    "pass": true,
+    "detail": "explicit file contract"
+  }
+]

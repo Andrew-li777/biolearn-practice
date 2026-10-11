@@ -1,0 +1,17 @@
+0%
+20%
+40%
+60%
+80%
+100%
+0
+20
+40
+60
+80
+100
+120
+QualiMap: RNAseq: Coverage Proﬁle Along Genes (total)
+ Counts, 5 lines 
+Transcript Position 5'->3' (%)
+Cumulative mapped-read depth

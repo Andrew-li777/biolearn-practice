@@ -1,0 +1,7 @@
+Fetch Shard Index for conda-forge/linux-64                                                      ⧖ Starting
+Fetch Shard Index for conda-forge/linux-64                                                ✔ Done (2.7 sec)
+Fetch Shard Index for conda-forge/noarch                                                        ⧖ Starting
+Fetch Shard Index for conda-forge/noarch                                                  ✔ Done (2.3 sec)
+Fetching and Parsing Packages' Shards                                                           ⧖ Starting
+warning  libmamba Failed to fetch shard https://conda.anaconda.org/conda-forge/linux-64/1329689e4e484fa7b3914348c80cf759efd56b5ee793d07a396582eb5e1be529.msgpack.zst for package python_abi: Download error (28) Timeout was reached [https://conda.anaconda.org/conda-forge/linux-64/1329689e4e484fa7b3914348c80cf759efd56b5ee793d07a396582eb5e1be529.msgpack.zst]
+    Operation too slow. Less than 30 bytes/sec transferred the last 60 seconds

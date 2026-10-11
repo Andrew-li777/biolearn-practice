@@ -1,0 +1,47 @@
+# Downloaded datasets and installers
+/data/
+/environment/Miniforge3-*.sh
+/environment/validation/*.h5ad
+
+# Recreate isolated environments from the committed locks and inventories
+/environment/*-venv/
+/environment/document-validation-venv/
+
+# Serialized analysis objects remain local; tables and plots are reviewable
+/results/**/*.rds
+/results/**/*.h5ad
+*.bam
+*.bai
+*.cram
+*.crai
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+__pycache__/
+*.py[cod]
+
+## Workflow engines, caches, and vendored upstream source
+/.snakemake/
+/.nextflow/
+/.nextflow.log*
+/workflow/nfcore-rnaseq-3.27.0/
+/results/nfcore/**/work/
+
+# Keep the final verification evidence; omit failed/obsolete and bulky outputs
+/results/nfcore/rnaseq-3.27.0-attempt-1/
+/results/nfcore/rnaseq-3.27.0-attempt-2/output/
+/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected/
+/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-2/
+/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-3/
+
+# Superseded runs and transactional working directories
+/results/**/.attempts/
+/results/**/.publish-staging/
+/results/reproduction/clean-20261010/
+/results/reproduction/failure-isolation-20261010/
+/results/reproduction/followup-20261010/
+/results/bulk/
+/results/pbmc3k/
+/results/pbmc3k-graph/
+/results/pbmc3k-validation/

@@ -1,0 +1,18 @@
+{
+  "image": "community.wave.seqera.io/library/picard:3.5.0--842d4c70c98af9b4",
+  "started_utc": "2026-10-10T23:07:21.998783+00:00",
+  "source": "docker://community.wave.seqera.io/library/picard:3.5.0--842d4c70c98af9b4",
+  "transport": "skopeo -> docker-daemon; existing client proxy inherited; no system proxy changes",
+  "completed": true,
+  "exit_code": 0,
+  "ended_utc": "2026-10-10T23:09:38.698683+00:00",
+  "source_digest": "sha256:77adca1b952cf3bba4ebd92393809e3cfd34e8f5cd186882d075a4291068b3ca",
+  "architecture": "amd64",
+  "docker_image_id": "sha256:7dff95115916e947d459b92b0cc989f575514e75ab056f92c1c51d7637212bf1",
+  "docker_size": 667409007,
+  "docker_layers": [
+    "sha256:b9a65b3c65ab22d490085bd0bf5490e2409da8748b406870f2463bdc41cd6795",
+    "sha256:9d594bcaac8bc0b51a0f66db9becd87d3b2de8566e82cdb97b9d3c9fc5f9e27b",
+    "sha256:b2b5881a748ce4f50a811a44286427a29ec907ea5ee841710633c1aba6d90d24"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "graph_statistics.csv": "d18fd02afe4f928caacfd0102ce11488850957c19b458fe396868e150f03ccd9",
+  "run-provenance.json": "7e571796ca8858dc1417d24fbe26ec80b5da3f55e0da420b97d18e02070f9d7b",
+  "scanpy_fuzzy_leiden_res_0.5_clusters.csv": "44a696adae8ab328b8f12a7201579b42214e99378f37702a8bfbe856aeca0095",
+  "scanpy_fuzzy_leiden_res_1.0_clusters.csv": "c69ae548665c98f667d2342c520c340e2be502de503505160c88376e695450c5",
+  "seurat_snn_leiden_res_1.0_clusters.csv": "0e3e4919ccb56273f93fd21be157fb0dc9e346f65e72ba99381723bcdf9fb169",
+  "sessionInfo.txt": "54dae81a1c9f2155450f7d71254e9acbde6aba95009fa7d19bfc072fb48727d4",
+  "17_pbmc_graph_diagnostic.py": "39b0bed53ddc674c2398bad384c58ad0c71a358aa3793eb35dac63e732c5fa25",
+  "provenance.json": "9c12bab5b2b0c2f069dbabd2af6be96a16f948590fd177725938a1c70d9dcfa3",
+  "17_pbmc_graph_diagnostic.R": "d0f37e0e4b4c0100d2ad36f719c7b4975e58a1461c69a3a27e0748eb793e7d11",
+  "seurat_snn_barcodes.csv": "982754b00307de46ea31867a8e11a129ff15ac38221e4f2b20e5a05f62c519c0",
+  "seurat_snn.mtx": "c432069a6de9559ef77ad735856c77174578d2e28297dc42bbe26d24edbd2ac6",
+  "graph_resolution_experiments.csv": "0631060c7213103d8bd61381a3ee69b00727d74f172d7c3c32bea04e3a405a11",
+  "seurat_snn_leiden_res_0.5_clusters.csv": "e735b84d11139f955731ad7b0b1d2792d92eb5a94a9060eb0c328f817e821b60",
+  "verification.json": "9e58e169525beeb534adc3f1f3105813f16b787ddf19263db30fb041f04d649e",
+  "logs/execution.log": "e3637ca26c289a5ad1b1bc9c65dd96598aa61c68c3f71c795402b958d56fc888",
+  "scripts/run_pbmc_diagnostics.py": "06d44588160ab3b4049c91775ed3a7bca33c0566f563a47672b74bf2fe6d7305"
+}

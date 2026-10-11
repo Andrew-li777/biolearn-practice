@@ -1,0 +1,18 @@
+{
+  "image": "quay.io/biocontainers/qualimap:2.3--hdfd78af_0",
+  "started_utc": "2026-10-10T23:18:25.062148+00:00",
+  "source": "docker://quay.io/biocontainers/qualimap:2.3--hdfd78af_0",
+  "transport": "skopeo -> docker-daemon; existing client proxy inherited; no system proxy changes",
+  "completed": true,
+  "exit_code": 0,
+  "ended_utc": "2026-10-10T23:20:02.738965+00:00",
+  "source_digest": "sha256:49d81e27bf995d0ef72ae46c79c22c8c779e21573cd76f7b60cf3f73af61b087",
+  "architecture": "amd64",
+  "docker_image_id": "sha256:9302ad157c3eba4f88a760402787a44042bd843a967194427d785def73d6e282",
+  "docker_size": 726602410,
+  "docker_layers": [
+    "sha256:70a2756904ec8ee2777ae17e263046c49758c2b0cdb389903503835b03d3d21a",
+    "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef",
+    "sha256:d03ca29cb6f509c9e3db85abfefb2cba6b1d22d0de89189545b1a48d32b86651"
+  ]
+}

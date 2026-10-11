@@ -1,0 +1,62 @@
+{
+    "Name": "quay.io/biocontainers/qualimap",
+    "Digest": "sha256:49d81e27bf995d0ef72ae46c79c22c8c779e21573cd76f7b60cf3f73af61b087",
+    "RepoTags": [
+        "2.1.1--0",
+        "2.1.1--hdfd78af_1",
+        "2.2--0",
+        "2.2.2a--0",
+        "2.2.2a--1",
+        "2.2.2a--2",
+        "2.2.2b--0",
+        "2.2.2b--1",
+        "2.2.2c--0",
+        "2.2.2c--1",
+        "2.2.2c--hdfd78af_2",
+        "2.2.2d--0",
+        "2.2.2d--1",
+        "2.2.2d--hdfd78af_2",
+        "2.3--hdfd78af_0"
+    ],
+    "Created": "2023-11-21T09:56:07.827125615Z",
+    "DockerVersion": "24.0.7",
+    "Labels": {
+        "bash": "GNU bash, version 5.2.15(1)-release (x86_64-pc-linux-gnu)",
+        "busybox": "BusyBox v1.36.1 (2023-10-17 11:19:33 UTC) multi-call binary.",
+        "deb-list": "gcc-12-base_12.2.0-14_amd64.deb|libc6_2.36-9+deb12u3_amd64.deb|libgcc-s1_12.2.0-14_amd64.deb|base-passwd_3.6.1_amd64.deb|bash_5.2.15-2+b2_amd64.deb|libc-bin_2.36-9+deb12u3_amd64.deb|libcrypt1_1%3a4.4.33-2_amd64.deb|libtinfo6_6.4-4_amd64.deb|login_1%3a4.13+dfsg1-1+b1_amd64.deb|ncurses-base_6.4-4_all.deb|base-files_12.4+deb12u2_amd64.deb",
+        "glibc": "GNU C Library (Debian GLIBC 2.36-9+deb12u3) stable release version 2.36.",
+        "io.buildah.version": "1.23.1",
+        "pkg-list": "gcc-12-base|libc6|libgcc-s1|base-passwd|bash|libc-bin|libcrypt1|libtinfo6|login|ncurses-base|base-files"
+    },
+    "Architecture": "amd64",
+    "Os": "linux",
+    "Layers": [
+        "sha256:ca7680d1025d7a2df2c11bc7fdcc87594a7d0c43f16f970e7b0b4bef1b266918",
+        "sha256:bd9ddc54bea929a22b334e73e026d4136e5b73f5cc29942896c72e4ece69b13d",
+        "sha256:53aaa050dfb057624a57ac4565e843b9d4bcf2b74de9bc36a115df3f90b943c3"
+    ],
+    "LayersData": [
+        {
+            "MIMEType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+            "Digest": "sha256:ca7680d1025d7a2df2c11bc7fdcc87594a7d0c43f16f970e7b0b4bef1b266918",
+            "Size": 4696721,
+            "Annotations": null
+        },
+        {
+            "MIMEType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+            "Digest": "sha256:bd9ddc54bea929a22b334e73e026d4136e5b73f5cc29942896c72e4ece69b13d",
+            "Size": 34,
+            "Annotations": null
+        },
+        {
+            "MIMEType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+            "Digest": "sha256:53aaa050dfb057624a57ac4565e843b9d4bcf2b74de9bc36a115df3f90b943c3",
+            "Size": 721901459,
+            "Annotations": null
+        }
+    ],
+    "Env": [
+        "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+        "LANG=C.UTF-8"
+    ]
+}

@@ -1,0 +1,1 @@
+scripts/check_container.sh: line 6: docker: command not found

@@ -1,0 +1,15 @@
+{
+  "verified_at_utc": "2026-10-10T23:41:43.636513+00:00",
+  "source_url": "https://cf.10xgenomics.com/samples/cell/pbmc3k/pbmc3k_filtered_gene_bc_matrices.tar.gz",
+  "archive_path": "data/pbmc3k/pbmc3k_filtered_gene_bc_matrices.tar.gz",
+  "archive_sha256": "847d6ebd9a1ec9a768f2be7e40ca42cbfe75ebeb6d76a4c24167041699dc28b5",
+  "archive_bytes": 7621991,
+  "input_directory": "data/pbmc3k/filtered_gene_bc_matrices/hg19",
+  "extracted_sha256": {
+    "filtered_gene_bc_matrices/hg19/matrix.mtx": "7d92358b9d29128a225c50f2a662d6ccca9c71bc665e0af82692ed1361eb94e4",
+    "filtered_gene_bc_matrices/hg19/genes.tsv": "8778dd78085086be6dcafa8334f95f7cf76b25526e8ef2b63186db5127a1492c",
+    "filtered_gene_bc_matrices/hg19/barcodes.tsv": "58c2a224a2b4258f7e8799a18890bda6d23824b247b80db2b08a0dcc36a4c660"
+  },
+  "verification": "reused existing download; each extracted file equals archive member byte-for-byte; checksum is locally computed, not an upstream authenticity signature",
+  "genome_annotation": "10x supplied hg19 gene IDs/symbols, no reference genome downloaded"
+}

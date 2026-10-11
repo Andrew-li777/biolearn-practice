@@ -1,0 +1,87 @@
+{
+    "Name": "community.wave.seqera.io/library/trim-galore",
+    "Digest": "sha256:51c7ccb48048e4b08bcbc60796d9be8e41cda648dba02e8710f71c1b74f008d8",
+    "RepoTags": [
+        "0.5.0--16bd677ee493f6cd",
+        "0.5.0--ae8e64f778988c8d",
+        "0.6.10--12f233b70d34aef7",
+        "0.6.10--1bf8ca4e1967cd18",
+        "0.6.10--2379bccd9067a62e",
+        "0.6.10--2da1a12d79100023",
+        "0.6.10--3788392f47da57dd",
+        "0.6.10--453d45ddd25b3d6a",
+        "0.6.10--4cbf61f6885d4b1e",
+        "0.6.10--a589a02e74be0055",
+        "0.6.10--bc38c9238980c80e",
+        "0.6.10--c3559006753a11d1",
+        "0.6.10--c999dc649b0bf1e2",
+        "0.6.10--e1d78c153f940cdf",
+        "0.6.10--fae63a915b625e64",
+        "0.6.10--fef117c83afd5e0c",
+        "0.6.11--d16c399854f90a5e",
+        "0.6.11--e405246eb139fe43",
+        "0.6.4--e879a477adf8237d",
+        "0.6.5--a979310a411cd5d0",
+        "0.6.6--78e492a874b1656c",
+        "0.6.7--080736edc9f93098",
+        "0.6.7--217c6855db066ac5",
+        "0.6.7--2d89b47b81f471e3",
+        "0.6.7--2f8cc7c1ddd6a7ac",
+        "0.6.7--4686c144ada56f9b",
+        "0.6.7--6d7a2727f691dade",
+        "0.6.7--78ae57bed703e15b",
+        "0.6.7--ee17c70d7a5d452a",
+        "0deab4fc8772f146",
+        "2.1.0--00cc2fe1924b49f4",
+        "2.1.0--209b7d6c3410d095",
+        "2.1.0--27e6376b8f6c1872",
+        "2.1.0--3767d03de9673f4a",
+        "2.1.0--78f567af64c180d0",
+        "2.1.0--7df2aae1e1928c85",
+        "2.1.0--9007a4f60c4e1247",
+        "2.1.0--9c3d977448fceb85",
+        "2.1.0--ed191ea0deab2b9b",
+        "2.1.0--ef3d128c06cb5767",
+        "2.2.0--2cc76f755f01c7aa",
+        "2.2.0--7c4d34af422b845e",
+        "2.2.0--8b3793512ddb897c",
+        "2.2.0--d160529e71df0337",
+        "2.3.0--2b255ff43100a747",
+        "2.3.0--41c957a42f06d443",
+        "2.3.0--6a38a479b4972363",
+        "2.3.0--96fc6bc060f05ffa",
+        "2.3.0--a56e49e832976df4",
+        "2.3.0--dfb1fd48e19a6cf3",
+        "3a7047006bbc4999",
+        "a8cf577520260cd9"
+    ],
+    "Created": "2026-07-09T09:58:07.896175774Z",
+    "DockerVersion": "",
+    "Labels": {
+        "org.opencontainers.image.version": "24.04"
+    },
+    "Architecture": "amd64",
+    "Os": "linux",
+    "Layers": [
+        "sha256:ca2678b20700c15185707964d9211b1a6406196114bf675f568b6025d37b3888",
+        "sha256:26bc7ec023664cd07886c4423d49e2c743a74aee74fc15857b25f801c0cda795"
+    ],
+    "LayersData": [
+        {
+            "MIMEType": "application/vnd.oci.image.layer.v1.tar+gzip",
+            "Digest": "sha256:ca2678b20700c15185707964d9211b1a6406196114bf675f568b6025d37b3888",
+            "Size": 29735601,
+            "Annotations": null
+        },
+        {
+            "MIMEType": "application/vnd.oci.image.layer.v1.tar+gzip",
+            "Digest": "sha256:26bc7ec023664cd07886c4423d49e2c743a74aee74fc15857b25f801c0cda795",
+            "Size": 9481689,
+            "Annotations": null
+        }
+    ],
+    "Env": [
+        "PATH=/opt/conda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+        "MAMBA_ROOT_PREFIX=/opt/conda"
+    ]
+}

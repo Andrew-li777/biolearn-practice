@@ -1,0 +1,9 @@
+I
+0.5
+1
+1.5
+2
+Samtools: idxstats: Mapped reads per contig
+ Observed over Expected Counts, 5 lines 
+Chromosome name
+log10 ( Observed over expected counts )

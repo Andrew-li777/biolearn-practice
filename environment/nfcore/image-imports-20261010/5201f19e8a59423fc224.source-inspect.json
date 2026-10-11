@@ -1,0 +1,160 @@
+{
+    "Name": "community.wave.seqera.io/library/rseqc_r-base",
+    "Digest": "sha256:4f5926eeef842405756ca3453cd534b72d941c119b8e4785565c7918e05cd8ab",
+    "RepoTags": [
+        "02d064793c9f3279",
+        "092fef07cff0abfa",
+        "15983b7427bdc875",
+        "1977bd20f4fa93da",
+        "280f3a07db26195c",
+        "2c6374f25c7b060e",
+        "2e29d2dfda9cef15",
+        "49a6311919a8ab4b",
+        "4d73c5c262aba6ae",
+        "58be0b568def3ebc",
+        "5f2b06b5f1f663f2",
+        "600f98c935c8ae30",
+        "71c37010fd504f47",
+        "807f2ace3136365a",
+        "8528b16ca08e3d9c",
+        "8c9efe1caab103d2",
+        "a2f5852c8ab06f43",
+        "b5592e512678ccd4",
+        "b63499fe19f103fe",
+        "be2a369df90a7b4b",
+        "dd1c70860ae8c0ee",
+        "de3aa189dd6219c5",
+        "e07f48f84bf20751",
+        "e45f56a190688dee",
+        "f496e735859374b9",
+        "f4e231d8fb0edaad"
+    ],
+    "Created": "2025-12-18T16:52:01.589771912Z",
+    "DockerVersion": "",
+    "Labels": {
+        "org.opencontainers.image.created": "2024-09-23T16:10:59.098Z",
+        "org.opencontainers.image.description": "Rapid builds of small Conda-based containers using micromamba.",
+        "org.opencontainers.image.licenses": "Apache-2.0",
+        "org.opencontainers.image.ref.name": "ubuntu",
+        "org.opencontainers.image.revision": "37bfa82a0fc1d2085e4b722fac4f747d0fa132c5",
+        "org.opencontainers.image.source": "https://github.com/mamba-org/micromamba-docker",
+        "org.opencontainers.image.title": "micromamba-docker",
+        "org.opencontainers.image.url": "https://github.com/mamba-org/micromamba-docker",
+        "org.opencontainers.image.version": "noble"
+    },
+    "Architecture": "amd64",
+    "Os": "linux",
+    "Layers": [
+        "sha256:dafa2b0c44d2cfb0be6721f079092ddf15dc8bc537fb07fe7c3264c15cb2e8e6",
+        "sha256:dec6b097362e7c8d80e31302367f54d610b0e84d5c9cd5ccd300729608a54b18",
+        "sha256:f88da01cff0bc1129f1ae80576be8f3f715d1d3394d6ba35a93aa77f9a115733",
+        "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
+        "sha256:92dc97a3ef369828f8d35d2242b165660dada3e3496ceef9ccb9ac3290e82bf9",
+        "sha256:403f74b0f85e9834f9d27943e5e2d26d191e619160f5477ad99adc52a4122764",
+        "sha256:10b8c00c10a554f94856546f418480a7d9c8136644c0fb97c725046bd6fdb578",
+        "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
+        "sha256:17dc7ea432cc5ad24408dee199f29d0cdad597274cb11bd37352261849c241b2",
+        "sha256:bb36d6c3110d8825cd64743566e94bb2a65c4c898a8a0cd05569cbcb5689af07",
+        "sha256:0ea1a16bbe82e9a9906f98df703f99bb84f50b7a973057784bce54a4275781b2",
+        "sha256:030a47592a0a4d4536afb78188ecab3ff9fa7ee5771b2f6a5ee0d8ed139729e9",
+        "sha256:41a9edcd5fcc80802d8ec522471260d1366892d79f794fe39b22d0cffa0e98f6",
+        "sha256:3164755ce951c461a0e7626c9c8dc35b7c822500cee6ae9ad512ce85ea140a4b"
+    ],
+    "LayersData": [
+        {
+            "MIMEType": "application/vnd.oci.image.layer.v1.tar+gzip",
+            "Digest": "sha256:dafa2b0c44d2cfb0be6721f079092ddf15dc8bc537fb07fe7c3264c15cb2e8e6",
+            "Size": 29749828,
+            "Annotations": null
+        },
+        {
+            "MIMEType": "application/vnd.oci.image.layer.v1.tar+gzip",
+            "Digest": "sha256:dec6b097362e7c8d80e31302367f54d610b0e84d5c9cd5ccd300729608a54b18",
+            "Size": 126557,
+            "Annotations": null
+        },
+        {
+            "MIMEType": "application/vnd.oci.image.layer.v1.tar+gzip",
+            "Digest": "sha256:f88da01cff0bc1129f1ae80576be8f3f715d1d3394d6ba35a93aa77f9a115733",
+            "Size": 6195272,
+            "Annotations": null
+        },
+        {
+            "MIMEType": "application/vnd.oci.image.layer.v1.tar+gzip",
+            "Digest": "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
+            "Size": 32,
+            "Annotations": null
+        },
+        {
+            "MIMEType": "application/vnd.oci.image.layer.v1.tar+gzip",
+            "Digest": "sha256:92dc97a3ef369828f8d35d2242b165660dada3e3496ceef9ccb9ac3290e82bf9",
+            "Size": 524,
+            "Annotations": null
+        },
+        {
+            "MIMEType": "application/vnd.oci.image.layer.v1.tar+gzip",
+            "Digest": "sha256:403f74b0f85e9834f9d27943e5e2d26d191e619160f5477ad99adc52a4122764",
+            "Size": 284,
+            "Annotations": null
+        },
+        {
+            "MIMEType": "application/vnd.oci.image.layer.v1.tar+gzip",
+            "Digest": "sha256:10b8c00c10a554f94856546f418480a7d9c8136644c0fb97c725046bd6fdb578",
+            "Size": 4077,
+            "Annotations": null
+        },
+        {
+            "MIMEType": "application/vnd.oci.image.layer.v1.tar+gzip",
+            "Digest": "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
+            "Size": 32,
+            "Annotations": null
+        },
+        {
+            "MIMEType": "application/vnd.oci.image.layer.v1.tar+gzip",
+            "Digest": "sha256:17dc7ea432cc5ad24408dee199f29d0cdad597274cb11bd37352261849c241b2",
+            "Size": 217,
+            "Annotations": null
+        },
+        {
+            "MIMEType": "application/vnd.oci.image.layer.v1.tar+gzip",
+            "Digest": "sha256:bb36d6c3110d8825cd64743566e94bb2a65c4c898a8a0cd05569cbcb5689af07",
+            "Size": 686,
+            "Annotations": null
+        },
+        {
+            "MIMEType": "application/vnd.oci.image.layer.v1.tar+gzip",
+            "Digest": "sha256:0ea1a16bbe82e9a9906f98df703f99bb84f50b7a973057784bce54a4275781b2",
+            "Size": 648,
+            "Annotations": null
+        },
+        {
+            "MIMEType": "application/vnd.oci.image.layer.v1.tar+gzip",
+            "Digest": "sha256:030a47592a0a4d4536afb78188ecab3ff9fa7ee5771b2f6a5ee0d8ed139729e9",
+            "Size": 346,
+            "Annotations": null
+        },
+        {
+            "MIMEType": "application/vnd.oci.image.layer.v1.tar+gzip",
+            "Digest": "sha256:41a9edcd5fcc80802d8ec522471260d1366892d79f794fe39b22d0cffa0e98f6",
+            "Size": 207,
+            "Annotations": null
+        },
+        {
+            "MIMEType": "application/vnd.oci.image.layer.v1.tar+gzip",
+            "Digest": "sha256:3164755ce951c461a0e7626c9c8dc35b7c822500cee6ae9ad512ce85ea140a4b",
+            "Size": 689728978,
+            "Annotations": null
+        }
+    ],
+    "Env": [
+        "PATH=/opt/conda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+        "LANG=C.UTF-8",
+        "LC_ALL=C.UTF-8",
+        "ENV_NAME=base",
+        "MAMBA_ROOT_PREFIX=/opt/conda",
+        "MAMBA_EXE=/bin/micromamba",
+        "MAMBA_USER=mambauser",
+        "MAMBA_USER_ID=57439",
+        "MAMBA_USER_GID=57439"
+    ]
+}

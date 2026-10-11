@@ -1,0 +1,16 @@
+0%
+20%
+40%
+60%
+80%
+100%
+WT_REP2
+WT_REP1
+RAP1_UNINDUCED_REP2
+RAP1_UNINDUCED_REP1
+RAP1_IAA_30M_REP1
+Known Splicing Junctions
+Novel Splicing Junctions
+RSeQC: Splicing Junctions
+ Junctions, 5 bars 
+% Junctions

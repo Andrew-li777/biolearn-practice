@@ -1,0 +1,154 @@
+[
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/bulk/volcano.png",
+    "size": [
+      1280,
+      960
+    ],
+    "same_as_visually_verified": true
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/bulk/ma_unshrunk.png",
+    "size": [
+      1200,
+      850
+    ],
+    "same_as_visually_verified": true
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/bulk/top30_heatmap.png",
+    "size": [
+      3000,
+      3300
+    ],
+    "same_as_visually_verified": true
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/bulk/pca.png",
+    "size": [
+      1280,
+      960
+    ],
+    "same_as_visually_verified": true
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/bulk/ma_plot.png",
+    "size": [
+      1200,
+      850
+    ],
+    "same_as_visually_verified": true
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/bulk/sample_distance.png",
+    "size": [
+      2400,
+      2100
+    ],
+    "same_as_visually_verified": true
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/pbmc3k/cluster_crosstab.png",
+    "size": [
+      1600,
+      1120
+    ],
+    "same_as_visually_verified": true
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/pbmc3k/seurat/qc_scatter.png",
+    "size": [
+      1120,
+      800
+    ],
+    "same_as_visually_verified": true
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/pbmc3k/seurat/umap_clusters.png",
+    "size": [
+      1280,
+      960
+    ],
+    "same_as_visually_verified": true
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/pbmc3k/seurat/marker_dotplot_cell_types.png",
+    "size": [
+      2080,
+      1120
+    ],
+    "same_as_visually_verified": true
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/pbmc3k/seurat/marker_dotplot.png",
+    "size": [
+      2080,
+      960
+    ],
+    "same_as_visually_verified": true
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/pbmc3k/seurat/qc_violin.png",
+    "size": [
+      1760,
+      640
+    ],
+    "same_as_visually_verified": true
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/pbmc3k/seurat/umap_cell_types.png",
+    "size": [
+      1760,
+      960
+    ],
+    "same_as_visually_verified": true
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/pbmc3k/scanpy/qc_scatter.png",
+    "size": [
+      1120,
+      800
+    ],
+    "same_as_visually_verified": true
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/pbmc3k/scanpy/umap_clusters.png",
+    "size": [
+      856,
+      688
+    ],
+    "same_as_visually_verified": true
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/pbmc3k/scanpy/marker_dotplot_cell_types.png",
+    "size": [
+      1370,
+      635
+    ],
+    "same_as_visually_verified": true
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/pbmc3k/scanpy/marker_dotplot.png",
+    "size": [
+      1315,
+      635
+    ],
+    "same_as_visually_verified": true
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/pbmc3k/scanpy/qc_violin.png",
+    "size": [
+      1760,
+      640
+    ],
+    "same_as_visually_verified": true
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/pbmc3k/scanpy/umap_cell_types.png",
+    "size": [
+      1181,
+      688
+    ],
+    "same_as_visually_verified": true
+  }
+]

@@ -1,0 +1,8 @@
+Passed 18 / 18
+{
+  "description": "Existing primary cluster labels restricted to unflagged barcodes; no reclustering.",
+  "cells": 2604,
+  "ARI": 0.6263521113108851,
+  "NMI_arithmetic": 0.7589438432351208,
+  "broad_type_agreement": 0.9519969278033794
+}

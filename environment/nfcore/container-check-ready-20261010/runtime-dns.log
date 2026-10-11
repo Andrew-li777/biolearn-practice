@@ -1,0 +1,23 @@
+Server:		192.168.17.2
+Address:	192.168.17.2:53
+
+Non-authoritative answer:
+Name:	raw.githubusercontent.com
+Address: 185.199.110.133
+Name:	raw.githubusercontent.com
+Address: 185.199.108.133
+Name:	raw.githubusercontent.com
+Address: 185.199.109.133
+Name:	raw.githubusercontent.com
+Address: 185.199.111.133
+
+Non-authoritative answer:
+Name:	raw.githubusercontent.com
+Address: 2606:50c0:8003::154
+Name:	raw.githubusercontent.com
+Address: 2606:50c0:8001::154
+Name:	raw.githubusercontent.com
+Address: 2606:50c0:8002::154
+Name:	raw.githubusercontent.com
+Address: 2606:50c0:8000::154
+

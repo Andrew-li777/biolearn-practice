@@ -1,0 +1,60 @@
+PASS import: scanpy 1.11.5
+PASS import: pydeseq2 0.5.4
+PASS import: igraph 1.0.0
+PASS import: leidenalg 0.12.0
+PASS import: numpy 2.4.6
+PASS import: scipy 1.17.1
+PASS import: pandas 2.3.3
+PASS import: sklearn 1.9.1
+PASS import: matplotlib 3.11.2
+PASS import: seaborn 0.13.2
+PASS import: anndata 0.12.19
+PASS import: h5py 3.16.0
+PASS import: statsmodels 0.15.0
+PASS import: umap 0.5.12
+PASS import: skmisc 0.0.0
+PASS Scanpy PCA/neighbors/Leiden (both backends)/UMAP/markers/plot/H5AD and comparison metrics
+/home/a/miniforge3/envs/biolearn-py/lib/python3.11/functools.py:909: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+Fitting size factors...
+... done in 0.00 seconds.
+
+Using None as control genes, passed at DeseqDataSet initialization
+Fitting dispersions...
+... done in 0.09 seconds.
+
+Fitting dispersion trend curve...
+... done in 0.02 seconds.
+
+Fitting MAP dispersions...
+... done in 0.10 seconds.
+
+Fitting LFCs...
+... done in 0.08 seconds.
+
+Calculating cook's distance...
+... done in 0.00 seconds.
+
+Replacing 0 outlier genes.
+
+Running Wald tests...
+... done in 0.06 seconds.
+
+Log2 fold change & Wald test p-value: condition treated vs control
+     baseMean  log2FoldChange     lfcSE      stat    pvalue      padj
+0   11.757426        0.425960  0.477827  0.891452  0.372687  0.995062
+1    9.228413        0.509175  0.511922  0.994634  0.319915  0.995062
+2    8.592980        0.552280  0.554357  0.996253  0.319127  0.995062
+3   10.366010        0.512303  0.497921  1.028886  0.303533  0.995062
+4   10.986634        0.161715  0.517490  0.312498  0.754662  0.995062
+..        ...             ...       ...       ...       ...       ...
+95  12.559036       -0.278455  0.514765 -0.540936  0.588552  0.995062
+96   8.831034        0.303161  0.521932  0.580843  0.561346  0.995062
+97  11.220893       -0.282299  0.490040 -0.576072  0.564566  0.995062
+98   9.629372       -0.105851  0.522255 -0.202681  0.839385  0.995062
+99  12.201369        0.174806  0.461499  0.378779  0.704852  0.995062
+
+[100 rows x 6 columns]
+PASS PyDESeq2 fit and statistical test
+Python: 3.11.17 (main, Oct  7 2026, 00:02:24) [GCC 15.3.0]
+Executable: /home/a/miniforge3/envs/biolearn-py/bin/python

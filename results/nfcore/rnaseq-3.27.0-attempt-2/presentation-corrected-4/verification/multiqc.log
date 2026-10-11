@@ -1,0 +1,52 @@
+
+/// MultiQC v1.35
+
+            config | Loading config settings from: 1/multiqc_config.yml
+            config | Loading config settings from: 2/multiqc_sample_merge.yml
+       file_search | Search path: /home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work
+       file_search | Only using modules: bbmap, custom_content, hisat2, kallisto, kraken, picard, preseq, qualimap, rsem, rseqc, salmon, samtools, sortmerna, star, sylphtax, umicollapse, umitools, fastqc, cutadapt, trim_galore, fastp, seqkit, fastqc, bowtie2, fastqc, bowtie2
+            report | Skipping 5 file search patterns
+             bbmap | Found 5 reports
+        validation | warnings while parsing lineplot.pconfig[id='dupradar'].x_lines {color: green, dash: longdash, label: {text: 0.5 RPKM}, value: 0.5, width: 1} (total messages: 2):
+• 'dash': 'LongDash' is a deprecated dash style, use 'longdash'
+• 'label': Line plot's x_lines or y_lines 'label' field is expected to be a string. Other fields other than 'text' are deprecated and will be ignored
+        validation | warnings while parsing lineplot.pconfig[id='dupradar'].x_lines {color: red, dash: longdash, label: {text: 1 read/bp}, value: 1000, width: 1} (total messages: 2):
+• 'dash': 'LongDash' is a deprecated dash style, use 'longdash'
+• 'label': Line plot's x_lines or y_lines 'label' field is expected to be a string. Other fields other than 'text' are deprecated and will be ignored
+    custom_content | dupradar: Found 1 samples (PlotType.LINE)
+    custom_content | biotype_counts: Found 1 samples (PlotType.BAR)
+    custom_content | DupInt: Found 5 General Statistics columns
+    custom_content | nf-core-rnaseq-methods-description: Found 1 sample (html)
+    custom_content | salmon_deseq2_clustering: Found 5 samples (PlotType.HEATMAP)
+    custom_content | salmon_deseq2_pca: Found 5 samples (PlotType.SCATTER)
+    custom_content | star_salmon_deseq2_clustering: Found 5 samples (PlotType.HEATMAP)
+    custom_content | star_salmon_deseq2_pca: Found 5 samples (PlotType.SCATTER)
+    custom_content | strand_check_summary: Found 5 samples (PlotType.TABLE)
+    custom_content | strand_check_composition: Found 2 samples (PlotType.BAR)
+    custom_content | nf-core-rnaseq-summary: Found 1 sample (html)
+            picard | Found 5 MarkDuplicates reports
+          qualimap | Found 5 RNASeq reports
+             rseqc | Found 5 read_distribution reports
+             rseqc | Found 3 inner_distance reports
+             rseqc | Found 5 read_duplication reports
+             rseqc | Found 5 junction_annotation reports
+             rseqc | Found 5 junction_saturation reports
+             rseqc | Found 5 infer_experiment reports
+             rseqc | Found 5 bam_stat reports
+            salmon | Found 5 meta reports
+            salmon | Found 5 fragment length distributions
+            salmon | Found 5 library format counts reports
+          samtools | Found 5 stats reports
+          samtools | Found 5 flagstat reports
+          samtools | Found 5 idxstats reports
+              star | Found 5 reports
+            fastqc | Found 8 reports
+       trim_galore | Found 8 reports
+            fastqc | Found 8 reports
+            fastqc | Found 8 reports
+       file_search | Only using modules: bbmap, picard, qualimap, rseqc, salmon, samtools, star, fastqc, trim_galore, fastqc, fastqc, dupradar, biotype_counts, nf-core-rnaseq-methods-description, sample-relationships, strandedness, nf-core-rnaseq-summary
+     write_results | Rendering plots. Export plots to formats png, svg, pdf is requested, so it might take a while. To disable plot export, set `export_plots: false` in config, or remove the `--export-plots` command line flag
+     write_results | Data        : /home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/output/multiqc/star_salmon/multiqc_report_data
+     write_results | Report      : /home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/output/multiqc/star_salmon/multiqc_report.html
+     write_results | Plots       : /home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/output/multiqc/star_salmon/multiqc_report_plots
+           multiqc | MultiQC complete

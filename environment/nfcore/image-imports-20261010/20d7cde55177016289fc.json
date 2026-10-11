@@ -1,0 +1,18 @@
+{
+  "image": "community.wave.seqera.io/library/python:3.14.5--dc8358b3c5eeb927",
+  "started_utc": "2026-10-10T22:55:22.587586+00:00",
+  "source": "docker://community.wave.seqera.io/library/python:3.14.5--dc8358b3c5eeb927",
+  "transport": "skopeo -> docker-daemon; existing client proxy inherited; no system proxy changes",
+  "completed": true,
+  "exit_code": 0,
+  "ended_utc": "2026-10-10T22:55:43.863580+00:00",
+  "source_digest": "sha256:50198b21b0661eecf498d4983a897806d649071e801d9f8792b4c5e23e70674a",
+  "architecture": "amd64",
+  "docker_image_id": "sha256:f85764432c457552d636b3f5d80ab5d592010e088f448f09738d36aba4d53d94",
+  "docker_size": 98434201,
+  "docker_layers": [
+    "sha256:f103cd120fdd6cbc7f3d0e1d5bfb3e16290c32ead7b822d15c34460ecdf64b29",
+    "sha256:1487dbc91eeef388f961e4fdb41f2792bea19fb82f2b22d40b457ef6b66ca90f",
+    "sha256:5279ab68f74a985dfb577d7647b0abd61f50738898917ddc7f5530da56c1f42b"
+  ]
+}

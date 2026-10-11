@@ -1,0 +1,15 @@
+{
+  "completed": true,
+  "ended_utc": "2026-10-10T23:44:33.936055+00:00",
+  "primary": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k",
+  "seed": 42,
+  "graph_edge_Jaccard": 0.05539603423989598,
+  "shared_directed_edges": 12270,
+  "union_directed_edges": 221496,
+  "interpretation": "Fixed Leiden implementation, seed and resolution compare saved Seurat SNN vs Scanpy fuzzy graphs. Upstream PCA/HVG/regression/k remain graph-specific; graph effect is bundled, not an isolated graph-construction formula effect. Primary outputs unchanged.",
+  "inputs": {
+    "results/reproduction/acceptance-20261010T234118Z/pbmc3k/seurat/analysis.rds": "2dd29d526b041b570758ca4e84053bb4d2229934dc2eaa3cbea0cc978a5cb059",
+    "results/reproduction/acceptance-20261010T234118Z/pbmc3k/seurat/clusters.csv": "4f3a41863be495162e3b21375671b4e59dca9d7799a7cf9aaa72a9665201ab11",
+    "results/reproduction/acceptance-20261010T234118Z/pbmc3k/scanpy/analysis.h5ad": "7ab4ea31b7c74364cc40e5d3d86569b4c96e75c66300b190b7b9b8a23475f2d0"
+  }
+}

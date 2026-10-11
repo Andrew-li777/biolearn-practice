@@ -1,0 +1,3 @@
+PASS raw RDS reopened and equals source counts
+PASS analysis RDS reopened; counts equal source subset; UMAP finite
+PASS no duplicate source or postQC barcodes

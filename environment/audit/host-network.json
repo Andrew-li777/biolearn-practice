@@ -1,0 +1,209 @@
+{
+  "time": "2026-10-10T19:53:03.747769+00:00",
+  "tools": {
+    "R": {
+      "PATH": null,
+      "candidates": [
+        {
+          "path": "/home/a/miniforge3/envs/biolearn-r/bin/R",
+          "exit": 0,
+          "output": "R version 4.4.3 (2025-02-28) -- \"Trophy Case\"\nCopyright (C) 2025 The R Foundation for Statistical Computing\nPlatform: x86_64-conda-linux-gnu\n\nR is free software and comes with ABSOLUTELY NO WARRANTY.\nYou are welcome to redistribute it under the terms of the\nGNU General Public License versions 2 or 3.\nFor more information about these matters see\nhttps://www.gnu.org/licenses/."
+        }
+      ]
+    },
+    "Rscript": {
+      "PATH": null,
+      "candidates": [
+        {
+          "path": "/home/a/miniforge3/envs/biolearn-r/bin/Rscript",
+          "exit": 0,
+          "output": "Rscript (R) version 4.4.3 (2025-02-28)"
+        }
+      ]
+    },
+    "python": {
+      "PATH": null,
+      "candidates": [
+        {
+          "path": "/home/a/miniforge3/bin/python",
+          "exit": 0,
+          "output": "Python 3.14.7"
+        },
+        {
+          "path": "/home/a/miniforge3/envs/biolearn-r/bin/python",
+          "exit": 0,
+          "output": "Python 3.15.0"
+        },
+        {
+          "path": "/home/a/miniforge3/envs/biolearn-py/bin/python",
+          "exit": 0,
+          "output": "Python 3.11.17"
+        }
+      ]
+    },
+    "python3": {
+      "PATH": "/usr/bin/python3",
+      "candidates": [
+        {
+          "path": "/usr/bin/python3",
+          "exit": 0,
+          "output": "Python 3.12.3"
+        },
+        {
+          "path": "/home/a/miniforge3/bin/python3",
+          "exit": 0,
+          "output": "Python 3.14.7"
+        },
+        {
+          "path": "/home/a/miniforge3/envs/biolearn-r/bin/python3",
+          "exit": 0,
+          "output": "Python 3.15.0"
+        },
+        {
+          "path": "/home/a/miniforge3/envs/biolearn-py/bin/python3",
+          "exit": 0,
+          "output": "Python 3.11.17"
+        }
+      ]
+    },
+    "conda": {
+      "PATH": null,
+      "candidates": [
+        {
+          "path": "/home/a/miniforge3/bin/conda",
+          "exit": 0,
+          "output": "conda 26.7.2"
+        }
+      ]
+    },
+    "mamba": {
+      "PATH": null,
+      "candidates": [
+        {
+          "path": "/home/a/miniforge3/bin/mamba",
+          "exit": 0,
+          "output": "2.9.0"
+        }
+      ]
+    },
+    "git": {
+      "PATH": "/usr/bin/git",
+      "candidates": [
+        {
+          "path": "/usr/bin/git",
+          "exit": 0,
+          "output": "git version 2.43.0"
+        }
+      ]
+    },
+    "docker": {
+      "PATH": null,
+      "candidates": []
+    },
+    "java": {
+      "PATH": null,
+      "candidates": []
+    },
+    "nextflow": {
+      "PATH": null,
+      "candidates": []
+    },
+    "snakemake": {
+      "PATH": null,
+      "candidates": []
+    }
+  },
+  "network": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/conda-forge/miniforge/releases/latest",
+      "exit": 0,
+      "metrics": "200\t0\t1.924132",
+      "status": "PASS"
+    },
+    {
+      "name": "conda-forge",
+      "url": "https://conda.anaconda.org/conda-forge/linux-64/repodata.json",
+      "exit": 0,
+      "metrics": "200\t0\t1.055368",
+      "status": "PASS"
+    },
+    {
+      "name": "bioconda",
+      "url": "https://conda.anaconda.org/bioconda/linux-64/repodata.json",
+      "exit": 0,
+      "metrics": "200\t0\t1.027568",
+      "status": "PASS"
+    },
+    {
+      "name": "CRAN",
+      "url": "https://cloud.r-project.org/",
+      "exit": 0,
+      "metrics": "200\t0\t1.244868",
+      "status": "PASS"
+    },
+    {
+      "name": "Bioconductor",
+      "url": "https://bioconductor.org/packages/release/bioc/",
+      "exit": 0,
+      "metrics": "200\t0\t1.235890",
+      "status": "PASS"
+    },
+    {
+      "name": "PyPI",
+      "url": "https://pypi.org/simple/scanpy/",
+      "exit": 0,
+      "metrics": "200\t0\t1.240141",
+      "status": "PASS"
+    },
+    {
+      "name": "PBMC3k",
+      "url": "https://cf.10xgenomics.com/samples/cell/pbmc3k/pbmc3k_filtered_gene_bc_matrices.tar.gz",
+      "exit": 0,
+      "metrics": "200\t0\t1.049034",
+      "status": "PASS"
+    }
+  ],
+  "docker_engine": {
+    "status": "UNVERIFIED",
+    "reason": "Docker CLI not found"
+  },
+  "proxy_variables_present": [
+    "HTTP_PROXY",
+    "HTTPS_PROXY",
+    "NO_PROXY",
+    "http_proxy",
+    "https_proxy",
+    "no_proxy"
+  ],
+  "system": {
+    "os": {
+      "exit": 0,
+      "output": "PRETTY_NAME=\"Ubuntu 24.04.5 LTS\"\nNAME=\"Ubuntu\"\nVERSION_ID=\"24.04\"\nVERSION=\"24.04.5 LTS (Noble Numbat)\"\nVERSION_CODENAME=noble\nID=ubuntu\nID_LIKE=debian\nHOME_URL=\"https://www.ubuntu.com/\"\nSUPPORT_URL=\"https://help.ubuntu.com/\"\nBUG_REPORT_URL=\"https://bugs.launchpad.net/ubuntu/\"\nPRIVACY_POLICY_URL=\"https://www.ubuntu.com/legal/terms-and-policies/privacy-policy\"\nUBUNTU_CODENAME=noble\nLOGO=ubuntu-logo"
+    },
+    "user": {
+      "exit": 0,
+      "output": "uid=1000(a) gid=1000(a) groups=1000(a),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),101(lxd)"
+    },
+    "cpu": {
+      "exit": 0,
+      "output": "Architecture:                            x86_64\nCPU op-mode(s):                          32-bit, 64-bit\nAddress sizes:                           45 bits physical, 48 bits virtual\nByte Order:                              Little Endian\nCPU(s):                                  4\nOn-line CPU(s) list:                     0-3\nVendor ID:                               GenuineIntel\nModel name:                              11th Gen Intel(R) Core(TM) i5-11400H @ 2.70GHz\nCPU family:                              6\nModel:                                   141\nThread(s) per core:                      1\nCore(s) per socket:                      2\nSocket(s):                               2\nStepping:                                1\nBogoMIPS:                                5375.99\nFlags:                                   fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch pti ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid avx512f avx512dq rdseed adx smap avx512ifma clflushopt clwb avx512cd sha_ni avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves arat avx512vbmi umip avx512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg avx512_vpopcntdq rdpid fsrm avx512_vp2intersect md_clear flush_l1d arch_capabilities\nHypervisor vendor:                       VMware\nVirtualization type:                     full\nL1d cache:                               192 KiB (4 instances)\nL1i cache:                               128 KiB (4 instances)\nL2 cache:                                5 MiB (4 instances)\nL3 cache:                                24 MiB (2 instances)\nNUMA node(s):                            1\nNUMA node0 CPU(s):                       0-3\nVulnerability Gather data sampling:      Unknown: Dependent on hypervisor status\nVulnerability Indirect target selection: Mitigation; Aligned branch/return thunks\nVulnerability Itlb multihit:             Not affected\nVulnerability L1tf:                      Mitigation; PTE Inversion\nVulnerability Mds:                       Mitigation; Clear CPU buffers; SMT Host state unknown\nVulnerability Meltdown:                  Mitigation; PTI\nVulnerability Mmio stale data:           Not affected\nVulnerability Reg file data sampling:    Not affected\nVulnerability Retbleed:                  Mitigation; IBRS\nVulnerability Spec rstack overflow:      Not affected\nVulnerability Spec store bypass:         Mitigation; Speculative Store Bypass disabled via prctl\nVulnerability Spectre v1:                Mitigation; usercopy/swapgs barriers and __user pointer sanitization\nVulnerability Spectre v2:                Mitigation; IBRS; IBPB conditional; STIBP disabled; RSB filling; PBRSB-eIBRS Not affected; BHI SW loop, KVM SW loop\nVulnerability Srbds:                     Not affected\nVulnerability Tsa:                       Not affected\nVulnerability Tsx async abort:           Not affected\nVulnerability Vmscape:                   Not affected"
+    },
+    "memory": {
+      "exit": 0,
+      "output": "total        used        free      shared  buff/cache   available\nMem:     16720613376  1006301184  7675523072     1298432  8394899456 15714312192\nSwap:     4294963200           0  4294963200"
+    },
+    "disk": {
+      "exit": 0,
+      "output": "Filesystem                        Type  Size  Used Avail Use% Mounted on\n/dev/mapper/ubuntu--vg-ubuntu--lv ext4   48G   14G   32G  31% /"
+    },
+    "kernel": {
+      "exit": 0,
+      "output": "Linux a 6.8.0-139-generic #139-Ubuntu SMP PREEMPT_DYNAMIC Sat Aug  1 03:52:05 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux"
+    }
+  },
+  "conda_envs": {
+    "exit": 0,
+    "output": "{\n  \"envs\": [\n    \"/home/a/miniforge3\",\n    \"/home/a/miniforge3/envs/biolearn-py\",\n    \"/home/a/miniforge3/envs/biolearn-r\"\n  ],\n  \"envs_details\": {\n    \"/home/a/miniforge3\": {\n      \"name\": \"base\",\n      \"created\": null,\n      \"last_modified\": \"2026-09-08T17:38:30.677897+00:00\",\n      \"active\": false,\n      \"base\": true,\n      \"frozen\": false,\n      \"writable\": true\n    },\n    \"/home/a/miniforge3/envs/biolearn-py\": {\n      \"name\": \"biolearn-py\",\n      \"created\": null,\n      \"last_modified\": \"2026-10-10T19:44:42.591389+00:00\",\n      \"active\": false,\n      \"base\": false,\n      \"frozen\": false,\n      \"writable\": true\n    },\n    \"/home/a/miniforge3/envs/biolearn-r\": {\n      \"name\": \"biolearn-r\",\n      \"created\": null,\n      \"last_modified\": \"2026-10-10T19:47:24.447979+00:00\",\n      \"active\": false,\n      \"base\": false,\n      \"frozen\": false,\n      \"writable\": true\n    }\n  }\n}"
+  }
+}

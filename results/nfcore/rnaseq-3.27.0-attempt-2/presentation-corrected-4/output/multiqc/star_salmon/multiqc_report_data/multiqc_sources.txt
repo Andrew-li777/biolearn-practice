@@ -1,0 +1,111 @@
+Module	Section	Sample Name	Source
+BBTools	all_sections	RAP1_IAA_30M_REP1	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/35/RAP1_IAA_30M_REP1.stats.txt
+BBTools	all_sections	RAP1_UNINDUCED_REP1	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/36/RAP1_UNINDUCED_REP1.stats.txt
+BBTools	all_sections	RAP1_UNINDUCED_REP2	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/37/RAP1_UNINDUCED_REP2.stats.txt
+BBTools	all_sections	WT_REP1	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/38/WT_REP1.stats.txt
+BBTools	all_sections	WT_REP2	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/39/WT_REP2.stats.txt
+Picard	DuplicationMetrics	RAP1_IAA_30M_REP1	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/58/RAP1_IAA_30M_REP1.markdup.sorted.metrics.txt
+Picard	DuplicationMetrics	RAP1_UNINDUCED_REP1	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/59/RAP1_UNINDUCED_REP1.markdup.sorted.metrics.txt
+Picard	DuplicationMetrics	RAP1_UNINDUCED_REP2	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/60/RAP1_UNINDUCED_REP2.markdup.sorted.metrics.txt
+Picard	DuplicationMetrics	WT_REP1	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/104/WT_REP1.markdup.sorted.metrics.txt
+Picard	DuplicationMetrics	WT_REP2	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/61/WT_REP2.markdup.sorted.metrics.txt
+QualiMap	rna_genome_results	RAP1_IAA_30M_REP1	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/112/RAP1_IAA_30M_REP1/rnaseq_qc_results.txt
+QualiMap	rna_genome_results	WT_REP2	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/120/WT_REP2/rnaseq_qc_results.txt
+QualiMap	rna_genome_results	WT_REP1	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/135/WT_REP1/rnaseq_qc_results.txt
+QualiMap	rna_genome_results	RAP1_UNINDUCED_REP2	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/119/RAP1_UNINDUCED_REP2/rnaseq_qc_results.txt
+QualiMap	rna_genome_results	RAP1_UNINDUCED_REP1	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/118/RAP1_UNINDUCED_REP1/rnaseq_qc_results.txt
+QualiMap	rna_coverage_histogram	RAP1_IAA_30M_REP1	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/112/RAP1_IAA_30M_REP1/raw_data_qualimapReport/coverage_profile_along_genes_(total).txt
+QualiMap	rna_coverage_histogram	WT_REP2	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/120/WT_REP2/raw_data_qualimapReport/coverage_profile_along_genes_(total).txt
+QualiMap	rna_coverage_histogram	WT_REP1	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/135/WT_REP1/raw_data_qualimapReport/coverage_profile_along_genes_(total).txt
+QualiMap	rna_coverage_histogram	RAP1_UNINDUCED_REP2	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/119/RAP1_UNINDUCED_REP2/raw_data_qualimapReport/coverage_profile_along_genes_(total).txt
+QualiMap	rna_coverage_histogram	RAP1_UNINDUCED_REP1	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/118/RAP1_UNINDUCED_REP1/raw_data_qualimapReport/coverage_profile_along_genes_(total).txt
+RSeQC	read_distribution	RAP1_IAA_30M_REP1	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/70/RAP1_IAA_30M_REP1.read_distribution.txt
+RSeQC	read_distribution	RAP1_UNINDUCED_REP1	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/92/RAP1_UNINDUCED_REP1.read_distribution.txt
+RSeQC	read_distribution	RAP1_UNINDUCED_REP2	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/99/RAP1_UNINDUCED_REP2.read_distribution.txt
+RSeQC	read_distribution	WT_REP1	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/131/WT_REP1.read_distribution.txt
+RSeQC	read_distribution	WT_REP2	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/111/WT_REP2.read_distribution.txt
+RSeQC	inner_distance	RAP1_IAA_30M_REP1	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/69/RAP1_IAA_30M_REP1.inner_distance_freq.txt
+RSeQC	inner_distance	WT_REP1	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/133/WT_REP1.inner_distance_freq.txt
+RSeQC	inner_distance	WT_REP2	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/105/WT_REP2.inner_distance_freq.txt
+RSeQC	read_duplication	RAP1_IAA_30M_REP1	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/73/RAP1_IAA_30M_REP1.pos.DupRate.xls
+RSeQC	read_duplication	RAP1_UNINDUCED_REP1	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/97/RAP1_UNINDUCED_REP1.pos.DupRate.xls
+RSeQC	read_duplication	RAP1_UNINDUCED_REP2	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/103/RAP1_UNINDUCED_REP2.pos.DupRate.xls
+RSeQC	read_duplication	WT_REP1	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/129/WT_REP1.pos.DupRate.xls
+RSeQC	read_duplication	WT_REP2	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/109/WT_REP2.pos.DupRate.xls
+RSeQC	junction_annotation	RAP1_IAA_30M_REP1	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/71/RAP1_IAA_30M_REP1.junction_annotation.log
+RSeQC	junction_annotation	RAP1_UNINDUCED_REP1	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/94/RAP1_UNINDUCED_REP1.junction_annotation.log
+RSeQC	junction_annotation	RAP1_UNINDUCED_REP2	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/102/RAP1_UNINDUCED_REP2.junction_annotation.log
+RSeQC	junction_annotation	WT_REP1	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/132/WT_REP1.junction_annotation.log
+RSeQC	junction_annotation	WT_REP2	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/108/WT_REP2.junction_annotation.log
+RSeQC	junction_saturation	RAP1_IAA_30M_REP1	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/72/RAP1_IAA_30M_REP1.junctionSaturation_plot.r
+RSeQC	junction_saturation	RAP1_UNINDUCED_REP1	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/95/RAP1_UNINDUCED_REP1.junctionSaturation_plot.r
+RSeQC	junction_saturation	RAP1_UNINDUCED_REP2	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/101/RAP1_UNINDUCED_REP2.junctionSaturation_plot.r
+RSeQC	junction_saturation	WT_REP1	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/134/WT_REP1.junctionSaturation_plot.r
+RSeQC	junction_saturation	WT_REP2	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/110/WT_REP2.junctionSaturation_plot.r
+RSeQC	infer_experiment	RAP1_IAA_30M_REP1	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/74/RAP1_IAA_30M_REP1.infer_experiment.txt
+RSeQC	infer_experiment	RAP1_UNINDUCED_REP1	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/96/RAP1_UNINDUCED_REP1.infer_experiment.txt
+RSeQC	infer_experiment	RAP1_UNINDUCED_REP2	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/98/RAP1_UNINDUCED_REP2.infer_experiment.txt
+RSeQC	infer_experiment	WT_REP1	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/126/WT_REP1.infer_experiment.txt
+RSeQC	infer_experiment	WT_REP2	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/107/WT_REP2.infer_experiment.txt
+RSeQC	bam_stat	RAP1_IAA_30M_REP1	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/75/RAP1_IAA_30M_REP1.bam_stat.txt
+RSeQC	bam_stat	RAP1_UNINDUCED_REP1	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/93/RAP1_UNINDUCED_REP1.bam_stat.txt
+RSeQC	bam_stat	RAP1_UNINDUCED_REP2	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/100/RAP1_UNINDUCED_REP2.bam_stat.txt
+RSeQC	bam_stat	WT_REP1	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/130/WT_REP1.bam_stat.txt
+RSeQC	bam_stat	WT_REP2	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/106/WT_REP2.bam_stat.txt
+Salmon	all_sections	WT_REP1	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/56/WT_REP1/libParams/flenDist.txt
+Salmon	all_sections	RAP1_IAA_30M_REP1	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/43/RAP1_IAA_30M_REP1/libParams/flenDist.txt
+Salmon	all_sections	WT_REP2	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/55/WT_REP2/libParams/flenDist.txt
+Salmon	all_sections	RAP1_UNINDUCED_REP2	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/48/RAP1_UNINDUCED_REP2/libParams/flenDist.txt
+Salmon	all_sections	RAP1_UNINDUCED_REP1	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/45/RAP1_UNINDUCED_REP1/libParams/flenDist.txt
+Samtools	stats	RAP1_IAA_30M_REP1	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/64/RAP1_IAA_30M_REP1.markdup.sorted.bam.stats
+Samtools	stats	RAP1_UNINDUCED_REP1	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/76/RAP1_UNINDUCED_REP1.markdup.sorted.bam.stats
+Samtools	stats	RAP1_UNINDUCED_REP2	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/80/RAP1_UNINDUCED_REP2.markdup.sorted.bam.stats
+Samtools	stats	WT_REP1	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/122/WT_REP1.markdup.sorted.bam.stats
+Samtools	stats	WT_REP2	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/87/WT_REP2.markdup.sorted.bam.stats
+Samtools	flagstat	RAP1_IAA_30M_REP1	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/62/RAP1_IAA_30M_REP1.markdup.sorted.bam.flagstat
+Samtools	flagstat	RAP1_UNINDUCED_REP1	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/77/RAP1_UNINDUCED_REP1.markdup.sorted.bam.flagstat
+Samtools	flagstat	RAP1_UNINDUCED_REP2	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/81/RAP1_UNINDUCED_REP2.markdup.sorted.bam.flagstat
+Samtools	flagstat	WT_REP1	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/123/WT_REP1.markdup.sorted.bam.flagstat
+Samtools	flagstat	WT_REP2	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/88/WT_REP2.markdup.sorted.bam.flagstat
+Samtools	idxstats	RAP1_IAA_30M_REP1	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/63/RAP1_IAA_30M_REP1.markdup.sorted.bam.idxstats
+Samtools	idxstats	RAP1_UNINDUCED_REP1	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/78/RAP1_UNINDUCED_REP1.markdup.sorted.bam.idxstats
+Samtools	idxstats	RAP1_UNINDUCED_REP2	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/79/RAP1_UNINDUCED_REP2.markdup.sorted.bam.idxstats
+Samtools	idxstats	WT_REP1	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/121/WT_REP1.markdup.sorted.bam.idxstats
+Samtools	idxstats	WT_REP2	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/86/WT_REP2.markdup.sorted.bam.idxstats
+STAR	SummaryLog	RAP1_IAA_30M_REP1	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/42/RAP1_IAA_30M_REP1.Log.final.out
+STAR	SummaryLog	RAP1_UNINDUCED_REP1	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/46/RAP1_UNINDUCED_REP1.Log.final.out
+STAR	SummaryLog	RAP1_UNINDUCED_REP2	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/49/RAP1_UNINDUCED_REP2.Log.final.out
+STAR	SummaryLog	WT_REP1	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/57/WT_REP1.Log.final.out
+STAR	SummaryLog	WT_REP2	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/54/WT_REP2.Log.final.out
+FastQC (raw)	all_sections	RAP1_IAA_30M_REP1_1	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/19/RAP1_IAA_30M_REP1_raw_1_fastqc.zip
+FastQC (raw)	all_sections	RAP1_IAA_30M_REP1_2	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/20/RAP1_IAA_30M_REP1_raw_2_fastqc.zip
+FastQC (raw)	all_sections	RAP1_UNINDUCED_REP1	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/18/RAP1_UNINDUCED_REP1_raw_fastqc.zip
+FastQC (raw)	all_sections	RAP1_UNINDUCED_REP2	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/6/RAP1_UNINDUCED_REP2_raw_fastqc.zip
+FastQC (raw)	all_sections	WT_REP1_1	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/7/WT_REP1_raw_1_fastqc.zip
+FastQC (raw)	all_sections	WT_REP1_2	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/8/WT_REP1_raw_2_fastqc.zip
+FastQC (raw)	all_sections	WT_REP2_1	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/33/WT_REP2_raw_1_fastqc.zip
+FastQC (raw)	all_sections	WT_REP2_2	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/34/WT_REP2_raw_2_fastqc.zip
+Trim Galore	all_sections	RAP1_IAA_30M_REP1_1	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/21/RAP1_IAA_30M_REP1_trimmed_1.fastq.gz_trimming_report.json
+Trim Galore	all_sections	RAP1_IAA_30M_REP1_2	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/22/RAP1_IAA_30M_REP1_trimmed_2.fastq.gz_trimming_report.json
+Trim Galore	all_sections	RAP1_UNINDUCED_REP1	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/16/RAP1_UNINDUCED_REP1_trimmed.fastq.gz_trimming_report.json
+Trim Galore	all_sections	RAP1_UNINDUCED_REP2	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/3/RAP1_UNINDUCED_REP2_trimmed.fastq.gz_trimming_report.json
+Trim Galore	all_sections	WT_REP1_1	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/11/WT_REP1_trimmed_1.fastq.gz_trimming_report.json
+Trim Galore	all_sections	WT_REP1_2	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/12/WT_REP1_trimmed_2.fastq.gz_trimming_report.json
+Trim Galore	all_sections	WT_REP2_1	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/27/WT_REP2_trimmed_1.fastq.gz_trimming_report.json
+Trim Galore	all_sections	WT_REP2_2	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/28/WT_REP2_trimmed_2.fastq.gz_trimming_report.json
+FastQC (trimmed)	all_sections	RAP1_IAA_30M_REP1_1	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/25/RAP1_IAA_30M_REP1_trimmed_1_val_1_fastqc.zip
+FastQC (trimmed)	all_sections	RAP1_IAA_30M_REP1_2	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/26/RAP1_IAA_30M_REP1_trimmed_2_val_2_fastqc.zip
+FastQC (trimmed)	all_sections	RAP1_UNINDUCED_REP1	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/15/RAP1_UNINDUCED_REP1_trimmed_trimmed_fastqc.zip
+FastQC (trimmed)	all_sections	RAP1_UNINDUCED_REP2	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/4/RAP1_UNINDUCED_REP2_trimmed_trimmed_fastqc.zip
+FastQC (trimmed)	all_sections	WT_REP1_1	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/13/WT_REP1_trimmed_1_val_1_fastqc.zip
+FastQC (trimmed)	all_sections	WT_REP1_2	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/14/WT_REP1_trimmed_2_val_2_fastqc.zip
+FastQC (trimmed)	all_sections	WT_REP2_1	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/29/WT_REP2_trimmed_1_val_1_fastqc.zip
+FastQC (trimmed)	all_sections	WT_REP2_2	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/30/WT_REP2_trimmed_2_val_2_fastqc.zip
+FastQC (filtered)	all_sections	RAP1_IAA_30M_REP1_1	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/40/RAP1_IAA_30M_REP1_filtered_1_fastqc.zip
+FastQC (filtered)	all_sections	RAP1_IAA_30M_REP1_2	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/41/RAP1_IAA_30M_REP1_filtered_2_fastqc.zip
+FastQC (filtered)	all_sections	RAP1_UNINDUCED_REP1	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/44/RAP1_UNINDUCED_REP1_filtered_fastqc.zip
+FastQC (filtered)	all_sections	RAP1_UNINDUCED_REP2	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/47/RAP1_UNINDUCED_REP2_filtered_fastqc.zip
+FastQC (filtered)	all_sections	WT_REP1_1	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/50/WT_REP1_filtered_1_fastqc.zip
+FastQC (filtered)	all_sections	WT_REP1_2	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/51/WT_REP1_filtered_2_fastqc.zip
+FastQC (filtered)	all_sections	WT_REP2_1	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/52/WT_REP2_filtered_1_fastqc.zip
+FastQC (filtered)	all_sections	WT_REP2_2	/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected-4/work/53/WT_REP2_filtered_2_fastqc.zip

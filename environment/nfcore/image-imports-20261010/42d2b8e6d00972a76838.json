@@ -1,0 +1,17 @@
+{
+  "image": "community.wave.seqera.io/library/htslib_samtools:1.24--d697cfb9dce007cd",
+  "started_utc": "2026-10-10T22:58:00.775213+00:00",
+  "source": "docker://community.wave.seqera.io/library/htslib_samtools:1.24--d697cfb9dce007cd",
+  "transport": "skopeo -> docker-daemon; existing client proxy inherited; no system proxy changes",
+  "completed": true,
+  "exit_code": 0,
+  "ended_utc": "2026-10-10T22:58:17.710986+00:00",
+  "source_digest": "sha256:a55ddea590e567a91df592300a960aa534cfc1bd16e7623e3938ec21f4f3df15",
+  "architecture": "amd64",
+  "docker_image_id": "sha256:6c93b5339106df3d4122e038453e1a09c3996b65e3e08f5c635f8f44a1ac8ae3",
+  "docker_size": 83413965,
+  "docker_layers": [
+    "sha256:f103cd120fdd6cbc7f3d0e1d5bfb3e16290c32ead7b822d15c34460ecdf64b29",
+    "sha256:1440da115aae8a0d1a4011583bd03bdb34c4ea1a9b15f4bd524272963cb8cf68"
+  ]
+}

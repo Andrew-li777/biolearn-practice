@@ -1,0 +1,3 @@
+route,raw_cells,before_final_QC_cells,QC_pass_cells,rejected_cells,fail_low_genes,fail_high_genes,fail_mt,clusters,marker_rows_returned,positive_marker_rows
+seurat,2700,2700,2638,62,0,5,57,9,6964,2187
+scanpy,2700,2700,2638,62,0,5,57,9,123426,10924

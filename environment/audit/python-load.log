@@ -1,0 +1,19 @@
+EXECUTABLE /home/a/miniforge3/envs/biolearn-py/bin/python
+VERSION 3.11.17 (main, Oct  7 2026, 00:02:24) [GCC 15.3.0]
+PASS	numpy	2.4.6
+PASS	scipy	1.17.1
+PASS	pandas	2.3.3
+PASS	matplotlib	3.11.2
+PASS	seaborn	0.13.2
+PASS	sklearn	1.9.1
+PASS	scanpy	1.11.5
+PASS	anndata	0.12.19
+PASS	igraph	1.0.0
+PASS	leidenalg	0.12.0
+PASS	pydeseq2	0.5.4
+PASS	h5py	3.16.0
+PASS	statsmodels	0.15.0
+PASS	umap	0.5.12
+PASS	skmisc	0.0.0
+MISSING	snakemake
+PASS	jupyterlab	4.6.4

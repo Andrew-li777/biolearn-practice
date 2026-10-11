@@ -1,0 +1,23 @@
+[
+  {
+    "environment": "biolearn-r",
+    "prefix": "/home/a/miniforge3/envs/biolearn-r",
+    "explicit_exit": 0,
+    "packages_exit": 0,
+    "exact_lock_match": true
+  },
+  {
+    "environment": "biolearn-py",
+    "prefix": "/home/a/miniforge3/envs/biolearn-py",
+    "explicit_exit": 0,
+    "packages_exit": 0,
+    "exact_lock_match": true
+  },
+  {
+    "environment": "biolearn-workflow",
+    "prefix": "/home/a/miniforge3/envs/biolearn-workflow",
+    "explicit_exit": 0,
+    "packages_exit": 0,
+    "exact_lock_match": true
+  }
+]

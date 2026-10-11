@@ -1,0 +1,15 @@
+0 bp
+20 bp
+40 bp
+60 bp
+80 bp
+0%
+1%
+2%
+3%
+4%
+5%
+FastQC: Per Base N Content
+ 8 lines 
+Position in Read (bp)
+Percentage N-Count

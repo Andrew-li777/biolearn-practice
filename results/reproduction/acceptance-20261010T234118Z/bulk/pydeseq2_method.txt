@@ -1,0 +1,13 @@
+method=PyDESeq2
+design=~ cell + dex
+contrast=[dex, trt, untrt]
+alpha=0.1
+prefilter=at least 3 samples with count >= 10 (same as DESeq2)
+normalization=median-of-ratios; size_factors_fit_type=ratio
+fit_type=parametric; actual=parametric
+test=two-sided Wald; lfc_null=0
+p_adjust=BH with independent_filter=True at alpha=0.1
+cooks_filter=True; refit_cooks=True; min_replicates=7
+comparison_LFC=unshrunk MLE
+implementation=Python; numerical fitting, bounds and independent filtering may differ from R
+n_cpus=2

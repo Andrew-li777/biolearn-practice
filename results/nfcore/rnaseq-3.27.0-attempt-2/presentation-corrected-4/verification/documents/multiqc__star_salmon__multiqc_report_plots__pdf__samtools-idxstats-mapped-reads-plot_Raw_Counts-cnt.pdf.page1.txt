@@ -1,0 +1,13 @@
+I
+40k
+60k
+80k
+100k
+120k
+140k
+160k
+180k
+Samtools: idxstats: Mapped reads per contig
+ Raw Counts, 5 lines 
+Chromosome name
+# mapped reads

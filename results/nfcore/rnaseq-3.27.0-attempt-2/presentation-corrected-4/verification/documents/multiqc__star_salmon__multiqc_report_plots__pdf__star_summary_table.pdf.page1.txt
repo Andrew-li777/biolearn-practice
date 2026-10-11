@@ -1,0 +1,78 @@
+0 M
+0.02 M
+0.04 M
+0.06 M
+0.08 M
+Total reads  
+0%
+10%
+20%
+30%
+40%
+50%
+60%
+70%
+80%
+90%
+Aligned  
+0%
+10%
+20%
+30%
+40%
+50%
+60%
+70%
+80%
+90%
+Uniq aligned  
+0bp
+20bp
+40bp
+60bp
+80bp
+100bp
+120bp
+140bp
+160bp
+180bp
+Avg. mapped len  
+0 M
+0.02 M
+0.04 M
+0.06 M
+0.08 M
+Annotated splices  
+0%
+0.2%
+0.4%
+0.6%
+0.8%
+1%
+Mismatch rate  
+0%
+0.005%
+0.01%
+0.015%
+0.02%
+Del rate  
+0bp
+0.2bp
+0.4bp
+0.6bp
+0.8bp
+1bp
+1.2bp
+Del len  
+0.00
+Ins rate  
+0bp
+0.2bp
+0.4bp
+0.6bp
+0.8bp
+1bp
+1.2bp
+Ins len  
+STAR: Summary Statistics
+ 5 samples 

@@ -1,0 +1,3 @@
+graph,cells,nonzero_entries,weight_min,weight_max,mean_nonzero_degree
+seurat_snn,2638,194492,0.08108108108108109,1.0,73.7270659590599
+scanpy_fuzzy,2638,41952,0.0,1.0,15.902956785443518

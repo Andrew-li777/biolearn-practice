@@ -1,0 +1,19 @@
+EXECUTABLE /home/a/miniforge3/bin/python
+VERSION 3.14.7 | packaged by conda-forge | (main, Sep  2 2026, 21:08:32) [GCC 15.3.0]
+MISSING	numpy
+MISSING	scipy
+MISSING	pandas
+MISSING	matplotlib
+MISSING	seaborn
+MISSING	sklearn
+MISSING	scanpy
+MISSING	anndata
+MISSING	igraph
+MISSING	leidenalg
+MISSING	pydeseq2
+MISSING	h5py
+MISSING	statsmodels
+MISSING	umap
+MISSING	skmisc
+MISSING	snakemake
+MISSING	jupyterlab

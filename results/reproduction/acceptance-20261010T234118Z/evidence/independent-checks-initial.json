@@ -1,0 +1,1405 @@
+[
+  {
+    "check": "bulk manifest",
+    "pass": true,
+    "detail": {
+      "files": 74,
+      "bad": []
+    }
+  },
+  {
+    "check": "bulk completed attempt",
+    "pass": true,
+    "detail": {
+      "route": "bulk",
+      "attempt_directory": "results/reproduction/acceptance-20261010T234118Z/.attempts/bulk-20261010T234141446771Z",
+      "published_directory": "results/reproduction/acceptance-20261010T234118Z/bulk",
+      "started_utc": "2026-10-10T23:41:41.446991+00:00",
+      "completed": true,
+      "stages": [
+        {
+          "stage": "deseq2",
+          "command": [
+            "/home/a/miniforge3/bin/conda",
+            "run",
+            "--no-capture-output",
+            "-n",
+            "biolearn-r",
+            "Rscript",
+            "scripts/01_bulk_deseq2.R",
+            "results/reproduction/acceptance-20261010T234118Z/.attempts/bulk-20261010T234141446771Z"
+          ],
+          "script_sha256": "903f6a6e0cca553063a7a1f652d0c1f3fcd0f6db7c227294be9654ef9678f7cd",
+          "started_utc": "2026-10-10T23:41:41.447968+00:00",
+          "ended_utc": "2026-10-10T23:42:20.219327+00:00",
+          "exit_code": 0
+        },
+        {
+          "stage": "edger",
+          "command": [
+            "/home/a/miniforge3/bin/conda",
+            "run",
+            "--no-capture-output",
+            "-n",
+            "biolearn-r",
+            "Rscript",
+            "scripts/02_bulk_edger.R",
+            "results/reproduction/acceptance-20261010T234118Z/.attempts/bulk-20261010T234141446771Z"
+          ],
+          "script_sha256": "bca9641908ae5d497e1bb1894521803b5fbfb969cd4f078995a96a6c241aadbc",
+          "started_utc": "2026-10-10T23:42:20.220087+00:00",
+          "ended_utc": "2026-10-10T23:42:29.863438+00:00",
+          "exit_code": 0
+        },
+        {
+          "stage": "pydeseq2",
+          "command": [
+            "/home/a/miniforge3/bin/conda",
+            "run",
+            "--no-capture-output",
+            "-n",
+            "biolearn-py",
+            "python",
+            "scripts/03_bulk_pydeseq2.py",
+            "results/reproduction/acceptance-20261010T234118Z/.attempts/bulk-20261010T234141446771Z"
+          ],
+          "script_sha256": "71a9ba9519791245bdeecd83f4b70d7a52ec2b74494c9dc55ab165b0bfd852c6",
+          "started_utc": "2026-10-10T23:42:29.864145+00:00",
+          "ended_utc": "2026-10-10T23:43:05.475966+00:00",
+          "exit_code": 0
+        },
+        {
+          "stage": "report",
+          "command": [
+            "/home/a/miniforge3/bin/conda",
+            "run",
+            "--no-capture-output",
+            "-n",
+            "biolearn-py",
+            "python",
+            "scripts/04_bulk_report.py",
+            "results/reproduction/acceptance-20261010T234118Z/.attempts/bulk-20261010T234141446771Z"
+          ],
+          "script_sha256": "4675ff4220e8ed989fbad47e8bc898cb1f5ee16a1de6bdf52c232dd16ea7d019",
+          "started_utc": "2026-10-10T23:43:16.146224+00:00",
+          "ended_utc": "2026-10-10T23:43:20.751866+00:00",
+          "exit_code": 0
+        }
+      ],
+      "ended_utc": "2026-10-10T23:43:20.753436+00:00"
+    }
+  },
+  {
+    "check": "bulk deseq2 script SHA",
+    "pass": true,
+    "detail": "903f6a6e0cca553063a7a1f652d0c1f3fcd0f6db7c227294be9654ef9678f7cd"
+  },
+  {
+    "check": "bulk edger script SHA",
+    "pass": true,
+    "detail": "bca9641908ae5d497e1bb1894521803b5fbfb969cd4f078995a96a6c241aadbc"
+  },
+  {
+    "check": "bulk pydeseq2 script SHA",
+    "pass": true,
+    "detail": "71a9ba9519791245bdeecd83f4b70d7a52ec2b74494c9dc55ab165b0bfd852c6"
+  },
+  {
+    "check": "bulk report script SHA",
+    "pass": true,
+    "detail": "4675ff4220e8ed989fbad47e8bc898cb1f5ee16a1de6bdf52c232dd16ea7d019"
+  },
+  {
+    "check": "bulk/vst_expression.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 16596,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "bulk/airway_counts.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 63677,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "bulk/pca_variance.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 2,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "bulk/edger_filter.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 63677,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "bulk/comparison_edger_vs_pydeseq2.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 16493,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "bulk/analysis_summary.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 3,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "bulk/comparison_deseq2_vs_edger.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 16493,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "bulk/pydeseq2_significant.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 4685,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "bulk/sample_distance.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 8,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "bulk/deseq2_apeglm.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 16596,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "bulk/deseq2_normalized_counts.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 16596,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "bulk/edger_normalization.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 8,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "bulk/overlap_deseq2_vs_edger.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 4879,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "bulk/pca_scores.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 8,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "bulk/sample_pairing.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 4,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "bulk/top30_vst_expression.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 30,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "bulk/deseq2_dispersions.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 16596,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "bulk/overlap_deseq2_vs_pydeseq2.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 4641,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "bulk/airway_coldata.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 8,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "bulk/comparison_deseq2_vs_pydeseq2.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 16596,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "bulk/pydeseq2_filter.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 63677,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "bulk/python_design_matrix.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 8,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "bulk/deseq2_size_factors.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 8,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "bulk/pydeseq2_results.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 16596,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "bulk/overlap_all_three.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 4611,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "bulk/top30_heatmap_genes.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 30,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "bulk/deseq2_results.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 16596,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "bulk/deseq2_significant.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 4916,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "bulk/gene_annotation.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 63677,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "bulk/edger_significant.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 6550,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "bulk/acceptance_checks.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 39,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "bulk/deseq2_filter.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 63677,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "bulk/r_design_matrix.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 8,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "bulk/comparisons.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 3,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "bulk/pydeseq2_size_factors.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 8,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "bulk/r_installed_packages.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 208,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "bulk/edger_results.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 16860,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "bulk/deseq2_top20.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 20,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "bulk/overlap_edger_vs_pydeseq2.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 4635,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "bulk/volcano.png decoded and prior visual match",
+    "pass": true,
+    "detail": {
+      "size": [
+        1280,
+        960
+      ]
+    }
+  },
+  {
+    "check": "bulk/ma_unshrunk.png decoded and prior visual match",
+    "pass": true,
+    "detail": {
+      "size": [
+        1200,
+        850
+      ]
+    }
+  },
+  {
+    "check": "bulk/top30_heatmap.png decoded and prior visual match",
+    "pass": true,
+    "detail": {
+      "size": [
+        3000,
+        3300
+      ]
+    }
+  },
+  {
+    "check": "bulk/pca.png decoded and prior visual match",
+    "pass": true,
+    "detail": {
+      "size": [
+        1280,
+        960
+      ]
+    }
+  },
+  {
+    "check": "bulk/ma_plot.png decoded and prior visual match",
+    "pass": true,
+    "detail": {
+      "size": [
+        1200,
+        850
+      ]
+    }
+  },
+  {
+    "check": "bulk/sample_distance.png decoded and prior visual match",
+    "pass": true,
+    "detail": {
+      "size": [
+        2400,
+        2100
+      ]
+    }
+  },
+  {
+    "check": "bulk/logs/report.log exit evidence",
+    "pass": true,
+    "detail": "057\nACCEPTANCE PASS: 39/39 checks; report=results/reproduction/acceptance-20261010T234118Z/.attempts/bulk-20261010T234141446771Z/acceptance.md\nEnded UTC: 2026-10-10T23:43:20.751866+00:00\nExit code: 0\n"
+  },
+  {
+    "check": "bulk/logs/pydeseq2.log exit evidence",
+    "pass": true,
+    "detail": "8     8.597777        0.105443  ...  0.868228  0.938804\n\n[16596 rows x 6 columns]\nSIGNIFICANT: 4685 UP: 2502 DOWN: 2183\nPASS PyDESeq2 analysis\nEnded UTC: 2026-10-10T23:43:05.475966+00:00\nExit code: 0\n"
+  },
+  {
+    "check": "bulk/logs/deseq2.log exit evidence",
+    "pass": true,
+    "detail": "es by variance\nnull device \n          1 \nnull device \n          1 \nSIGNIFICANT: 4916 UP: 2618 DOWN: 2298 \nPASS DESeq2 analysis and all figures\nEnded UTC: 2026-10-10T23:42:20.219327+00:00\nExit code: 0\n"
+  },
+  {
+    "check": "bulk/logs/edger.log exit evidence",
+    "pass": true,
+    "detail": ".attempts/bulk-20261010T234141446771Z\"]\nINPUT: 63677 genes; PRE_FILTER: 16860 genes\nSIGNIFICANT: 6550 UP: 3302 DOWN: 3248 \nPASS edgeR analysis\nEnded UTC: 2026-10-10T23:42:29.863438+00:00\nExit code: 0\n"
+  },
+  {
+    "check": "pbmc3k manifest",
+    "pass": true,
+    "detail": {
+      "files": 105,
+      "bad": []
+    }
+  },
+  {
+    "check": "pbmc3k completed attempt",
+    "pass": true,
+    "detail": {
+      "route": "pbmc3k",
+      "attempt_directory": "results/reproduction/acceptance-20261010T234118Z/.attempts/pbmc3k-20261010T234141455855Z",
+      "published_directory": "results/reproduction/acceptance-20261010T234118Z/pbmc3k",
+      "started_utc": "2026-10-10T23:41:41.456048+00:00",
+      "completed": true,
+      "stages": [
+        {
+          "stage": "prepare",
+          "command": [
+            "/home/a/miniforge3/bin/conda",
+            "run",
+            "--no-capture-output",
+            "-n",
+            "biolearn-py",
+            "python",
+            "scripts/10_pbmc_prepare.py",
+            "results/reproduction/acceptance-20261010T234118Z/.attempts/pbmc3k-20261010T234141455855Z"
+          ],
+          "script_sha256": "e94ac983f47a00b97b039199e691247a60cdb9c509923731b7ddf63b362f5fc4",
+          "started_utc": "2026-10-10T23:41:41.457232+00:00",
+          "ended_utc": "2026-10-10T23:41:43.863680+00:00",
+          "exit_code": 0
+        },
+        {
+          "stage": "seurat",
+          "command": [
+            "/home/a/miniforge3/bin/conda",
+            "run",
+            "--no-capture-output",
+            "-n",
+            "biolearn-r",
+            "Rscript",
+            "scripts/11_pbmc_seurat.R",
+            "results/reproduction/acceptance-20261010T234118Z/.attempts/pbmc3k-20261010T234141455855Z/seurat",
+            "data/pbmc3k/filtered_gene_bc_matrices/hg19"
+          ],
+          "script_sha256": "d6a4a42cc382d4c79cce7fbc5252f3356c8f1e6da25586696e9cb4f0c50bca5d",
+          "started_utc": "2026-10-10T23:41:43.864303+00:00",
+          "ended_utc": "2026-10-10T23:43:11.540366+00:00",
+          "exit_code": 0
+        },
+        {
+          "stage": "scanpy",
+          "command": [
+            "/home/a/miniforge3/bin/conda",
+            "run",
+            "--no-capture-output",
+            "-n",
+            "biolearn-py",
+            "python",
+            "scripts/12_pbmc_scanpy.py",
+            "results/reproduction/acceptance-20261010T234118Z/.attempts/pbmc3k-20261010T234141455855Z/scanpy",
+            "data/pbmc3k/filtered_gene_bc_matrices/hg19"
+          ],
+          "script_sha256": "79bd9c480ba8b0f79fab8a6673b2ef854004150e1109ff5a6a74859a2b1bf48d",
+          "started_utc": "2026-10-10T23:43:11.540977+00:00",
+          "ended_utc": "2026-10-10T23:43:45.930887+00:00",
+          "exit_code": 0
+        },
+        {
+          "stage": "annotation_python",
+          "command": [
+            "/home/a/miniforge3/bin/conda",
+            "run",
+            "--no-capture-output",
+            "-n",
+            "biolearn-py",
+            "python",
+            "scripts/13_pbmc_annotate.py",
+            "results/reproduction/acceptance-20261010T234118Z/.attempts/pbmc3k-20261010T234141455855Z",
+            "scripts/pbmc_annotation_plan.json"
+          ],
+          "script_sha256": "2eb86b7b9c7435a0ecb9b9c9e51494447371bdce82141d9eba59a9a89de4d92a",
+          "started_utc": "2026-10-10T23:43:45.934035+00:00",
+          "ended_utc": "2026-10-10T23:43:52.101163+00:00",
+          "exit_code": 0
+        },
+        {
+          "stage": "annotation_r",
+          "command": [
+            "/home/a/miniforge3/bin/conda",
+            "run",
+            "--no-capture-output",
+            "-n",
+            "biolearn-r",
+            "Rscript",
+            "scripts/14_pbmc_annotate_seurat.R",
+            "results/reproduction/acceptance-20261010T234118Z/.attempts/pbmc3k-20261010T234141455855Z"
+          ],
+          "script_sha256": "2651faf201cd91d4f090b8ac823da629834a9bd62efe8f9583d6418d0291dccb",
+          "started_utc": "2026-10-10T23:43:52.101780+00:00",
+          "ended_utc": "2026-10-10T23:44:03.901992+00:00",
+          "exit_code": 0
+        },
+        {
+          "stage": "report",
+          "command": [
+            "/home/a/miniforge3/bin/conda",
+            "run",
+            "--no-capture-output",
+            "-n",
+            "biolearn-py",
+            "python",
+            "scripts/15_pbmc_report.py",
+            "results/reproduction/acceptance-20261010T234118Z/.attempts/pbmc3k-20261010T234141455855Z"
+          ],
+          "script_sha256": "bbe3db03c888b2101c29333f43c61b6d166eca5097750f15f7ae95cfc3d8f809",
+          "started_utc": "2026-10-10T23:44:11.961906+00:00",
+          "ended_utc": "2026-10-10T23:44:17.940262+00:00",
+          "exit_code": 0
+        }
+      ],
+      "ended_utc": "2026-10-10T23:44:17.941964+00:00"
+    }
+  },
+  {
+    "check": "pbmc3k prepare script SHA",
+    "pass": true,
+    "detail": "e94ac983f47a00b97b039199e691247a60cdb9c509923731b7ddf63b362f5fc4"
+  },
+  {
+    "check": "pbmc3k seurat script SHA",
+    "pass": true,
+    "detail": "d6a4a42cc382d4c79cce7fbc5252f3356c8f1e6da25586696e9cb4f0c50bca5d"
+  },
+  {
+    "check": "pbmc3k scanpy script SHA",
+    "pass": true,
+    "detail": "79bd9c480ba8b0f79fab8a6673b2ef854004150e1109ff5a6a74859a2b1bf48d"
+  },
+  {
+    "check": "pbmc3k annotation_python script SHA",
+    "pass": true,
+    "detail": "2eb86b7b9c7435a0ecb9b9c9e51494447371bdce82141d9eba59a9a89de4d92a"
+  },
+  {
+    "check": "pbmc3k annotation_r script SHA",
+    "pass": true,
+    "detail": "2651faf201cd91d4f090b8ac823da629834a9bd62efe8f9583d6418d0291dccb"
+  },
+  {
+    "check": "pbmc3k report script SHA",
+    "pass": true,
+    "detail": "bbe3db03c888b2101c29333f43c61b6d166eca5097750f15f7ae95cfc3d8f809"
+  },
+  {
+    "check": "pbmc3k/qc_cross_tool_differences.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 2700,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "pbmc3k/cell_type_crosstab.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 9,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "pbmc3k/qc_statistics.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 6,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "pbmc3k/scanpy_only_cells.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 0,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "pbmc3k/analysis_summary.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 2,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "pbmc3k/cluster_crosstab.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 9,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "pbmc3k/barcode_alignment.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 2638,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "pbmc3k/cluster_crosstab_row_fraction.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 9,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "pbmc3k/acceptance_checks.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 83,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "pbmc3k/seurat_only_cells.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 0,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "pbmc3k/controlled_experiments.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 6,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "pbmc3k/cell_type_annotations.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 18,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "pbmc3k/annotation_evidence.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 62,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "pbmc3k/seurat/umap_coordinates.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 2638,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "pbmc3k/seurat/markers_positive.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 2187,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "pbmc3k/seurat/clusters.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 2638,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "pbmc3k/seurat/cell_labels.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 2638,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "pbmc3k/seurat/markers_all_tested.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 6964,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "pbmc3k/seurat/feature_map.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 32738,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "pbmc3k/seurat/qc_raw.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 2700,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "pbmc3k/seurat/qc_after.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 2638,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "pbmc3k/seurat/canonical_marker_profiles.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 207,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "pbmc3k/seurat/highly_variable_genes.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 2000,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "pbmc3k/seurat/experiment_resolution_1.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 2638,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "pbmc3k/seurat/top10_markers.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 90,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "pbmc3k/seurat/cell_type_annotation.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 9,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "pbmc3k/seurat/qc_before.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 2700,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "pbmc3k/seurat/marker_dotplot_values.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 207,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "pbmc3k/seurat/r_installed_packages.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 208,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "pbmc3k/scanpy/experiment_variants.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 5,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "pbmc3k/scanpy/umap_coordinates.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 2638,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "pbmc3k/scanpy/markers_positive.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 10924,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "pbmc3k/scanpy/clusters.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 2638,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "pbmc3k/scanpy/marker_dotplot_fraction.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 9,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "pbmc3k/scanpy/cell_labels.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 2638,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "pbmc3k/scanpy/markers_all_tested.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 123426,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "pbmc3k/scanpy/experiment_pc10.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 2638,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "pbmc3k/scanpy/marker_dotplot_color.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 9,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "pbmc3k/scanpy/qc_raw.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 2700,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "pbmc3k/scanpy/experiment_no_regression.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 2638,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "pbmc3k/scanpy/qc_after.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 2638,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "pbmc3k/scanpy/canonical_marker_profiles.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 207,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "pbmc3k/scanpy/highly_variable_genes.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 1838,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "pbmc3k/scanpy/experiment_resolution_05.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 2638,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "pbmc3k/scanpy/top10_markers.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 90,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "pbmc3k/scanpy/experiment_louvain_same_graph.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 2638,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "pbmc3k/scanpy/cell_type_annotation.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 9,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "pbmc3k/scanpy/qc_before.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 2700,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "pbmc3k/scanpy/experiment_seed_7.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 2638,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "pbmc3k/scanpy/feature_statistics.csv readable/finite",
+    "pass": true,
+    "detail": {
+      "rows": 13714,
+      "infinite": 0
+    }
+  },
+  {
+    "check": "pbmc3k/cluster_crosstab.png decoded and prior visual match",
+    "pass": true,
+    "detail": {
+      "size": [
+        1600,
+        1120
+      ]
+    }
+  },
+  {
+    "check": "pbmc3k/seurat/qc_scatter.png decoded and prior visual match",
+    "pass": true,
+    "detail": {
+      "size": [
+        1120,
+        800
+      ]
+    }
+  },
+  {
+    "check": "pbmc3k/seurat/umap_clusters.png decoded and prior visual match",
+    "pass": true,
+    "detail": {
+      "size": [
+        1280,
+        960
+      ]
+    }
+  },
+  {
+    "check": "pbmc3k/seurat/marker_dotplot_cell_types.png decoded and prior visual match",
+    "pass": true,
+    "detail": {
+      "size": [
+        2080,
+        1120
+      ]
+    }
+  },
+  {
+    "check": "pbmc3k/seurat/marker_dotplot.png decoded and prior visual match",
+    "pass": true,
+    "detail": {
+      "size": [
+        2080,
+        960
+      ]
+    }
+  },
+  {
+    "check": "pbmc3k/seurat/qc_violin.png decoded and prior visual match",
+    "pass": true,
+    "detail": {
+      "size": [
+        1760,
+        640
+      ]
+    }
+  },
+  {
+    "check": "pbmc3k/seurat/umap_cell_types.png decoded and prior visual match",
+    "pass": true,
+    "detail": {
+      "size": [
+        1760,
+        960
+      ]
+    }
+  },
+  {
+    "check": "pbmc3k/scanpy/qc_scatter.png decoded and prior visual match",
+    "pass": true,
+    "detail": {
+      "size": [
+        1120,
+        800
+      ]
+    }
+  },
+  {
+    "check": "pbmc3k/scanpy/umap_clusters.png decoded and prior visual match",
+    "pass": true,
+    "detail": {
+      "size": [
+        856,
+        688
+      ]
+    }
+  },
+  {
+    "check": "pbmc3k/scanpy/marker_dotplot_cell_types.png decoded and prior visual match",
+    "pass": true,
+    "detail": {
+      "size": [
+        1370,
+        635
+      ]
+    }
+  },
+  {
+    "check": "pbmc3k/scanpy/marker_dotplot.png decoded and prior visual match",
+    "pass": true,
+    "detail": {
+      "size": [
+        1315,
+        635
+      ]
+    }
+  },
+  {
+    "check": "pbmc3k/scanpy/qc_violin.png decoded and prior visual match",
+    "pass": true,
+    "detail": {
+      "size": [
+        1760,
+        640
+      ]
+    }
+  },
+  {
+    "check": "pbmc3k/scanpy/umap_cell_types.png decoded and prior visual match",
+    "pass": true,
+    "detail": {
+      "size": [
+        1181,
+        688
+      ]
+    }
+  },
+  {
+    "check": "pbmc3k/logs/report.log exit evidence",
+    "pass": true,
+    "detail": "0.533246                     0.703664 experimentally measured; does not uniquely explain entire between-route difference\nACCEPTANCE PASS 83/83\nEnded UTC: 2026-10-10T23:44:17.940262+00:00\nExit code: 0\n"
+  },
+  {
+    "check": "pbmc3k/logs/prepare.log exit evidence",
+    "pass": true,
+    "detail": "/pbmc3k-20261010T234141455855Z\"]\nPASS same source archive and extracted files 847d6ebd9a1ec9a768f2be7e40ca42cbfe75ebeb6d76a4c24167041699dc28b5\nEnded UTC: 2026-10-10T23:41:43.863680+00:00\nExit code: 0\n"
+  },
+  {
+    "check": "pbmc3k/logs/annotation_r.log exit evidence",
+    "pass": true,
+    "detail": "_seurat.R\", \"results/reproduction/acceptance-20261010T234118Z/.attempts/pbmc3k-20261010T234141455855Z\"]\nPASS Seurat annotated object and plots\nEnded UTC: 2026-10-10T23:44:03.901992+00:00\nExit code: 0\n"
+  },
+  {
+    "check": "pbmc3k/logs/seurat.log exit evidence",
+    "pass": true,
+    "detail": " cluster 8\nINPUT 32738 genes 2700 cells; POSTQC 13714 genes 2638 cells; CLUSTERS 9 \nPASS Seurat analysis, markers, plots, raw and analysis RDS\nEnded UTC: 2026-10-10T23:43:11.540366+00:00\nExit code: 0\n"
+  },
+  {
+    "check": "pbmc3k/logs/annotation_python.log exit evidence",
+    "pass": true,
+    "detail": "/pbmc3k-20261010T234141455855Z\", \"scripts/pbmc_annotation_plan.json\"]\nPASS reviewed annotations for 18 clusters; 62 gene/cluster evidence rows\nEnded UTC: 2026-10-10T23:43:52.101163+00:00\nExit code: 0\n"
+  },
+  {
+    "check": "pbmc3k/logs/scanpy.log exit evidence",
+    "pass": true,
+    "detail": "cells x 32738 genes; POSTQC 2638 cells x 13714 genes; HVGs 1838; CLUSTERS 9\nPASS Scanpy analysis, markers, plots, H5AD and controlled variants\nEnded UTC: 2026-10-10T23:43:45.930887+00:00\nExit code: 0\n"
+  },
+  {
+    "check": "airway8 unique aligned",
+    "pass": true,
+    "detail": "(63677, 8)"
+  },
+  {
+    "check": "airway counts integers",
+    "pass": true,
+    "detail": "raw counts"
+  },
+  {
+    "check": "deseq2 unique gene IDs",
+    "pass": true,
+    "detail": {
+      "rows": 16596
+    }
+  },
+  {
+    "check": "deseq2 valid adjusted probabilities",
+    "pass": true,
+    "detail": {
+      "min": 3.5793451801717e-132,
+      "max": 0.999961454913886
+    }
+  },
+  {
+    "check": "deseq2 FDR .1 selection",
+    "pass": true,
+    "detail": {
+      "significant": 4916
+    }
+  },
+  {
+    "check": "edger unique gene IDs",
+    "pass": true,
+    "detail": {
+      "rows": 16860
+    }
+  },
+  {
+    "check": "edger valid adjusted probabilities",
+    "pass": true,
+    "detail": {
+      "min": 1.17779220246179e-06,
+      "max": 0.999562831026478
+    }
+  },
+  {
+    "check": "edger FDR .1 selection",
+    "pass": true,
+    "detail": {
+      "significant": 6550
+    }
+  },
+  {
+    "check": "pydeseq2 unique gene IDs",
+    "pass": true,
+    "detail": {
+      "rows": 16596
+    }
+  },
+  {
+    "check": "pydeseq2 valid adjusted probabilities",
+    "pass": true,
+    "detail": {
+      "min": 1.6567486583013664e-162,
+      "max": 0.999976534319834
+    }
+  },
+  {
+    "check": "pydeseq2 FDR .1 selection",
+    "pass": true,
+    "detail": {
+      "significant": 4685
+    }
+  },
+  {
+    "check": "analysis_annotated.h5ad object unique IDs",
+    "pass": true,
+    "detail": "(2638, 13714)"
+  },
+  {
+    "check": "raw_counts.h5ad object unique IDs",
+    "pass": true,
+    "detail": "(2700, 32738)"
+  },
+  {
+    "check": "analysis.h5ad object unique IDs",
+    "pass": true,
+    "detail": "(2638, 13714)"
+  },
+  {
+    "check": "raw H5AD matches same 10x source",
+    "pass": true,
+    "detail": "(2700, 32738)"
+  },
+  {
+    "check": "QC counts exact raw subset",
+    "pass": true,
+    "detail": "(2638, 13714)"
+  },
+  {
+    "check": "seurat barcode alignment",
+    "pass": true,
+    "detail": {
+      "cells": 2638,
+      "clusters": 9
+    }
+  },
+  {
+    "check": "scanpy barcode alignment",
+    "pass": true,
+    "detail": {
+      "cells": 2638,
+      "clusters": 9
+    }
+  },
+  {
+    "check": "H5AD clusters equal CSV",
+    "pass": true,
+    "detail": "all barcodes"
+  },
+  {
+    "check": "recomputed ARI/NMI",
+    "pass": true,
+    "detail": {
+      "shared": 2638,
+      "ARI": 0.6279310734626542,
+      "NMI_arithmetic": 0.7545047834392827
+    }
+  },
+  {
+    "check": "integer expression counts",
+    "pass": true,
+    "detail": {
+      "rows": 207
+    }
+  },
+  {
+    "check": "expression percentages exact integer ratio",
+    "pass": true,
+    "detail": "0..100%"
+  },
+  {
+    "check": "allowed marker NA exactly three non-significant",
+    "pass": true,
+    "detail": [
+      {
+        "route": "seurat",
+        "cluster": 2,
+        "gene": "S100A4"
+      },
+      {
+        "route": "seurat",
+        "cluster": 5,
+        "gene": "LYZ"
+      },
+      {
+        "route": "scanpy",
+        "cluster": 0,
+        "gene": "S100A4"
+      }
+    ]
+  },
+  {
+    "check": "allowed zero-expression CDC6 dispersion NA",
+    "pass": true,
+    "detail": [
+      "CDC6"
+    ]
+  },
+  {
+    "check": "RDS actual independent readback",
+    "pass": true,
+    "detail": {
+      "exit_code": 0,
+      "evidence": "results/reproduction/acceptance-20261010T234118Z/verification/rds_readback.json"
+    }
+  },
+  {
+    "check": "166 declared files nonempty",
+    "pass": true,
+    "detail": "69 bulk +97 PBMC"
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "checked_at_utc": "2026-10-10T20:23:30.300203+00:00",
+  "pipeline": "nf-core/rnaseq",
+  "version": "3.27.0",
+  "commit": "a1fcdddd3b826fe46eb46f0479f2ff8a7815af05",
+  "profile": "test,docker",
+  "exit_code": 1,
+  "multiqc_reports": [],
+  "completed": false,
+  "scope": "Official small test dataset; NOT a reproduction of airway original FASTQ."
+}

@@ -1,0 +1,25 @@
+{
+  "image": "quay.io/biocontainers/perl:5.26.2",
+  "started_utc": "2026-10-10T22:58:26.715210+00:00",
+  "source": "docker://quay.io/biocontainers/perl:5.26.2",
+  "transport": "skopeo -> docker-daemon; existing client proxy inherited; no system proxy changes",
+  "completed": true,
+  "exit_code": 0,
+  "ended_utc": "2026-10-10T22:58:42.366511+00:00",
+  "source_digest": "sha256:8ae3c6d2fc43fb73efb20e26dd1d780ef05c32977435bb0bdfa670037913848f",
+  "architecture": "amd64",
+  "docker_image_id": "sha256:a9d270ad1d3a361aed3511e8498c4e5b8c68fd3d4624fbc05506c892602ab9c5",
+  "docker_size": 31884311,
+  "docker_layers": [
+    "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef",
+    "sha256:461f75075df2a334108df11b185363d2afda21517fda5ffb10852020e7639b7b",
+    "sha256:d9c122ba3e7627ce3008fd063788e8a1212d8de86248d66772f39f7b978634ef",
+    "sha256:2e4090b968e1df4c6c6d8024c7e60f81148cf4b4dacaa2ece4f3e99f3dba3fc8",
+    "sha256:4266fd267d6bfee846b1abef4ab786955e2d1625354fc59ed2ff25a0461db2d7",
+    "sha256:b46c2431d956fdcc4b659bbb008e9df0a1ee186088d494267232e562b3b7f3d6",
+    "sha256:fe8ed9f638c2465e53d616918ce063f2df83c9ce5cb2a18ee5f334432c1dc76f",
+    "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef",
+    "sha256:b7a67dc9db8baf3fe750b0161bb0e57544960fdbcfdc61a4e68d8c4c0a43623c",
+    "sha256:e22145410f701d01d9dbae2b8971cb31c9f24b0d15ffca49d0e3fea67e9fc524"
+  ]
+}

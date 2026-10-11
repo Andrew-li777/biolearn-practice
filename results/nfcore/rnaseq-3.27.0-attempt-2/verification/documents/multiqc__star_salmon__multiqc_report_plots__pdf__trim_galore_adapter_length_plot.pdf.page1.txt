@@ -1,0 +1,18 @@
+10 bp
+20 bp
+30 bp
+40 bp
+50 bp
+60 bp
+70 bp
+0
+5k
+10k
+15k
+20k
+25k
+30k
+Trim Galore: Adapter Length Distribution
+ 8 lines 
+Adapter overlap length (bp)
+Reads (count)

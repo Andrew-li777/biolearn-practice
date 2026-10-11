@@ -1,0 +1,13 @@
+QC=min.cells=3 gene prefilter; min.features=200 initialization; then strict 200<nFeature_RNA<2500, percent.mt<5
+QC metrics computed after gene prefilter; raw metrics also retained
+normalization=LogNormalize scale.factor=10000
+HVG=vst nfeatures=2000
+scaling=HVG only; mean-center, unit variance, scale.max=10; no regression
+PCA=50 computed; PCs 1:10 used
+neighbors=Annoy Euclidean k=20; SNN prune=1/15
+clustering=Louvain algorithm=1; resolution=0.5; seed=42; n.start=10,n.iter=10
+UMAP=uwot cosine; dims1:10, n.neighbors=30, min.dist=0.3, seed=42
+markers=Wilcoxon RNA/data; all other cells as reference; min.pct=0.25, logfc.threshold=0.25; return.thresh=1; positive subset p_val_adj<0.05
+marker_p_adjust=Seurat Bonferroni across all genes in assay; exploratory single-donor markers
+seed=42
+experiment=resolution=1 on same SNN graph, all else fixed

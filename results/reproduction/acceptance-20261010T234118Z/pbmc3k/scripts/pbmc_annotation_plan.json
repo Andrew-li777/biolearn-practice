@@ -1,0 +1,232 @@
+{
+  "reviewed_archive_sha256": "847d6ebd9a1ec9a768f2be7e40ca42cbfe75ebeb6d76a4c24167041699dc28b5",
+  "review_note": "Reviewed actual canonical_marker_profiles and positive markers from run-20261010T200432Z; cluster IDs not copied from tutorial",
+  "seurat": {
+    "0": {
+      "cell_type": "Naive-like CD4 T",
+      "broad_type": "CD4 T",
+      "confidence": "moderate",
+      "markers": [
+        "CD3D",
+        "CD3E",
+        "IL7R",
+        "CCR7"
+      ],
+      "rationale": "T-cell CD3D/CD3E and IL7R; CCR7-rich cluster with low CD8/cytotoxic markers relative to cytotoxic T cluster. Naive-like rather than definitive subtype.",
+      "limitations": "No independent reference mapping or protein data; CD4 lineage inferred from IL7R/CD3 and low CD8, not directly proven."
+    },
+    "1": {
+      "cell_type": "CD14+ monocytes",
+      "broad_type": "CD14 monocytes",
+      "confidence": "high marker support",
+      "markers": [
+        "CD14",
+        "LYZ",
+        "S100A8",
+        "LST1"
+      ],
+      "rationale": "CD14, LYZ, S100A8 and LST1 high; FCGR3A lower than nonclassical monocyte cluster.",
+      "limitations": "Single-donor exploratory cluster; no donor-level differential inference."
+    },
+    "2": {
+      "cell_type": "Memory-like CD4 T",
+      "broad_type": "CD4 T",
+      "confidence": "moderate",
+      "markers": [
+        "CD3D",
+        "CD3E",
+        "IL7R",
+        "S100A4"
+      ],
+      "rationale": "T-cell CD3D/CD3E, IL7R and S100A4; lower CCR7 than naive-like T cluster and low CD8/cytotoxic profile.",
+      "limitations": "S100A4 is not lineage-specific; subtype is inferred jointly with T markers. No independent validation."
+    },
+    "3": {
+      "cell_type": "B cells",
+      "broad_type": "B cells",
+      "confidence": "high marker support",
+      "markers": [
+        "MS4A1",
+        "CD79A"
+      ],
+      "rationale": "Joint MS4A1 and CD79A expression; canonical B genes also among positive markers.",
+      "limitations": "Broad B-cell annotation; no naive/memory B subtype assignment."
+    },
+    "4": {
+      "cell_type": "Cytotoxic CD8 T",
+      "broad_type": "CD8 T",
+      "confidence": "moderate-high marker support",
+      "markers": [
+        "CD3D",
+        "CD3E",
+        "CD8A",
+        "CD8B",
+        "CCL5",
+        "NKG7"
+      ],
+      "rationale": "Cytotoxic CCL5/NKG7 with T-cell CD3D/CD3E and CD8A/B; distinguishes cytotoxic T from GNLY-rich, CD3D-low NK cluster.",
+      "limitations": "Some cells express IL7R; boundary cells need additional validation, no exhausted/effector subclass claim."
+    },
+    "5": {
+      "cell_type": "FCGR3A+ monocytes",
+      "broad_type": "FCGR3A monocytes",
+      "confidence": "high marker support",
+      "markers": [
+        "FCGR3A",
+        "MS4A7",
+        "LST1",
+        "LYZ"
+      ],
+      "rationale": "FCGR3A together with MS4A7 and myeloid LST1/LYZ; CD14 lower than classical monocytes; distinguishes FCGR3A-positive NK cells.",
+      "limitations": "Monocyte continuum may shift cluster boundary; no precise intermediate/nonclassical subclass claim."
+    },
+    "6": {
+      "cell_type": "NK cells",
+      "broad_type": "NK cells",
+      "confidence": "high broad-type marker support",
+      "markers": [
+        "GNLY",
+        "NKG7",
+        "PRF1"
+      ],
+      "rationale": "GNLY, NKG7 and PRF1 strongly expressed; CD3D/CD8B low relative to cytotoxic T cells.",
+      "limitations": "Some CD3E expression; ambient RNA, mixed populations or boundary cells not excluded. No doublet analysis."
+    },
+    "7": {
+      "cell_type": "Dendritic-like cells",
+      "broad_type": "Dendritic cells",
+      "confidence": "moderate",
+      "markers": [
+        "FCER1A",
+        "CST3"
+      ],
+      "rationale": "FCER1A with CST3 and positive antigen-presenting markers; FCER1A distinguishes this small group from monocytes.",
+      "limitations": "Small cluster; CST3 shared with monocytes. Precise DC subtype requires more markers/reference mapping."
+    },
+    "8": {
+      "cell_type": "Platelet-like cells",
+      "broad_type": "Platelet-like",
+      "confidence": "strong markers, small cluster",
+      "markers": [
+        "PPBP",
+        "PF4"
+      ],
+      "rationale": "PPBP and PF4 highly expressed in every cell in this small cluster; platelet-lineage positive marker program.",
+      "limitations": "13 cells in this run; platelet/megakaryocyte lineage cannot be resolved to definitive megakaryocytes from this matrix alone."
+    }
+  },
+  "scanpy": {
+    "0": {
+      "cell_type": "Memory-like CD4 T",
+      "broad_type": "CD4 T",
+      "confidence": "moderate",
+      "markers": [
+        "CD3D",
+        "CD3E",
+        "IL7R",
+        "S100A4"
+      ],
+      "rationale": "T-cell CD3D/CD3E, IL7R and S100A4; lower CCR7 than naive-like T cluster and low CD8/cytotoxic profile.",
+      "limitations": "S100A4 is not lineage-specific; subtype is inferred jointly with T markers. No independent validation."
+    },
+    "1": {
+      "cell_type": "Naive-like CD4 T",
+      "broad_type": "CD4 T",
+      "confidence": "moderate",
+      "markers": [
+        "CD3D",
+        "CD3E",
+        "IL7R",
+        "CCR7"
+      ],
+      "rationale": "T-cell CD3D/CD3E and IL7R; CCR7-rich cluster with low CD8/cytotoxic markers relative to cytotoxic T cluster. Naive-like rather than definitive subtype.",
+      "limitations": "No independent reference mapping or protein data; CD4 lineage inferred from IL7R/CD3 and low CD8, not directly proven."
+    },
+    "2": {
+      "cell_type": "B cells",
+      "broad_type": "B cells",
+      "confidence": "high marker support",
+      "markers": [
+        "MS4A1",
+        "CD79A"
+      ],
+      "rationale": "Joint MS4A1 and CD79A expression; canonical B genes also among positive markers.",
+      "limitations": "Broad B-cell annotation; no naive/memory B subtype assignment."
+    },
+    "3": {
+      "cell_type": "FCGR3A+ monocytes",
+      "broad_type": "FCGR3A monocytes",
+      "confidence": "high marker support",
+      "markers": [
+        "FCGR3A",
+        "MS4A7",
+        "LST1",
+        "LYZ"
+      ],
+      "rationale": "FCGR3A together with MS4A7 and myeloid LST1/LYZ; CD14 lower than classical monocytes; distinguishes FCGR3A-positive NK cells.",
+      "limitations": "Monocyte continuum may shift cluster boundary; no precise intermediate/nonclassical subclass claim."
+    },
+    "4": {
+      "cell_type": "CD14+ monocytes",
+      "broad_type": "CD14 monocytes",
+      "confidence": "high marker support",
+      "markers": [
+        "CD14",
+        "LYZ",
+        "S100A8",
+        "LST1"
+      ],
+      "rationale": "CD14, LYZ, S100A8 and LST1 high; FCGR3A lower than nonclassical monocyte cluster.",
+      "limitations": "Single-donor exploratory cluster; no donor-level differential inference."
+    },
+    "5": {
+      "cell_type": "NK cells",
+      "broad_type": "NK cells",
+      "confidence": "high broad-type marker support",
+      "markers": [
+        "GNLY",
+        "NKG7",
+        "PRF1"
+      ],
+      "rationale": "GNLY, NKG7 and PRF1 strongly expressed; CD3D/CD8B low relative to cytotoxic T cells.",
+      "limitations": "Some CD3E expression; ambient RNA, mixed populations or boundary cells not excluded. No doublet analysis."
+    },
+    "6": {
+      "cell_type": "Cytotoxic CD8 T",
+      "broad_type": "CD8 T",
+      "confidence": "moderate-high marker support",
+      "markers": [
+        "CD3D",
+        "CD3E",
+        "CD8A",
+        "CD8B",
+        "CCL5",
+        "NKG7"
+      ],
+      "rationale": "Cytotoxic CCL5/NKG7 with T-cell CD3D/CD3E and CD8A/B; distinguishes cytotoxic T from GNLY-rich, CD3D-low NK cluster.",
+      "limitations": "Some cells express IL7R; boundary cells need additional validation, no exhausted/effector subclass claim."
+    },
+    "7": {
+      "cell_type": "Dendritic-like cells",
+      "broad_type": "Dendritic cells",
+      "confidence": "moderate",
+      "markers": [
+        "FCER1A",
+        "CST3"
+      ],
+      "rationale": "FCER1A with CST3 and positive antigen-presenting markers; FCER1A distinguishes this small group from monocytes.",
+      "limitations": "Small cluster; CST3 shared with monocytes. Precise DC subtype requires more markers/reference mapping."
+    },
+    "8": {
+      "cell_type": "Platelet-like cells",
+      "broad_type": "Platelet-like",
+      "confidence": "strong markers, small cluster",
+      "markers": [
+        "PPBP",
+        "PF4"
+      ],
+      "rationale": "PPBP and PF4 highly expressed in every cell in this small cluster; platelet-lineage positive marker program.",
+      "limitations": "13 cells in this run; platelet/megakaryocyte lineage cannot be resolved to definitive megakaryocytes from this matrix alone."
+    }
+  }
+}

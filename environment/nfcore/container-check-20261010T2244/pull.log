@@ -1,0 +1,1 @@
+Error response from daemon: failed to resolve reference "docker.io/library/alpine:3.20": failed to do request: Head "https://registry-1.docker.io/v2/library/alpine/manifests/3.20": dial tcp 192.133.77.189:443: connect: connection refused

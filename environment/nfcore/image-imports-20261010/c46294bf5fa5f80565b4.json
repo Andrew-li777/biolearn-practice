@@ -1,0 +1,18 @@
+{
+  "image": "docker.io/curlimages/curl:8.10.1",
+  "started_utc": "2026-10-10T22:50:42.757430+00:00",
+  "source": "docker://docker.io/curlimages/curl:8.10.1",
+  "transport": "skopeo -> docker-daemon; existing client proxy inherited; no system proxy changes",
+  "completed": true,
+  "exit_code": 0,
+  "ended_utc": "2026-10-10T22:50:50.398241+00:00",
+  "source_digest": "sha256:d9b4541e214bcd85196d6e92e2753ac6d0ea699f0af5741f8c6cccbfcf00ef4b",
+  "architecture": "amd64",
+  "docker_image_id": "sha256:7c9fb0c4e0d4bced9cc7c0cd707c9d3028f876ef93ae9fd3d51a7c28e1f610ae",
+  "docker_size": 9413448,
+  "docker_layers": [
+    "sha256:63ca1fbb43ae5034640e5e6cb3e083e05c290072c5366fcaa9d62435a4cced85",
+    "sha256:f95a3c06f52ee59b301b8c3bb65e92afb1686d958072a99523dfb2459f6434d6",
+    "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef"
+  ]
+}

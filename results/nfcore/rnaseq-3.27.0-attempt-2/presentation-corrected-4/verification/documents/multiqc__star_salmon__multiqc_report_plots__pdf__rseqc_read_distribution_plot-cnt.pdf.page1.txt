@@ -1,0 +1,19 @@
+0
+20k
+40k
+60k
+80k
+100k
+120k
+140k
+WT_REP2
+WT_REP1
+RAP1_UNINDUCED_REP2
+RAP1_UNINDUCED_REP1
+RAP1_IAA_30M_REP1
+CDS_Exons
+Introns
+Other_intergenic
+RSeQC: Read Distribution
+ 5 bars 
+# Tags

@@ -1,0 +1,22 @@
+name: biolearn-py
+channels:
+  - conda-forge
+  - bioconda
+  - nodefaults
+dependencies:
+  - python=3.11
+  - scanpy=1.11
+  - pydeseq2=0.5
+  - python-igraph
+  - leidenalg
+  - numpy
+  - scipy
+  - pandas
+  - scikit-learn
+  - matplotlib-base
+  - seaborn
+  - anndata
+  - h5py
+  - statsmodels
+  - umap-learn
+  - scikit-misc

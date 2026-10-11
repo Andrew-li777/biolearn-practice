@@ -1,0 +1,19 @@
+0 bp
+100 bp
+200 bp
+300 bp
+400 bp
+500 bp
+0
+100
+200
+300
+400
+500
+600
+700
+800
+Samtools: stats: Insert size distribution
+ 3 lines 
+Insert size (bp)
+Read pairs

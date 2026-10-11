@@ -1,0 +1,8 @@
+Started 2026-10-10T23:20:19.575693+00:00
+Command ["/home/a/miniforge3/envs/biolearn-container/bin/skopeo", "--command-timeout", "20m", "--override-os", "linux", "--override-arch", "amd64", "copy", "--retry-times", "2", "docker://quay.io/biocontainers/ucsc-bedgraphtobigwig:482--hdc0a859_0", "docker-daemon:quay.io/biocontainers/ucsc-bedgraphtobigwig:482--hdc0a859_0"]
+Getting image source signatures
+Copying blob sha256:0cacab098358fffeef7e18bd537907ae734dcfa12ab45fbcd0e62cc9b37264a8
+Copying blob sha256:bd9ddc54bea929a22b334e73e026d4136e5b73f5cc29942896c72e4ece69b13d
+Copying blob sha256:c569cd50ad4899e5210ff3e67f7f81aa74644317818bdbdbc603f227cab55d0b
+Copying config sha256:6d313b11fc5f02c7ca2d36e796fdaab32e3190d108ceea0e1b6cf0d20d40621a
+Writing manifest to image destination

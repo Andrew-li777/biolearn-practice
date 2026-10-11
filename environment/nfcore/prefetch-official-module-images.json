@@ -1,0 +1,7 @@
+[
+  "community.wave.seqera.io/library/multiqc:1.35--c17fb751507e9dfc",
+  "community.wave.seqera.io/library/r-base_r-optparse_r-ggplot2_r-rcolorbrewer_pruned:9e75394d0bc21987",
+  "community.wave.seqera.io/library/rseqc_r-base:2e29d2dfda9cef15",
+  "quay.io/biocontainers/bioconductor-summarizedexperiment:1.32.0--r43hdfd78af_0",
+  "quay.io/biocontainers/qualimap:2.3--hdfd78af_0"
+]

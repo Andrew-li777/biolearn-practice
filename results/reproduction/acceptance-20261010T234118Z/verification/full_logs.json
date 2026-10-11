@@ -1,0 +1,97 @@
+[
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/bulk/logs/report.log",
+    "bytes": 2336,
+    "sha256": "577e5bcf2f06e6cdec5afdbd096f1d5940f70d791118d17fc045436d5ca4f091",
+    "lines": 13,
+    "error_lines": [],
+    "warning_lines": []
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/bulk/logs/pydeseq2.log",
+    "bytes": 2099,
+    "sha256": "d54680b83bd78cb3abcc7223f9496de871504c62f196a81ecc3996e68a25838a",
+    "lines": 48,
+    "error_lines": [],
+    "warning_lines": [
+      "/home/a/miniforge3/envs/biolearn-py/lib/python3.11/site-packages/pydeseq2/dds.py:548: UserWarning: As the residual degrees of freedom is less than 3, the distribution of log dispersions is especially asymmetric and likely to be poorly estimated by the MAD."
+    ]
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/bulk/logs/deseq2.log",
+    "bytes": 1372,
+    "sha256": "794f828305a484e9975e0246ba571fc2cc92e4208aee10e56d6cc2601571ec32",
+    "lines": 36,
+    "error_lines": [],
+    "warning_lines": []
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/bulk/logs/edger.log",
+    "bytes": 426,
+    "sha256": "37c9c6b92bfde3f1966d1b9bb5ae6199d686402159697c14ac72218f7b502bb0",
+    "lines": 7,
+    "error_lines": [],
+    "warning_lines": []
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/pbmc3k/logs/report.log",
+    "bytes": 3565,
+    "sha256": "1522d99b3d4049fcc38bba0f812f9069a89d064d7339e03652d0d12b57ca4f5c",
+    "lines": 27,
+    "error_lines": [],
+    "warning_lines": []
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/pbmc3k/logs/prepare.log",
+    "bytes": 438,
+    "sha256": "19d85855c2dee92b5fadab44a1d26e8a009f31bdec68bcaf3492c4860a92d763",
+    "lines": 5,
+    "error_lines": [],
+    "warning_lines": []
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/pbmc3k/logs/annotation_r.log",
+    "bytes": 374,
+    "sha256": "0998d77802ae7a1fe38138239668ed6328e442fddca4b75de12002615939fba3",
+    "lines": 5,
+    "error_lines": [],
+    "warning_lines": []
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/pbmc3k/logs/seurat.log",
+    "bytes": 1458,
+    "sha256": "f58c22a594a559dc26b6bf9e4286eed358feda56b2a34a92fa353d79d573bbe4",
+    "lines": 27,
+    "error_lines": [],
+    "warning_lines": [
+      "Warning: The default method for RunUMAP has changed from calling Python UMAP via reticulate to the R-native UWOT using the cosine metric"
+    ]
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/pbmc3k/logs/annotation_python.log",
+    "bytes": 439,
+    "sha256": "96e54f680a49fad78236a6d2feb6acc57c7bd689612722855fd269d55c22a754",
+    "lines": 5,
+    "error_lines": [],
+    "warning_lines": []
+  },
+  {
+    "path": "results/reproduction/acceptance-20261010T234118Z/pbmc3k/logs/scanpy.log",
+    "bytes": 2391,
+    "sha256": "a546753b6a37e7adb650717d0d105db81fe59b8c0d19f3dd2c1de1cbb0dffd88",
+    "lines": 26,
+    "error_lines": [],
+    "warning_lines": [
+      "/home/a/miniforge3/envs/biolearn-py/lib/python3.11/site-packages/scanpy/tools/_rank_genes_groups.py:380: RuntimeWarning: invalid value encountered in divide",
+      "/home/a/miniforge3/envs/biolearn-py/lib/python3.11/site-packages/scanpy/tools/_rank_genes_groups.py:380: RuntimeWarning: invalid value encountered in divide",
+      "/home/a/miniforge3/envs/biolearn-py/lib/python3.11/site-packages/scanpy/tools/_rank_genes_groups.py:380: RuntimeWarning: invalid value encountered in divide",
+      "/home/a/miniforge3/envs/biolearn-py/lib/python3.11/site-packages/scanpy/tools/_rank_genes_groups.py:380: RuntimeWarning: invalid value encountered in divide",
+      "/home/a/miniforge3/envs/biolearn-py/lib/python3.11/site-packages/scanpy/tools/_rank_genes_groups.py:380: RuntimeWarning: invalid value encountered in divide",
+      "/home/a/miniforge3/envs/biolearn-py/lib/python3.11/site-packages/scanpy/tools/_rank_genes_groups.py:380: RuntimeWarning: invalid value encountered in divide",
+      "/home/a/miniforge3/envs/biolearn-py/lib/python3.11/site-packages/scanpy/tools/_rank_genes_groups.py:380: RuntimeWarning: invalid value encountered in divide",
+      "/home/a/miniforge3/envs/biolearn-py/lib/python3.11/site-packages/scanpy/tools/_rank_genes_groups.py:380: RuntimeWarning: invalid value encountered in divide",
+      "/home/a/miniforge3/envs/biolearn-py/lib/python3.11/site-packages/scanpy/tools/_rank_genes_groups.py:380: RuntimeWarning: invalid value encountered in divide",
+      "/home/a/miniforge3/envs/biolearn-py/lib/python3.11/functools.py:909: UserWarning: zero-centering a sparse array/matrix densifies it."
+    ]
+  }
+]

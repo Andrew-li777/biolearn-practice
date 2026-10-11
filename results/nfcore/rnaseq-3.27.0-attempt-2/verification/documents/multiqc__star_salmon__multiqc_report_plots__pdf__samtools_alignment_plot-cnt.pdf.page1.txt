@@ -1,0 +1,20 @@
+0
+20k
+40k
+60k
+80k
+100k
+120k
+140k
+160k
+180k
+WT_REP2
+WT_REP1
+RAP1_UNINDUCED_REP2
+RAP1_UNINDUCED_REP1
+RAP1_IAA_30M_REP1
+Mapped (with MQ>0)
+MQ0
+Samtools: stats: Alignment Scores
+ 5 bars 
+# Reads

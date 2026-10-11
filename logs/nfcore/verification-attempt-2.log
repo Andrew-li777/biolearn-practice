@@ -1,0 +1,57 @@
+{
+  "checked_utc": "2026-10-10T23:24:17.678262+00:00",
+  "pass": true,
+  "passed": 267,
+  "total": 267,
+  "scope": "Official nf-core/rnaseq3.27.0 test; NOT airway original FASTQ reproduction.",
+  "trace_rows": 234,
+  "trace_status_counts": {
+    "COMPLETED": 234
+  },
+  "outputs": 1053,
+  "download_files": 19,
+  "matrices": [
+    {
+      "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/salmon/salmon.merged.gene_counts.tsv",
+      "genes": 125,
+      "columns": [
+        "gene_id",
+        "gene_name",
+        "RAP1_IAA_30M_REP1",
+        "RAP1_UNINDUCED_REP1",
+        "RAP1_UNINDUCED_REP2",
+        "WT_REP1",
+        "WT_REP2"
+      ],
+      "sample_columns": [
+        "RAP1_IAA_30M_REP1",
+        "RAP1_UNINDUCED_REP1",
+        "RAP1_UNINDUCED_REP2",
+        "WT_REP1",
+        "WT_REP2"
+      ],
+      "NA": {}
+    },
+    {
+      "path": "results/nfcore/rnaseq-3.27.0-attempt-2/output/star_salmon/salmon.merged.gene_counts.tsv",
+      "genes": 125,
+      "columns": [
+        "gene_id",
+        "gene_name",
+        "RAP1_IAA_30M_REP1",
+        "RAP1_UNINDUCED_REP1",
+        "RAP1_UNINDUCED_REP2",
+        "WT_REP1",
+        "WT_REP2"
+      ],
+      "sample_columns": [
+        "RAP1_IAA_30M_REP1",
+        "RAP1_UNINDUCED_REP1",
+        "RAP1_UNINDUCED_REP2",
+        "WT_REP1",
+        "WT_REP2"
+      ],
+      "NA": {}
+    }
+  ]
+}

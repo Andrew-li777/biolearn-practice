@@ -1,0 +1,20 @@
+0
+5
+10
+15
+20
+25
+30
+35
+0
+10k
+20k
+30k
+40k
+50k
+60k
+70k
+FastQC: Per Sequence Quality Scores
+ 8 lines 
+Mean Sequence Quality (Phred Score)
+Count

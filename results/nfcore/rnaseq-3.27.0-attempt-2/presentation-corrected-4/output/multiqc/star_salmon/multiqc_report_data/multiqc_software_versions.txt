@@ -1,0 +1,51 @@
+Sample	bbmap	bedtools	cat	python	bioconductor-deseq2	r-base	bioconductor-dupradar	perl	fastqc	fq	gunzip	picard	qualimap	rseqc	salmon	samtools	bioconductor-summarizedexperiment	gawk	star	stringtie	subread	trimgalore	bioconductor-tximeta	ucsc	untar	nf-core/rnaseq	Nextflow
+BBMAP_BBSPLIT	39.18																										
+BEDTOOLS_GENOMECOV_COMBINED		2.31.1																									
+BEDTOOLS_GENOMECOV_FW		2.31.1																									
+BEDTOOLS_GENOMECOV_REV		2.31.1																									
+CAT_FASTQ			9.5																								
+CUSTOM_CATADDITIONALFASTA				3.12.2																							
+CUSTOM_GTFFILTER				3.14.5																							
+CUSTOM_MULTIQCCUSTOMBIOTYPE				3.12.12																							
+CUSTOM_TX2GENE				3.10.4																							
+DESEQ2_QC_BAM_SALMON					1.46.0	4.4.2																					
+DESEQ2_QC_PSEUDO					1.46.0	4.4.2																					
+DupRadar							1.38.0																				
+EAUTILS_GTF2BED								5.26.2																			
+FASTQC									0.12.1																		
+FASTQC_FILTERED									0.12.1																		
+FQ_LINT										0.12.0																	
+FQ_LINT_AFTER_BBSPLIT										0.12.0																	
+FQ_LINT_AFTER_TRIMMING										0.12.0																	
+FQ_SUBSAMPLE										0.12.0																	
+GUNZIP_ADDITIONAL_FASTA											1.13																
+GUNZIP_GTF											1.13																
+PICARD_MARKDUPLICATES												3.5.0															
+QUALIMAP_RNASEQ													2.3														
+RSEQC_BAMSTAT														5.0.4													
+RSEQC_INFEREXPERIMENT														5.0.4													
+RSEQC_INNERDISTANCE														5.0.4													
+RSEQC_JUNCTIONANNOTATION														5.0.4													
+RSEQC_JUNCTIONSATURATION														5.0.4													
+RSEQC_READDISTRIBUTION														5.0.4													
+RSEQC_READDUPLICATION														5.0.4													
+SALMON_QUANT															2.7.0												
+SAMTOOLS_FAIDX																1.24											
+SAMTOOLS_FLAGSTAT																1.24											
+SAMTOOLS_IDXSTATS																1.24											
+SAMTOOLS_INDEX																1.24											
+SAMTOOLS_SORT																1.24											
+SAMTOOLS_SORT_QUALIMAP																1.24											
+SAMTOOLS_STATS																1.24											
+SE_GENE_UNIFIED																	1.32.0										
+SE_TRANSCRIPT_UNIFIED																	1.32.0										
+STAR_ALIGN																1.21		5.1.0	2.7.11b								
+STAR_GENOMEGENERATE																1.21		5.1.0	2.7.11b								
+STRINGTIE_STRINGTIE																				3.0.3							
+SUBREAD_FEATURECOUNTS																					2.1.1						
+TXIMETA_TXIMPORT																							1.20.1				
+Trim Galore																						2.3.0					
+UCSC_BEDCLIP																								482			
+UCSC_BEDGRAPHTOBIGWIG																								482			
+UNTAR_SALMON_INDEX																									1.34		
+Workflow																										v3.27.0	25.10.4

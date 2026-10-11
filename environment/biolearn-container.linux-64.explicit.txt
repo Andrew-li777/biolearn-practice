@@ -1,0 +1,7 @@
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: linux-64
+# created-by: conda 26.7.2
+@EXPLICIT
+https://conda.anaconda.org/conda-forge/linux-64/containers-common-0.64.2-ha770c72_0.conda
+https://conda.anaconda.org/conda-forge/linux-64/skopeo-1.24.1-hfc2019e_0.conda

@@ -1,0 +1,17 @@
+{
+  "raw_counts": {
+    "cells": 2700,
+    "genes": 32738,
+    "clusters": "NA"
+  },
+  "analysis": {
+    "cells": 2638,
+    "genes": 13714,
+    "clusters": 9
+  },
+  "analysis_annotated": {
+    "cells": 2638,
+    "genes": 13714,
+    "clusters": 9
+  }
+}

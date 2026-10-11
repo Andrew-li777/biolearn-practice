@@ -1,0 +1,7 @@
+Command: /home/a/miniforge3/bin/conda run --no-capture-output -n biolearn-py python results/reproduction/acceptance-20261010T234118Z/evidence/check_all_products.py
+Started UTC: 2026-10-10T23:44:59.115084+00:00
+Declared/readable 217 232
+Checks [{'check': 'bulk manifest', 'pass_': True, 'files': 74, 'bad': []}, {'check': 'bulk complete/zero stages', 'pass_': True, 'provenance': '/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/bulk/run-provenance.json'}, {'check': 'pbmc3k manifest', 'pass_': True, 'files': 105, 'bad': []}, {'check': 'pbmc3k complete/zero stages', 'pass_': True, 'provenance': '/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/run-provenance.json'}, {'check': 'pbmc_validation manifest', 'pass_': True, 'files': 33, 'bad': []}, {'check': 'pbmc_validation complete/zero stages', 'pass_': True, 'provenance': '/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc_validation/run-provenance.json'}, {'check': 'pbmc_graph manifest', 'pass_': True, 'files': 16, 'bad': []}, {'check': 'pbmc_graph complete/zero stages', 'pass_': True, 'provenance': '/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc_graph/run-provenance.json'}]
+
+Ended UTC: 2026-10-10T23:45:04.236313+00:00
+Exit code: 0

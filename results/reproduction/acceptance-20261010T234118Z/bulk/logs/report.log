@@ -1,0 +1,13 @@
+Started UTC: 2026-10-10T23:46:43.868267+00:00
+Command: ["/home/a/miniforge3/bin/conda", "run", "--no-capture-output", "-n", "biolearn-py", "python", "scripts/04_bulk_report.py", "results/reproduction/acceptance-20261010T234118Z/.attempts/bulk-20261010T234523609628Z"]
+  method  input_genes  prefilter_genes  valid_pvalues  valid_padj  pvalue_missing  padj_missing  significant_fdr_0.1   up  down
+  deseq2        63677            16596          16596       16596               0             0                 4916 2618  2298
+   edger        63677            16860          16860       16860               0             0                 6550 3302  3248
+pydeseq2        63677            16596          16596       16596               0             0                 4685 2502  2183
+method_a method_b  n_sig_a  n_sig_b  n_overlap  n_union  overlap_fraction_a  overlap_fraction_b  jaccard  prefilter_shared_genes  finite_lfc_pairs  spearman_log2FC_shared  pearson_log2FC_shared  direction_shared_n  direction_agreement_shared  direction_overlap_n  direction_agreement_overlap  both_valid_padj_genes  jaccard_both_valid_padj
+  deseq2    edger     4916     6550       4879     6587            0.992474            0.744885 0.740701                   16493             16493                0.996428               0.996643               16493                    0.987389                 4879                          1.0                  16493                 0.754212
+  deseq2 pydeseq2     4916     4685       4641     4960            0.944060            0.990608 0.935685                   16596             16596                0.999994               0.999986               16596                    0.999458                 4641                          1.0                  16596                 0.935685
+   edger pydeseq2     6550     4685       4635     6600            0.707634            0.989328 0.702273                   16493             16493                0.996532               0.996871               16493                    0.987328                 4635                          1.0                  16493                 0.715057
+ACCEPTANCE PASS: 39/39 checks; report=results/reproduction/acceptance-20261010T234118Z/.attempts/bulk-20261010T234523609628Z/acceptance.md
+Ended UTC: 2026-10-10T23:46:47.393190+00:00
+Exit code: 0

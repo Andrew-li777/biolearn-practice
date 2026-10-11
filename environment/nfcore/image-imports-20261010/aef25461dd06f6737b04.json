@@ -1,0 +1,18 @@
+{
+  "image": "community.wave.seqera.io/library/multiqc:1.35--c17fb751507e9dfc",
+  "started_utc": "2026-10-10T23:14:42.106425+00:00",
+  "source": "docker://community.wave.seqera.io/library/multiqc:1.35--c17fb751507e9dfc",
+  "transport": "skopeo -> docker-daemon; existing client proxy inherited; no system proxy changes",
+  "completed": true,
+  "exit_code": 0,
+  "ended_utc": "2026-10-10T23:16:16.408631+00:00",
+  "source_digest": "sha256:ae074e961979ea85c72c6c67a8ed432fa3368c736b8fe37799f7223901ac84ab",
+  "architecture": "amd64",
+  "docker_image_id": "sha256:9cebce97bc5a33fba296945a748bf9c866aa2bf5211c96d59bc4db834a59d886",
+  "docker_size": 381743638,
+  "docker_layers": [
+    "sha256:538812a4b9bd45adaac2b5e5b967daa6999aa44eb110aa32ae7c69702b906475",
+    "sha256:0c0e9db82f482841617e4143ce01279d43756c2dad194a53cc4463008b50b7ce",
+    "sha256:f9c043e31e85ba66e20aa28857effec9a15eaff02bf10af90a78842924d85b68"
+  ]
+}

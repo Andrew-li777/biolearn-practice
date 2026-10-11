@@ -1,0 +1,13 @@
+Command: python3 results/reproduction/acceptance-20261010T234118Z/evidence/check_preservation.py
+Started UTC: 2026-10-10T23:47:32.196163+00:00
+{
+  "utc": "2026-10-10T23:47:35.140906+00:00",
+  "historical_files": 7790,
+  "changed_or_missing": [],
+  "reused_files": 11,
+  "reused_changed_or_missing": [],
+  "pass_": true
+}
+
+Ended UTC: 2026-10-10T23:47:35.146308+00:00
+Exit code: 0

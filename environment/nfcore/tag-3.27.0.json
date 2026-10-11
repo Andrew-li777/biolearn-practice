@@ -1,0 +1,10 @@
+{
+  "ref": "refs/tags/3.27.0",
+  "node_id": "MDM6UmVmMTI3MjkzMDkxOnJlZnMvdGFncy8zLjI3LjA=",
+  "url": "https://api.github.com/repos/nf-core/rnaseq/git/refs/tags/3.27.0",
+  "object": {
+    "sha": "a1fcdddd3b826fe46eb46f0479f2ff8a7815af05",
+    "type": "commit",
+    "url": "https://api.github.com/repos/nf-core/rnaseq/git/commits/a1fcdddd3b826fe46eb46f0479f2ff8a7815af05"
+  }
+}

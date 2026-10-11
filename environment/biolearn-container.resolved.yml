@@ -1,0 +1,7 @@
+name: biolearn-container
+channels:
+  - conda-forge
+dependencies:
+  - containers-common=0.64.2=ha770c72_0
+  - skopeo=1.24.1=hfc2019e_0
+prefix: /home/a/miniforge3/envs/biolearn-container

@@ -1,0 +1,97 @@
+[
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/work/stage-3feb4869-840d-494d-af70-a40af2fbf260/0d/7aca4dd5f9f4ad72f6af1cb1e3294c/SRR6357072_2.fastq.gz",
+    "bytes": 2167239,
+    "sha256": "4501eb0062d4005cc1a4c836a86c036c15d3c38d685138d02675c5ecef84c0a3"
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/work/stage-3feb4869-840d-494d-af70-a40af2fbf260/65/c13efea3538ff043833d5bed8ed13b/samplesheet_test.csv",
+    "bytes": 1335,
+    "sha256": "beeb7811b14bfa973233616625a9648ba649736d97b2e84af51d619ac89691c4"
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/work/stage-3feb4869-840d-494d-af70-a40af2fbf260/57/08f838a90bf987446c094e9a073289/SRR6357073_1.fastq.gz",
+    "bytes": 2253497,
+    "sha256": "c564e722216fb74116b237cc88d76cd33cf198216fb01fd9febd735a4503d18f"
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/work/stage-3feb4869-840d-494d-af70-a40af2fbf260/83/fe8f8d700f271b199398086452fd91/SRR6357074_1.fastq.gz",
+    "bytes": 2289662,
+    "sha256": "4070413e6493a5c4bd01f9f123ccfa0ed1c449cf2f9618acf6c21b110bbd2c4e"
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/work/stage-3feb4869-840d-494d-af70-a40af2fbf260/b6/0d5634ecdf2a9ba58115d38069ccc9/SRR6357072_1.fastq.gz",
+    "bytes": 2148269,
+    "sha256": "6c92efe43dc8145951c4131cd30e3e169f9877f041fcf20c2577eeeb7ec2b6ed"
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/work/stage-3feb4869-840d-494d-af70-a40af2fbf260/bd/a0e53c3bdacf256936970b1da72f57/SRR6357070_2.fastq.gz",
+    "bytes": 2232117,
+    "sha256": "8590e1e01e568fba256aa7dced40519604cbb111ee44ab106a3dcb869660aaf4"
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/work/stage-3feb4869-840d-494d-af70-a40af2fbf260/7f/77fcb1bb0eebc3799b9729d6abbbae/SRR6357071_2.fastq.gz",
+    "bytes": 2183711,
+    "sha256": "00bbbf100ee90c5f681c3b4814637283732cd06e620171bd48718aa02de3a91d"
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/work/stage-3feb4869-840d-494d-af70-a40af2fbf260/a9/41931bc36024a7e1fd3b088f953cfc/SRR6357076_1.fastq.gz",
+    "bytes": 2268588,
+    "sha256": "1ba6b60cd24c8abf1db57dec5a13b23eeb35beece6193af8ce6f9bac4fd4546f"
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/work/stage-3feb4869-840d-494d-af70-a40af2fbf260/79/50a7357ddc460dc8501bfe11b84923/SRR6357075_1.fastq.gz",
+    "bytes": 2207238,
+    "sha256": "b527be22d1862fcda1d5a038e66bdb1afdca5de3236d3e042669c6f515a14a39"
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/work/stage-3feb4869-840d-494d-af70-a40af2fbf260/ff/9893f9f9d39f9badeb86f43744b628/GCA_009858895.3_ASM985889v3_genomic.200409.fna",
+    "bytes": 30373,
+    "sha256": "a7cb57aaf59e51ef85322395cf165d07abac73e758660c5a9b8a45929fdbf870"
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/work/stage-3feb4869-840d-494d-af70-a40af2fbf260/5c/9d429fb47e37897c54b38a090a574a/SRR6357076_2.fastq.gz",
+    "bytes": 2250281,
+    "sha256": "4a04e6de648091eb42d703f67489d87e929544af478ce5e28b0c790f79a82a5d"
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/work/stage-3feb4869-840d-494d-af70-a40af2fbf260/5c/9eed2c1635c79ce87dee099cba3cc1/chr22_23800000-23980000.fa",
+    "bytes": 183609,
+    "sha256": "8ca246abb8eeec2e3cdea1d5f0c92d9a37877e10bc78fc6a4276ad6aabf28a62"
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/work/stage-3feb4869-840d-494d-af70-a40af2fbf260/5f/cdfe26f487bff972101535c06007f3/salmon_2.7.0.tar.gz",
+    "bytes": 4885940,
+    "sha256": "a799ca6a2fc2a613facb046f87167c16418451192d97a2573a2d11b14811ef84"
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/work/stage-3feb4869-840d-494d-af70-a40af2fbf260/ac/3ad1b5a5afe04004efdcd2f8b49707/transcriptome.fasta",
+    "bytes": 155606,
+    "sha256": "4f6a6733546b01a96a71f13c63215d9b854dfb1873c2fa484ed69707d6443ac3"
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/work/stage-3feb4869-840d-494d-af70-a40af2fbf260/a0/2edd00339971bdf606c84b6e81fd02/gfp.fa.gz",
+    "bytes": 306,
+    "sha256": "c140a0ab7639733fcbac9f1fa8cc661a2a93bad626be4a991b77d4964dccd5b2"
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/work/stage-3feb4869-840d-494d-af70-a40af2fbf260/40/a60176727ac2beee0dc2a7bd121e8f/genes_with_empty_tid.gtf.gz",
+    "bytes": 10466,
+    "sha256": "913092a6524a7de2a95c3a1695d0dfc8143f047f4c9c9bc7b206719a7388242a"
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/work/stage-3feb4869-840d-494d-af70-a40af2fbf260/88/db14dd8c9efa6f54cba1402906c732/SRR6357070_1.fastq.gz",
+    "bytes": 2239317,
+    "sha256": "3f50541fa9cf2bedc87e7b682ada0fccfdfcd6d27b9bb81f17be230ff140ebe7"
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/work/stage-3feb4869-840d-494d-af70-a40af2fbf260/31/bc022ac20a24b6876148d29fbcaf88/genome.fasta",
+    "bytes": 234058,
+    "sha256": "df70973809f672aa58a414fef3f01e0e465bf26f10159174a616b0dee2d458e1"
+  },
+  {
+    "path": "results/nfcore/rnaseq-3.27.0-attempt-2/work/stage-3feb4869-840d-494d-af70-a40af2fbf260/f9/fb0c273764e8fab20f575b685987b8/SRR6357071_1.fastq.gz",
+    "bytes": 2189243,
+    "sha256": "06951c97884df8975d5419a2f0d03d435b9da722564000536524b01926970c93"
+  }
+]

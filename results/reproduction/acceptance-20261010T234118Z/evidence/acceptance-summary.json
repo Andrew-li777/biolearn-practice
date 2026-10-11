@@ -1,0 +1,10 @@
+{
+  "pass_": true,
+  "generated_utc": "2026-10-10T23:47:57.149618+00:00",
+  "root": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z",
+  "declared": 217,
+  "readable_files": 232,
+  "historical_unchanged": 7790,
+  "rebuild_pass": true,
+  "nfcore_scope": "existing official test read-only recheck; not rerun"
+}

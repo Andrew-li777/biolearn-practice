@@ -1,0 +1,115 @@
+{
+  "route": "pbmc3k",
+  "attempt_directory": "results/reproduction/acceptance-20261010T234118Z/.attempts/pbmc3k-20261010T234141455855Z",
+  "published_directory": "results/reproduction/acceptance-20261010T234118Z/pbmc3k",
+  "started_utc": "2026-10-10T23:41:41.456048+00:00",
+  "completed": true,
+  "stages": [
+    {
+      "stage": "prepare",
+      "command": [
+        "/home/a/miniforge3/bin/conda",
+        "run",
+        "--no-capture-output",
+        "-n",
+        "biolearn-py",
+        "python",
+        "scripts/10_pbmc_prepare.py",
+        "results/reproduction/acceptance-20261010T234118Z/.attempts/pbmc3k-20261010T234141455855Z"
+      ],
+      "script_sha256": "e94ac983f47a00b97b039199e691247a60cdb9c509923731b7ddf63b362f5fc4",
+      "started_utc": "2026-10-10T23:41:41.457232+00:00",
+      "ended_utc": "2026-10-10T23:41:43.863680+00:00",
+      "exit_code": 0
+    },
+    {
+      "stage": "seurat",
+      "command": [
+        "/home/a/miniforge3/bin/conda",
+        "run",
+        "--no-capture-output",
+        "-n",
+        "biolearn-r",
+        "Rscript",
+        "scripts/11_pbmc_seurat.R",
+        "results/reproduction/acceptance-20261010T234118Z/.attempts/pbmc3k-20261010T234141455855Z/seurat",
+        "data/pbmc3k/filtered_gene_bc_matrices/hg19"
+      ],
+      "script_sha256": "d6a4a42cc382d4c79cce7fbc5252f3356c8f1e6da25586696e9cb4f0c50bca5d",
+      "started_utc": "2026-10-10T23:41:43.864303+00:00",
+      "ended_utc": "2026-10-10T23:43:11.540366+00:00",
+      "exit_code": 0
+    },
+    {
+      "stage": "scanpy",
+      "command": [
+        "/home/a/miniforge3/bin/conda",
+        "run",
+        "--no-capture-output",
+        "-n",
+        "biolearn-py",
+        "python",
+        "scripts/12_pbmc_scanpy.py",
+        "results/reproduction/acceptance-20261010T234118Z/.attempts/pbmc3k-20261010T234141455855Z/scanpy",
+        "data/pbmc3k/filtered_gene_bc_matrices/hg19"
+      ],
+      "script_sha256": "79bd9c480ba8b0f79fab8a6673b2ef854004150e1109ff5a6a74859a2b1bf48d",
+      "started_utc": "2026-10-10T23:43:11.540977+00:00",
+      "ended_utc": "2026-10-10T23:43:45.930887+00:00",
+      "exit_code": 0
+    },
+    {
+      "stage": "annotation_python",
+      "command": [
+        "/home/a/miniforge3/bin/conda",
+        "run",
+        "--no-capture-output",
+        "-n",
+        "biolearn-py",
+        "python",
+        "scripts/13_pbmc_annotate.py",
+        "results/reproduction/acceptance-20261010T234118Z/.attempts/pbmc3k-20261010T234141455855Z",
+        "scripts/pbmc_annotation_plan.json"
+      ],
+      "script_sha256": "2eb86b7b9c7435a0ecb9b9c9e51494447371bdce82141d9eba59a9a89de4d92a",
+      "started_utc": "2026-10-10T23:43:45.934035+00:00",
+      "ended_utc": "2026-10-10T23:43:52.101163+00:00",
+      "exit_code": 0
+    },
+    {
+      "stage": "annotation_r",
+      "command": [
+        "/home/a/miniforge3/bin/conda",
+        "run",
+        "--no-capture-output",
+        "-n",
+        "biolearn-r",
+        "Rscript",
+        "scripts/14_pbmc_annotate_seurat.R",
+        "results/reproduction/acceptance-20261010T234118Z/.attempts/pbmc3k-20261010T234141455855Z"
+      ],
+      "script_sha256": "2651faf201cd91d4f090b8ac823da629834a9bd62efe8f9583d6418d0291dccb",
+      "started_utc": "2026-10-10T23:43:52.101780+00:00",
+      "ended_utc": "2026-10-10T23:44:03.901992+00:00",
+      "exit_code": 0
+    },
+    {
+      "stage": "report",
+      "command": [
+        "/home/a/miniforge3/bin/conda",
+        "run",
+        "--no-capture-output",
+        "-n",
+        "biolearn-py",
+        "python",
+        "scripts/15_pbmc_report.py",
+        "results/reproduction/acceptance-20261010T234118Z/.attempts/pbmc3k-20261010T234141455855Z"
+      ],
+      "script_sha256": "bbe3db03c888b2101c29333f43c61b6d166eca5097750f15f7ae95cfc3d8f809",
+      "started_utc": "2026-10-10T23:44:11.961906+00:00",
+      "ended_utc": "2026-10-10T23:44:17.940262+00:00",
+      "exit_code": 0
+    }
+  ],
+  "ended_utc": "2026-10-10T23:44:17.941964+00:00"
+}

@@ -1,0 +1,19 @@
+Started 2026-10-10T22:54:25.313057+00:00
+Command ["/home/a/miniforge3/envs/biolearn-container/bin/skopeo", "--command-timeout", "20m", "--override-os", "linux", "--override-arch", "amd64", "copy", "--retry-times", "2", "docker://community.wave.seqera.io/library/coreutils_grep_gzip_lbzip2_pruned:838ba80435a629f8", "docker-daemon:community.wave.seqera.io/library/coreutils_grep_gzip_lbzip2_pruned:838ba80435a629f8"]
+Getting image source signatures
+Copying blob sha256:dafa2b0c44d2cfb0be6721f079092ddf15dc8bc537fb07fe7c3264c15cb2e8e6
+Copying blob sha256:dec6b097362e7c8d80e31302367f54d610b0e84d5c9cd5ccd300729608a54b18
+Copying blob sha256:f88da01cff0bc1129f1ae80576be8f3f715d1d3394d6ba35a93aa77f9a115733
+Copying blob sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1
+Copying blob sha256:92dc97a3ef369828f8d35d2242b165660dada3e3496ceef9ccb9ac3290e82bf9
+Copying blob sha256:403f74b0f85e9834f9d27943e5e2d26d191e619160f5477ad99adc52a4122764
+Copying blob sha256:10b8c00c10a554f94856546f418480a7d9c8136644c0fb97c725046bd6fdb578
+Copying blob sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1
+Copying blob sha256:17dc7ea432cc5ad24408dee199f29d0cdad597274cb11bd37352261849c241b2
+Copying blob sha256:bb36d6c3110d8825cd64743566e94bb2a65c4c898a8a0cd05569cbcb5689af07
+Copying blob sha256:0ea1a16bbe82e9a9906f98df703f99bb84f50b7a973057784bce54a4275781b2
+Copying blob sha256:030a47592a0a4d4536afb78188ecab3ff9fa7ee5771b2f6a5ee0d8ed139729e9
+Copying blob sha256:9f0d519e53628e1cdc2e32f93206f4e9871a2843289ba1970e8e83fc27c0a4d0
+Copying blob sha256:2fc3b27fe2293d77a9be05c2d65dcfaa0ec6173c4173b338e9bebc069e36ca52
+Copying config sha256:a2fb83afd6e3a0a18d587e80b07b7e9791819c56c4a0a8ea9e12df2641352cdc
+Writing manifest to image destination

@@ -1,0 +1,10 @@
+Imported community.wave.seqera.io/library/multiqc:1.35--c17fb751507e9dfc source_digest=sha256:ae074e961979ea85c72c6c67a8ed432fa3368c736b8fe37799f7223901ac84ab
+community.wave.seqera.io/library/multiqc:1.35--c17fb751507e9dfc 0
+Imported community.wave.seqera.io/library/r-base_r-optparse_r-ggplot2_r-rcolorbrewer_pruned:9e75394d0bc21987 source_digest=sha256:afd00df7ce26f38ecb2a063f65d441fc20c0803e5c7319ee5cbe3a23732a30dd
+community.wave.seqera.io/library/r-base_r-optparse_r-ggplot2_r-rcolorbrewer_pruned:9e75394d0bc21987 0
+Imported community.wave.seqera.io/library/rseqc_r-base:2e29d2dfda9cef15 source_digest=sha256:4f5926eeef842405756ca3453cd534b72d941c119b8e4785565c7918e05cd8ab
+community.wave.seqera.io/library/rseqc_r-base:2e29d2dfda9cef15 0
+Imported quay.io/biocontainers/bioconductor-summarizedexperiment:1.32.0--r43hdfd78af_0 source_digest=sha256:17fe194827b1e08aeda6e0505439aaec24e677a52d785da2f7d8b3ff35758687
+quay.io/biocontainers/bioconductor-summarizedexperiment:1.32.0--r43hdfd78af_0 0
+Imported quay.io/biocontainers/qualimap:2.3--hdfd78af_0 source_digest=sha256:49d81e27bf995d0ef72ae46c79c22c8c779e21573cd76f7b60cf3f73af61b087
+quay.io/biocontainers/qualimap:2.3--hdfd78af_0 0

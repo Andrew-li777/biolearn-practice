@@ -1,0 +1,7 @@
+Started 2026-10-10T22:58:00.775544+00:00
+Command ["/home/a/miniforge3/envs/biolearn-container/bin/skopeo", "--command-timeout", "20m", "--override-os", "linux", "--override-arch", "amd64", "copy", "--retry-times", "2", "docker://community.wave.seqera.io/library/htslib_samtools:1.24--d697cfb9dce007cd", "docker-daemon:community.wave.seqera.io/library/htslib_samtools:1.24--d697cfb9dce007cd"]
+Getting image source signatures
+Copying blob sha256:ca2678b20700c15185707964d9211b1a6406196114bf675f568b6025d37b3888
+Copying blob sha256:355702cc329af04e38208cf2df62b5717dd45e7c0a441b7e6fb0faf6fb96ed9a
+Copying config sha256:90b76df22c667ae28997a929d83dc6c93c4e18d6a33e65d1bf27ae4608c01d00
+Writing manifest to image destination

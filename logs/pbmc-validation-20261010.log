@@ -1,0 +1,36 @@
+Scrublet: raw filtered-UMI input (2700, 32738)
+Experiment {'experiment': 'neighbors20', 'cells': 2638, 'clusters': 8, 'ARI_vs_primary_scanpy': 0.6800459384311236, 'NMI_vs_primary_scanpy': 0.8492292006910938, 'ARI_vs_seurat': 0.6526309855272934, 'NMI_vs_seurat': 0.8040598428375019}
+Experiment {'experiment': 'exact_neighbors10', 'cells': 2638, 'clusters': 9, 'ARI_vs_primary_scanpy': 1.0, 'NMI_vs_primary_scanpy': 1.0, 'ARI_vs_seurat': 0.6279310734626542, 'NMI_vs_seurat': 0.7545047834392827}
+Experiment {'experiment': 'seurat_hvg', 'cells': 2638, 'clusters': 8, 'ARI_vs_primary_scanpy': 0.6543864823856812, 'NMI_vs_primary_scanpy': 0.8091233386014389, 'ARI_vs_seurat': 0.6605166878037708, 'NMI_vs_seurat': 0.8054524714555126}
+{
+  "raw_cells": 2700,
+  "primary_cells": 2638,
+  "predicted_doublets_raw": 36,
+  "predicted_doublets_primary": 34,
+  "scrublet_threshold": 0.246042051581765,
+  "reference_cells": 700,
+  "reference_genes": 765,
+  "common_genes": 764,
+  "holdout_cells": 210,
+  "holdout_accuracy": 0.8428571428571429,
+  "holdout_macro_f1": 0.8347724920084263,
+  "low_confidence_query_cells": 29,
+  "method": "Reference-only z scaling and PCA30, distance-weighted kNN15; seed42; stratified30% holdout.",
+  "limitations": [
+    "Independent PBMC68k donor A reduced reference; not PBMC3k ground truth.",
+    "Only common reference genes; reference has no platelets or FCGR3A-specific monocytes.",
+    "Monocyte subtypes pooled; CD4 subtypes pooled. Confidence is a kNN vote, not calibrated probability.",
+    "Scrublet rate .05 is an assumed default; automatic flags are diagnostic, no cells removed.",
+    "Protein measurements absent. No claim of experimental cell-type accuracy."
+  ],
+  "seurat": {
+    "represented_cells": 2593,
+    "unrepresented_cells": 45,
+    "reference_agreement_represented": 0.8106440416505978
+  },
+  "scanpy": {
+    "represented_cells": 2587,
+    "unrepresented_cells": 51,
+    "reference_agreement_represented": 0.8024739080015462
+  }
+}

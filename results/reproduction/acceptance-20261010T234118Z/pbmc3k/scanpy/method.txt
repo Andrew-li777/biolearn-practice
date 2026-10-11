@@ -1,0 +1,12 @@
+QC=gene min.cells=3; init min.genes=200; then strict 200<n_genes<2500, pct_counts_mt<5
+normalization=total=10000, log1p; full-gene X/raw hold log-normalized expression
+counts=integer sparse layers[counts]; raw_counts.h5ad X is integer source matrix
+HVG=seurat dispersion flavor min_mean=.0125,max_mean=3,min_disp=.5 (not Seurat vst)
+regression=total_counts,pct_counts_mt on HVGs
+scaling=HVG mean-center/unit variance,max_value=10
+PCA=arpack 50 computed,40 used; seed=42
+neighbors=10 euclidean, UMAP fuzzy graph; seed=42
+clustering=Leiden igraph resolution=1,n_iterations=2,directed=False,seed=42
+UMAP=min_dist=.5,spread=1,seed=42
+markers=Wilcoxon tie_correct=True, one cluster vs rest; full-gene raw log-normalized; BH per cluster; no min.pct/logFC prefilter; positive subset logFC>.25,padj<.05
+experiments=resolution .5; seed7; Louvain on same graph/resolution; PCs10; no regression; one change each

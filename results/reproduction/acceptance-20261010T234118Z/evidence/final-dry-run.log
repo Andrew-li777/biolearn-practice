@@ -1,0 +1,9 @@
+Command: /home/a/miniforge3/bin/conda run --no-capture-output -n biolearn-workflow snakemake --dry-run --cores 4 --resources mem_mb=14000 --config output_root=results/reproduction/acceptance-20261010T234118Z
+Started UTC: 2026-10-10T23:47:26.262794+00:00
+Config file workflow/config.yaml is extended by additional config specified via the command line.
+host: a
+Building DAG of jobs...
+Nothing to be done (all requested files are present and up to date).
+
+Ended UTC: 2026-10-10T23:47:29.417728+00:00
+Exit code: 0

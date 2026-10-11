@@ -1,0 +1,271 @@
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/linux-64/libgomp-16.2.0-he0feb66_7.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/noarch/font-ttf-source-code-pro-2.038-h77eed37_0.tar.bz2.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/linux-64/ld_impl_linux-64-2.46.1-default_hbd61a6d_103.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/noarch/font-ttf-inconsolata-3.000-h77eed37_0.tar.bz2.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/linux-64/aws-c-common-1.0.3-hebe6cf0_0.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/noarch/python_abi-3.11-9_cp311.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/linux-64/fribidi-1.0.17-h7cc23a3_0.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/noarch/font-ttf-ubuntu-0.83-h77eed37_3.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/linux-64/libbrotlicommon-1.2.0-h39a168f_4.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/linux-64/libdeflate-1.25-hd45a770_1.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/linux-64/libgcc-16.2.0-ha9f2e26_7.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/linux-64/libexpat-2.8.5-hd2095e1_0.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/noarch/font-ttf-dejavu-sans-mono-2.37-hab24e00_0.tar.bz2.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/linux-64/aws-checksums-1.0.1-ha404f16_0.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/linux-64/libgcc-ng-16.2.0-h69a702a_7.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/linux-64/aws-c-compression-1.0.0-ha404f16_1.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/linux-64/aws-c-cal-1.0.0-hcf7459e_1.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/linux-64/lerc-4.2.0-hdb68285_0.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/linux-64/graphite2-1.3.15-h54a6638_1.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/linux-64/libbrotlienc-1.2.0-h018ffa1_4.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/linux-64/libbrotlidec-1.2.0-ha411449_4.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/linux-64/gmp-6.3.0-hfd2156b_3.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/linux-64/libaec-1.1.5-h088129d_0.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/linux-64/aws-c-sdkutils-1.0.0-ha404f16_1.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/linux-64/brotli-bin-1.2.0-h9908984_4.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/linux-64/libfreetype-2.14.3-ha770c72_2.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/linux-64/s2n-1.7.7-ha5dc4ae_0.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/linux-64/libedit-3.1.20260512-pl5321h373387f_0.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/linux-64/libcrc32c-1.1.2-h9c3ff4c_0.tar.bz2.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/linux-64/libglib-2.90.0-h569388d_0.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/linux-64/libopenblas-0.3.34-pthreads_hf13c14d_2.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/linux-64/libfreetype6-2.14.3-h5e6c136_2.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/linux-64/freetype-2.14.3-ha770c72_2.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/linux-64/libxml2-2.15.4-h7df9aa5_1.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/linux-64/qhull-2020.2-h434a139_5.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/linux-64/libxml2-16-2.15.4-hf3af7cc_1.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/noarch/legacy-api-wrap-1.5-pyhd8ed1ab_0.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/linux-64/lcms2-2.19.1-h9073bf1_3.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/linux-64/libcblas-3.11.0-11_h0358290_openblas.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/linux-64/libblas-3.11.0-11_h4a7cf45_openblas.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/linux-64/libxml2-devel-2.15.4-h7df9aa5_1.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/linux-64/kiwisolver-1.5.1-py311h4c6fd42_3.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/linux-64/liblapack-3.11.0-11_h47877c9_openblas.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/noarch/natsort-8.4.0-pyhcf101f3_2.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/linux-64/libhwloc-2.15.0-default_hd7c4d0c_1001.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/noarch/munkres-1.1.4-pyhd8ed1ab_1.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/noarch/lark-1.3.1-pyhd8ed1ab_0.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/noarch/networkx-3.6.1-pyhcf101f3_0.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/noarch/soupsieve-3.0-pyhd8ed1ab_0.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/noarch/narwhals-2.27.1-pyh5ded981_0.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/noarch/nest-asyncio2-1.7.3-pyh5ded981_0.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/noarch/pandocfilters-1.5.1-pyh5ded981_0.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/noarch/joblib-1.6.0-pyhcf101f3_0.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/noarch/jupyter_core-5.9.1-pyhc90fa1f_0.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/linux-64/unicodedata2-18.0.0-py311h0d48ccd_0.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/linux-64/libharfbuzz-14.6.0-h23af247_1.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/noarch/jupyterlab_pygments-0.3.0-pyhd8ed1ab_2.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/noarch/uri-template-1.3.0-pyhd8ed1ab_1.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/noarch/matplotlib-inline-0.2.2-pyhd8ed1ab_0.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/noarch/jedi-0.20.0-pyhcf101f3_0.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/noarch/mistune-3.3.4-pyhcf101f3_0.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/linux-64/argon2-cffi-bindings-26.1.0-py311h0d48ccd_2.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/linux-64/tbb-2023.1.0-haa8c3ee_2.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/noarch/python-gil-3.11.17-hd8ed1ab_1.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/noarch/arrow-1.4.0-pyhcf101f3_0.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/linux-64/numba-0.68.0-py311hdfc3925_1.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/linux-64/libraqm-0.11.0-h6406941_0.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/noarch/tomli-2.5.0-pyh5ded981_0.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/linux-64/pandas-2.3.3-py311hed34c8f_2.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/noarch/jsonschema-with-format-nongpl-4.26.0-hcf101f3_1.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/noarch/anndata-0.12.19-pyhd8ed1ab_0.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/linux-64/umap-learn-0.5.12-py311h38be061_0.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/bioconda/noarch/formulaic-contrasts-1.0.0-pyhdfd78af_0.tar.bz2.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/noarch/ipython-9.17.1-pyh53cf698_0.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/noarch/prompt_toolkit-3.0.53-hd8ed1ab_0.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/noarch/patsy-1.0.3-pyhcf101f3_0.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/noarch/scanpy-1.11.5-pyhd8ed1ab_0.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/noarch/jupyter-lsp-2.3.1-pyhcf101f3_0.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/noarch/nbconvert-core-7.17.1-pyhcf101f3_0.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/noarch/notebook-shim-0.2.4-pyhd8ed1ab_1.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/noarch/jupyter_server-2.21.1-pyh5ded981_0.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/noarch/jupyterlab_server-2.28.1-pyh5ded981_0.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/linux-64/libgomp-16.2.0-he0feb66_7.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/noarch/ipykernel-7.4.0-pyh4a3486f_0.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/noarch/notebook-7.6.3-pyh5ded981_0.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/noarch/jupyter_console-6.6.3-pyhd8ed1ab_1.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/noarch/jupyterlab-4.6.4-pyhd8ed1ab_0.conda.
+This command is using a remote connection in offline mode.
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/conda-forge/noarch/jupyter-1.1.1-pyhd8ed1ab_1.conda.
+This command is using a remote connection in offline mode.
+
+Source:      /home/a/miniforge3/envs/biolearn-py
+Destination: /home/a/miniforge3/envs/biolearn-validation-offline
+Packages: 285
+Files: 89
+
+Downloading and Extracting Packages: ...working... done

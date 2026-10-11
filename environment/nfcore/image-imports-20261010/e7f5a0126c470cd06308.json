@@ -1,0 +1,18 @@
+{
+  "image": "quay.io/biocontainers/subread:2.1.1--h577a1d6_0",
+  "started_utc": "2026-10-10T23:18:33.909323+00:00",
+  "source": "docker://quay.io/biocontainers/subread:2.1.1--h577a1d6_0",
+  "transport": "skopeo -> docker-daemon; existing client proxy inherited; no system proxy changes",
+  "completed": true,
+  "exit_code": 0,
+  "ended_utc": "2026-10-10T23:18:47.351393+00:00",
+  "source_digest": "sha256:a0f7ea960dd0f55240b330b5c4515388a493e266a7b427d6a59a39164bc14865",
+  "architecture": "amd64",
+  "docker_image_id": "sha256:e30e9d9d8307ce0246ca2e528fa9a4784cf5ce53169afd19cbd88d387d55b618",
+  "docker_size": 31592881,
+  "docker_layers": [
+    "sha256:75bcd7b1af8fb3a7adfb936d50be93d10ff35ccc86c71ddd031c097c1b63bc50",
+    "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef",
+    "sha256:03050b052c7f7943152217c94f39a9e3d514a7e7cd7ce75954c629065925afce"
+  ]
+}

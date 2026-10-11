@@ -1,0 +1,44 @@
+0 M
+0.02 M
+0.04 M
+0.06 M
+0.08 M
+0.1 M
+Pairs analysed  
+0 M
+0.02 M
+0.04 M
+0.06 M
+0.08 M
+0.1 M
+Pairs removed  
+0 M
+0.02 M
+0.04 M
+0.06 M
+0.08 M
+0.1 M
+Pairs removed (N content)  
+0 M
+0.02 M
+0.04 M
+0.06 M
+0.08 M
+0.1 M
+Pairs removed (too long)  
+0 M
+0.02 M
+0.04 M
+0.06 M
+0.08 M
+0.1 M
+R1 unpaired  
+0 M
+0.02 M
+0.04 M
+0.06 M
+0.08 M
+0.1 M
+R2 unpaired  
+Trim Galore: Pair Validation
+ 3 samples 

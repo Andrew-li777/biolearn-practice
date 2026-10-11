@@ -1,0 +1,6 @@
+Command: /home/a/miniforge3/bin/conda run --no-capture-output -n biolearn-py python scripts/verify_followup.py results/reproduction/acceptance-20261010T234118Z
+Started UTC: 2026-10-10T23:47:26.260250+00:00
+Passed 158/158 checks
+
+Ended UTC: 2026-10-10T23:47:43.423420+00:00
+Exit code: 0

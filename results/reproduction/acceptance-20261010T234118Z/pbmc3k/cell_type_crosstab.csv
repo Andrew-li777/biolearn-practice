@@ -1,0 +1,10 @@
+seurat_cell_type,B cells,CD14+ monocytes,Cytotoxic CD8 T,Dendritic-like cells,FCGR3A+ monocytes,Memory-like CD4 T,NK cells,Naive-like CD4 T,Platelet-like cells
+B cells,340,0,0,0,0,1,0,3,0
+CD14+ monocytes,0,455,0,6,19,1,0,0,0
+Cytotoxic CD8 T,0,0,245,0,1,14,8,6,0
+Dendritic-like cells,0,0,0,32,0,0,0,0,0
+FCGR3A+ monocytes,1,8,0,0,151,0,0,2,0
+Memory-like CD4 T,0,0,34,0,0,283,0,155,0
+NK cells,0,0,11,0,0,0,144,0,0
+Naive-like CD4 T,0,0,17,0,0,198,0,490,0
+Platelet-like cells,0,0,0,0,0,0,0,0,13

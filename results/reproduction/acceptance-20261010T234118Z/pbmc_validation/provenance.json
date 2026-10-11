@@ -1,0 +1,17 @@
+{
+  "started_utc": "2026-10-10T23:44:22.419900+00:00",
+  "primary": "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k",
+  "seed": 42,
+  "scope": "Diagnostics only; primary cells, counts, clustering and labels unchanged.",
+  "completed": true,
+  "inputs": {
+    "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/scanpy/raw_counts.h5ad": "1cf5bd8a60ea9505fe5748af51b808a01d3d7ad2c9a8fa0caae71c1f75912a78",
+    "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/scanpy/analysis_annotated.h5ad": "090fe95926b5de3311ceaad32d44cef6cc023300eaa654d97d550cc1bbefaf08",
+    "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/seurat/clusters.csv": "4f3a41863be495162e3b21375671b4e59dca9d7799a7cf9aaa72a9665201ab11",
+    "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/seurat/cell_labels.csv": "8ba54d2f766d9c026b20be669a875832c6baf0cb6a726db9448111ef2d230e44",
+    "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/scanpy/cell_labels.csv": "550a00e9ef097e2817f5e6e08894a45ec7898974c486c97dc1b8df4f568bf744",
+    "/home/a/projects/biolearn-practice/results/reproduction/acceptance-20261010T234118Z/pbmc3k/seurat/highly_variable_genes.csv": "e6f96a5bbc3b07abd2696ee9f16602c904e5db2c2f97e72e6f8948d73ab2a673",
+    "/home/a/miniforge3/envs/biolearn-py/lib/python3.11/site-packages/scanpy/datasets/10x_pbmc68k_reduced.h5ad": "e71d41e737c941559b7c57c9243bdb3d2c889c2adfdf00e3422ac6b46783676f"
+  },
+  "ended_utc": "2026-10-10T23:44:43.804823+00:00"
+}

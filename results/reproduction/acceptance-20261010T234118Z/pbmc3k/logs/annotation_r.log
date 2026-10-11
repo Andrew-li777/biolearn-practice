@@ -1,0 +1,5 @@
+Started UTC: 2026-10-10T23:43:52.101780+00:00
+Command: ["/home/a/miniforge3/bin/conda", "run", "--no-capture-output", "-n", "biolearn-r", "Rscript", "scripts/14_pbmc_annotate_seurat.R", "results/reproduction/acceptance-20261010T234118Z/.attempts/pbmc3k-20261010T234141455855Z"]
+PASS Seurat annotated object and plots
+Ended UTC: 2026-10-10T23:44:03.901992+00:00
+Exit code: 0

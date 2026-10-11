@@ -1,0 +1,12 @@
+{
+  "n_a": 2638,
+  "n_b": 2638,
+  "shared": 2638,
+  "only_a": 0,
+  "only_b": 0,
+  "clusters_a": 9,
+  "clusters_b": 9,
+  "ARI": 0.6279310734626542,
+  "NMI_arithmetic": 0.7545047834392827,
+  "broad_type_agreement": 0.9499620924943138
+}

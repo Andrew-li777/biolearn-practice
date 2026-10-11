@@ -1,0 +1,69 @@
+Command: /home/a/miniforge3/bin/conda run --no-capture-output -n biolearn-py python results/reproduction/acceptance-20261010T234118Z/evidence/check_nfcore.py
+Started UTC: 2026-10-10T23:42:14.447474+00:00
+{
+  "checked_utc": "2026-10-10T23:42:16.902202+00:00",
+  "scope": "Read-only recheck of existing official small test; no nf-core rerun in this matrix validation; not airway FASTQ.",
+  "checks": [
+    {
+      "check": "recorded completion and actual exit",
+      "pass_": true,
+      "detail": {
+        "checked_at_utc": "2026-10-10T23:23:46.578079+00:00",
+        "pipeline": "nf-core/rnaseq",
+        "version": "3.27.0",
+        "commit": "a1fcdddd3b826fe46eb46f0479f2ff8a7815af05",
+        "profile": "test,docker",
+        "exit_code": 0,
+        "multiqc_reports": [
+          "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report.html"
+        ],
+        "trace_rows": 234,
+        "trace_status_counts": {
+          "COMPLETED": 234
+        },
+        "unresolved_tasks": [],
+        "completed": true,
+        "scope": "Official small test dataset; NOT a reproduction of airway original FASTQ.",
+        "blocker": null,
+        "state": "completed"
+      }
+    },
+    {
+      "check": "trace and task exitcode files",
+      "pass_": true,
+      "detail": {
+        "rows": 234,
+        "bad": []
+      }
+    },
+    {
+      "check": "official outputs match recorded manifest",
+      "pass_": true,
+      "detail": {
+        "files": 1053,
+        "bad": []
+      }
+    },
+    {
+      "check": "prior independent acceptance report",
+      "pass_": true,
+      "detail": {
+        "passed": 267,
+        "total": 267,
+        "evidence": "results/nfcore/rnaseq-3.27.0-attempt-2/verification/summary.json"
+      }
+    },
+    {
+      "check": "MultiQC HTML readable",
+      "pass_": true,
+      "detail": [
+        "results/nfcore/rnaseq-3.27.0-attempt-2/output/multiqc/star_salmon/multiqc_report.html"
+      ]
+    }
+  ],
+  "passed": true,
+  "prior_evidence": "results/nfcore/rnaseq-3.27.0-attempt-2/verification"
+}
+
+Ended UTC: 2026-10-10T23:42:17.146537+00:00
+Exit code: 0

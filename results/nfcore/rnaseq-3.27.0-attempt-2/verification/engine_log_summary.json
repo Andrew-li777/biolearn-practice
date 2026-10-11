@@ -1,0 +1,13 @@
+{
+  "console_sha256": "dd3ffb5d702d8499f3ccda7081c963d4e87608b7e8321d58c1eb47d1196f9948",
+  "nextflow_sha256": "ca3e5fa287bb920e334532ff83ca06b06169d01d654b3c0503a616aa5cc3cd2b",
+  "console_warning_lines": [
+    "WARN: ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+    "WARN: ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+    "WARN: The operator `first` is useless when applied to a value channel which returns a single value by definition",
+    "WARN: The operator `first` is useless when applied to a value channel which returns a single value by definition",
+    "WARN: The operator `first` is useless when applied to a value channel which returns a single value by definition",
+    "WARN: The operator `first` is useless when applied to a value channel which returns a single value by definition"
+  ],
+  "detailed_error_lines": []
+}

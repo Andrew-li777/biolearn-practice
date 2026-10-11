@@ -1,0 +1,21 @@
+0%
+1%
+2%
+3%
+4%
+5%
+6%
+7%
+WT_REP2_2
+WT_REP2_1
+WT_REP1_2
+WT_REP1_1
+RAP1_UNINDUCED_REP2
+RAP1_UNINDUCED_REP1
+RAP1_IAA_30M_REP1_2
+RAP1_IAA_30M_REP1_1
+Top overrepresented sequence
+Sum of remaining overrepresented sequences
+FastQC: Overrepresented sequences sample summary
+ 8 bars 
+Percentage of Total Sequences

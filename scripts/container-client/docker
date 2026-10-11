@@ -1,0 +1,19 @@
+#!/usr/bin/env python3
+"""Project-local Docker adapter: import images through the existing client network."""
+import os
+from pathlib import Path
+import subprocess
+import sys
+
+root = Path(__file__).resolve().parents[2]
+args = sys.argv[1:]
+if args and args[0] in ['pull', 'run', 'create']:
+    images = [x for x in args[1:] if x.startswith(('community.wave.seqera.io/', 'quay.io/', 'ghcr.io/', 'docker.io/')) or x == 'alpine:3.20']
+    if images:
+        image = images[0]
+        code = subprocess.run([sys.executable, str(root/'scripts/fetch_container_image.py'), image]).returncode
+        if code:
+            raise SystemExit(code)
+        if args[0] == 'pull':
+            raise SystemExit(0)
+os.execv('/usr/bin/docker', ['/usr/bin/docker']+args)

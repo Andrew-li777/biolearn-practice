@@ -1,0 +1,16 @@
+{
+  "image": "alpine:3.20",
+  "started_utc": "2026-10-10T22:49:32.964472+00:00",
+  "source": "docker://alpine:3.20",
+  "transport": "skopeo -> docker-daemon; existing client proxy inherited; no system proxy changes",
+  "completed": true,
+  "exit_code": 0,
+  "ended_utc": "2026-10-10T22:49:39.736723+00:00",
+  "source_digest": "sha256:d9e853e87e55526f6b2917df91a2115c36dd7c696a35be12163d44e6e2a4b6bc",
+  "architecture": "amd64",
+  "docker_image_id": "sha256:bee53799fc786ee5fc224427cc12afceb24d093a26f66e41e90430779d6b9950",
+  "docker_size": 3631360,
+  "docker_layers": [
+    "sha256:08bc4e534116aa76b16015484b82eac51f9a593416feae9296c8a2d4bb7aa4a2"
+  ]
+}

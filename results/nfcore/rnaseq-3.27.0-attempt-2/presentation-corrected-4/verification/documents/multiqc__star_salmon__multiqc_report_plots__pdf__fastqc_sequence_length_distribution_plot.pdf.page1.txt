@@ -1,0 +1,21 @@
+20 bp
+30 bp
+40 bp
+50 bp
+60 bp
+70 bp
+80 bp
+90 bp
+0
+10k
+20k
+30k
+40k
+50k
+60k
+70k
+80k
+FastQC: Sequence Length Distribution
+ 8 lines 
+Sequence Length (bp)
+Read Count

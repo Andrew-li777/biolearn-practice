@@ -1,0 +1,6 @@
+Fetch Shard Index for conda-forge/linux-64                                                      ⧖ Starting
+Fetch Shard Index for conda-forge/linux-64                                                ✔ Done (2.5 sec)
+Fetch Shard Index for conda-forge/noarch                                                        ⧖ Starting
+Fetch Shard Index for conda-forge/noarch                                                  ✔ Done (2.5 sec)
+Fetching and Parsing Packages' Shards                                                           ⧖ Starting
+warning  libmamba Failed to load shard for package 'python_abi' from cache: Cached shard file is empty: /home/a/.cache/conda/pkgs/cache/shards/1329689e4e484fa7b3914348c80cf759efd56b5ee793d07a396582eb5e1be529.msgpack.zst, will download

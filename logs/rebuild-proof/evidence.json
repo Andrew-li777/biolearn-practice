@@ -1,0 +1,18 @@
+{
+  "removed_path": "results/reproduction/clean-20261010/bulk/pca.png",
+  "before_sha256": "041bf3aeb9392171130834b9319e85310fd12732b0d08562d24be5f851b84ca9",
+  "before_mtime_ns": 1791663586743630708,
+  "removed_at_utc": "2026-10-10T20:21:05.532026+00:00",
+  "scope": "Only a newly generated image in the clean reproduction directory; prior analysis data retained.",
+  "confirmed_missing": true,
+  "checked_at_utc": "2026-10-10T20:22:45.093802+00:00",
+  "after_exists": true,
+  "after_sha256": "041bf3aeb9392171130834b9319e85310fd12732b0d08562d24be5f851b84ca9",
+  "after_mtime_ns": 1791663753443867931,
+  "snakemake_log": "logs/snakemake-rebuild.log",
+  "missing_image_triggered_rule": true,
+  "rebuilt_same_bytes": true,
+  "new_mtime": true,
+  "only_bulk_rule_reexecuted": true,
+  "engine_finished": true
+}

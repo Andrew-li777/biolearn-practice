@@ -1,0 +1,4042 @@
+
+/// MultiQC v1.35
+
+            config | Loading config settings from: 1/multiqc_config.yml
+            config | Loading config settings from: 2/multiqc_sample_merge.yml
+       file_search | Search path: /home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/work/c8/9e3fe509fe451bb5ff53fbeeca4f1a
+       file_search | Only using modules: bbmap, custom_content, hisat2, kallisto, kraken, picard, preseq, qualimap, rsem, rseqc, salmon, samtools, sortmerna, star, sylphtax, umicollapse, umitools, fastqc, cutadapt, trim_galore, fastp, seqkit, fastqc, bowtie2, fastqc, bowtie2
+            report | Skipping 5 file search patterns
+             bbmap | Found 5 reports
+      exec_modules | Updating module "BBTools"
+        validation | warnings while parsing lineplot.pconfig[id='dupradar'].x_lines {color: green, dash: longdash, label: {text: 0.5 RPKM}, value: 0.5, width: 1} (total messages: 2):
+• 'dash': 'LongDash' is a deprecated dash style, use 'longdash'
+• 'label': Line plot's x_lines or y_lines 'label' field is expected to be a string. Other fields other than 'text' are deprecated and will be ignored
+        validation | warnings while parsing lineplot.pconfig[id='dupradar'].x_lines {color: red, dash: longdash, label: {text: 1 read/bp}, value: 1000, width: 1} (total messages: 2):
+• 'dash': 'LongDash' is a deprecated dash style, use 'longdash'
+• 'label': Line plot's x_lines or y_lines 'label' field is expected to be a string. Other fields other than 'text' are deprecated and will be ignored
+    custom_content | dupradar: Found 1 samples (PlotType.LINE)
+    custom_content | biotype_counts: Found 1 samples (PlotType.BAR)
+    custom_content | DupInt: Found 5 General Statistics columns
+    custom_content | nf-core-rnaseq-methods-description: Found 1 sample (html)
+    custom_content | salmon_deseq2_clustering: Found 5 samples (PlotType.HEATMAP)
+╭───────────── Oops! The 'custom_content' MultiQC module broke... ─────────────╮
+│ Please copy this log and report it at                                        │
+│ https://github.com/MultiQC/MultiQC/issues                                    │
+│ Please attach a file that triggers the error. The last file found was:       │
+│ 2/workflow_summary_mqc.yaml                                                  │
+│                                                                              │
+│ Traceback (most recent call last):                                           │
+│   File "/opt/wave/.pixi/envs/default/lib/python3.14/site-packages/multiqc/co │
+│     these_modules: Union[BaseMultiqcModule, List[BaseMultiqcModule]] = modul │
+│                                                                        ~~~~~ │
+│   File "/opt/wave/.pixi/envs/default/lib/python3.14/site-packages/multiqc/co │
+│     parsed_modules[mod_id].add_cc_section(section_id, section_anchor=section │
+│     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ │
+│   File "/opt/wave/.pixi/envs/default/lib/python3.14/site-packages/multiqc/co │
+│     plot = scatter.plot(scatter_data, pconfig=scatter.ScatterConfig(**pconfi │
+│   File "/opt/wave/.pixi/envs/default/lib/python3.14/site-packages/multiqc/pl │
+│     return ScatterPlot.from_inputs(inputs)                                   │
+│            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^                                   │
+│   File "/opt/wave/.pixi/envs/default/lib/python3.14/site-packages/multiqc/pl │
+│     plot = ScatterPlot.create(                                               │
+│         points_lists=plotdata,                                               │
+│         pconfig=pconf,                                                       │
+│         anchor=inputs.anchor,                                                │
+│     )                                                                        │
+│   File "/opt/wave/.pixi/envs/default/lib/python3.14/site-packages/multiqc/pl │
+│     model.datasets = [Dataset.create(d, points, pconfig) for d, points in zi │
+│                       ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^                     │
+│   File "/opt/wave/.pixi/envs/default/lib/python3.14/site-packages/multiqc/pl │
+│     dataset = Dataset(                                                       │
+│         **dataset.__dict__,                                                  │
+│         points=points,                                                       │
+│     )                                                                        │
+│   File "/opt/wave/.pixi/envs/default/lib/python3.14/site-packages/pydantic/m │
+│     validated_self = self.__pydantic_validator__.validate_python(data, self_ │
+│ pydantic_core._pydantic_core.ValidationError: 15 validation errors for Datas │
+│ points.0.name.str                                                            │
+│   Input should be a valid string [type=string_type, input_value=None, input_ │
+│     For further information visit https://errors.pydantic.dev/2.13/v/string_ │
+│ points.0.name.int                                                            │
+│   Input should be a valid integer [type=int_type, input_value=None, input_ty │
+│     For further information visit https://errors.pydantic.dev/2.13/v/int_typ │
+│ points.0.name.float                                                          │
+│   Input should be a valid number [type=float_type, input_value=None, input_t │
+│     For further information visit https://errors.pydantic.dev/2.13/v/float_t │
+│ points.1.name.str                                                            │
+│   Input should be a valid string [type=string_type, input_value=None, input_ │
+│     For further information visit https://errors.pydantic.dev/2.13/v/string_ │
+│ points.1.name.int                                                            │
+│   Input should be a valid integer [type=int_type, input_value=None, input_ty │
+│     For further information visit https://errors.pydantic.dev/2.13/v/int_typ │
+│ points.1.name.float                                                          │
+│   Input should be a valid number [type=float_type, input_value=None, input_t │
+│     For further information visit https://errors.pydantic.dev/2.13/v/float_t │
+│ points.2.name.str                                                            │
+│   Input should be a valid string [type=string_type, input_value=None, input_ │
+│     For further information visit https://errors.pydantic.dev/2.13/v/string_ │
+│ points.2.name.int                                                            │
+│   Input should be a valid integer [type=int_type, input_value=None, input_ty │
+│     For further information visit https://errors.pydantic.dev/2.13/v/int_typ │
+│ points.2.name.float                                                          │
+│   Input should be a valid number [type=float_type, input_value=None, input_t │
+│     For further information visit https://errors.pydantic.dev/2.13/v/float_t │
+│ points.3.name.str                                                            │
+│   Input should be a valid string [type=string_type, input_value=None, input_ │
+│     For further information visit https://errors.pydantic.dev/2.13/v/string_ │
+│ points.3.name.int                                                            │
+│   Input should be a valid integer [type=int_type, input_value=None, input_ty │
+│     For further information visit https://errors.pydantic.dev/2.13/v/int_typ │
+│ points.3.name.float                                                          │
+│   Input should be a valid number [type=float_type, input_value=None, input_t │
+│     For further information visit https://errors.pydantic.dev/2.13/v/float_t │
+│ points.4.name.str                                                            │
+│   Input should be a valid string [type=string_type, input_value=None, input_ │
+│     For further information visit https://errors.pydantic.dev/2.13/v/string_ │
+│ points.4.name.int                                                            │
+│   Input should be a valid integer [type=int_type, input_value=None, input_ty │
+│     For further information visit https://errors.pydantic.dev/2.13/v/int_typ │
+│ points.4.name.float                                                          │
+│   Input should be a valid number [type=float_type, input_value=None, input_t │
+│     For further information visit https://errors.pydantic.dev/2.13/v/float_t │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+            picard | Found 5 MarkDuplicates reports
+      exec_modules | Updating module "Picard"
+          qualimap | Found 5 RNASeq reports
+      exec_modules | Updating module "QualiMap"
+             rseqc | Found 5 read_distribution reports
+             rseqc | Found 3 inner_distance reports
+             rseqc | Found 5 read_duplication reports
+             rseqc | Found 5 junction_annotation reports
+             rseqc | Found 5 junction_saturation reports
+             rseqc | Found 5 infer_experiment reports
+             rseqc | Found 5 bam_stat reports
+      exec_modules | Updating module "RSeQC"
+            salmon | Found 5 meta reports
+            salmon | Found 5 fragment length distributions
+            salmon | Found 5 library format counts reports
+      exec_modules | Updating module "Salmon"
+          samtools | Found 5 stats reports
+          samtools | Found 5 flagstat reports
+          samtools | Found 5 idxstats reports
+      exec_modules | Updating module "Samtools"
+              star | Found 5 reports
+      exec_modules | Updating module "STAR"
+            fastqc | Found 8 reports
+      exec_modules | Updating module "FastQC (raw)"
+       trim_galore | Found 8 reports
+      exec_modules | Updating module "Trim Galore"
+            fastqc | Found 8 reports
+      exec_modules | Updating module "FastQC (trimmed)"
+            fastqc | Found 8 reports
+      exec_modules | Updating module "FastQC (filtered)"
+       file_search | Only using modules: bbmap, picard, qualimap, rseqc, salmon, samtools, star, fastqc, trim_galore, fastqc, fastqc, dupradar, biotype_counts, nf-core-rnaseq-methods-description, sample-relationships
+     write_results | Rendering plots. Export plots to formats png, svg, pdf is requested, so it might take a while. To disable plot export, set `export_plots: false` in config, or remove the `--export-plots` command line flag
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/fastqc_raw_sequence_counts_plot-cnt.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/fastqc_raw_sequence_counts_plot-cnt.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/fastqc_raw_sequence_counts_plot-cnt.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/fastqc_raw_sequence_counts_plot-pct.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/fastqc_raw_sequence_counts_plot-pct.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/fastqc_raw_sequence_counts_plot-pct.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/fastqc_raw_per_base_sequence_quality_plot.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/fastqc_raw_per_base_sequence_quality_plot.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/fastqc_raw_per_base_sequence_quality_plot.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/fastqc_raw_per_sequence_quality_scores_plot.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/fastqc_raw_per_sequence_quality_scores_plot.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/fastqc_raw_per_sequence_quality_scores_plot.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/fastqc_raw_per_sequence_gc_content_plot_Percentages.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/fastqc_raw_per_sequence_gc_content_plot_Percentages.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/fastqc_raw_per_sequence_gc_content_plot_Percentages.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/fastqc_raw_per_sequence_gc_content_plot_Counts.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/fastqc_raw_per_sequence_gc_content_plot_Counts.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/fastqc_raw_per_sequence_gc_content_plot_Counts.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/fastqc_raw_per_base_n_content_plot.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/fastqc_raw_per_base_n_content_plot.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/fastqc_raw_per_base_n_content_plot.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/fastqc_raw_sequence_duplication_levels_plot.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/fastqc_raw_sequence_duplication_levels_plot.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/fastqc_raw_sequence_duplication_levels_plot.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/fastqc_raw_overrepresented_sequences_plot.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/fastqc_raw_overrepresented_sequences_plot.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/fastqc_raw_overrepresented_sequences_plot.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/fastqc_raw_top_overrepresented_sequences_table.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/fastqc_raw_top_overrepresented_sequences_table.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/fastqc_raw_top_overrepresented_sequences_table.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/fastqc_raw_adapter_content_plot.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/fastqc_raw_adapter_content_plot.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/fastqc_raw_adapter_content_plot.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/fastqc_raw-status-check-heatmap.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/fastqc_raw-status-check-heatmap.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/fastqc_raw-status-check-heatmap.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/trim_galore_filtered_reads_plot-cnt.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/trim_galore_filtered_reads_plot-cnt.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/trim_galore_filtered_reads_plot-cnt.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/trim_galore_filtered_reads_plot-pct.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/trim_galore_filtered_reads_plot-pct.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/trim_galore_filtered_reads_plot-pct.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/trim_galore_adapter_length_plot.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/trim_galore_adapter_length_plot.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/trim_galore_adapter_length_plot.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/trim_galore_pair_validation_table.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/trim_galore_pair_validation_table.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/trim_galore_pair_validation_table.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/fastqc_trimmed_sequence_counts_plot-cnt.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/fastqc_trimmed_sequence_counts_plot-cnt.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/fastqc_trimmed_sequence_counts_plot-cnt.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/fastqc_trimmed_sequence_counts_plot-pct.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/fastqc_trimmed_sequence_counts_plot-pct.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/fastqc_trimmed_sequence_counts_plot-pct.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/fastqc_trimmed_per_base_sequence_quality_plot.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/fastqc_trimmed_per_base_sequence_quality_plot.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/fastqc_trimmed_per_base_sequence_quality_plot.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/fastqc_trimmed_per_sequence_quality_scores_plot.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/fastqc_trimmed_per_sequence_quality_scores_plot.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/fastqc_trimmed_per_sequence_quality_scores_plot.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/fastqc_trimmed_per_sequence_gc_content_plot_Percentages.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/fastqc_trimmed_per_sequence_gc_content_plot_Percentages.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/fastqc_trimmed_per_sequence_gc_content_plot_Percentages.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/fastqc_trimmed_per_sequence_gc_content_plot_Counts.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/fastqc_trimmed_per_sequence_gc_content_plot_Counts.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/fastqc_trimmed_per_sequence_gc_content_plot_Counts.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/fastqc_trimmed_per_base_n_content_plot.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/fastqc_trimmed_per_base_n_content_plot.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/fastqc_trimmed_per_base_n_content_plot.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/fastqc_sequence_length_distribution_plot.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/fastqc_sequence_length_distribution_plot.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/fastqc_sequence_length_distribution_plot.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/fastqc_trimmed_sequence_duplication_levels_plot.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/fastqc_trimmed_sequence_duplication_levels_plot.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/fastqc_trimmed_sequence_duplication_levels_plot.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/fastqc_trimmed_overrepresented_sequences_plot.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/fastqc_trimmed_overrepresented_sequences_plot.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/fastqc_trimmed_overrepresented_sequences_plot.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/fastqc_trimmed_top_overrepresented_sequences_table.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/fastqc_trimmed_top_overrepresented_sequences_table.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/fastqc_trimmed_top_overrepresented_sequences_table.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/fastqc_trimmed-status-check-heatmap.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/fastqc_trimmed-status-check-heatmap.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/fastqc_trimmed-status-check-heatmap.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/bbmap-bbsplit_plot-cnt.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/bbmap-bbsplit_plot-cnt.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/bbmap-bbsplit_plot-cnt.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/bbmap-bbsplit_plot-pct.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/bbmap-bbsplit_plot-pct.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/bbmap-bbsplit_plot-pct.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/bbsplit_stats_table.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/bbsplit_stats_table.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/bbsplit_stats_table.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/fastqc_filtered_sequence_counts_plot-cnt.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/fastqc_filtered_sequence_counts_plot-cnt.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/fastqc_filtered_sequence_counts_plot-cnt.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/fastqc_filtered_sequence_counts_plot-pct.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/fastqc_filtered_sequence_counts_plot-pct.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/fastqc_filtered_sequence_counts_plot-pct.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/fastqc_filtered_per_base_sequence_quality_plot.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/fastqc_filtered_per_base_sequence_quality_plot.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/fastqc_filtered_per_base_sequence_quality_plot.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/fastqc_filtered_per_sequence_quality_scores_plot.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/fastqc_filtered_per_sequence_quality_scores_plot.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/fastqc_filtered_per_sequence_quality_scores_plot.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/fastqc_filtered_per_sequence_gc_content_plot_Percentages.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/fastqc_filtered_per_sequence_gc_content_plot_Percentages.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/fastqc_filtered_per_sequence_gc_content_plot_Percentages.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/fastqc_filtered_per_sequence_gc_content_plot_Counts.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/fastqc_filtered_per_sequence_gc_content_plot_Counts.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/fastqc_filtered_per_sequence_gc_content_plot_Counts.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/fastqc_filtered_per_base_n_content_plot.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/fastqc_filtered_per_base_n_content_plot.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/fastqc_filtered_per_base_n_content_plot.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/fastqc_sequence_length_distribution_plot.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/fastqc_sequence_length_distribution_plot.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/fastqc_sequence_length_distribution_plot.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/fastqc_filtered_sequence_duplication_levels_plot.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/fastqc_filtered_sequence_duplication_levels_plot.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/fastqc_filtered_sequence_duplication_levels_plot.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/fastqc_filtered_overrepresented_sequences_plot.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/fastqc_filtered_overrepresented_sequences_plot.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/fastqc_filtered_overrepresented_sequences_plot.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/fastqc_filtered_top_overrepresented_sequences_table.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/fastqc_filtered_top_overrepresented_sequences_table.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/fastqc_filtered_top_overrepresented_sequences_table.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/fastqc_filtered-status-check-heatmap.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/fastqc_filtered-status-check-heatmap.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/fastqc_filtered-status-check-heatmap.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/dupradar.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/dupradar.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/dupradar.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/picard_deduplication-cnt.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/picard_deduplication-cnt.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/picard_deduplication-cnt.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/picard_deduplication-pct.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/picard_deduplication-pct.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/picard_deduplication-pct.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/qualimap_genomic_origin-cnt.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/qualimap_genomic_origin-cnt.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/qualimap_genomic_origin-cnt.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/qualimap_genomic_origin-pct.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/qualimap_genomic_origin-pct.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/qualimap_genomic_origin-pct.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/qualimap_gene_coverage_profile_Counts.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/qualimap_gene_coverage_profile_Counts.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/qualimap_gene_coverage_profile_Counts.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/qualimap_gene_coverage_profile_Normalised.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/qualimap_gene_coverage_profile_Normalised.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/qualimap_gene_coverage_profile_Normalised.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/rseqc_read_distribution_plot-cnt.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/rseqc_read_distribution_plot-cnt.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/rseqc_read_distribution_plot-cnt.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/rseqc_read_distribution_plot-pct.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/rseqc_read_distribution_plot-pct.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/rseqc_read_distribution_plot-pct.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/rseqc_inner_distance_plot_Counts.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/rseqc_inner_distance_plot_Counts.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/rseqc_inner_distance_plot_Counts.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/rseqc_inner_distance_plot_Percentages.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/rseqc_inner_distance_plot_Percentages.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/rseqc_inner_distance_plot_Percentages.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/rseqc_read_dups_plot.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/rseqc_read_dups_plot.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/rseqc_read_dups_plot.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/rseqc_junction_annotation_junctions_plot_Junctions-cnt.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/rseqc_junction_annotation_junctions_plot_Junctions-cnt.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/rseqc_junction_annotation_junctions_plot_Junctions-cnt.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/rseqc_junction_annotation_junctions_plot_Junctions-pct.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/rseqc_junction_annotation_junctions_plot_Junctions-pct.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/rseqc_junction_annotation_junctions_plot_Junctions-pct.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/rseqc_junction_annotation_junctions_plot_Events-cnt.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/rseqc_junction_annotation_junctions_plot_Events-cnt.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/rseqc_junction_annotation_junctions_plot_Events-cnt.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/rseqc_junction_annotation_junctions_plot_Events-pct.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/rseqc_junction_annotation_junctions_plot_Events-pct.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/rseqc_junction_annotation_junctions_plot_Events-pct.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/rseqc_junction_saturation_plot_All_Junctions.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/rseqc_junction_saturation_plot_All_Junctions.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/rseqc_junction_saturation_plot_All_Junctions.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/rseqc_junction_saturation_plot_Known_Junctions.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/rseqc_junction_saturation_plot_Known_Junctions.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/rseqc_junction_saturation_plot_Known_Junctions.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/rseqc_junction_saturation_plot_Novel_Junctions.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/rseqc_junction_saturation_plot_Novel_Junctions.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/rseqc_junction_saturation_plot_Novel_Junctions.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/rseqc_infer_experiment_plot.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/rseqc_infer_experiment_plot.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/rseqc_infer_experiment_plot.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/rseqc_bam_stat.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/rseqc_bam_stat.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/rseqc_bam_stat.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/samtools_alignment_plot-cnt.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/samtools_alignment_plot-cnt.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/samtools_alignment_plot-cnt.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/samtools_alignment_plot-pct.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/samtools_alignment_plot-pct.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/samtools_alignment_plot-pct.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/samtools_insert_size.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/samtools_insert_size.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/samtools_insert_size.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/samtools-stats-dp.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/samtools-stats-dp.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/samtools-stats-dp.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/samtools-flagstat-table.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/samtools-flagstat-table.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/samtools-flagstat-table.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/samtools-flagstat-pct-table.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/samtools-flagstat-pct-table.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/samtools-flagstat-pct-table.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/samtools-idxstats-mapped-reads-plot_Normalised_Counts-cnt.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/samtools-idxstats-mapped-reads-plot_Normalised_Counts-cnt.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/samtools-idxstats-mapped-reads-plot_Normalised_Counts-cnt.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/samtools-idxstats-mapped-reads-plot_Normalised_Counts-log.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/samtools-idxstats-mapped-reads-plot_Normalised_Counts-log.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/samtools-idxstats-mapped-reads-plot_Normalised_Counts-log.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/samtools-idxstats-mapped-reads-plot_Observed_over_Expected_Counts-cnt.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/samtools-idxstats-mapped-reads-plot_Observed_over_Expected_Counts-cnt.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/samtools-idxstats-mapped-reads-plot_Observed_over_Expected_Counts-cnt.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/samtools-idxstats-mapped-reads-plot_Observed_over_Expected_Counts-log.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/samtools-idxstats-mapped-reads-plot_Observed_over_Expected_Counts-log.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/samtools-idxstats-mapped-reads-plot_Observed_over_Expected_Counts-log.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/samtools-idxstats-mapped-reads-plot_Raw_Counts-cnt.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/samtools-idxstats-mapped-reads-plot_Raw_Counts-cnt.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/samtools-idxstats-mapped-reads-plot_Raw_Counts-cnt.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/samtools-idxstats-mapped-reads-plot_Raw_Counts-log.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/samtools-idxstats-mapped-reads-plot_Raw_Counts-log.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/samtools-idxstats-mapped-reads-plot_Raw_Counts-log.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/star_summary_table.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/star_summary_table.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/star_summary_table.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/star_alignment_plot-cnt.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/star_alignment_plot-cnt.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/star_alignment_plot-cnt.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/star_alignment_plot-pct.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/star_alignment_plot-pct.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/star_alignment_plot-pct.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/salmon_plot.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/salmon_plot.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/salmon_plot.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/salmon_deseq2_clustering.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/salmon_deseq2_clustering.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/salmon_deseq2_clustering.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/salmon_deseq2_pca.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/salmon_deseq2_pca.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/salmon_deseq2_pca.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/star_salmon_deseq2_clustering.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/star_salmon_deseq2_clustering.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/star_salmon_deseq2_clustering.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/star_salmon_deseq2_pca.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/star_salmon_deseq2_pca.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/star_salmon_deseq2_pca.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/featurecounts_biotype_plot-cnt.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/featurecounts_biotype_plot-cnt.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/featurecounts_biotype_plot-cnt.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/png/featurecounts_biotype_plot-pct.png: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/svg/featurecounts_biotype_plot-pct.svg: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Error exporting plot to /tmp/tmp9xac7bsm/multiqc_plots/pdf/featurecounts_biotype_plot-pct.pdf: 
+The kaleido executable is required by the kaleido Python library, but it was not included
+in the Python package and it could not be found on the system PATH.
+
+Searched for included kaleido executable at:
+    /opt/wave/.pixi/envs/default/lib/python3.14/site-packages/kaleido/executable/kaleido 
+
+Searched for executable 'kaleido' on the following system PATH:
+    /usr/local/sbin
+    /usr/local/bin
+    /usr/sbin
+    /usr/bin
+    /sbin
+    /bin
+
+              plot | Some plot exports failed or produced empty files: 0/258 completed
+              plot | Some plot exports failed: 0/258 completed
+              plot | Failed to export the following PNG images: /tmp/tmp9xac7bsm/multiqc_plots/png/fastqc_raw_sequence_counts_plot-cnt.png, /tmp/tmp9xac7bsm/multiqc_plots/png/fastqc_raw_sequence_counts_plot-pct.png, /tmp/tmp9xac7bsm/multiqc_plots/png/fastqc_raw_per_base_sequence_quality_plot.png, /tmp/tmp9xac7bsm/multiqc_plots/png/fastqc_raw_per_sequence_quality_scores_plot.png, /tmp/tmp9xac7bsm/multiqc_plots/png/fastqc_raw_per_sequence_gc_content_plot_Percentages.png, /tmp/tmp9xac7bsm/multiqc_plots/png/fastqc_raw_per_sequence_gc_content_plot_Counts.png, /tmp/tmp9xac7bsm/multiqc_plots/png/fastqc_raw_per_base_n_content_plot.png, /tmp/tmp9xac7bsm/multiqc_plots/png/fastqc_raw_sequence_duplication_levels_plot.png, /tmp/tmp9xac7bsm/multiqc_plots/png/fastqc_raw_overrepresented_sequences_plot.png, /tmp/tmp9xac7bsm/multiqc_plots/png/fastqc_raw_top_overrepresented_sequences_table.png, /tmp/tmp9xac7bsm/multiqc_plots/png/fastqc_raw_adapter_content_plot.png, /tmp/tmp9xac7bsm/multiqc_plots/png/fastqc_raw-status-check-heatmap.png, /tmp/tmp9xac7bsm/multiqc_plots/png/trim_galore_filtered_reads_plot-cnt.png, /tmp/tmp9xac7bsm/multiqc_plots/png/trim_galore_filtered_reads_plot-pct.png, /tmp/tmp9xac7bsm/multiqc_plots/png/trim_galore_adapter_length_plot.png, /tmp/tmp9xac7bsm/multiqc_plots/png/trim_galore_pair_validation_table.png, /tmp/tmp9xac7bsm/multiqc_plots/png/fastqc_trimmed_sequence_counts_plot-cnt.png, /tmp/tmp9xac7bsm/multiqc_plots/png/fastqc_trimmed_sequence_counts_plot-pct.png, /tmp/tmp9xac7bsm/multiqc_plots/png/fastqc_trimmed_per_base_sequence_quality_plot.png, /tmp/tmp9xac7bsm/multiqc_plots/png/fastqc_trimmed_per_sequence_quality_scores_plot.png, /tmp/tmp9xac7bsm/multiqc_plots/png/fastqc_trimmed_per_sequence_gc_content_plot_Percentages.png, /tmp/tmp9xac7bsm/multiqc_plots/png/fastqc_trimmed_per_sequence_gc_content_plot_Counts.png, /tmp/tmp9xac7bsm/multiqc_plots/png/fastqc_trimmed_per_base_n_content_plot.png, /tmp/tmp9xac7bsm/multiqc_plots/png/fastqc_sequence_length_distribution_plot.png, /tmp/tmp9xac7bsm/multiqc_plots/png/fastqc_trimmed_sequence_duplication_levels_plot.png, /tmp/tmp9xac7bsm/multiqc_plots/png/fastqc_trimmed_overrepresented_sequences_plot.png, /tmp/tmp9xac7bsm/multiqc_plots/png/fastqc_trimmed_top_overrepresented_sequences_table.png, /tmp/tmp9xac7bsm/multiqc_plots/png/fastqc_trimmed-status-check-heatmap.png, /tmp/tmp9xac7bsm/multiqc_plots/png/bbmap-bbsplit_plot-cnt.png, /tmp/tmp9xac7bsm/multiqc_plots/png/bbmap-bbsplit_plot-pct.png, /tmp/tmp9xac7bsm/multiqc_plots/png/bbsplit_stats_table.png, /tmp/tmp9xac7bsm/multiqc_plots/png/fastqc_filtered_sequence_counts_plot-cnt.png, /tmp/tmp9xac7bsm/multiqc_plots/png/fastqc_filtered_sequence_counts_plot-pct.png, /tmp/tmp9xac7bsm/multiqc_plots/png/fastqc_filtered_per_base_sequence_quality_plot.png, /tmp/tmp9xac7bsm/multiqc_plots/png/fastqc_filtered_per_sequence_quality_scores_plot.png, /tmp/tmp9xac7bsm/multiqc_plots/png/fastqc_filtered_per_sequence_gc_content_plot_Percentages.png, /tmp/tmp9xac7bsm/multiqc_plots/png/fastqc_filtered_per_sequence_gc_content_plot_Counts.png, /tmp/tmp9xac7bsm/multiqc_plots/png/fastqc_filtered_per_base_n_content_plot.png, /tmp/tmp9xac7bsm/multiqc_plots/png/fastqc_sequence_length_distribution_plot.png, /tmp/tmp9xac7bsm/multiqc_plots/png/fastqc_filtered_sequence_duplication_levels_plot.png, /tmp/tmp9xac7bsm/multiqc_plots/png/fastqc_filtered_overrepresented_sequences_plot.png, /tmp/tmp9xac7bsm/multiqc_plots/png/fastqc_filtered_top_overrepresented_sequences_table.png, /tmp/tmp9xac7bsm/multiqc_plots/png/fastqc_filtered-status-check-heatmap.png, /tmp/tmp9xac7bsm/multiqc_plots/png/dupradar.png, /tmp/tmp9xac7bsm/multiqc_plots/png/picard_deduplication-cnt.png, /tmp/tmp9xac7bsm/multiqc_plots/png/picard_deduplication-pct.png, /tmp/tmp9xac7bsm/multiqc_plots/png/qualimap_genomic_origin-cnt.png, /tmp/tmp9xac7bsm/multiqc_plots/png/qualimap_genomic_origin-pct.png, /tmp/tmp9xac7bsm/multiqc_plots/png/qualimap_gene_coverage_profile_Counts.png, /tmp/tmp9xac7bsm/multiqc_plots/png/qualimap_gene_coverage_profile_Normalised.png, /tmp/tmp9xac7bsm/multiqc_plots/png/rseqc_read_distribution_plot-cnt.png, /tmp/tmp9xac7bsm/multiqc_plots/png/rseqc_read_distribution_plot-pct.png, /tmp/tmp9xac7bsm/multiqc_plots/png/rseqc_inner_distance_plot_Counts.png, /tmp/tmp9xac7bsm/multiqc_plots/png/rseqc_inner_distance_plot_Percentages.png, /tmp/tmp9xac7bsm/multiqc_plots/png/rseqc_read_dups_plot.png, /tmp/tmp9xac7bsm/multiqc_plots/png/rseqc_junction_annotation_junctions_plot_Junctions-cnt.png, /tmp/tmp9xac7bsm/multiqc_plots/png/rseqc_junction_annotation_junctions_plot_Junctions-pct.png, /tmp/tmp9xac7bsm/multiqc_plots/png/rseqc_junction_annotation_junctions_plot_Events-cnt.png, /tmp/tmp9xac7bsm/multiqc_plots/png/rseqc_junction_annotation_junctions_plot_Events-pct.png, /tmp/tmp9xac7bsm/multiqc_plots/png/rseqc_junction_saturation_plot_All_Junctions.png, /tmp/tmp9xac7bsm/multiqc_plots/png/rseqc_junction_saturation_plot_Known_Junctions.png, /tmp/tmp9xac7bsm/multiqc_plots/png/rseqc_junction_saturation_plot_Novel_Junctions.png, /tmp/tmp9xac7bsm/multiqc_plots/png/rseqc_infer_experiment_plot.png, /tmp/tmp9xac7bsm/multiqc_plots/png/rseqc_bam_stat.png, /tmp/tmp9xac7bsm/multiqc_plots/png/samtools_alignment_plot-cnt.png, /tmp/tmp9xac7bsm/multiqc_plots/png/samtools_alignment_plot-pct.png, /tmp/tmp9xac7bsm/multiqc_plots/png/samtools_insert_size.png, /tmp/tmp9xac7bsm/multiqc_plots/png/samtools-stats-dp.png, /tmp/tmp9xac7bsm/multiqc_plots/png/samtools-flagstat-table.png, /tmp/tmp9xac7bsm/multiqc_plots/png/samtools-flagstat-pct-table.png, /tmp/tmp9xac7bsm/multiqc_plots/png/samtools-idxstats-mapped-reads-plot_Normalised_Counts-cnt.png, /tmp/tmp9xac7bsm/multiqc_plots/png/samtools-idxstats-mapped-reads-plot_Normalised_Counts-log.png, /tmp/tmp9xac7bsm/multiqc_plots/png/samtools-idxstats-mapped-reads-plot_Observed_over_Expected_Counts-cnt.png, /tmp/tmp9xac7bsm/multiqc_plots/png/samtools-idxstats-mapped-reads-plot_Observed_over_Expected_Counts-log.png, /tmp/tmp9xac7bsm/multiqc_plots/png/samtools-idxstats-mapped-reads-plot_Raw_Counts-cnt.png, /tmp/tmp9xac7bsm/multiqc_plots/png/samtools-idxstats-mapped-reads-plot_Raw_Counts-log.png, /tmp/tmp9xac7bsm/multiqc_plots/png/star_summary_table.png, /tmp/tmp9xac7bsm/multiqc_plots/png/star_alignment_plot-cnt.png, /tmp/tmp9xac7bsm/multiqc_plots/png/star_alignment_plot-pct.png, /tmp/tmp9xac7bsm/multiqc_plots/png/salmon_plot.png, /tmp/tmp9xac7bsm/multiqc_plots/png/salmon_deseq2_clustering.png, /tmp/tmp9xac7bsm/multiqc_plots/png/salmon_deseq2_pca.png, /tmp/tmp9xac7bsm/multiqc_plots/png/star_salmon_deseq2_clustering.png, /tmp/tmp9xac7bsm/multiqc_plots/png/star_salmon_deseq2_pca.png, /tmp/tmp9xac7bsm/multiqc_plots/png/featurecounts_biotype_plot-cnt.png, /tmp/tmp9xac7bsm/multiqc_plots/png/featurecounts_biotype_plot-pct.png
+            violin | All values are NaN or Inf for metric: Library types
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/opt/wave/.pixi/envs/default/lib/python3.14/site-packages/multiqc/__main__.py", line 27, in <module>
+    run_multiqc()
+    ~~~~~~~~~~~^^
+  File "/opt/wave/.pixi/envs/default/lib/python3.14/site-packages/multiqc/__main__.py", line 21, in run_multiqc
+    multiqc.run_cli(prog_name="multiqc")
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/wave/.pixi/envs/default/lib/python3.14/site-packages/click/core.py", line 1524, in __call__
+    return self.main(*args, **kwargs)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/opt/wave/.pixi/envs/default/lib/python3.14/site-packages/rich_click/rich_command.py", line 216, in main
+    rv = self.invoke(ctx)
+  File "/opt/wave/.pixi/envs/default/lib/python3.14/site-packages/click/core.py", line 1308, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/wave/.pixi/envs/default/lib/python3.14/site-packages/click/core.py", line 877, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/wave/.pixi/envs/default/lib/python3.14/site-packages/multiqc/multiqc.py", line 545, in run_cli
+    result = run(*analysis_dir, clean_up=clean_up, cfg=cfg, interactive=False)
+  File "/opt/wave/.pixi/envs/default/lib/python3.14/site-packages/multiqc/multiqc.py", line 633, in run
+    html_content = write_results(return_html=return_html)
+  File "/opt/wave/.pixi/envs/default/lib/python3.14/site-packages/multiqc/core/write_results.py", line 103, in write_results
+    paths: OutputPaths = _create_or_override_dirs(output_file_names)
+                         ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/opt/wave/.pixi/envs/default/lib/python3.14/site-packages/multiqc/core/write_results.py", line 285, in _create_or_override_dirs
+    paths.report_path.parent.mkdir(exist_ok=True)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/opt/wave/.pixi/envs/default/lib/python3.14/pathlib/__init__.py", line 1011, in mkdir
+    os.mkdir(self, mode)
+    ~~~~~~~~^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/a/projects/biolearn-practice/results/nfcore/rnaseq-3.27.0-attempt-2/presentation-corrected/output/multiqc/star_salmon'

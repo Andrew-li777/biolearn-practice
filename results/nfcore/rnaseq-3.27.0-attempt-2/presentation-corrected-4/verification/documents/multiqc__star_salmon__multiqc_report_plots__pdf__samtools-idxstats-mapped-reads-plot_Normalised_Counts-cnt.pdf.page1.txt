@@ -1,0 +1,10 @@
+I
+0
+0.5
+1
+1.5
+2
+Samtools: idxstats: Mapped reads per contig
+ Normalised Counts, 5 lines 
+Chromosome name
+Fraction of total count

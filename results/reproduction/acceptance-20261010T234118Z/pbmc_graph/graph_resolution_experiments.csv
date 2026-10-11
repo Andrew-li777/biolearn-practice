@@ -1,0 +1,5 @@
+variant,graph,algorithm,resolution,cells,clusters,ARI_vs_seurat,NMI_vs_seurat,ARI_vs_scanpy,NMI_vs_scanpy
+seurat_snn_leiden_res_0.5,seurat_snn,Leiden igraph,0.5,2638,9,0.9610335706019486,0.9676968171030841,0.6268379118519012,0.7517465442567429
+seurat_snn_leiden_res_1.0,seurat_snn,Leiden igraph,1.0,2638,11,0.7913408984005431,0.8920470103487435,0.5330963831264459,0.7052003026059712
+scanpy_fuzzy_leiden_res_0.5,scanpy_fuzzy,Leiden igraph,0.5,2638,6,0.6032598294699634,0.7603840017542614,0.6181291342701543,0.8021852986019873
+scanpy_fuzzy_leiden_res_1.0,scanpy_fuzzy,Leiden igraph,1.0,2638,9,0.6279310734626542,0.7545047834392827,1.0,1.0

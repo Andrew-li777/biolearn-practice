@@ -1,0 +1,96 @@
+{
+    "Name": "quay.io/biocontainers/perl",
+    "Digest": "sha256:8ae3c6d2fc43fb73efb20e26dd1d780ef05c32977435bb0bdfa670037913848f",
+    "RepoTags": [
+        "5.22.0.1--0",
+        "5.22.0--9",
+        "5.22.2.1",
+        "5.26",
+        "5.26--1",
+        "5.26--2",
+        "5.26.2",
+        "5.32"
+    ],
+    "Created": "2020-03-28T16:15:16.61695237Z",
+    "DockerVersion": "18.06.0-ce",
+    "Labels": {},
+    "Architecture": "amd64",
+    "Os": "linux",
+    "Layers": [
+        "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4",
+        "sha256:b0dc45cd432d14fb6df7d3239dc15d09c63906f8e7bfd373a4647b107fc3746c",
+        "sha256:9466b3513669459396338a74673ede0166f534ab64923f66ecca58176d1ffe5e",
+        "sha256:ddd482ea7b54727ff2b6748188290b75f6441ba4091d15a5e62d2a0ed47c81dd",
+        "sha256:4d69f833b9d8db2f02cc784f9bab7317317e4062129cafe65660c9eb2cd1c115",
+        "sha256:e7c454e5167ddab5101c53d104c90c0a037c3ee3930b9a74a14da40c852134cc",
+        "sha256:e38092b005c08dab4ae80615d29944107dc3d07307e37c4558914998e0e61827",
+        "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4",
+        "sha256:f879b42dfe2b253544b0dc6834eff097a2a994cecda76b3c2950465fef9bfdfc",
+        "sha256:8736e4b11f78166d28479e511f13324fea6ebdd77d91f8efa6bb1bb436e80962"
+    ],
+    "LayersData": [
+        {
+            "MIMEType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+            "Digest": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4",
+            "Size": 32,
+            "Annotations": null
+        },
+        {
+            "MIMEType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+            "Digest": "sha256:b0dc45cd432d14fb6df7d3239dc15d09c63906f8e7bfd373a4647b107fc3746c",
+            "Size": 2231103,
+            "Annotations": null
+        },
+        {
+            "MIMEType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+            "Digest": "sha256:9466b3513669459396338a74673ede0166f534ab64923f66ecca58176d1ffe5e",
+            "Size": 247,
+            "Annotations": null
+        },
+        {
+            "MIMEType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+            "Digest": "sha256:ddd482ea7b54727ff2b6748188290b75f6441ba4091d15a5e62d2a0ed47c81dd",
+            "Size": 221,
+            "Annotations": null
+        },
+        {
+            "MIMEType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+            "Digest": "sha256:4d69f833b9d8db2f02cc784f9bab7317317e4062129cafe65660c9eb2cd1c115",
+            "Size": 2550,
+            "Annotations": null
+        },
+        {
+            "MIMEType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+            "Digest": "sha256:e7c454e5167ddab5101c53d104c90c0a037c3ee3930b9a74a14da40c852134cc",
+            "Size": 35236,
+            "Annotations": null
+        },
+        {
+            "MIMEType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+            "Digest": "sha256:e38092b005c08dab4ae80615d29944107dc3d07307e37c4558914998e0e61827",
+            "Size": 248936,
+            "Annotations": null
+        },
+        {
+            "MIMEType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+            "Digest": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4",
+            "Size": 32,
+            "Annotations": null
+        },
+        {
+            "MIMEType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+            "Digest": "sha256:f879b42dfe2b253544b0dc6834eff097a2a994cecda76b3c2950465fef9bfdfc",
+            "Size": 900381,
+            "Annotations": null
+        },
+        {
+            "MIMEType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+            "Digest": "sha256:8736e4b11f78166d28479e511f13324fea6ebdd77d91f8efa6bb1bb436e80962",
+            "Size": 28460084,
+            "Annotations": null
+        }
+    ],
+    "Env": [
+        "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+    ]
+}

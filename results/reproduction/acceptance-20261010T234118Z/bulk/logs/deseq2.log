@@ -1,0 +1,36 @@
+Started UTC: 2026-10-10T23:45:23.610835+00:00
+Command: ["/home/a/miniforge3/bin/conda", "run", "--no-capture-output", "-n", "biolearn-r", "Rscript", "scripts/01_bulk_deseq2.R", "results/reproduction/acceptance-20261010T234118Z/.attempts/bulk-20261010T234523609628Z"]
+INPUT: 63677 genes; 8 samples
+PRE_FILTER: 16596 genes
+estimating size factors
+estimating dispersions
+gene-wise dispersion estimates
+mean-dispersion relationship
+final dispersion estimates
+fitting model and testing
+
+out of 16596 with nonzero total read count
+adjusted p-value < 0.1
+LFC > 0 (up)       : 2618, 16%
+LFC < 0 (down)     : 2298, 14%
+outliers [1]       : 0, 0%
+low counts [2]     : 0, 0%
+(mean count < 5)
+[1] see 'cooksCutoff' argument of ?results
+[2] see 'independentFiltering' argument of ?results
+
+NULL
+'select()' returned 1:many mapping between keys and columns
+using 'apeglm' for LFC shrinkage. If used in published research, please cite:
+    Zhu, A., Ibrahim, J.G., Love, M.I. (2018) Heavy-tailed prior distributions for
+    sequence count data: removing the noise and preserving large differences.
+    Bioinformatics. https://doi.org/10.1093/bioinformatics/bty895
+using ntop=500 top features by variance
+null device 
+          1 
+null device 
+          1 
+SIGNIFICANT: 4916 UP: 2618 DOWN: 2298 
+PASS DESeq2 analysis and all figures
+Ended UTC: 2026-10-10T23:45:51.666361+00:00
+Exit code: 0

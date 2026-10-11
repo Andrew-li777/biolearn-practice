@@ -1,0 +1,10 @@
+dpkg-query: no packages found matching r-base
+dpkg-query: no packages found matching r-base-core
+dpkg-query: no packages found matching docker.io
+dpkg-query: no packages found matching docker-ce
+dpkg-query: no packages found matching docker-ce-cli
+dpkg-query: no packages found matching default-jre
+dpkg-query: no packages found matching openjdk-17-jre-headless
+dpkg-query: no packages found matching openjdk-21-jre-headless
+dpkg-query: no packages found matching nextflow
+dpkg-query: no packages found matching snakemake

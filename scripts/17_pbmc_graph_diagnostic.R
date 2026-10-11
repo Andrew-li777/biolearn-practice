@@ -1,0 +1,10 @@
+args<-commandArgs(TRUE)
+suppressPackageStartupMessages(library(Seurat))
+s<-readRDS(args[1]);dir.create(args[2],recursive=TRUE,showWarnings=FALSE)
+stopifnot('RNA_snn'%in%names(s@graphs))
+g<-s@graphs$RNA_snn
+stopifnot(identical(rownames(g),colnames(s)),identical(colnames(g),colnames(s)))
+Matrix::writeMM(g,file.path(args[2],'seurat_snn.mtx'))
+write.csv(data.frame(barcode=colnames(s)),file.path(args[2],'seurat_snn_barcodes.csv'),row.names=FALSE)
+writeLines(capture.output(sessionInfo()),file.path(args[2],'sessionInfo.txt'))
+cat('Actual Seurat graph:',nrow(g),'cells',length(g@x),'nonzero entries\n')

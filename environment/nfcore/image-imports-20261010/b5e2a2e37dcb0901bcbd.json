@@ -1,0 +1,29 @@
+{
+  "image": "community.wave.seqera.io/library/bedtools_coreutils:a623c13f66d5262b",
+  "started_utc": "2026-10-10T23:13:34.581012+00:00",
+  "source": "docker://community.wave.seqera.io/library/bedtools_coreutils:a623c13f66d5262b",
+  "transport": "skopeo -> docker-daemon; existing client proxy inherited; no system proxy changes",
+  "completed": true,
+  "exit_code": 0,
+  "ended_utc": "2026-10-10T23:14:03.349204+00:00",
+  "source_digest": "sha256:87d2a7cad1272517e4b6e7e2f846a3763c012b46978f1ff0dc5c345f32dbeeac",
+  "architecture": "amd64",
+  "docker_image_id": "sha256:db7ddbc4f3f9f886df31822e1db8b68c4a98d77837842007b288448ed9d9baf2",
+  "docker_size": 57980433,
+  "docker_layers": [
+    "sha256:48143ecdba52eca9c7912faed797fc7e29d0df3f63e8217d041325954d70426b",
+    "sha256:0b076b000b42326e43f99a6429261cb9a0a992dfee09501fdf0303e3a3eccf48",
+    "sha256:dd6c844ca5e983b3aae5a851b55127fb47802900b6c1d07c6313ee81a1d1a828",
+    "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef",
+    "sha256:c07cead4da09d7f29b83f26897668e595a86448ca92510f2cf300d406fcd5862",
+    "sha256:b3e6f67bc38c7a55a032ce631137c2ce5439634bebc2b2d9797929c7c1351623",
+    "sha256:5a7b70a3e6006b4311e3d1613d4c923d7747b7b028cea2e41388056f61055261",
+    "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef",
+    "sha256:ca190886cb8ba06143639bb56aff94df098cbcb68b7454df8c23d80ef26e4b6a",
+    "sha256:1ac52a4af8c43d97af732cf5e416e756b0db656b143a56d6167d5059c177a199",
+    "sha256:ab2ba90c2ea5e11e63805b6d01d940885ba603ada840966808737b09cf76a747",
+    "sha256:48c2881882a27a5f8a0ec5903d2581e9f3f789b80f3506e92a9bad625f3a3efb",
+    "sha256:40956e236f7939500405754658b4a0dfbfa93393410b145dbfede809cc564846",
+    "sha256:2758897d042f106c0e7b50d1374646c8bc9a34be0ca793f355592e12f7c64da9"
+  ]
+}

@@ -1,0 +1,25 @@
+5
+1
+2
+5
+10
+2
+5
+100
+2
+5
+1000
+2
+5
+0%
+20%
+40%
+60%
+80%
+100%
+0.5 RPKM
+1 read/bp
+DupRadar General Linear Model
+ 5 lines 
+expression (reads/kbp)
+% duplicate reads

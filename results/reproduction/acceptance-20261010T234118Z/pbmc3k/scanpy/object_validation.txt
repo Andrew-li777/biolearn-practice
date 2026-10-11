@@ -1,0 +1,3 @@
+PASS raw H5AD reopened; counts equal input
+PASS analysis H5AD reopened; counts layer equals input subset; UMAP finite
+PASS no duplicate source or postQC barcodes

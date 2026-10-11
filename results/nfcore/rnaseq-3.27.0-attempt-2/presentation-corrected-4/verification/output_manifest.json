@@ -1,0 +1,1857 @@
+[
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report.html",
+    "bytes": 3946515,
+    "sha256": "21017551f1b116685e41fcd21b9fc11f75db7f256989943dbbb23295f778bb26"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/bbmap-bbsplit_plot.txt",
+    "bytes": 156,
+    "sha256": "38bd689a9adfaed36fcf9ee5f897d951cba774562d82c65cff393f89fa3368e8"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/bbmap.txt",
+    "bytes": 966,
+    "sha256": "1f3e862c7f7cdba49423a0ff07a056b9882e72013c1767850c4e5fbfc33d4169"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/bbsplit_stats_table.txt",
+    "bytes": 528,
+    "sha256": "34fdc0a13c1a440e47772ad3e63089b3868f009a86b0cb98495a1b4c1be3a2ba"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/fastqc_filtered-status-check-heatmap.txt",
+    "bytes": 613,
+    "sha256": "4c4c7a2b9e313d8fa3e32a6ed6755a3ad05476fd8c55d3ee30ec21e81a5decc8"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/fastqc_filtered_overrepresented_sequences_plot.txt",
+    "bytes": 500,
+    "sha256": "777d30e34a8d54552b7dca179e0be629deff6fff805079d5c043f295122cb085"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/fastqc_filtered_per_base_n_content_plot.txt",
+    "bytes": 10265,
+    "sha256": "f915b0b1c06578cc566ba45620cd6a5285d5f92664303e7226c4abc0232ab366"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/fastqc_filtered_per_base_sequence_quality_plot.txt",
+    "bytes": 10895,
+    "sha256": "48be41951fb459498fb5f2b05f3fc8dc864e5f8f8720b73010427525cddfe50b"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/fastqc_filtered_per_sequence_gc_content_plot_Counts.txt",
+    "bytes": 10847,
+    "sha256": "29cb56ce90de0db86605060192de18c709b6ea87074d5e49b346631f25e0295b"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/fastqc_filtered_per_sequence_gc_content_plot_Percentages.txt",
+    "bytes": 18149,
+    "sha256": "8a7f98027e4bd606388f957542bef77596e6da658de319deb17cd76c6e1eadfb"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/fastqc_filtered_per_sequence_quality_scores_plot.txt",
+    "bytes": 3163,
+    "sha256": "bb4f16fa66eebb430712213dba342e03d9140d4025db79ea6f9af0ca3099907b"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/fastqc_filtered_sequence_counts_plot.txt",
+    "bytes": 284,
+    "sha256": "081c60cf0a359cf6ea68d22c5443f454b41990230e5d36e97ce7fe6924c54291"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/fastqc_filtered_sequence_duplication_levels_plot.txt",
+    "bytes": 3104,
+    "sha256": "4bf9bba57651e8bd0bf5e67c1af64503276409c03b67e082b79b3864e4718e8e"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/fastqc_filtered_top_overrepresented_sequences_table.txt",
+    "bytes": 1576,
+    "sha256": "825e49eae61821927b9e967aa27fd1b78a7db9c983975446cdde60246505b69d"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/fastqc_raw-status-check-heatmap.txt",
+    "bytes": 599,
+    "sha256": "f39bbf170c6fdacb4df36867d4e2d6e09f78e9e233cd44637c99b070bb7575e7"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/fastqc_raw_adapter_content_plot.txt",
+    "bytes": 5706,
+    "sha256": "2d4bdbbf9534a9675515f5bfd0f3d0ccd4a51aa0456bbb4941ca4c39da8e2b5b"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/fastqc_raw_overrepresented_sequences_plot.txt",
+    "bytes": 318,
+    "sha256": "73f3432bfc3247074bb47b801017f973f445416fdea79524fee848c0655e41fa"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/fastqc_raw_per_base_n_content_plot.txt",
+    "bytes": 6584,
+    "sha256": "2e5ad9d97ce96508c184103f33059712ce723dace256047d5eda2d256521e746"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/fastqc_raw_per_base_sequence_quality_plot.txt",
+    "bytes": 7745,
+    "sha256": "098dc7441f4d1ba90be28d1b0fb6038d5b2a5b735c901fbd8f486d10e84a509e"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/fastqc_raw_per_sequence_gc_content_plot_Counts.txt",
+    "bytes": 10872,
+    "sha256": "d51435ad3fdc03afeebbefcb4d314231118029501323137b610a4ee6663891eb"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/fastqc_raw_per_sequence_gc_content_plot_Percentages.txt",
+    "bytes": 15529,
+    "sha256": "170a77e5062a7e9d0027cd6f212b44d3de7b3ef07943bdabd4bd633f21ce085a"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/fastqc_raw_per_sequence_quality_scores_plot.txt",
+    "bytes": 3239,
+    "sha256": "0fdb5d67fdc09c999214c826795a2e6ab5124aebe95186f0a5fa937322e9e77f"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/fastqc_raw_sequence_counts_plot.txt",
+    "bytes": 284,
+    "sha256": "796ab57b51fe93dd3784e54bacef6b7a402cdf31e83e9372d95a8d3915b3e7cc"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/fastqc_raw_sequence_duplication_levels_plot.txt",
+    "bytes": 2163,
+    "sha256": "b5faa221aad0db4e0b898ea52b508306b36e38a78f20f644e6cbf97af34cce01"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/fastqc_raw_top_overrepresented_sequences_table.txt",
+    "bytes": 1580,
+    "sha256": "5408c91cff0bde9f11d39bb92823770dd8fac394c31053bf7f67659bc3c42f73"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/fastqc_sequence_length_distribution_plot.txt",
+    "bytes": 3870,
+    "sha256": "6f26686676944cc047006fd3cda77dd8a096004b49334ffa36ac00784e21792b"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/fastqc_trimmed-status-check-heatmap.txt",
+    "bytes": 613,
+    "sha256": "4c4c7a2b9e313d8fa3e32a6ed6755a3ad05476fd8c55d3ee30ec21e81a5decc8"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/fastqc_trimmed_overrepresented_sequences_plot.txt",
+    "bytes": 500,
+    "sha256": "080531ec050430f4ca65dec06656945cc83946dde6b65ffe66512f4c9dbc5bfa"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/fastqc_trimmed_per_base_n_content_plot.txt",
+    "bytes": 10274,
+    "sha256": "05e90da0c3026b1bbcbfe88fef920443e92ad57a9df7189f55bd5028efc56674"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/fastqc_trimmed_per_base_sequence_quality_plot.txt",
+    "bytes": 10855,
+    "sha256": "cc45ab9cc6d998120f493dcd1b396d233d8534a44211d089d6c600be5ebfb4b7"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/fastqc_trimmed_per_sequence_gc_content_plot_Counts.txt",
+    "bytes": 10850,
+    "sha256": "907289fd384807ec3c31ab27c8d3c7b5089c54e7da069f61654c8d76364f02ab"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/fastqc_trimmed_per_sequence_gc_content_plot_Percentages.txt",
+    "bytes": 18254,
+    "sha256": "942457774f098ebae64aa7313f7dcc0534b5d5672418ec1d4e2054f0bc098a7e"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/fastqc_trimmed_per_sequence_quality_scores_plot.txt",
+    "bytes": 3148,
+    "sha256": "c4f1e969e41d95498425ff1ca307fe956178679b6d54996c0ce2b7a4b6d74ba4"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/fastqc_trimmed_sequence_counts_plot.txt",
+    "bytes": 284,
+    "sha256": "9e20289b6472097775ba15022f869be1ab8fc8ae5aad8e1ec464d9404370912b"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/fastqc_trimmed_sequence_duplication_levels_plot.txt",
+    "bytes": 3093,
+    "sha256": "c2faccf0903d3176716e69aa6d7ea4d97616d5d95deceb5c76753dd2ecb33c6f"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/fastqc_trimmed_top_overrepresented_sequences_table.txt",
+    "bytes": 1581,
+    "sha256": "890a4cfdcc41f3f4026966c8129bf03379539f14eb805bbfe8e864943ed485ba"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/junction_saturation_known.txt",
+    "bytes": 907,
+    "sha256": "8663bfcdb07b7e729fafc07c66d0fcfeb339becbad73ea180a2e75f3f8137961"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/junction_saturation_novel.txt",
+    "bytes": 1554,
+    "sha256": "21d7cd52af3f5dfb753645d091ae56fe7c5598cf22de16fe78320f50ccfa17af"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/llms-full.txt",
+    "bytes": 334935,
+    "sha256": "0ef9acc7b51e3e17d9a4dad206321a5636b6392e13ef02d9910b965e341f838d"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/multiqc.log",
+    "bytes": 87994,
+    "sha256": "59e6c217f167f25547002642fc73745e87f710f08f9a23298e6b8e872cfd9e98"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/multiqc.parquet",
+    "bytes": 301812,
+    "sha256": "0a942ef711d2ca20c2745eee66218b1853ec1f03a576b56845f76ec832770f3c"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/multiqc_citations.txt",
+    "bytes": 490,
+    "sha256": "394cc4fbac0babb7954ef140e24e8c862ede5a5c8d76d47e0725d51dcc68e485"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/multiqc_data.json",
+    "bytes": 5091819,
+    "sha256": "24301792def32f0e234a5a015999311323ac2687efce895a3ce398bf2f26ee1b"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/multiqc_dupradar.txt",
+    "bytes": 1900,
+    "sha256": "f7f333c104f12ace936af53a5d4d61321cb319a0f729a9462b23a74d4310e1ea"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/multiqc_fastqc_fastqc_filtered.txt",
+    "bytes": 2109,
+    "sha256": "f2b7ddf6970c44b9125d18f67e9e32daa9e5daba41cc44223e325cf214520a73"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/multiqc_fastqc_fastqc_raw.txt",
+    "bytes": 1884,
+    "sha256": "a804223c169d843e08ee3fed4ab785e4ccd4f5785e403764f742fe8c64396cb5"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/multiqc_fastqc_fastqc_trimmed.txt",
+    "bytes": 2179,
+    "sha256": "b1038917503176299f5f9e81c760accfeaf8bb99a301148803515cc1b6bfe8ca"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/multiqc_featurecounts_biotype_plot.txt",
+    "bytes": 221,
+    "sha256": "66e1380a9ac785a57844b416916f044e11ce43ed9f72e230aa7e41f8cad389ed"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/multiqc_general_stats.txt",
+    "bytes": 6990,
+    "sha256": "7c233f6399145c01c7e5f9b9d35af49d3d1b58e9e8151f745225ef2ca274a4e4"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/multiqc_picard_dups.txt",
+    "bytes": 644,
+    "sha256": "ee0a2a7d0a7a4939199a3caec8b0fb7214bd02644939d57845c1f2fb39d97b44"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/multiqc_rseqc_bam_stat.txt",
+    "bytes": 900,
+    "sha256": "fc4ad37ea71bbb5bfe45b936c3c44ac356418124e3d1280ff13381b62ce530aa"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/multiqc_rseqc_infer_experiment.txt",
+    "bytes": 245,
+    "sha256": "a3e2ed7e8b59b247d61bc84b9549c24f2a511ccdb1637936d6a838086fe14633"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/multiqc_rseqc_junction_annotation.txt",
+    "bytes": 986,
+    "sha256": "31a342cdc0e3a69701f807078abd101e09e7243334381cf98bd4732476bf1da0"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/multiqc_rseqc_read_distribution.txt",
+    "bytes": 2213,
+    "sha256": "f2ad7a5f44c6fec6b43d7c0d0b88acc5f73973eb613385f716e5512606718e32"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/multiqc_salmon.txt",
+    "bytes": 5289,
+    "sha256": "e88760358c9a969f36733a9634a5ef139ffb573cbc908d623f25c5e53439cc54"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/multiqc_salmon_deseq2_clustering.txt",
+    "bytes": 348,
+    "sha256": "81f3721cba0793e384f2b21913c8c3458de0f1a67a4fc8df669872d5ff85b966"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/multiqc_salmon_deseq2_pca.txt",
+    "bytes": 346,
+    "sha256": "2446d727e4d1edac594fc6200c48f8b752d9ab73edf5656f81be26a5734c35b7"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/multiqc_samtools_flagstat.txt",
+    "bytes": 1419,
+    "sha256": "a42a51237206d31466a1bbbc044110811f9145091f0daad86c9359d73e5dd49c"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/multiqc_samtools_idxstats.txt",
+    "bytes": 260,
+    "sha256": "80c4a86d661da3214a8d33ce7726da5fe301e01760002f1d4ea238e992663e57"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/multiqc_samtools_stats.txt",
+    "bytes": 2787,
+    "sha256": "b6b52efe34f28c71985f9e01d43428b47945cf7dd7ce3884701efb4888fcb979"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/multiqc_software_versions.txt",
+    "bytes": 2808,
+    "sha256": "6a9b014270726b6a822b04f799a634f740557d935131f716d14f8c8daa8c9c95"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/multiqc_sources.txt",
+    "bytes": 20373,
+    "sha256": "36b79a49e3bd510d29bd8129485cbe6f390b8cdf30cf742dd2f16430df06cc29"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/multiqc_star.txt",
+    "bytes": 1355,
+    "sha256": "3e22b958ebdce559ea995f866f7213227cff52a9a4a517723a5fa72d1ba974f6"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/multiqc_star_salmon_deseq2_clustering.txt",
+    "bytes": 348,
+    "sha256": "cdfa02c55fe74af06d273ce01ff837144d79f02f85629044d8169ec044c619bd"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/multiqc_star_salmon_deseq2_pca.txt",
+    "bytes": 346,
+    "sha256": "91129c56c3028e0722ba60b58712d6d70d97a1a386dff47de4be15998434d592"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/multiqc_strand_check_composition_bargraph.txt",
+    "bytes": 178,
+    "sha256": "36453dbadaa73d5db04715b470ce92d5493a0e0a6ee2d72eea02d8a53c6e8fde"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/multiqc_strand_check_composition_bargraph_1.txt",
+    "bytes": 56,
+    "sha256": "d4f3bfcd05674fc97c163a940ae0a6cd8c42e3be8ee29c14c33255924dc2942b"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/multiqc_strand_check_summary_table.txt",
+    "bytes": 448,
+    "sha256": "f87c02a5110ce7f9aae6a3daa9e0d73eff30150bc2a6fa66ecd92266d5f492c4"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/multiqc_trim_galore.txt",
+    "bytes": 1387,
+    "sha256": "c505f5d344dfc267acb46741a5211bac2917dac9dbffb804b95c0a06536d12fd"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/picard_MarkIlluminaAdapters_histogram.txt",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/picard_MeanQualityByCycle_histogram.txt",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/picard_MeanQualityByCycle_histogram_1.txt",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/picard_QualityScoreDistribution_histogram.txt",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/picard_deduplication.txt",
+    "bytes": 277,
+    "sha256": "d53278261f37129fd5993e5285b814dad8d0dacfe8641ea271b44fdcfb74f573"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/qualimap_gene_coverage_profile_Counts.txt",
+    "bytes": 12501,
+    "sha256": "901eb72e9c77c1af2b44c63a5400aee1740b1a9089c76eb20a166d28e83ff0b6"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/qualimap_gene_coverage_profile_Normalised.txt",
+    "bytes": 12747,
+    "sha256": "0e91004d9a459648be568e260185f69dd1bde626e331526a88ce4eef3473fbaf"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/qualimap_genomic_origin.txt",
+    "bytes": 216,
+    "sha256": "f74da809143b5e5c10a5995a170ce1f176e1920ff1a5a19fd86a592dc5133de7"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/qualimap_rnaseq_cov_hist.txt",
+    "bytes": 9551,
+    "sha256": "a60bc4c4efcc24f3f3e084bbdf4d85a078e1901117338f149bc1648a9bfca21f"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/qualimap_rnaseq_genome_results.txt",
+    "bytes": 625,
+    "sha256": "c23f9a0a29a226f3900d9d19d4c47c90f44405c4bdabd256d3917683b13794be"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/rseqc_bam_stat.txt",
+    "bytes": 1003,
+    "sha256": "4f262eb7a47098f79a1d365ebc168a1529b130d0a2c8e51cc397ffe03a02bb65"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/rseqc_infer_experiment_plot.txt",
+    "bytes": 287,
+    "sha256": "c2b1f737773f145bc09be1e3262fa19dc4e87da0fb8b00b8623a5092f6f3eb3d"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/rseqc_inner_distance.txt",
+    "bytes": 2269,
+    "sha256": "8655971e5a950bf10455cf6ef455ae4eec134af848aec8fe2bcd5be6397ef3e7"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/rseqc_inner_distance_plot_Counts.txt",
+    "bytes": 4671,
+    "sha256": "d68cd4ab8b89dbad00f3e3d076e282ca273cf1dbbea885421b942bbabd9b2c53"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/rseqc_inner_distance_plot_Percentages.txt",
+    "bytes": 7451,
+    "sha256": "90ed6ad9451df3d6de26726b0b08960baecfddf432c261dd61b82774cad791a4"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/rseqc_junction_annotation_junctions_plot_Events.txt",
+    "bytes": 181,
+    "sha256": "ace9eef2bcc03944f6c1a8cdc6663c75a56dde3f0675b02c9344ec47be03c64e"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/rseqc_junction_annotation_junctions_plot_Junctions.txt",
+    "bytes": 177,
+    "sha256": "5aa71c5fa3217ea3040985056e4a3986cdd4956a8bc78c7267ef62cccd3e68d0"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/rseqc_junction_saturation_all.txt",
+    "bytes": 1906,
+    "sha256": "9e62dae8e0ae33c4d4986d21a94c1f9ad7302e8d11adf1a789cccd767949b325"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/rseqc_junction_saturation_plot_All_Junctions.txt",
+    "bytes": 2656,
+    "sha256": "52ae2fceb360018d370fc160dabb1e850569bd376b6e8896b39c4282fba34c10"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/rseqc_junction_saturation_plot_Known_Junctions.txt",
+    "bytes": 1657,
+    "sha256": "c3316e65ee84d511292527009e02a0bfdcb6c3e3296196a551c5c1c620379d7a"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/rseqc_junction_saturation_plot_Novel_Junctions.txt",
+    "bytes": 2304,
+    "sha256": "009e4eb59071222b13dc0bd754ae6503300f91dc838b3737d238525a6472b545"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/rseqc_read_distribution_plot.txt",
+    "bytes": 215,
+    "sha256": "a569938e97c776007d51cf6ed093be5c579b94b919bfdd827b232350f39fdbc1"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/rseqc_read_dups.txt",
+    "bytes": 2312,
+    "sha256": "f02e7ff62c31bac3f58ce2e4faa04351e82b1444be733fdf525e577605faf426"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/rseqc_read_dups_plot.txt",
+    "bytes": 5378,
+    "sha256": "bb2b97b65c3e748d6fff677960354485f6702f958bab75892d6e6c5fad28e482"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/salmon_plot.txt",
+    "bytes": 54578,
+    "sha256": "d0c3d9036d840ca7463ae8718f3e2c0d0e248d97abf9522177d07a3304cbce13"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/samtools-flagstat-pct-table.txt",
+    "bytes": 836,
+    "sha256": "683779909f8cc848354ba5e9d9ca56854a9b6d9ac63709956993656bad764593"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/samtools-flagstat-table.txt",
+    "bytes": 730,
+    "sha256": "c73579b790b650152aa6766b4b0752f8714119265ee2cc33f022cd29afe5f794"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/samtools-idxstats-mapped-reads-plot_Normalised_Counts.txt",
+    "bytes": 138,
+    "sha256": "c91232ea4a6d8891d6bdf136e2d5b124a6e2d6908a09f33a72c9155edc6aaedf"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/samtools-idxstats-mapped-reads-plot_Observed_over_Expected_Counts.txt",
+    "bytes": 213,
+    "sha256": "833a6387c704d63b343768d3b93938bbaae1a716b82f32719806ef4dc9d31c5e"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/samtools-idxstats-mapped-reads-plot_Raw_Counts.txt",
+    "bytes": 149,
+    "sha256": "b2260cd8ba3b2dafbba45bd80e4c7edec595d524dcc82f56ae496ff72b2fbddd"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/samtools-stats-dp.txt",
+    "bytes": 806,
+    "sha256": "235d10bda0f82799286aba3b449623952a3d3fdb1024a878aa686d437370f67a"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/samtools_alignment_plot.txt",
+    "bytes": 168,
+    "sha256": "ddc4291d4518f915c3c0ba6049f1d27c289089e6c607052a13a957d5f3ac95d1"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/samtools_insert_size.txt",
+    "bytes": 19594,
+    "sha256": "11f9928f9185d916373b740187d47dd32d30979e35b26d8198f8dd9d32cd6c68"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/star_alignment_plot.txt",
+    "bytes": 340,
+    "sha256": "af2940d8920756896437dee6579f2d9ac4c818d2692e6b6f894233cfaad01ab5"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/star_summary_table.txt",
+    "bytes": 1002,
+    "sha256": "34197fd22caeaf435e1eb353e7ea59dcf5c5defec7acee7acdea64ce5d3028ed"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/trim_galore_adapter_length_plot.txt",
+    "bytes": 4777,
+    "sha256": "578b512c433402a69ca56dce8b701b2477a5b2eeb5794b3a606426446f9a15e5"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/trim_galore_filtered_reads_plot.txt",
+    "bytes": 262,
+    "sha256": "27d095fc5b26325df6da1aea1c4986b770115b71176b1064ffe8eb85fb863fb6"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_data/trim_galore_pair_validation_table.txt",
+    "bytes": 310,
+    "sha256": "7a3d7595e3a439757fe5f04b4402be7d8108480131837436a4909c333603416a"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/bbmap-bbsplit_plot-cnt.pdf",
+    "bytes": 12856,
+    "sha256": "a67fe64187696c872259eaffa2741c73a549b7a0fe8b612a8e1a010a1efb344d"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/bbmap-bbsplit_plot-pct.pdf",
+    "bytes": 12857,
+    "sha256": "1a847fd713a5fb6d23d7d41c0b825c79fcc76f2e6d0b641561fb19abf20b2291"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/bbsplit_stats_table.pdf",
+    "bytes": 14100,
+    "sha256": "655dd0e815522f37a4dd9949426b2a5d057ed77b4321a92037f6bf8ee38e3581"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/dupradar.pdf",
+    "bytes": 13551,
+    "sha256": "c944fbf1b9aecaf2a3516fe094c7881ffe50b5cca8654caad4223448833b2e21"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/fastqc_filtered-status-check-heatmap.pdf",
+    "bytes": 13322,
+    "sha256": "a6d45786be917512ab006d23f84980b3850c6baefa42a4d24eb423db4c96d519"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/fastqc_filtered_overrepresented_sequences_plot.pdf",
+    "bytes": 13527,
+    "sha256": "e485687653a2ed8cc137c69845f14fe056d01ae3de19a043d050a8044c5a75d5"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/fastqc_filtered_per_base_n_content_plot.pdf",
+    "bytes": 12615,
+    "sha256": "6db51c5d25600ce588aae2420a64f965bcfe11ca1cf67ca3707b75a8f69e5452"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/fastqc_filtered_per_base_sequence_quality_plot.pdf",
+    "bytes": 12135,
+    "sha256": "a8da5a2721b46687cabcdd3c182fd68c1f1565f41de2c84f4f185cc440d7bef4"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/fastqc_filtered_per_sequence_gc_content_plot_Counts.pdf",
+    "bytes": 12383,
+    "sha256": "78fca2a4063e54f646cc6e34c969e37255218a339260453c42720dde595c89ad"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/fastqc_filtered_per_sequence_gc_content_plot_Percentages.pdf",
+    "bytes": 12801,
+    "sha256": "c53846b30b5050aa40d935bf4d76515f1cc51eb63ff780cb30bda7b0f575192f"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/fastqc_filtered_per_sequence_quality_scores_plot.pdf",
+    "bytes": 11889,
+    "sha256": "0b4c355622aed6e44a097d223e1979c1398985333795888dbc5a76d4af81725b"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/fastqc_filtered_sequence_counts_plot-cnt.pdf",
+    "bytes": 12722,
+    "sha256": "046fa4be7943ee4f72ee16a0a0dc62a94a26d9abd7dbfc63ac6c231b22de2f0a"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/fastqc_filtered_sequence_counts_plot-pct.pdf",
+    "bytes": 12356,
+    "sha256": "6534f0b207f1c00e16f587835dcf5dcd5f36497f76372ccba0c3ddf941da076a"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/fastqc_filtered_sequence_duplication_levels_plot.pdf",
+    "bytes": 12506,
+    "sha256": "95bb1285849f750f4116d0f875d40aeb8ca768c787fd8e435e546f182c5267ff"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/fastqc_filtered_top_overrepresented_sequences_table.pdf",
+    "bytes": 15228,
+    "sha256": "f4e7e2f0c1450084dc8898f77e10019c3b44e7d5bf1fd763dbddbc75cbc4b3a5"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/fastqc_raw-status-check-heatmap.pdf",
+    "bytes": 13312,
+    "sha256": "cd00040247ae153f29edf467805a8e658b8153e0c91182b3e3bf9f1c36fbe369"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/fastqc_raw_adapter_content_plot.pdf",
+    "bytes": 12576,
+    "sha256": "54ad3e098e9402708e85c7b1ebd0cd76aad23145dc0f03e1bc973d6f20de3ec8"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/fastqc_raw_overrepresented_sequences_plot.pdf",
+    "bytes": 13528,
+    "sha256": "277afd8220ea1735faee0cf4b639e82f6509aa490c3881523c3ed27f7ca74784"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/fastqc_raw_per_base_n_content_plot.pdf",
+    "bytes": 12656,
+    "sha256": "d861dce312352780bea98cf06738b901d19b2f34ff1f196c6501ca7b2bd193f3"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/fastqc_raw_per_base_sequence_quality_plot.pdf",
+    "bytes": 12146,
+    "sha256": "800d544fceb3c190b7bf1e983debe4fe54d5ad13386c4b78b7dc656944c2e069"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/fastqc_raw_per_sequence_gc_content_plot_Counts.pdf",
+    "bytes": 12503,
+    "sha256": "9d9dd061e4473dcf9298aec5b0058d433cdf9cccb0d13372c586ec6fc5bfd8f2"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/fastqc_raw_per_sequence_gc_content_plot_Percentages.pdf",
+    "bytes": 12870,
+    "sha256": "0528c050cb697baa77bac5fbc6a9f84bca1d1c98fd905f80788a95cca4c73bbf"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/fastqc_raw_per_sequence_quality_scores_plot.pdf",
+    "bytes": 11937,
+    "sha256": "f8e3617fcc97af93108443bc7e6d84e629ef70fd438deec564675d623493da72"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/fastqc_raw_sequence_counts_plot-cnt.pdf",
+    "bytes": 12311,
+    "sha256": "d84ebf5089e2da6b1de0896402f636abf69924ab8980aa9ce854dcb4b55da9c9"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/fastqc_raw_sequence_counts_plot-pct.pdf",
+    "bytes": 12362,
+    "sha256": "a3c5bda051595e4530ff962af9b27da00ee1f9d2cef7971f0d82840ca09de0e9"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/fastqc_raw_sequence_duplication_levels_plot.pdf",
+    "bytes": 12522,
+    "sha256": "7069199ced6d75ca00f46585baf0ea92239cc41f7bc70503bacb4f4f3ae729f1"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/fastqc_raw_top_overrepresented_sequences_table.pdf",
+    "bytes": 15203,
+    "sha256": "8848ce498c2e5c61a69daafd48e822391d02cfdafcf1d6b3f67749e0f354f55c"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/fastqc_sequence_length_distribution_plot.pdf",
+    "bytes": 11698,
+    "sha256": "6d9ee168305db89c21d5244f2351184a294bf7385c477cb28f0835cfbb59989e"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/fastqc_trimmed-status-check-heatmap.pdf",
+    "bytes": 13322,
+    "sha256": "30946686d169fcd77fcc56af0bafbef0a8ebf2d9d99183df02e99d6802cb0570"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/fastqc_trimmed_overrepresented_sequences_plot.pdf",
+    "bytes": 13524,
+    "sha256": "b01816dd3cfbcb560b3409d8952dad2ac8404e4580bf6017f581d73f3d895f09"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/fastqc_trimmed_per_base_n_content_plot.pdf",
+    "bytes": 12589,
+    "sha256": "02a9ec1997882e445c6d8555df2ef8208560c63641bef956e0b1f0b3b3e0143b"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/fastqc_trimmed_per_base_sequence_quality_plot.pdf",
+    "bytes": 12121,
+    "sha256": "4fccda872d38696bd1e808804b909e480fd96e1f19ddcf61c52e562f17750fb3"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/fastqc_trimmed_per_sequence_gc_content_plot_Counts.pdf",
+    "bytes": 12483,
+    "sha256": "a52db5b7e15e241994452c02ba5f800c53d6bdbcb8929ac71e01e26abd7c2d7f"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/fastqc_trimmed_per_sequence_gc_content_plot_Percentages.pdf",
+    "bytes": 12807,
+    "sha256": "3c31e3e2155d15c06f51e1b855b5ba62fe427ad7b8554f953c84bd59953f20bf"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/fastqc_trimmed_per_sequence_quality_scores_plot.pdf",
+    "bytes": 11863,
+    "sha256": "fbe117d7af3f3aff3d6dc0859d56df9404d0b21b0dc297f5cd796f198adecaf0"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/fastqc_trimmed_sequence_counts_plot-cnt.pdf",
+    "bytes": 12734,
+    "sha256": "5327d495dfbaba54878710d007deb6947168d15dd0a3f86431e4f4df40297bb3"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/fastqc_trimmed_sequence_counts_plot-pct.pdf",
+    "bytes": 12360,
+    "sha256": "61d0738500ff9e230f3eb4b19ec3c0d342f08f3147b00ab1131449400d21e25a"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/fastqc_trimmed_sequence_duplication_levels_plot.pdf",
+    "bytes": 12507,
+    "sha256": "a1aa3ae6e114e6d15adc30ab6bad9273d0a1f8e11591a6ad0c8c73a5ffc09f16"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/fastqc_trimmed_top_overrepresented_sequences_table.pdf",
+    "bytes": 15119,
+    "sha256": "f1c0b72357c4f09db432b62bff2ba1638a3d9c5ac971d49bc82dde79c21db5c8"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/featurecounts_biotype_plot-cnt.pdf",
+    "bytes": 12628,
+    "sha256": "21b469d22bac8ca825f2ac655304ab71f10030aa02e8c99a43ef27535fcc3428"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/featurecounts_biotype_plot-pct.pdf",
+    "bytes": 12617,
+    "sha256": "4449779cc48a6612417a2fce8d833654340b46e1bdc1c90027233752899d0651"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/picard_deduplication-cnt.pdf",
+    "bytes": 12301,
+    "sha256": "adfa6ce4f59e5a50989643d55b86b6662e8f15bf3de31732bf225ec0ae7a4b8f"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/picard_deduplication-pct.pdf",
+    "bytes": 12278,
+    "sha256": "a025df9ea2002b9358f9b1d21c71393286a9c6617cc84b9ad0bdd9be437bb699"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/qualimap_gene_coverage_profile_Counts.pdf",
+    "bytes": 15848,
+    "sha256": "2c2e3c7f3b8d739085f75b77f00d7ce8b56c29a866c6ef09811f7baa292c238d"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/qualimap_gene_coverage_profile_Normalised.pdf",
+    "bytes": 15847,
+    "sha256": "c3eea784ebb3b297f32cc0faff29025a2e8e5c53a3a3c2a0c3da0da9e87ebc93"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/qualimap_genomic_origin-cnt.pdf",
+    "bytes": 12976,
+    "sha256": "715fec14b341a8925b804b7e9aec3f7aa3729ad78e7842d7ba44a34cc51e96db"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/qualimap_genomic_origin-pct.pdf",
+    "bytes": 12990,
+    "sha256": "8f41ac9ee809ea12bb80cb3b4654d1a63e13488f681bc407660c75ebb7175024"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/rseqc_bam_stat.pdf",
+    "bytes": 26808,
+    "sha256": "502df66eebdfebd513a9f8c9388996f43e0ab2844d6f0ad81f6123c87cacabcf"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/rseqc_infer_experiment_plot.pdf",
+    "bytes": 12448,
+    "sha256": "126cec066e0c889f2bb3046998c68368faae049147939a1a2da1c83e89f60bf5"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/rseqc_inner_distance_plot_Counts.pdf",
+    "bytes": 11588,
+    "sha256": "f30c300257ab302469aa8d0fd8ced5bb017421d0f51562295a0e158c41dc0234"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/rseqc_inner_distance_plot_Percentages.pdf",
+    "bytes": 12036,
+    "sha256": "97db7b1b464678e8916e61f786e094bd515e2d42c892b44b883455908891f0d6"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/rseqc_junction_annotation_junctions_plot_Events-cnt.pdf",
+    "bytes": 13098,
+    "sha256": "9e4a12ac6c625b14ac7befe9ab5a17f7b9d3e942f4f06bffaf6a1c4060638bfa"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/rseqc_junction_annotation_junctions_plot_Events-pct.pdf",
+    "bytes": 13098,
+    "sha256": "ed2880dfd05abdc0bd744de6ae0c7379a9a37db40fc553f47ba97f646bce75c5"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/rseqc_junction_annotation_junctions_plot_Junctions-cnt.pdf",
+    "bytes": 13087,
+    "sha256": "0ac7a0335186616f174805460b6fa4d624690d168aabc579ba7b9f1ee5a0a8a5"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/rseqc_junction_annotation_junctions_plot_Junctions-pct.pdf",
+    "bytes": 13060,
+    "sha256": "f36004b258f57fb3974976a65ea0074db211eb8b5e4c218af6c7b5b41c177c5b"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/rseqc_junction_saturation_plot_All_Junctions.pdf",
+    "bytes": 11273,
+    "sha256": "4a8257a9891ee95ee0269e4ce2a6265e8a308f457b6e8298f2ef315b32fe1f02"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/rseqc_junction_saturation_plot_Known_Junctions.pdf",
+    "bytes": 11345,
+    "sha256": "5af338d3ba18ecda270dc81db7326c60ab1cc6c20eca4bf675856631a74e0331"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/rseqc_junction_saturation_plot_Novel_Junctions.pdf",
+    "bytes": 11466,
+    "sha256": "0181997293ca4448f13812ee04610c3abd51e8ba5eeaf8516d9baead92ffb287"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/rseqc_read_distribution_plot-cnt.pdf",
+    "bytes": 12747,
+    "sha256": "9bad90f8dae54ac0576b1d158fe44f7e280aa40ccf94c48b2fab48152a45c615"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/rseqc_read_distribution_plot-pct.pdf",
+    "bytes": 12762,
+    "sha256": "73e5048ebdcb18a56d0c15cbce20868d70136554009bd531dfb6fbbc40ceedda"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/rseqc_read_dups_plot.pdf",
+    "bytes": 13190,
+    "sha256": "3a4d7a6217bf07df7df8de2676ccf9bbceef3c672a8389ec9ea688f5875362ee"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/salmon_deseq2_clustering.pdf",
+    "bytes": 13717,
+    "sha256": "1947a5c801bb92bf96623e70e30a39779dea9e23290de22fc6c2e08ecf639072"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/salmon_deseq2_pca.pdf",
+    "bytes": 12232,
+    "sha256": "8cb1927a6bfb2125fa4ada3d4ad81c0ba07da96d8a0207037f8de7049a3c0b59"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/salmon_plot.pdf",
+    "bytes": 14492,
+    "sha256": "a63923ff92153b881d2db9bcde0dcff45b796259b9112426165fc0a6b46b3add"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/samtools-flagstat-pct-table.pdf",
+    "bytes": 18804,
+    "sha256": "a5cf6f50ec6b1a0e2a105b198ec613e08867296d8ccf4262d04d6ffb8c064475"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/samtools-flagstat-table.pdf",
+    "bytes": 20970,
+    "sha256": "daf42db144d4e8c03a4e829d9d8dde1d1efd295699a3e46b45d8da690d990c93"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/samtools-idxstats-mapped-reads-plot_Normalised_Counts-cnt.pdf",
+    "bytes": 10726,
+    "sha256": "ca6320bba181f92b2a2a1d01f64bdd9e7fd09bfeacd6c642b473b1bc72600203"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/samtools-idxstats-mapped-reads-plot_Normalised_Counts-log.pdf",
+    "bytes": 11716,
+    "sha256": "4d096c1f880e4cb89da4942883f8d4a3f53333fa432eff3f0712df2690133149"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/samtools-idxstats-mapped-reads-plot_Observed_over_Expected_Counts-cnt.pdf",
+    "bytes": 10980,
+    "sha256": "95b1f7f146e95ec3d12989b6cec4113792f38883828309f7f337710f23ff486d"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/samtools-idxstats-mapped-reads-plot_Observed_over_Expected_Counts-log.pdf",
+    "bytes": 12019,
+    "sha256": "8c0cb90d4b2b44b1fd50c00f0f70a651df328badf0224c63a9ad2d47791cd44a"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/samtools-idxstats-mapped-reads-plot_Raw_Counts-cnt.pdf",
+    "bytes": 11890,
+    "sha256": "520eea66531cd66e577505060e465c3ba05f087cd91438c49d8f8ba49152bc06"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/samtools-idxstats-mapped-reads-plot_Raw_Counts-log.pdf",
+    "bytes": 11888,
+    "sha256": "8ab045c14c3df2ed67b6016f52179d8d931bc579ce04ac12825f429f9a99be5f"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/samtools-stats-dp.pdf",
+    "bytes": 25725,
+    "sha256": "6c7a99f58dae59573170918a274f9bf1a6a66cc0aa46378de261d1747164bf16"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/samtools_alignment_plot-cnt.pdf",
+    "bytes": 13214,
+    "sha256": "8fe534ac3c81625333d2c46015e9b25998618d8739d4accc2fed395671cae7ff"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/samtools_alignment_plot-pct.pdf",
+    "bytes": 13209,
+    "sha256": "74cc5cedc66ff4c8e26ec61f9a57e9e367e25eda0b91cb9a59219e85da5226ae"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/samtools_insert_size.pdf",
+    "bytes": 17481,
+    "sha256": "c1d4d00feeb53f5c4a98f65c1b096d643891207bbbb62b813b007a19cc5cfa5f"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/star_alignment_plot-cnt.pdf",
+    "bytes": 13399,
+    "sha256": "0d64ce76a5ba580ac6438d01ad5950206b915ab871f8c2f38794f41e586e3fbf"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/star_alignment_plot-pct.pdf",
+    "bytes": 13194,
+    "sha256": "66ed8bcbc63b3857e95a3ea7571146a0a10330ab8340f97ca47b7e55fa003222"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/star_salmon_deseq2_clustering.pdf",
+    "bytes": 13645,
+    "sha256": "3a471998d70acdc8acb6d574cb782062282662d76ec37cd69329caa249293949"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/star_salmon_deseq2_pca.pdf",
+    "bytes": 12234,
+    "sha256": "21dd47ecbd28ec1970e7123c4a00db0ca02b3b4569d971d7a75378d0267c93a5"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/star_summary_table.pdf",
+    "bytes": 22419,
+    "sha256": "6899c3dffd8efe0f8af4e54c4f2b7deb717cff9e7fc54011d3c27f5f60cf3247"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/strand_check_composition_bargraph_RSeQC.pdf",
+    "bytes": 12400,
+    "sha256": "53fd84b7aa5900646d0f0db44081e9811f9031958a2d06a725646c4ec651d3df"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/strand_check_composition_bargraph_Salmon.pdf",
+    "bytes": 10792,
+    "sha256": "86bc14b62ee684efd91346856b1c52ae0cb3771ee23198f92834bbabeda4d6a5"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/strand_check_summary_table.pdf",
+    "bytes": 14477,
+    "sha256": "7b98600d8b2ce7e12618c05a6e77e8bce92ad981cc2a1678afbe8ad04d6bf70a"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/trim_galore_adapter_length_plot.pdf",
+    "bytes": 12512,
+    "sha256": "34d926ab523e19be6f1a537e478e014dd309d1ae076bd7b65d85cfa77578ea96"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/trim_galore_filtered_reads_plot-cnt.pdf",
+    "bytes": 12474,
+    "sha256": "d505b4fd0e9c753770b57ea026625248f5b1a1d4a54d08a61c0aa210d6555b4a"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/trim_galore_filtered_reads_plot-pct.pdf",
+    "bytes": 12520,
+    "sha256": "a30f48518702de2edfb18e891d8cecac582e8ef5cce0d05d5a3fbf7da83d8110"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/pdf/trim_galore_pair_validation_table.pdf",
+    "bytes": 14227,
+    "sha256": "d50bd1874e0f09bf21be0d3fee394d45acc6e931b281ba69e92acec8177f9afd"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/bbmap-bbsplit_plot-cnt.png",
+    "bytes": 81251,
+    "sha256": "3524077f26e3d076556c846a6e3bb1d1374fd0cb39b333a04c6574e9e2876d5b"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/bbmap-bbsplit_plot-pct.png",
+    "bytes": 74481,
+    "sha256": "ebd58c1a7ba9a83d1570e651208013d4b991fa710cda9a992103646a536fd443"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/bbsplit_stats_table.png",
+    "bytes": 83518,
+    "sha256": "1a9923627a1f5a09bd5f4ab7b3f2c7847f4625aee481dd68a0819952b21c060e"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/dupradar.png",
+    "bytes": 159694,
+    "sha256": "63067456c86c6eefa35f4f2d00ac5b17982aacfd3bc3804cecbfd4dfa8b66f0f"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/fastqc_filtered-status-check-heatmap.png",
+    "bytes": 152433,
+    "sha256": "e69ee3188f3f80f01b946b26c379bbdebddda82b64c8cd1be13ae8de185683c0"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/fastqc_filtered_overrepresented_sequences_plot.png",
+    "bytes": 111020,
+    "sha256": "24a5eb3d41905995a3c7d857a7e3b7c68b7774c5bfe439d8a5e6c4b07c2556b3"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/fastqc_filtered_per_base_n_content_plot.png",
+    "bytes": 113698,
+    "sha256": "fc1ff67bf31c5c63c2e61d28e946b26285d8c82ed501bd7379dbec976b1eb281"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/fastqc_filtered_per_base_sequence_quality_plot.png",
+    "bytes": 103555,
+    "sha256": "505037e67d244e53a03ebbaa9d66a297f03bc4d3dcd678c3ac6759279fde07a5"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/fastqc_filtered_per_sequence_gc_content_plot_Counts.png",
+    "bytes": 205480,
+    "sha256": "40dd8642df59bc33c60f08345133424f77b925c803fa31f4137dd2baa864577b"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/fastqc_filtered_per_sequence_gc_content_plot_Percentages.png",
+    "bytes": 189933,
+    "sha256": "4e2902c2511c7b35ec86d025a2de6efa9df5e643309d24b3c020ae6e90923b14"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/fastqc_filtered_per_sequence_quality_scores_plot.png",
+    "bytes": 146207,
+    "sha256": "3279da7c27f8531cb0b0f865afae8a3308a8535af381db7bb9de70b179c02c87"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/fastqc_filtered_sequence_counts_plot-cnt.png",
+    "bytes": 102188,
+    "sha256": "e604c0e9046064a9b59f9777e2c5d347a8ccd405868a1a4b2b8a753fe2d55a96"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/fastqc_filtered_sequence_counts_plot-pct.png",
+    "bytes": 93789,
+    "sha256": "b53d0e29b7d5cefec9bf05348df4203ff1b2ed2874a75883cb70a4506b886abd"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/fastqc_filtered_sequence_duplication_levels_plot.png",
+    "bytes": 181731,
+    "sha256": "54153ac56e07e7d90841c74b11bde7f4e50ba5691743b20e673791e84b95e371"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/fastqc_filtered_top_overrepresented_sequences_table.png",
+    "bytes": 68302,
+    "sha256": "2be13b19247edca45fc70ef067dc5803094b305601aa8ec7d0fa9100d766d78e"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/fastqc_raw-status-check-heatmap.png",
+    "bytes": 148477,
+    "sha256": "57dfdb0f200f39d6ceb0889bddde7c9e221442f9e0365886e17f01c366a8ca2e"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/fastqc_raw_adapter_content_plot.png",
+    "bytes": 192545,
+    "sha256": "59f27f46e8248f0df7c58d25a0799e5d1dd5155b67f07c4de99e70957d436b2c"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/fastqc_raw_overrepresented_sequences_plot.png",
+    "bytes": 111312,
+    "sha256": "d6c429470fd582953c90522e80002fb25ab6450db3ddac99edc830adeed09829"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/fastqc_raw_per_base_n_content_plot.png",
+    "bytes": 114374,
+    "sha256": "cde3dc7409f66592e1528a1471a32a1f669b37970b0ed8cf88aed7b2bdfd6f16"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/fastqc_raw_per_base_sequence_quality_plot.png",
+    "bytes": 106151,
+    "sha256": "baf51a580020a360d6a4dde685d90212276941feb0540a5929f0f5099f317cfe"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/fastqc_raw_per_sequence_gc_content_plot_Counts.png",
+    "bytes": 204565,
+    "sha256": "a2171f2b759c125403e34af186b57dec606d64faf7ae42643cac4482a9e325d8"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/fastqc_raw_per_sequence_gc_content_plot_Percentages.png",
+    "bytes": 184574,
+    "sha256": "a15bca32fede68ef7eba715a9320f2352b289249864b964946bdac6167b89c2e"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/fastqc_raw_per_sequence_quality_scores_plot.png",
+    "bytes": 146956,
+    "sha256": "0c5dcddd6739c143af1482dfb5602e772fbc77caa2b381064363824e9ff7a9bf"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/fastqc_raw_sequence_counts_plot-cnt.png",
+    "bytes": 95260,
+    "sha256": "4893fc1d567ede29493a5847d14c5f2a6aea4763768411a13012d400d57d65d5"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/fastqc_raw_sequence_counts_plot-pct.png",
+    "bytes": 93884,
+    "sha256": "7b96291128b620d92f296e6983fa3b1a35b539753c9e7a77f60f451c1c2e4abd"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/fastqc_raw_sequence_duplication_levels_plot.png",
+    "bytes": 182681,
+    "sha256": "3cadf91795414a6d4ed2768e08f7f395ce0fe76ae51e1521c199f808796a30f6"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/fastqc_raw_top_overrepresented_sequences_table.png",
+    "bytes": 68207,
+    "sha256": "53b3c27dd6d066f3a1e61e6f89f4c019deb0c5b53ec59072d361f8f5cdc9c866"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/fastqc_sequence_length_distribution_plot.png",
+    "bytes": 137678,
+    "sha256": "89d85a1d80883bdb35453354d87ea137178754460d27e6ebf574c23c10d548af"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/fastqc_trimmed-status-check-heatmap.png",
+    "bytes": 152433,
+    "sha256": "e69ee3188f3f80f01b946b26c379bbdebddda82b64c8cd1be13ae8de185683c0"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/fastqc_trimmed_overrepresented_sequences_plot.png",
+    "bytes": 111439,
+    "sha256": "213ed8fd75768d5a1c4fa69aa45a40a5bff50468dfe4536a7b1f897563ad6635"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/fastqc_trimmed_per_base_n_content_plot.png",
+    "bytes": 113579,
+    "sha256": "f5b6fc195ab5a18236f790b535e9abad6fc7bcd2a065e28befad8bab0f2ae863"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/fastqc_trimmed_per_base_sequence_quality_plot.png",
+    "bytes": 103766,
+    "sha256": "2490eadf564bb205b41165c9c751ba70ccb0cb5c15d52166f1c97f15c9bfbf2a"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/fastqc_trimmed_per_sequence_gc_content_plot_Counts.png",
+    "bytes": 205724,
+    "sha256": "aaf6b2c5b78ffefcf8f83a2f99d2d57dcca9a4e5362a98ba1f5769c4763409ac"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/fastqc_trimmed_per_sequence_gc_content_plot_Percentages.png",
+    "bytes": 189721,
+    "sha256": "827ca0b3b83e3a713963ddf2771c016bd86a0696e12934a6689abe00c5f684c5"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/fastqc_trimmed_per_sequence_quality_scores_plot.png",
+    "bytes": 145016,
+    "sha256": "a4cb87d3b0e43e4e0deae1c89473287d4f7c1126e88a2bcaa3f5a5b04859ca59"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/fastqc_trimmed_sequence_counts_plot-cnt.png",
+    "bytes": 102564,
+    "sha256": "2a714e0e4030561e541f1c44ed85081f6784425b527cb1f3e9749a25a6160d03"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/fastqc_trimmed_sequence_counts_plot-pct.png",
+    "bytes": 93813,
+    "sha256": "ba72a23577c2be5568eef8f90b8cf0c60af8f804245d431cf4f96b3657b13a38"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/fastqc_trimmed_sequence_duplication_levels_plot.png",
+    "bytes": 182636,
+    "sha256": "400c858c00312f2f2c20c0a95e8d5c0fa4558a9c7654f45719d0b44e3d9f18ac"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/fastqc_trimmed_top_overrepresented_sequences_table.png",
+    "bytes": 68297,
+    "sha256": "729cb963e9667d44897c38468154a6916efd3135121db23733f654f0f01569d8"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/featurecounts_biotype_plot-cnt.png",
+    "bytes": 80827,
+    "sha256": "e5e0f64e90a06155cf6438e52fc2c9a892c42575fc083a47e70088fdb397e54f"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/featurecounts_biotype_plot-pct.png",
+    "bytes": 74300,
+    "sha256": "dd69edb4a59b426ff62ce85339fb437bb6f3ab26653887b9cb5fc7c4130b925f"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/picard_deduplication-cnt.png",
+    "bytes": 90167,
+    "sha256": "44f00a04969964b167cb8ffbd9eeea63e77713df8c8b75fff41c2a0347cf1db6"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/picard_deduplication-pct.png",
+    "bytes": 82179,
+    "sha256": "e18bca1c14ab8814ba845c320216c6952b28daad30884faaf27c305f8e4d6160"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/qualimap_gene_coverage_profile_Counts.png",
+    "bytes": 252247,
+    "sha256": "e34388cb9c431ca9a4b92075c02c777c70e11398e557cd4c0c7ecb3dce366bdb"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/qualimap_gene_coverage_profile_Normalised.png",
+    "bytes": 285090,
+    "sha256": "886e9ba881d4f19036973ecb2d9f9c39ece3b1674103e3778ceba9a55717ae1e"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/qualimap_genomic_origin-cnt.png",
+    "bytes": 84638,
+    "sha256": "ba470f1a4fbae5d93435c6b8a54b8c2ac22660f0808ef5e60db88ffc9e11e9e2"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/qualimap_genomic_origin-pct.png",
+    "bytes": 77553,
+    "sha256": "d67eeb354f60791e9b7f77d53a107329117d03f4a709252d7fb57f0d91ce7824"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/rseqc_bam_stat.png",
+    "bytes": 293471,
+    "sha256": "d58b44d61f63c19d7cd9686685900c0ee3c896ce8b8809cd14cf00a711385e1d"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/rseqc_infer_experiment_plot.png",
+    "bytes": 73571,
+    "sha256": "00f97386e9f00cd1871c26a48bc1c14e5c72ddc652282d5f88e046c106947d82"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/rseqc_inner_distance_plot_Counts.png",
+    "bytes": 181471,
+    "sha256": "ca2438653cada7a49465cd06fce70432f7dcd3277f439f12f98df9fc7f1778e0"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/rseqc_inner_distance_plot_Percentages.png",
+    "bytes": 176785,
+    "sha256": "3a73a52976056f3bacbfe78f68b1c27cedc2d6af23afeaf68068e5256c6b49b2"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/rseqc_junction_annotation_junctions_plot_Events-cnt.png",
+    "bytes": 83495,
+    "sha256": "a9df19c81893ed6433b80af19afbf89c966f811b758fbb9c52383d7f7368269d"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/rseqc_junction_annotation_junctions_plot_Events-pct.png",
+    "bytes": 79573,
+    "sha256": "033bd1341d714741c5ee8290dcf494730de1c26c5ee2bbb1ed26b4615733cbbb"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/rseqc_junction_annotation_junctions_plot_Junctions-cnt.png",
+    "bytes": 83926,
+    "sha256": "d7e48f3971e27fd14bbfe36f2aafe93ef24aae333a0c029a2ba7d234fdcb7124"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/rseqc_junction_annotation_junctions_plot_Junctions-pct.png",
+    "bytes": 79555,
+    "sha256": "0d6556cdeb66e457e344548a4c606e79b3dd6e0007218cda6f96d05028437eb3"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/rseqc_junction_saturation_plot_All_Junctions.png",
+    "bytes": 190589,
+    "sha256": "fc75f19cc18c4b54395c5c4c8076dcfcab016681c4ee65bf9366c66774fd99f1"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/rseqc_junction_saturation_plot_Known_Junctions.png",
+    "bytes": 139487,
+    "sha256": "84356eb9f7b1f5e3e0477312d61afba7e5776344346220ff869b0ebd1c109046"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/rseqc_junction_saturation_plot_Novel_Junctions.png",
+    "bytes": 194013,
+    "sha256": "4c05b2bb48972911ff7116a9e6c3fbcb7829482e2af22365d93392d5f2cac126"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/rseqc_read_distribution_plot-cnt.png",
+    "bytes": 80983,
+    "sha256": "8cd87dbadc555cad9a0cd49fed1197a3bb4785b664fc761c95ce05d5fb83948a"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/rseqc_read_distribution_plot-pct.png",
+    "bytes": 74772,
+    "sha256": "d6afc9b700d0e5289f633b3b7d5ab8e6a441b66eeb2c923648c008427e120f87"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/rseqc_read_dups_plot.png",
+    "bytes": 258180,
+    "sha256": "af53ab570a0a929d4c06e93d43b89a7cc8236b24dd9e2ae4fe39e78b4fb536f7"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/salmon_deseq2_clustering.png",
+    "bytes": 152147,
+    "sha256": "5e36e5a218142e570c983994f449a3390e57cbfef192ebafabd072e1cfab9093"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/salmon_deseq2_pca.png",
+    "bytes": 109612,
+    "sha256": "8ea728cea5de83a5efb6539d49aaf651cac9f6a68b87238f5b9ac628ab51a069"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/salmon_plot.png",
+    "bytes": 179260,
+    "sha256": "4acc80a43f0efea4fa4380a71a3a9a0fe098fa8f25ae81e25b59803fcba1ad41"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/samtools-flagstat-pct-table.png",
+    "bytes": 199274,
+    "sha256": "c53f5ad527bba71c059cb35ead33d6b830c30247fb12b725779d5b3cff5648a6"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/samtools-flagstat-table.png",
+    "bytes": 244246,
+    "sha256": "f6c32f0281c335866e88c31816e93fa475cefd3ff35a9c8a71a95d91fce5dc13"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/samtools-idxstats-mapped-reads-plot_Normalised_Counts-cnt.png",
+    "bytes": 82791,
+    "sha256": "674be2b57049aa91a6bdf68af2b807707a98204fe665ced9f8e849955dae6d76"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/samtools-idxstats-mapped-reads-plot_Normalised_Counts-log.png",
+    "bytes": 87888,
+    "sha256": "3e5187bb2f525e94a80c3e3e011628615e9111ea6e6c318fb046663e3c749b7f"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/samtools-idxstats-mapped-reads-plot_Observed_over_Expected_Counts-cnt.png",
+    "bytes": 92877,
+    "sha256": "8307faf0b19e525bdb7778229c1df1e65036c191af6b1e511edcec7617d603eb"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/samtools-idxstats-mapped-reads-plot_Observed_over_Expected_Counts-log.png",
+    "bytes": 97710,
+    "sha256": "43186d95c3d35fe19cfb47bfe38b097c9cd85ce21796ba316107f363200a2eee"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/samtools-idxstats-mapped-reads-plot_Raw_Counts-cnt.png",
+    "bytes": 89590,
+    "sha256": "9f4bbef071c3f6a212bc4a4bd8d22f9e6a5421dd76ec4aa369200e7749c9c040"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/samtools-idxstats-mapped-reads-plot_Raw_Counts-log.png",
+    "bytes": 89875,
+    "sha256": "62adab68c953c211fcc5e3ec4d315f491a2e396579a7967679b384c555b246b4"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/samtools-stats-dp.png",
+    "bytes": 272073,
+    "sha256": "f2fa7ab47c5543d07eb724281ca5410813712a251ec8070f90746c77b926249d"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/samtools_alignment_plot-cnt.png",
+    "bytes": 82414,
+    "sha256": "741f42cc36fa3cd340b27f0336d73a15ac6b569e4c12596467615cdced7762a8"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/samtools_alignment_plot-pct.png",
+    "bytes": 74803,
+    "sha256": "e981ea4e957e91f69378173c82b0e6227f0184bda2df9128937f4d4de1a6a43d"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/samtools_insert_size.png",
+    "bytes": 213280,
+    "sha256": "4f1771d519ea3402c9e7310fc8f33111655afd946d94767fde77867f8fc1e2ff"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/star_alignment_plot-cnt.png",
+    "bytes": 93690,
+    "sha256": "784013ce8f4289dac251e61bbee3b27f6628ba5bce72775a5752da7d1c8aec1c"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/star_alignment_plot-pct.png",
+    "bytes": 88286,
+    "sha256": "eda630339ba4833aa7264e00460c0adfa973c491099ec5129fd51e1d8752d94f"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/star_salmon_deseq2_clustering.png",
+    "bytes": 153971,
+    "sha256": "6b463ec3b01d186c11fa4a39ed0bcb1cf6717961c11418e57c9fd5274eff3d59"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/star_salmon_deseq2_pca.png",
+    "bytes": 110063,
+    "sha256": "35fb3cde1c002577b885df2a094da5447eb8ee58e2ef0259b43d871175852871"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/star_summary_table.png",
+    "bytes": 186786,
+    "sha256": "5df6d884dfbc34ca7eeccc6b18c9c7e8d50b42944b522e18b339c72020e46d57"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/strand_check_composition_bargraph_RSeQC.png",
+    "bytes": 80266,
+    "sha256": "7b8810a08543e02ba60fdfc07b19ed46b18ec15adf3c29fadd08266c09f1264d"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/strand_check_composition_bargraph_Salmon.png",
+    "bytes": 61538,
+    "sha256": "603b0b4ae0efb4014ad58b7918299c16aaabf8dc0090498c94eee8d84ea00e53"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/strand_check_summary_table.png",
+    "bytes": 100752,
+    "sha256": "f9e9211824397c5904aa36ba65a6fe359b23a8bc27db624ae4d8cac0cace6d83"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/trim_galore_adapter_length_plot.png",
+    "bytes": 143056,
+    "sha256": "4512fe3b09a62d807d37ca7261b5fffb3f43169c25aa9fdaf0784beedbc24cb1"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/trim_galore_filtered_reads_plot-cnt.png",
+    "bytes": 90545,
+    "sha256": "60e968759ce5572b959a6084a4fe86d45ee0ed1ae57e09cde7381f2b795e820b"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/trim_galore_filtered_reads_plot-pct.png",
+    "bytes": 89080,
+    "sha256": "1e51b0c737740718cf366987ceff1dd2767167b6888bbcc500feb173b5e283f4"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/png/trim_galore_pair_validation_table.png",
+    "bytes": 113857,
+    "sha256": "ec93b2e3f2812815b64ec6cd0dbcc360e81b7737353622dc95faff534a1e8c7b"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/bbmap-bbsplit_plot-cnt.svg",
+    "bytes": 14649,
+    "sha256": "cb87d932aad118f858a3785bbddaa4364699591d0e25efcd6dcc40eee2b7f2e6"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/bbmap-bbsplit_plot-pct.svg",
+    "bytes": 12304,
+    "sha256": "ee5e2896da7d11312285d27216643cfd996653ffd1dfc70edc1960b47ef7189b"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/bbsplit_stats_table.svg",
+    "bytes": 38831,
+    "sha256": "56307085fe8d5d3a9f5251ad27ee1dcc70752638354f791b68d8d8821ff5042f"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/dupradar.svg",
+    "bytes": 26638,
+    "sha256": "bf9cb254b22c289ce83f632a8632c7d08b300b6b8abefebeaa07833eb0cc55a1"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/fastqc_filtered-status-check-heatmap.svg",
+    "bytes": 14817,
+    "sha256": "69439f16ec69de7322a11be997b2ed634ddabb5557bea179c0369832456f3802"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/fastqc_filtered_overrepresented_sequences_plot.svg",
+    "bytes": 15968,
+    "sha256": "51258c889e95d76b9aee1c7e0c3d78a90cbf14c6e1c474d63ceb8ee328aac567"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/fastqc_filtered_per_base_n_content_plot.svg",
+    "bytes": 16330,
+    "sha256": "a0672a588920f63ac4406afe80a91c939725f537074752a5c50b438072b75bed"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/fastqc_filtered_per_base_sequence_quality_plot.svg",
+    "bytes": 16352,
+    "sha256": "ff6bb2728eeaf9dc7aad5cff2217d8dbba7bd45574599fdebecc7abc883676cd"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/fastqc_filtered_per_sequence_gc_content_plot_Counts.svg",
+    "bytes": 17942,
+    "sha256": "d58e91a0a03472b7c4bc12c43324335b87f1248912e0f12291b663c2ac95467d"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/fastqc_filtered_per_sequence_gc_content_plot_Percentages.svg",
+    "bytes": 18709,
+    "sha256": "3244e1c76e4c1f88ca7e8b22e567cf1a96a3af7d4157268660ee5f04eefcc7cf"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/fastqc_filtered_per_sequence_quality_scores_plot.svg",
+    "bytes": 16934,
+    "sha256": "11bab3b8d6bb3bf1960312c785150e7b29e0820d5a385c8e88fdb900bc48a6e2"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/fastqc_filtered_sequence_counts_plot-cnt.svg",
+    "bytes": 17021,
+    "sha256": "83abee35b31d6f2e2d13c879c1360f667a16132c4f54efd4cff821dba1f01023"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/fastqc_filtered_sequence_counts_plot-pct.svg",
+    "bytes": 14601,
+    "sha256": "467a63c81c84aca6d6b79c4149bf850df72dc866d20edea57e5d2b3549ab4c21"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/fastqc_filtered_sequence_duplication_levels_plot.svg",
+    "bytes": 19085,
+    "sha256": "28f00cd06e4a07d8722413293d749de7e81909a64e0d57a8a078f16d10855d92"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/fastqc_filtered_top_overrepresented_sequences_table.svg",
+    "bytes": 48436,
+    "sha256": "4e990ff661b627d5a0bc44330b80c8ccea07871ef03cc8d4e3268f720e90cd5d"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/fastqc_raw-status-check-heatmap.svg",
+    "bytes": 14801,
+    "sha256": "94ca9906bb151a674e5db7e615b4c52f52ffa34cbf00b88c60bf8fe6fc91c413"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/fastqc_raw_adapter_content_plot.svg",
+    "bytes": 17280,
+    "sha256": "f28ee0a68350bc4ae2a803784bfd880b42cedf45317fa77679386e80c541c16f"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/fastqc_raw_overrepresented_sequences_plot.svg",
+    "bytes": 15959,
+    "sha256": "34e0d4a9b7ef261df5b5ea10de0aea432c38a83ac3ea6820d9250845fd16cf5b"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/fastqc_raw_per_base_n_content_plot.svg",
+    "bytes": 16773,
+    "sha256": "ef3c4db7d541086b54bf7df7999b5bcd7a0237252e3955235694034327b7aabc"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/fastqc_raw_per_base_sequence_quality_plot.svg",
+    "bytes": 16361,
+    "sha256": "af79d87529ff7e02eea1299211f8f8a1cd7fa24554161017655d93f69ce59d79"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/fastqc_raw_per_sequence_gc_content_plot_Counts.svg",
+    "bytes": 18524,
+    "sha256": "aaff6811ac2200d81bb73a1f03357cd30f6638fbd0dcbb942acb647bccc5f16e"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/fastqc_raw_per_sequence_gc_content_plot_Percentages.svg",
+    "bytes": 18942,
+    "sha256": "25bf8490dabd2354159779a34ece209123bde00ef9c5809d63d7e198d9b9630d"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/fastqc_raw_per_sequence_quality_scores_plot.svg",
+    "bytes": 17033,
+    "sha256": "c8eff1f0fc2a59144c027ad1f5149887921195250290de8694d615b30af951b9"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/fastqc_raw_sequence_counts_plot-cnt.svg",
+    "bytes": 14602,
+    "sha256": "b0cb949aa23a1b8c379077308b165b22e5b061290e6cdc526aebfabf206078b3"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/fastqc_raw_sequence_counts_plot-pct.svg",
+    "bytes": 14601,
+    "sha256": "e9512e76b3ef8dfeb3c95c8144a7fd826c8e5092f5022df167177607e10bd77f"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/fastqc_raw_sequence_duplication_levels_plot.svg",
+    "bytes": 19092,
+    "sha256": "438d4de3cf5b24af48cb7a7d2d64f9a4c4f50ec754122c0631b18775a1ad1a42"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/fastqc_raw_top_overrepresented_sequences_table.svg",
+    "bytes": 48458,
+    "sha256": "14b0b921c413fe812de77e2097f2489231775751d2c933633761abe5fe84ee38"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/fastqc_sequence_length_distribution_plot.svg",
+    "bytes": 16203,
+    "sha256": "55bce9eb57074686205b0f0d23f088d046dcd2dd005679d5a0f612ad798fba39"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/fastqc_trimmed-status-check-heatmap.svg",
+    "bytes": 14817,
+    "sha256": "a9a2aa37485a727cafac72d311870536fa61c4eae393dbc12da76291961c7b32"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/fastqc_trimmed_overrepresented_sequences_plot.svg",
+    "bytes": 15969,
+    "sha256": "9ee17cfb38e45172f3a24408f3d35f72f700019201a8859304da463a3619e3cc"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/fastqc_trimmed_per_base_n_content_plot.svg",
+    "bytes": 16283,
+    "sha256": "f77eabe8c5cac8014e9637b9003cbe857afb82da9ee6e3869b91fc396813997f"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/fastqc_trimmed_per_base_sequence_quality_plot.svg",
+    "bytes": 16342,
+    "sha256": "1eac07f421fbb98219cf23f51016bf9573edfa4c2c022af9bceaabc28e2313e1"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/fastqc_trimmed_per_sequence_gc_content_plot_Counts.svg",
+    "bytes": 18514,
+    "sha256": "0b3d91e53397deceab356746e8c320d9f2ca9595475ffdc1081dfe285e051b56"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/fastqc_trimmed_per_sequence_gc_content_plot_Percentages.svg",
+    "bytes": 18717,
+    "sha256": "f0def5e1dfe54d5631c04cd9269410202a207592995e9210516dcbaff84fb857"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/fastqc_trimmed_per_sequence_quality_scores_plot.svg",
+    "bytes": 16929,
+    "sha256": "11aa5886a5daae7405e722fe882c037a679f6b795f94f47ae04dab15bf1b27b4"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/fastqc_trimmed_sequence_counts_plot-cnt.svg",
+    "bytes": 16955,
+    "sha256": "fa49bde54b24061482a4980a4b02af70d209cf5372af91cc769eeb6810ad4aa5"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/fastqc_trimmed_sequence_counts_plot-pct.svg",
+    "bytes": 14601,
+    "sha256": "26536f3fd935560f36c517a5c9f7f13557ef9882608baf744d74eceee4c7a38a"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/fastqc_trimmed_sequence_duplication_levels_plot.svg",
+    "bytes": 19079,
+    "sha256": "eee0a988677846c6d6a05b2124119ff14b205a6faf6457f19f37b8730e9a48f3"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/fastqc_trimmed_top_overrepresented_sequences_table.svg",
+    "bytes": 48433,
+    "sha256": "4784d6402ea5e38074f15cb2853d6ef796e55225bd21b4d7971fde4e382551ac"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/featurecounts_biotype_plot-cnt.svg",
+    "bytes": 18845,
+    "sha256": "23a2c6d9d48f3b45f7393c36a2fc04f9252be74b2991188bbfdaec6d6744703b"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/featurecounts_biotype_plot-pct.svg",
+    "bytes": 17093,
+    "sha256": "1ee22e0458de337260467adafe09fff1aeb1ece2f340446f23106e0145a77932"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/picard_deduplication-cnt.svg",
+    "bytes": 18172,
+    "sha256": "2042109151b02cc96b094e90d1cfc6a7cbc3cae1f2a0b008bd15050bd510c1f0"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/picard_deduplication-pct.svg",
+    "bytes": 15762,
+    "sha256": "e1317ce8273f169281cda4cd860563341cb434a95504a1e0d5b59c43f537f08b"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/qualimap_gene_coverage_profile_Counts.svg",
+    "bytes": 18600,
+    "sha256": "a5d3a4515ddd3cbd213df33e347d3190209002b77ec2d5617aed80bc435af8fb"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/qualimap_gene_coverage_profile_Normalised.svg",
+    "bytes": 18407,
+    "sha256": "19d7a1ff532b276f68bd025f9a0f343df75a85a5adf45c4954fb63c96f63b9bd"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/qualimap_genomic_origin-cnt.svg",
+    "bytes": 15934,
+    "sha256": "bedd3be9cddc44eb4f55b70dcbf0c76e0cebd322dc0e0ae654899b732c60e934"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/qualimap_genomic_origin-pct.svg",
+    "bytes": 14097,
+    "sha256": "fd27e0fc982d716d00ba4f45180035bb8f2ac2eb77726d050c9e539f1d76c82c"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/rseqc_bam_stat.svg",
+    "bytes": 189312,
+    "sha256": "01ba704ef2424d94fdfcd1e83fc2afe958571cde5aa1b4d147121c72b9903e96"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/rseqc_infer_experiment_plot.svg",
+    "bytes": 14082,
+    "sha256": "9d00e268c699873bf3e3aeedaf9f923af7b47489d0525b88c257b6adc48e6cc1"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/rseqc_inner_distance_plot_Counts.svg",
+    "bytes": 16531,
+    "sha256": "7025340c742668b07bb6d84db5f890ab5555a0ae2b06ac406a5052148c91e1f7"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/rseqc_inner_distance_plot_Percentages.svg",
+    "bytes": 15567,
+    "sha256": "36d3453d0762d6a55ab3d33286ec8a1daa227124abe039654a29487e5ba0ffee"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/rseqc_junction_annotation_junctions_plot_Events-cnt.svg",
+    "bytes": 12594,
+    "sha256": "d6d780b45febf5b8968125d185d7338805a78d7d4831d3f082f2c44618bb857a"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/rseqc_junction_annotation_junctions_plot_Events-pct.svg",
+    "bytes": 12401,
+    "sha256": "2f08c79fb229737e0d0f1b58adc22d68f2af66589fe559482244a0bd59e51e2a"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/rseqc_junction_annotation_junctions_plot_Junctions-cnt.svg",
+    "bytes": 13119,
+    "sha256": "8a79257647f5510ad7fad197c518eada0ac657f4b3f1520949eba5ca34c12fda"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/rseqc_junction_annotation_junctions_plot_Junctions-pct.svg",
+    "bytes": 12398,
+    "sha256": "5948180b52e61943aed4c7c0572ee2d432b5f0ed164e6ca8e0f7df9ab98c9e83"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/rseqc_junction_saturation_plot_All_Junctions.svg",
+    "bytes": 12769,
+    "sha256": "4cc8738d02c604f6e4d33b0dbf2cd12266607a6540f5ef588fc3cd5a517f7822"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/rseqc_junction_saturation_plot_Known_Junctions.svg",
+    "bytes": 11899,
+    "sha256": "db8e5e81ec9cf48738f418a4196a1631d470a69807953cc05e326d03ddf5c37c"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/rseqc_junction_saturation_plot_Novel_Junctions.svg",
+    "bytes": 12784,
+    "sha256": "a6730e9eb734599147a62a047af7260a85043216c4142baf5d37a29c9cc02c72"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/rseqc_read_distribution_plot-cnt.svg",
+    "bytes": 15451,
+    "sha256": "df82f86b3014f6677121f5311bb8828f61ed7c46eda9853daea930711c57ecc6"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/rseqc_read_distribution_plot-pct.svg",
+    "bytes": 14117,
+    "sha256": "06500321187334a62572ef8ae45ab18143f12c5ef7eb0176704164f5c2034544"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/rseqc_read_dups_plot.svg",
+    "bytes": 22631,
+    "sha256": "7d84312eaf8e1bded71281debe1394bb2a5ae11d623076818e89645a028610fa"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/salmon_deseq2_clustering.svg",
+    "bytes": 23284,
+    "sha256": "623f3410628c51b84cc812c22c008e65da51fb862e9af6e192e045649376ae5a"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/salmon_deseq2_pca.svg",
+    "bytes": 14800,
+    "sha256": "e1ed9ea043c015dbb324a41b105f0a1afa70787a3e77008e49cd8ece2b9878cf"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/salmon_plot.svg",
+    "bytes": 22716,
+    "sha256": "901da475ecc95f27f202d35c4ba8d7079fd417f193185da8142c449da212dfd8"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/samtools-flagstat-pct-table.svg",
+    "bytes": 112600,
+    "sha256": "c9f4ce20b1ab7f12770a8f463ae67201fb331ad2f366e401263dbc9053842787"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/samtools-flagstat-table.svg",
+    "bytes": 146540,
+    "sha256": "96ae3468203552ebe2a7c146b8ecff91265607f93421232272bae1dd55c1687a"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/samtools-idxstats-mapped-reads-plot_Normalised_Counts-cnt.svg",
+    "bytes": 9424,
+    "sha256": "8f69f9f98730bcb57bb3287c337815a118375bf87a833feefd21f214e3eaa8c4"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/samtools-idxstats-mapped-reads-plot_Normalised_Counts-log.svg",
+    "bytes": 16991,
+    "sha256": "13bd27bafa1b21be89cd899ada292ca3d423829ec485da9ec26c786c669f38c5"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/samtools-idxstats-mapped-reads-plot_Observed_over_Expected_Counts-cnt.svg",
+    "bytes": 8920,
+    "sha256": "b7e60c4a8eabd3917c5319d183666ec1a92ad7c6fa0e5663b416e41779a98980"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/samtools-idxstats-mapped-reads-plot_Observed_over_Expected_Counts-log.svg",
+    "bytes": 16671,
+    "sha256": "e03117a2ec406ffbe934c6f2a090bd7b6c33369c80ef0da98ec2780b1d4a3dd7"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/samtools-idxstats-mapped-reads-plot_Raw_Counts-cnt.svg",
+    "bytes": 11060,
+    "sha256": "ee9fc9801d5aed0929c64fef57c8624e02c25ee76069023fe8167cab3069eacb"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/samtools-idxstats-mapped-reads-plot_Raw_Counts-log.svg",
+    "bytes": 11200,
+    "sha256": "1e9032f63ae29f0efee09ad1689bbb7bb6e201d5d9b5709894eb721896771264"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/samtools-stats-dp.svg",
+    "bytes": 170706,
+    "sha256": "713ec088fe58d33d9f9fa6baa8e0b230e1d8f692a41ef1c61438fd3d441863d4"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/samtools_alignment_plot-cnt.svg",
+    "bytes": 14771,
+    "sha256": "830173fce7e01fe0300798172a3cd3f72e0de9fa50c789160499d3266280e55e"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/samtools_alignment_plot-pct.svg",
+    "bytes": 12379,
+    "sha256": "81c75ae9cfd43e71c13f19b6701cc269681d7f9094b328723197cf4f86cce5c4"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/samtools_insert_size.svg",
+    "bytes": 30232,
+    "sha256": "7f6ee1935b51434eabda1c61c7a57a17748c71ed35116975abebe380f2692d4a"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/star_alignment_plot-cnt.svg",
+    "bytes": 19852,
+    "sha256": "cad01d3a5b2d655014dfbfb92dcf75abe1eb69137fab0799f4a0c4f89d8a4991"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/star_alignment_plot-pct.svg",
+    "bytes": 17544,
+    "sha256": "e39d37c20c64622798808e149c80cbf33bee3486ef1abe606665c3ce788bc345"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/star_salmon_deseq2_clustering.svg",
+    "bytes": 23288,
+    "sha256": "0ef6c1ba79a30f0db20011a9a63e24e52677fd505bcd7043cd579c4a1f718b6f"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/star_salmon_deseq2_pca.svg",
+    "bytes": 14776,
+    "sha256": "468583844810e36bf0e3308c88f8302bd6df96338ec35553c51f8eded3abd367"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/star_summary_table.svg",
+    "bytes": 106768,
+    "sha256": "f8f5a6505ab135a0dcd16c2fab2104f28e51c13118977e4e427f74dd5b1d0339"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/strand_check_composition_bargraph_RSeQC.svg",
+    "bytes": 14119,
+    "sha256": "122b949fe73b3f306be9d2501d51c0aed11a4f0d40eb8233bc71d6400c7fa272"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/strand_check_composition_bargraph_Salmon.svg",
+    "bytes": 9439,
+    "sha256": "86ee1392f27266dbe4d8ba8ef88bf30abf5b56f2be73bd6d1f81b7fe081b6000"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/strand_check_summary_table.svg",
+    "bytes": 48043,
+    "sha256": "e0589087bedae3d66cecd4b16eb911d667703de07dfe014a320da5e8bc2093ed"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/trim_galore_adapter_length_plot.svg",
+    "bytes": 16068,
+    "sha256": "7684286f3a29f3395849f7e55136256f8ff8b7f089069ee402a4c83615df236b"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/trim_galore_filtered_reads_plot-cnt.svg",
+    "bytes": 14598,
+    "sha256": "0d054f8b4c4c67f1e760ac3c208bf39115ef2adac0cdd323cce40b1010ef9e45"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/trim_galore_filtered_reads_plot-pct.svg",
+    "bytes": 14597,
+    "sha256": "24598ea58327a148f3e602a6a9565a700c7405b7d3ea96279a0dc7bcb04b46d4"
+  },
+  {
+    "path": "output/multiqc/star_salmon/multiqc_report_plots/svg/trim_galore_pair_validation_table.svg",
+    "bytes": 51791,
+    "sha256": "9a2d9668346f9585fb8ba7666a1dcf5f8eee41c4ba22c3c74c7bb5d738dec701"
+  }
+]

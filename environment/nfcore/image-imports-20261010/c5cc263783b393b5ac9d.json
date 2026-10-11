@@ -1,0 +1,17 @@
+{
+  "image": "community.wave.seqera.io/library/salmon:2.7.0--74784226202c61b9",
+  "started_utc": "2026-10-10T23:03:12.871708+00:00",
+  "source": "docker://community.wave.seqera.io/library/salmon:2.7.0--74784226202c61b9",
+  "transport": "skopeo -> docker-daemon; existing client proxy inherited; no system proxy changes",
+  "completed": true,
+  "exit_code": 0,
+  "ended_utc": "2026-10-10T23:03:26.858295+00:00",
+  "source_digest": "sha256:8b30cea858872777488e937f74e1a11c3a50ada0ac4b361ad423697b60e784b2",
+  "architecture": "amd64",
+  "docker_image_id": "sha256:a9e3af839d8d102f7758f185bcb68ef5b0dd89d085ac6a9ed03184155d037852",
+  "docker_size": 49249149,
+  "docker_layers": [
+    "sha256:65e5d715ea720349e6475f91651a0956279fc295a45fd73aa04f1cec046281a1",
+    "sha256:8a37c02f916a63d16f16d27aff2bb00a9e4f64446b54af9a853a52f968ceb351"
+  ]
+}

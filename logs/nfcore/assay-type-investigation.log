@@ -1,0 +1,3 @@
+Error: '\.' is an unrecognized escape in character string (<input>:1:75)
+Execution halted
+ERROR conda.cli.main_run:execute(148): `conda run Rscript -e suppressPackageStartupMessages(library(DESeq2)); fs<-list.files("results/nfcore/rnaseq-3.27.0-attempt-2/output",pattern="\\.rds$",recursive=TRUE,full.names=TRUE);for(f in fs){x<-readRDS(f);cat("FILE",f,"CLASS",class(x),"DIM",dim(x),"\n");for(n in assayNames(x)){m<-assay(x,n);cat("ASSAY",n,"CLASS",class(m),"TYPE",typeof(m),"DIM",dim(m),"\n");print(head(m[,1:2,drop=FALSE],2))}}` failed. (See above for error)

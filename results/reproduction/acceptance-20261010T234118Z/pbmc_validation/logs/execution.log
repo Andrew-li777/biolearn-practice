@@ -1,0 +1,52 @@
+Started UTC: 2026-10-10T23:44:19.984954+00:00
+Command: ["/home/a/projects/biolearn-practice/environment/validation-venv/bin/python", "scripts/16_pbmc_validation.py", "results/reproduction/acceptance-20261010T234118Z/pbmc3k", "results/reproduction/acceptance-20261010T234118Z/.attempts/pbmc_validation-20261010T234419984751Z"]
+Scrublet: raw filtered-UMI input (2700, 32738)
+Experiment {'experiment': 'neighbors20', 'cells': 2638, 'clusters': 8, 'ARI_vs_primary_scanpy': 0.6800459384311236, 'NMI_vs_primary_scanpy': 0.8492292006910938, 'ARI_vs_seurat': 0.6526309855272934, 'NMI_vs_seurat': 0.8040598428375019}
+Experiment {'experiment': 'exact_neighbors10', 'cells': 2638, 'clusters': 9, 'ARI_vs_primary_scanpy': 1.0, 'NMI_vs_primary_scanpy': 1.0, 'ARI_vs_seurat': 0.6279310734626542, 'NMI_vs_seurat': 0.7545047834392827}
+Experiment {'experiment': 'seurat_hvg', 'cells': 2638, 'clusters': 8, 'ARI_vs_primary_scanpy': 0.6531917028116083, 'NMI_vs_primary_scanpy': 0.8083044353681016, 'ARI_vs_seurat': 0.6562656859178183, 'NMI_vs_seurat': 0.8019043231845864}
+{
+  "raw_cells": 2700,
+  "primary_cells": 2638,
+  "predicted_doublets_raw": 36,
+  "predicted_doublets_primary": 34,
+  "scrublet_threshold": 0.246042051581765,
+  "reference_cells": 700,
+  "reference_genes": 765,
+  "common_genes": 764,
+  "holdout_cells": 210,
+  "holdout_accuracy": 0.8428571428571429,
+  "holdout_macro_f1": 0.8347724920084263,
+  "low_confidence_query_cells": 29,
+  "method": "Reference-only z scaling and PCA30, distance-weighted kNN15; seed42; stratified30% holdout.",
+  "limitations": [
+    "Independent PBMC68k donor A reduced reference; not PBMC3k ground truth.",
+    "Only common reference genes; reference has no platelets or FCGR3A-specific monocytes.",
+    "Monocyte subtypes pooled; CD4 subtypes pooled. Confidence is a kNN vote, not calibrated probability.",
+    "Scrublet rate .05 is an assumed default; automatic flags are diagnostic, no cells removed.",
+    "Protein measurements absent. No claim of experimental cell-type accuracy."
+  ],
+  "seurat": {
+    "represented_cells": 2625,
+    "unrepresented_cells": 13,
+    "reference_agreement_represented": 0.8125714285714286
+  },
+  "scanpy": {
+    "represented_cells": 2625,
+    "unrepresented_cells": 13,
+    "reference_agreement_represented": 0.804952380952381
+  }
+}
+Ended UTC: 2026-10-10T23:44:44.752179+00:00
+Exit code: 0
+Started UTC: 2026-10-10T23:44:44.752464+00:00
+Command: ["/home/a/projects/biolearn-practice/environment/validation-venv/bin/python", "scripts/verify_pbmc_validation.py", "results/reproduction/acceptance-20261010T234118Z/.attempts/pbmc_validation-20261010T234419984751Z", "results/reproduction/acceptance-20261010T234118Z/pbmc3k"]
+Passed 18 / 18
+{
+  "description": "Existing primary cluster labels restricted to unflagged barcodes; no reclustering.",
+  "cells": 2604,
+  "ARI": 0.6263521113108851,
+  "NMI_arithmetic": 0.7589438432351208,
+  "broad_type_agreement": 0.9519969278033794
+}
+Ended UTC: 2026-10-10T23:44:48.260583+00:00
+Exit code: 0

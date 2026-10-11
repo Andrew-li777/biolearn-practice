@@ -1,0 +1,18 @@
+{
+  "image": "quay.io/biocontainers/ucsc-bedgraphtobigwig:482--hdc0a859_0",
+  "started_utc": "2026-10-10T23:20:19.575416+00:00",
+  "source": "docker://quay.io/biocontainers/ucsc-bedgraphtobigwig:482--hdc0a859_0",
+  "transport": "skopeo -> docker-daemon; existing client proxy inherited; no system proxy changes",
+  "completed": true,
+  "exit_code": 0,
+  "ended_utc": "2026-10-10T23:20:29.868970+00:00",
+  "source_digest": "sha256:40ace9b457123ecd48fc58497b3bf1a1e7c39938f36752bcc8d4bf7a488ec31a",
+  "architecture": "amd64",
+  "docker_image_id": "sha256:6b2bf5a6eee79781914e0e5b1253ba7d63aadca64e26e831f1667e67746f1b3f",
+  "docker_size": 25333761,
+  "docker_layers": [
+    "sha256:75bcd7b1af8fb3a7adfb936d50be93d10ff35ccc86c71ddd031c097c1b63bc50",
+    "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef",
+    "sha256:aac9410c55242b5d5993b42e9f563a2c814c6d4e89a41a4f5556ad5b3307c7fe"
+  ]
+}
