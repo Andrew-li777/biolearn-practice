@@ -57,6 +57,20 @@ conda run --no-capture-output -n biolearn-py python scripts/verify_reproduction.
 
 新干净目录已完成：bulk39/39、PBMC3k83/83；对照验收16/16、扩大核验158/158、补充诊断18/18及4图变体通过。217产物/输入元数据核验及最终dry-run通过。历史干净运行曾做缺图重建：删除新生成的 `bulk/pca.png` 后自动重建，SHA-256 与原图一致；最终 dry-run 无待执行任务。证据见 `logs/rebuild-proof/evidence.json`、`logs/snakemake-rebuild.log`。
 
+## 结果图预览
+
+以下图片均来自本项目的干净验收运行 `results/reproduction/acceptance-20261010T234118Z/`，不是参考文档中的示意图。完整统计、参数、环境和产物核验见该目录的 [acceptance-report.md](results/reproduction/acceptance-20261010T234118Z/acceptance-report.md)。
+
+| airway：样本 PCA | airway：DESeq2 火山图 |
+| --- | --- |
+| ![airway VST PCA，按 dex 处理状态着色](results/reproduction/acceptance-20261010T234118Z/bulk/pca.png) | ![airway DESeq2 火山图，标示 FDR 小于 0.1 的基因](results/reproduction/acceptance-20261010T234118Z/bulk/volcano.png) |
+
+| PBMC3k：Seurat | PBMC3k：Scanpy |
+| --- | --- |
+| ![Seurat UMAP，按推定细胞类型着色](results/reproduction/acceptance-20261010T234118Z/pbmc3k/seurat/umap_cell_types.png) | ![Scanpy UMAP，按推定细胞类型着色](results/reproduction/acceptance-20261010T234118Z/pbmc3k/scanpy/umap_cell_types.png) |
+
+PBMC3k 标签为基于 marker 的推定注释，不是独立实验真值；两条路线使用不同的降维、邻居图和聚类实现，因此 UMAP 几何形状不能直接逐点比较。
+
 ## nf-core/rnaseq 独立测试
 
 固定版本 rnaseq 3.27.0，提交 `a1fcdddd3b826fe46eb46f0479f2ff8a7815af05`，Nextflow 25.10.4，Java 21。仓库位于 `workflow/nfcore-rnaseq-3.27.0`；新机器可用 `git clone --depth 1 --branch 3.27.0 https://github.com/nf-core/rnaseq.git workflow/nfcore-rnaseq-3.27.0` 获取，运行脚本会核对提交。

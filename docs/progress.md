@@ -1,6 +1,12 @@
 # 项目进度
 
-更新日期：2026-10-10 UTC。最新干净目录验收详见 [acceptance-report.md](../results/reproduction/acceptance-20261010T234118Z/acceptance-report.md)，此前核验见 [verification-report.md](verification-report.md)；所有历史产物保留。
+更新日期：2026-10-13 UTC。最新干净目录验收详见 [acceptance-report.md](../results/reproduction/acceptance-20261010T234118Z/acceptance-report.md)，此前核验见 [verification-report.md](verification-report.md)；所有历史产物保留。
+
+## README 结果图展示（2026-10-13 UTC）
+
+- 已在 README 加入4张由干净验收运行实际生成并已纳入 Git 跟踪的结果图：airway PCA、DESeq2 火山图、Seurat 与 Scanpy 的 PBMC3k 推定细胞类型 UMAP。
+- 图片均直接引用 `results/reproduction/acceptance-20261010T234118Z/` 下的现有产物，没有重跑分析、改动参数或复制参考图；README 同时链接该轮验收报告。
+- 已明确 PBMC3k 细胞类型是基于 marker 的推定注释，UMAP 几何形状不能跨实现逐点比较。本次无阻塞；如需更多展示，下一步可增补 marker dotplot 或 nf-core MultiQC 图，但应继续标明证据边界。
 
 ## GitHub 首次发布（2026-10-11 UTC）
 
