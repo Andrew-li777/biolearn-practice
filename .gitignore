@@ -4,6 +4,7 @@
 /environment/validation/*.h5ad
 
 # Local reference notes are intentionally excluded from the public repository
+/docs/生信*.md
 
 # Recreate isolated environments from the committed locks and inventories
 /environment/*-venv/
