@@ -3,6 +3,8 @@
 /environment/Miniforge3-*.sh
 /environment/validation/*.h5ad
 
+# Local reference notes are intentionally excluded from the public repository
+
 # Recreate isolated environments from the committed locks and inventories
 /environment/*-venv/
 /environment/document-validation-venv/

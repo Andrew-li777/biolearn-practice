@@ -2,8 +2,7 @@
 
 检查时间：2026-10-10T19:53:03.747769+00:00。项目：`/home/a/projects/biolearn-practice`。
 
-本次重新检查当前状态，未安装或更新软件。上次审计已保留在 `environment/audit/environment-audit.previous.md`。已读取两份参考文档：
-
+本次重新检查当前状态，未安装或更新软件。上次审计已保留在 `environment/audit/environment-audit.previous.md`。分析前已读取本地参考材料；这些材料不纳入公开仓库。
 
 文档中的代码、勾选、版本与参考数字均是待核实参考，不作为本机证据。此前安装记录与本次新检查分开：以下包加载、路径和网络结论来自本次执行。
 

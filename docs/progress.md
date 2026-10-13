@@ -2,6 +2,11 @@
 
 更新日期：2026-10-13 UTC。最新干净目录验收详见 [acceptance-report.md](../results/reproduction/acceptance-20261010T234118Z/acceptance-report.md)，此前核验见 [verification-report.md](verification-report.md)；所有历史产物保留。
 
+## 公开仓库材料边界（2026-10-13 UTC）
+
+- 两份仅供本地使用的参考材料已从公开仓库及其可达 Git 历史中排除；本机副本保留并由精确 `.gitignore` 规则保护。
+- 仓库内对本地材料的文件名和链接已清理。实际结果、参数、环境与产物路径继续以 README、方法文档和验收报告为准。
+
 ## README 结果图展示（2026-10-13 UTC）
 
 - 已在 README 加入4张由干净验收运行实际生成并已纳入 Git 跟踪的结果图：airway PCA、DESeq2 火山图、Seurat 与 Scanpy 的 PBMC3k 推定细胞类型 UMAP。
@@ -144,6 +149,7 @@ bulk 无阻塞。PBMC3k 的完整分析现已完成，见文首记录；nf-core 
 
 | 完成项 | 实际产物 / 证据 |
 | --- | --- |
+| 读取本地 RNA-seq/单细胞参考材料；声明其代码、勾选和数字待核实 | 本地材料不纳入公开仓库；项目证据边界见 `AGENTS.md` |
 | 重新检查 Linux 系统、资源、路径、版本、现有环境 | `docs/environment-audit.md`；`environment/audit/host-network.json` |
 | 复用兼容的 R 环境，不安装或更新 | `/home/a/miniforge3/envs/biolearn-r`：R 4.4.3；DESeq2 1.46.0、edgeR 4.4.0、airway 1.26.0、Seurat 5.5.1 |
 | 复用兼容的 Python 环境，不安装或更新 | `/home/a/miniforge3/envs/biolearn-py`：Python 3.11.17；Scanpy 1.11.5、PyDESeq2 0.5.4 |

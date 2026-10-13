@@ -1,6 +1,7 @@
 from pathlib import Path
 import json
 r=json.loads(Path('environment/audit/host-network.json').read_text())
+s=['# Linux 环境审计','',f"检查时间：{r['time']}。项目：`/home/a/projects/biolearn-practice`。",'', '本次重新检查当前状态，未安装或更新软件。上次审计已保留在 `environment/audit/environment-audit.previous.md`。已读取本地参考材料；这些材料不纳入公开仓库。', '', '材料中的代码、勾选、版本与参考数字均是待核实参考，不作为本机证据。此前安装记录与本次新检查分开：以下包加载、路径和网络结论来自本次执行。', '', '## 1. 当前结论', '', '已有 `/home/a/miniforge3` 及独立 `biolearn-r` / `biolearn-py` 环境，核心包加载通过，可以复用。当前 shell 未激活这些环境，R、Conda/Mamba 不在 PATH，不应误判为未安装。Docker、Java、Nextflow、Snakemake 在本次范围内未发现。七个网络目标 HTTPS HEAD 均返回 200，TLS 校验通过。', '', '## 2. 系统与资源','', '| 项目 | 实测结果 |','| --- | --- |','| 发行版 | Ubuntu 24.04.5 LTS，Noble，x86_64 |','| 用户 | a，UID/GID 1000；属于 sudo 组，但没有执行 sudo |','| CPU | 4 个在线逻辑 CPU，Intel Core i5-11400H @ 2.70GHz；VMware 虚拟拓扑不代表宿主物理资源 |']
 mem=r['system']['memory']['output'].splitlines()[1].split()
 s += [f'| 内存 | 总计 {int(mem[1])/2**30:.2f} GiB；检查时可用 {int(mem[6])/2**30:.2f} GiB |','| Swap | 4 GiB，当前使用 0 |','| 项目文件系统 | ext4；48 GiB 总量，14 GiB 已用，32 GiB 可用，31% 使用率 |','', '容量和内存是快照，不保证后续运行峰值；本次没有运行完整分析或构建参考基因组。', '', '## 3. 软件路径与版本','', '| 工具 | 当前 PATH | 已发现可执行路径 / 版本 | 分类 |','| --- | --- | --- | --- |']
 for name,v in r['tools'].items():
