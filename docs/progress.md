@@ -235,3 +235,7 @@ bulk 无阻塞。PBMC3k 的完整分析现已完成，见文首记录；nf-core 
 ## 最终归并
 
 目录已更名 /home/a/projects/20261010；旧日期副本和根目录工作流清除，独有历史字节保留于 shared/history，映射见 manifests/consolidation.json。历史链接目标记录于清单，历史树不保证可执行。本次未重跑科学分析，未推送。
+
+## README 图片引用修复
+
+恢复结果图表格中四处 Markdown 图片引用，使用 projects 下已跟踪的文档图片；未修改分析结果，未提交或推送。

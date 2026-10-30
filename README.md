@@ -49,11 +49,11 @@ PBMC3k 使用同样的 Snakemake 命令，但须先进入 `projects/02-pbmc3k-si
 
 | airway：样本 PCA               | airway：DESeq2 火山图                   |
 | --------------------------- | ----------------------------------- |
-| airway VST PCA，按 dex 处理状态着色 | airway DESeq2 火山图，标示 FDR 小于 0.1 的基因 |
+| ![airway VST PCA，按 dex 处理状态着色](projects/01-airway-bulk/docs/figures/pca.png) | ![airway DESeq2 火山图，标示 FDR 小于 0.1 的基因](projects/01-airway-bulk/docs/figures/volcano.png) |
 
 | PBMC3k：Seurat         | PBMC3k：Scanpy         |
 | --------------------- | --------------------- |
-| Seurat UMAP，按推定细胞类型着色 | Scanpy UMAP，按推定细胞类型着色 |
+| ![Seurat UMAP，按推定细胞类型着色](projects/02-pbmc3k-single-cell/docs/figures/seurat-umap.png) | ![Scanpy UMAP，按推定细胞类型着色](projects/02-pbmc3k-single-cell/docs/figures/scanpy-umap.png) |
 
 PBMC3k 标签为基于 marker 的推定注释，不是独立实验真值；两条路线使用不同的降维、邻居图和聚类实现，UMAP 几何形状不能直接逐点比较。
 
