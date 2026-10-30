@@ -1,5 +1,32 @@
 # 项目进度
 
+## README 总览恢复（2026-10-30 UTC）
+
+- 以旧总览为基础恢复分析范围、实测结果表、四张结果图、nf-core 测试和局限说明，命令及链接改为当前子项目结构。四图从干净验收产物复制到各子项目 `docs/figures/`，供 Git 跟踪和展示；历史报告中的旧路径保持原文。
+- 本次仅调整文档和展示图，未重跑分析；跨主机复现和更名后的完整科学流程仍未验证。
+
+
+## 维护结构调整（2026-10-30 UTC）
+
+- 新增 `projects/` 三个当前维护子项目，`archive/` 冻结副本和 `manifests/` 路径映射。原根目录及 `2026-10-10/` 均保留；迁移复制 29,751 文件和链接校验 0 差异，证据 `manifests/migration-copy-check.json`。
+- 取消新工作流对原项目 validation-venv 的默认引用；PBMC 子项目创建独立 venv 并实际重跑既有主结果的补充诊断，18/18 PASS，输出 `projects/02-pbmc3k-single-cell/results/migration-check/pbmc_validation/`。两个矩阵入口 dry-run 成功；nf-core 迁移后 Docker 预检 PASS，完整 nf-core 本轮未重跑。
+- 调整 Git 忽略规则：可跟踪新子项目代码、配置、文档和锁文件；忽略数据、结果、环境和缓存；本次未提交或推送。旧记录路径保留；跨主机复现和异地备份未验证。
+
+
+## 三项目分类拆分（2026-10-30 UTC）
+
+- 新建 `2026-10-10/`（原项目目录创建日期），按 airway bulk、PBMC3k 单细胞和 nf-core 官方测试分类；各项目提供独立入口、输入、结果、环境锁及说明。原资料保留，日期目录已整体加入 Git 忽略，避免本地材料和大对象误提交。
+- 分类副本 8350 项逐文件哈希/链接校验通过；`archive-inventory/original-project/` 为原项目同盘快照，15,356 项清单核对只有 `.gitignore` 在清单后被有意更改。快照不含项目外 Conda 环境，亦不是异地备份；证据见该目录下 `copy-check.json`、`snapshot-check.json`、`source-preservation.json`。
+- 新拆分的 airway Snakemake 实际运行 PASS 39/39；PBMC 主验收 PASS 83/83、诊断 18/18、图变体 4/4；两项最终 dry-run 无任务，主要汇总与历史一致，RDS/H5AD 实际回读。产物均在相应子目录 `results/new-run/`，比较证据 `archive-inventory/matrix-comparison.json`。
+- nf-core 新运行位于 `2026-10-10/03-nfcore-rnaseq-test/results/nfcore/new-attempt/`：退出 0、234/234 任务 COMPLETED，独立验收 267/267，MultiQC 已回读；证据为 `completion-status.json` 和 `verification/summary.json`。仍是官方小型测试，不是 airway FASTQ 复现。跨主机复现与异地备份仍未验证。
+
+## 归档评估（2026-10-30 UTC）
+
+- 已只读核对干净目录的 bulk 与 PBMC 汇总表、聚类比较 JSON，以及 nf-core 历史验收摘要；此前授权范围可以作为已完成的学习项目结项，并可并行新建其他项目。本次没有重新运行分析或完整校验所有产物。
+- 主要证据保留在 `results/reproduction/acceptance-20261010T234118Z/` 和 `results/nfcore/rnaseq-3.27.0-attempt-2/`。历史矩阵验收及 nf-core 小型测试通过，不代表 airway 原始 FASTQ 复现、跨主机复现或细胞类型实验验证。
+- 归档备份尚未执行或验证：Git 忽略本地输入、部分 RDS/H5AD、nf-core 官方输出及工作目录等；完整保留需另行备份并校验项目目录与所需外部环境。隔离 Conda 环境在 `/home/a/miniforge3/envs/`，不在项目目录中；环境锁文件可供重建，但跨主机重建未验证。
+- 本次检查前 Git 工作区干净；检查时项目目录约 2.3G，文件系统可用约 95G。无进行新项目的已知阻塞；下一步按保留需求制作独立备份并验证恢复，再决定是否将仓库设为只读归档。本次未归档、删除或推送。
+
 更新日期：2026-10-13 UTC。最新干净目录验收详见 [acceptance-report.md](../results/reproduction/acceptance-20261010T234118Z/acceptance-report.md)，此前核验见 [verification-report.md](verification-report.md)；所有历史产物保留。
 
 ## 公开仓库材料边界（2026-10-13 UTC）
@@ -204,3 +231,7 @@ bulk 无阻塞。PBMC3k 的完整分析现已完成，见文首记录；nf-core 
 ```
 
 不自动推送 GitHub，不修改代理，不删除已有资料。
+
+## 最终归并
+
+目录已更名 /home/a/projects/20261010；旧日期副本和根目录工作流清除，独有历史字节保留于 shared/history，映射见 manifests/consolidation.json。历史链接目标记录于清单，历史树不保证可执行。本次未重跑科学分析，未推送。

@@ -1,2 +1,0 @@
-Sample	Sense	Antisense	Unstranded
-WT_REP1	10.4	89.6	0.0

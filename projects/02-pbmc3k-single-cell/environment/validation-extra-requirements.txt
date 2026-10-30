@@ -1,0 +1,4 @@
+imageio==2.38.1
+lazy-loader==0.6
+scikit-image==0.26.0
+tifffile==2026.3.3

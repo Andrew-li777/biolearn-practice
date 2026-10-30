@@ -1,4 +1,0 @@
-verify-r exit=0
-verify-python exit=0
-verify-pbmc3k-r exit=0
-verify-pbmc3k-python exit=0

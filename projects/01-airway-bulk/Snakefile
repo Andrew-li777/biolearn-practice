@@ -1,0 +1,24 @@
+import json
+from pathlib import Path
+configfile: 'workflow/config.yaml'
+ROOT=config['output_root'].rstrip('/')
+CONDA=config.get('conda','conda')
+CONTRACT=json.loads(Path('workflow/outputs.json').read_text())
+DIAGNOSTIC_CONTRACT=json.loads(Path('workflow/diagnostic-outputs.json').read_text())
+VALIDATION_PY=config.get('validation_python',str(Path('environment/validation-venv/bin/python').absolute()))
+BULK=[ROOT+'/bulk/'+f for f in CONTRACT['bulk']]
+PBMC=[ROOT+'/pbmc3k/'+f for f in CONTRACT['pbmc3k']]
+VALIDATION=[ROOT+'/pbmc_validation/'+f for f in DIAGNOSTIC_CONTRACT['pbmc_validation']]
+GRAPH=[ROOT+'/pbmc_graph/'+f for f in DIAGNOSTIC_CONTRACT['pbmc_graph']]
+rule all:
+    input: BULK
+rule bulk_matrix:
+    input:
+        scripts=['scripts/'+f for f in ['01_bulk_deseq2.R','02_bulk_edger.R','03_bulk_pydeseq2.py','04_bulk_report.py','05_bulk_manifest.py']],
+        runner='workflow/run_matrix.py', contract='workflow/outputs.json', methods='docs/bulk-methods.md',
+        environments=['environment/biolearn-r.linux-64.explicit.txt','environment/biolearn-py.linux-64.explicit.txt']
+    output: BULK
+    threads: 2
+    resources: mem_mb=7000
+    params: out=ROOT+'/bulk', conda=CONDA
+    shell: 'python workflow/run_matrix.py bulk {params.out:q} --conda {params.conda:q}'

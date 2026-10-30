@@ -48,3 +48,24 @@ __pycache__/
 /results/pbmc3k/
 /results/pbmc3k-graph/
 /results/pbmc3k-validation/
+
+# Local classified archive contains original data and large results
+/2026-10-10/
+
+# Active subprojects: retain code and locks, keep data, run outputs and local environments out of Git
+/archive/*
+!/archive/README.md
+/manifests/*.json
+/projects/*/data/
+/projects/*/results/
+/projects/*/logs/
+/projects/*/environment/*-venv/
+/projects/*/environment/nfcore/
+/projects/*/workflow/nfcore-rnaseq-3.27.0/
+/projects/*/.snakemake/
+/projects/*/.nextflow/
+/projects/*/.nextflow.log*
+/projects/*/*.log
+/projects/*/environment/*.log
+
+/shared/history/
