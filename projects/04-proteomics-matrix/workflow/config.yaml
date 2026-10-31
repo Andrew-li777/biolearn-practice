@@ -1,0 +1,14 @@
+output_root: results/demo
+rscript: /home/a/miniforge3/envs/proteomics-analysis/bin/Rscript
+archive: data/DEP_1.28.0.tar.gz
+source_url: https://bioconductor.org/packages/3.20/bioc/src/contrib/DEP_1.28.0.tar.gz
+matrix: data/matrix.csv
+samples: data/samples.csv
+intensity_scale: linear_lfq
+control: Ctrl
+contrasts: [Ubi1, Ubi4, Ubi6]
+filter: complete_in_any_group
+seed: 42
+minprob_q: 0.01
+alpha: 0.05
+lfc: 1

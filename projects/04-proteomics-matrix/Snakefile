@@ -1,0 +1,21 @@
+configfile: 'workflow/config.yaml'
+R=config['rscript']
+OUT=config['output_root']
+CONTRASTS=[x+'_vs_'+config['control'] for x in config['contrasts']]
+FILES=['samples.csv','filter_flags.csv','filter_counts.csv','matrices.rds','matrix_x.csv','matrix_n.csv','matrix_im.csv','sample_qc.csv','correlation.csv','pca.csv','coverage.png','missingness.png','distributions.png','correlation.png','pca.png','summary.csv','sensitivity_summary.csv','sessionInfo.txt','r_packages.csv','config.yaml','analysis.json']+[c+'_'+s for c in CONTRASTS for s in ['main.csv','significant.csv','sensitivity.csv','comparison.csv','volcano.png','heatmap.csv','heatmap.png']]
+rule all:
+ input: OUT+'/report.html',OUT+'/acceptance.json',OUT+'/sha256.json'
+rule export:
+ input: 'scripts/export.R','workflow/config.yaml',config['archive']
+ output: config['matrix'],config['samples'],'data/raw_UbiLength.csv'
+ shell: '{R:q} scripts/export.R workflow/config.yaml'
+rule analyze:
+ input: config['matrix'],config['samples'],'scripts/analyze.R','scripts/common.R','workflow/config.yaml','environment/proteomics-analysis.linux-64.explicit.txt'
+ output: [OUT+'/'+f for f in FILES]
+ log: OUT+'/analysis.log'
+ threads: 2
+ shell: 'OPENBLAS_NUM_THREADS=2 OMP_NUM_THREADS=2 {R:q} scripts/analyze.R workflow/config.yaml {OUT:q} > {log:q} 2>&1'
+rule report:
+ input: [OUT+'/'+f for f in FILES]+['scripts/report.py','scripts/validate.R']
+ output: OUT+'/report.html',OUT+'/acceptance.json',OUT+'/sha256.json'
+ shell: '{R:q} scripts/validate.R {OUT:q} > {OUT:q}/validation.log 2>&1 && python scripts/report.py {OUT:q}'

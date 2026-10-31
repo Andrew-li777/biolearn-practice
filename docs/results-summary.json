@@ -1,0 +1,224 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "project": "01-airway-bulk",
+      "title": "airway bulk 差异表达",
+      "verified_date": "2026-10-30",
+      "headers": [
+        "方法",
+        "输入基因",
+        "预过滤基因",
+        "FDR < 0.1 显著基因"
+      ],
+      "rows": [
+        [
+          "deseq2",
+          "63677",
+          "16596",
+          "4916"
+        ],
+        [
+          "edger",
+          "63677",
+          "16860",
+          "6550"
+        ],
+        [
+          "pydeseq2",
+          "63677",
+          "16596",
+          "4685"
+        ]
+      ],
+      "note": "8 个样本；设计 ~ cell + dex，trt 对 untrt。显著性不叠加效应阈值；不同方法的过滤和统计模型不同。仅分析现成计数矩阵。",
+      "status": "结构与运行验收 39/39 PASS。",
+      "sources": [
+        {
+          "path": "projects/01-airway-bulk/results/new-run/bulk/analysis_summary.csv",
+          "sha256": "26abb660ee625d7e6716e3530f3841659ebe5419a60ca886344cce338b6901cd"
+        },
+        {
+          "path": "projects/01-airway-bulk/results/new-run/bulk/acceptance_checks.csv",
+          "sha256": "04ec9f2ce9c5a35c4925c2d2ebfd7bb6f773b29e1407382ffb4e52ae5210d84f"
+        }
+      ],
+      "figures": [
+        {
+          "path": "projects/01-airway-bulk/docs/figures/verified-20261030-results-new-run-bulk-pca.png",
+          "source": "projects/01-airway-bulk/results/new-run/bulk/pca.png",
+          "sha256": "041bf3aeb9392171130834b9319e85310fd12732b0d08562d24be5f851b84ca9",
+          "caption": "airway：VST PCA"
+        },
+        {
+          "path": "projects/01-airway-bulk/docs/figures/verified-20261030-results-new-run-bulk-volcano.png",
+          "source": "projects/01-airway-bulk/results/new-run/bulk/volcano.png",
+          "sha256": "bd0d6eab0681405ffe9b6d3bb9bf696b7d648b858b2cbfddb0a6a9b26d7eafa3",
+          "caption": "airway：DESeq2 火山图，颜色依据 FDR < 0.1"
+        }
+      ]
+    },
+    {
+      "project": "02-pbmc3k-single-cell",
+      "title": "PBMC3k 单细胞分析",
+      "verified_date": "2026-10-30",
+      "headers": [
+        "路线",
+        "原始细胞",
+        "QC 保留细胞",
+        "簇数"
+      ],
+      "rows": [
+        [
+          "seurat",
+          "2700",
+          "2638",
+          "9"
+        ],
+        [
+          "scanpy",
+          "2700",
+          "2638",
+          "9"
+        ]
+      ],
+      "note": "已过滤 UMI 矩阵；共有细胞 2638，ARI=0.627931，NMI=0.754505。细胞类型为 marker 支持的推定注释；簇数不是验收目标，两侧 UMAP 坐标不能逐点比较。",
+      "status": "结构与运行验收 83/83 PASS。",
+      "sources": [
+        {
+          "path": "projects/02-pbmc3k-single-cell/results/new-run/pbmc3k/analysis_summary.csv",
+          "sha256": "7ea6445897e6fa4c3ef2f828742871829cd4b0006eecdcec1e7f03f7ce3241aa"
+        },
+        {
+          "path": "projects/02-pbmc3k-single-cell/results/new-run/pbmc3k/comparison_metrics.json",
+          "sha256": "9648bfdd9818b32514ad31e9eeb5e406c122703bb533ece4b84b6a37b9455407"
+        },
+        {
+          "path": "projects/02-pbmc3k-single-cell/results/new-run/pbmc3k/acceptance_checks.csv",
+          "sha256": "abb60a80fcb6597c97d7f47a73172b9951b5697d8c5b2146786ae8ddeb47a721"
+        }
+      ],
+      "figures": [
+        {
+          "path": "projects/02-pbmc3k-single-cell/docs/figures/verified-20261030-results-new-run-pbmc3k-seurat-umap_cell_types.png",
+          "source": "projects/02-pbmc3k-single-cell/results/new-run/pbmc3k/seurat/umap_cell_types.png",
+          "sha256": "f661ee1dba71d89db43caa8f4aba2850821968f433e0c07f146944e40920fd9a",
+          "caption": "PBMC3k：seurat 推定细胞类型 UMAP"
+        },
+        {
+          "path": "projects/02-pbmc3k-single-cell/docs/figures/verified-20261030-results-new-run-pbmc3k-scanpy-umap_cell_types.png",
+          "source": "projects/02-pbmc3k-single-cell/results/new-run/pbmc3k/scanpy/umap_cell_types.png",
+          "sha256": "0202ac0ba3f47cc090bc7fd4eecc768b3a6551a7316f568a6a2f85ac54cbdf5a",
+          "caption": "PBMC3k：scanpy 推定细胞类型 UMAP"
+        }
+      ]
+    },
+    {
+      "project": "03-nfcore-rnaseq-test",
+      "title": "nf-core/rnaseq 官方小型测试",
+      "verified_date": "2026-10-30",
+      "headers": [
+        "版本",
+        "退出码",
+        "完成任务 / 总任务",
+        "独立验收通过 / 总项"
+      ],
+      "rows": [
+        [
+          "3.27.0",
+          0,
+          "234/234",
+          "267/267"
+        ]
+      ],
+      "note": "test,docker 官方小型测试；不是 airway 原始 FASTQ 的完整复现。任务与验收统计用于展示流程结果。",
+      "status": "运行及独立验收 PASS；版本提交 a1fcdddd3b826fe46eb46f0479f2ff8a7815af05。",
+      "sources": [
+        {
+          "path": "projects/03-nfcore-rnaseq-test/results/nfcore/new-attempt/verification/summary.json",
+          "sha256": "bc5950c44f3ebfd8adc13c5392f25bbbdc8b60395684fe565920e821b8d6e49f"
+        },
+        {
+          "path": "projects/03-nfcore-rnaseq-test/results/nfcore/new-attempt/completion-status.json",
+          "sha256": "1152d344c1a53fffc97bc6aadcf34dbe07f73ce09bcf86350054a20816f3229c"
+        }
+      ],
+      "figures": []
+    },
+    {
+      "project": "04-proteomics-matrix",
+      "title": "UbiLength 蛋白组差异富集",
+      "verified_date": "2026-10-30",
+      "headers": [
+        "比较",
+        "检验蛋白组",
+        "BH FDR < 0.05",
+        "同时绝对 log2FC ≥ 1",
+        "不插补可检验"
+      ],
+      "rows": [
+        [
+          "Ubi1_vs_Ctrl",
+          "1898",
+          "128",
+          "104",
+          "1486"
+        ],
+        [
+          "Ubi4_vs_Ctrl",
+          "1898",
+          "395",
+          "242",
+          "1348"
+        ],
+        [
+          "Ubi6_vs_Ctrl",
+          "1898",
+          "393",
+          "261",
+          "1352"
+        ]
+      ],
+      "note": "12 个样本；DEP 1.28.0，VSN、MinProb q=0.01、seed=42、limma，逐比较 BH 校正。正效应表示处理组相对 Ctrl 富集。共同可检验集合的主路线/不插补显著集合 Jaccard 依次为 0.100、0.917、0.769；Ubi1 对缺失值处理尤其敏感。属于蛋白互作富集，不代表全细胞蛋白表达变化。",
+      "status": "实际产物验收 PASS；固定种子复跑及缺图恢复已验证。",
+      "sources": [
+        {
+          "path": "projects/04-proteomics-matrix/results/final/summary.csv",
+          "sha256": "49a092004d19d46d6863db36631eff8cc3df1dbaf3c6d7b39b732b8919e47b54"
+        },
+        {
+          "path": "projects/04-proteomics-matrix/results/final/filter_counts.csv",
+          "sha256": "abe233f4370a306360ca1483234bc18d49045cca32dcaf003c8f48cadf9d6aab"
+        },
+        {
+          "path": "projects/04-proteomics-matrix/results/final/sensitivity_summary.csv",
+          "sha256": "7432b8ceaa04259687bd64e8fc29b9196b7fedbab63b620819769ee675f4cb92"
+        },
+        {
+          "path": "projects/04-proteomics-matrix/results/final/acceptance.json",
+          "sha256": "b6fa51aca69bc151483f159e0f43fa1b82e466a909f9953cffb451fac9f8925b"
+        }
+      ],
+      "figures": [
+        {
+          "path": "projects/04-proteomics-matrix/docs/figures/verified-20261030-results-final-pca.png",
+          "source": "projects/04-proteomics-matrix/results/final/pca.png",
+          "sha256": "8077f6657d5b4fee8f5eec8cd47a3f67bff48896f0d5da83dcb0b09d811f6159",
+          "caption": "UbiLength：VSN + MinProb 后 PCA"
+        },
+        {
+          "path": "projects/04-proteomics-matrix/docs/figures/verified-20261030-results-final-Ubi4_vs_Ctrl_volcano.png",
+          "source": "projects/04-proteomics-matrix/results/final/Ubi4_vs_Ctrl_volcano.png",
+          "sha256": "f467cd7f7845192a5661329fbadce5d0a6bf3621a563db78957562052f31cd9e",
+          "caption": "Ubi4 vs Ctrl：差异富集火山图"
+        },
+        {
+          "path": "projects/04-proteomics-matrix/docs/figures/verified-20261030-results-final-Ubi4_vs_Ctrl_heatmap.png",
+          "source": "projects/04-proteomics-matrix/results/final/Ubi4_vs_Ctrl_heatmap.png",
+          "sha256": "2e6ddb07781f12ba553d5e62bc1a58a9bb91a61af56c0dae299d3abd25ae73a2",
+          "caption": "Ubi4 vs Ctrl：插补后排名前 30 蛋白热图，不代表全部显著"
+        }
+      ]
+    }
+  ]
+}

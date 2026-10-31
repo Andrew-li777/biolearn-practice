@@ -1,8 +1,12 @@
 # PBMC3k 单细胞分析
 
-输入 `data/pbmc3k/` 是已过滤 UMI 数据；归档 SHA-256 为 `847d6ebd9a1ec9a768f2be7e40ca42cbfe75ebeb6d76a4c24167041699dc28b5`。历史干净验收目录 `results/reproduction/acceptance-20261010T234118Z/` 中两路线均保留 2638/2700 细胞、各 9 簇，ARI 0.627931，NMI 0.754505。细胞类型是 marker 支持的推定注释，非实验真值；见 [方法说明](docs/pbmc3k-methods.md)。
+[返回项目总览](../../README.md)
 
-## 输入准备
+## 分析目标
+
+使用 Seurat 与 Scanpy 分析同一 PBMC3k 数据，比较细胞保留、聚类及推定注释。
+
+## 输入
 
 如数据尚未保存到本地，从 10x 获取并校验后解压：
 
@@ -38,8 +42,45 @@ conda run --no-capture-output -n biolearn-workflow snakemake --cores 4 --resourc
 
 结果中的历史路径来自之前的运行记录；跨主机环境重建尚未验证。
 
-## 拆分后本机验证
+## 实际结果
 
-本次拆分后的新运行 `results/new-run/pbmc3k/acceptance.md` 于 2026-10-30 PASS 83/83；诊断 18/18、图变体 4/4 通过。RDS/H5AD 回读记录见 `rds-readback.log` 和 `object-readback.log`；最终 dry-run 无待执行任务。
+<!-- BEGIN VERIFIED RESULTS -->
 
-迁移后的本机补充验证：新建的本地 validation-venv 成功执行 PBMC 诊断，18/18 项通过；输出 `results/migration-check/pbmc_validation/`，记录 `migration-diagnostic.log`。这是既有主分析结果上的诊断重跑。
+本机验证日期：2026-10-30。结构与运行验收 83/83 PASS。
+
+| 路线 | 原始细胞 | QC 保留细胞 | 簇数 |
+| --- | --- | --- | --- |
+| seurat | 2700 | 2638 | 9 |
+| scanpy | 2700 | 2638 | 9 |
+
+已过滤 UMI 矩阵；共有细胞 2638，ARI=0.627931，NMI=0.754505。细胞类型为 marker 支持的推定注释；簇数不是验收目标，两侧 UMAP 坐标不能逐点比较。
+
+结果来源（本地运行产物，未随 Git 发布）：
+
+- `results/new-run/pbmc3k/analysis_summary.csv`
+- `results/new-run/pbmc3k/comparison_metrics.json`
+- `results/new-run/pbmc3k/acceptance_checks.csv`
+
+图表与来源校验值保存在受版本控制的结果摘要中。
+
+## 结果展示
+
+![PBMC3k：seurat 推定细胞类型 UMAP](docs/figures/verified-20261030-results-new-run-pbmc3k-seurat-umap_cell_types.png)
+
+PBMC3k：seurat 推定细胞类型 UMAP
+
+![PBMC3k：scanpy 推定细胞类型 UMAP](docs/figures/verified-20261030-results-new-run-pbmc3k-scanpy-umap_cell_types.png)
+
+PBMC3k：scanpy 推定细胞类型 UMAP
+
+<!-- END VERIFIED RESULTS -->
+
+## 验收与局限
+
+2026-10-30 拆分后的本机重跑已完成，补充诊断 18/18、图变体 4/4 通过；回读记录见本地 `rds-readback.log` 和 `object-readback.log`。2026-10-31 仅同步文档。较早的迁移诊断记录保留在本地 `results/migration-check/pbmc_validation/`。
+
+已过滤矩阵不包含空液滴；细胞类型是推定注释。历史诊断疑似 doublet 未据此删除，缩减参考映射不构成独立真值。跨主机环境重建尚未验证。
+
+## 相关文档
+
+[方法说明](docs/pbmc3k-methods.md) · [全项目进度](../../docs/progress.md)

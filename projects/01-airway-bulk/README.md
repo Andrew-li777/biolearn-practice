@@ -1,6 +1,14 @@
 # airway bulk 差异表达
 
-输入是 airway 包现成计数矩阵，8 个样本，设计 `~ cell + dex`、trt 对 untrt、FDR<0.1。历史干净验收目录 `results/reproduction/acceptance-20261010T234118Z/bulk/` 的汇总表记录 DESeq2 4916、edgeR 6550、PyDESeq2 4685 个显著基因。方法和过滤差异见 [方法说明](docs/bulk-methods.md)。不是原始 FASTQ 流程。
+[返回项目总览](../../README.md)
+
+## 分析目标
+
+airway 现成计数矩阵的三种差异表达方法比较。
+
+## 输入
+
+8 个样本；设计 `~ cell + dex`，trt 对 untrt，FDR < 0.1。此项目不从原始 FASTQ 开始。
 
 ## 环境与执行
 
@@ -20,6 +28,43 @@ conda run --no-capture-output -n biolearn-workflow snakemake --cores 4 --resourc
 
 结果中的历史路径来自之前的运行记录；跨主机环境重建尚未验证。
 
-## 拆分后本机验证
+## 实际结果
 
-本次拆分后的新运行 `results/new-run/bulk/acceptance.md` 于 2026-10-30 PASS 39/39；各方法显著基因数分别为 4916、6550、4685。`run.log` 和 `final-dry-run.log` 记录执行与最终依赖检查。
+<!-- BEGIN VERIFIED RESULTS -->
+
+本机验证日期：2026-10-30。结构与运行验收 39/39 PASS。
+
+| 方法 | 输入基因 | 预过滤基因 | FDR < 0.1 显著基因 |
+| --- | --- | --- | --- |
+| deseq2 | 63677 | 16596 | 4916 |
+| edger | 63677 | 16860 | 6550 |
+| pydeseq2 | 63677 | 16596 | 4685 |
+
+8 个样本；设计 ~ cell + dex，trt 对 untrt。显著性不叠加效应阈值；不同方法的过滤和统计模型不同。仅分析现成计数矩阵。
+
+结果来源（本地运行产物，未随 Git 发布）：
+
+- `results/new-run/bulk/analysis_summary.csv`
+- `results/new-run/bulk/acceptance_checks.csv`
+
+图表与来源校验值保存在受版本控制的结果摘要中。
+
+## 结果展示
+
+![airway：VST PCA](docs/figures/verified-20261030-results-new-run-bulk-pca.png)
+
+airway：VST PCA
+
+![airway：DESeq2 火山图，颜色依据 FDR < 0.1](docs/figures/verified-20261030-results-new-run-bulk-volcano.png)
+
+airway：DESeq2 火山图，颜色依据 FDR < 0.1
+
+<!-- END VERIFIED RESULTS -->
+
+## 验收与局限
+
+2026-10-30 拆分后的本机重跑已完成；运行及最终依赖检查保存在本地 `run.log`、`final-dry-run.log`。2026-10-31 仅同步文档。未进行跨主机环境重建；方法之间的过滤和统计差异不能仅凭显著数量评价优劣。
+
+## 相关文档
+
+[方法说明](docs/bulk-methods.md) · [全项目进度](../../docs/progress.md)

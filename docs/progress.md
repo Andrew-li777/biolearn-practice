@@ -1,5 +1,25 @@
 # 项目进度
 
+## README 同步与发布准备（2026-10-31 UTC）
+
+- 完善根 README 和四个子项目 README，统一目标、输入、运行、实际结果、展示、验收与局限及导航。修正 nf-core 旧阶段“未重跑”表述，明确 2026-10-30 已完成、2026-10-31 仅同步文档。
+- 从各子项目实际 CSV/JSON 回读结果，保存 `docs/results-summary.json`（含来源 SHA-256）；复制 7 张展示图至各子项目 docs/figures，保留旧图。蛋白组新增 PCA、Ubi4 火山图与热图；两级 README 共享同一图片文件。
+- 新增 `scripts/sync_readmes.py`：显式 --refresh 回读本地证据；普通生成及 --check 只依赖已发布摘要和展示图。维护说明为 `docs/readme-sync.md`，GitHub Actions 配置 `.github/workflows/readme-check.yml`。
+- 本机检查通过：5 份 README 的生成区块、图片 SHA-256、本地导航链接；重复生成无变化；仅复制可发布文件、不含本地结果的环境中检查通过；篡改结果区块与图片的负例均被拒绝。未重新运行科学分析。跨主机分析复现及远端 Actions 尚未验证。
+- 本轮准备提交蛋白组代码、环境锁、文档和展示图，以及 README 同步机制；数据、完整结果和日志维持 Git 忽略。发布结果在实际推送后记录。
+
+
+## 蛋白组矩阵新项目（2026-10-30 UTC）
+
+- 完成 `projects/04-proteomics-matrix/`：固定 DEP 1.28.0 UbiLength 数据、矩阵接口校验、VSN/MinProb/limma 主路线、不插补敏感性分析、Snakemake、HTML 报告与验收脚本。
+- 实测输入 3,006 蛋白组、12 样本，过滤保留 1,898；Ubi1/Ubi4/Ubi6 vs Ctrl 的 BH FDR<0.05 且 |log2FC|>=1 分别 104/242/261。逐比较模型；seed=42、MinProb q=0.01。属于互作差异富集，不是全细胞蛋白表达变化。
+- 实际产物：`projects/04-proteomics-matrix/results/final/`，包括 report.html、summary.csv、sensitivity_summary.csv、matrices.rds、sessionInfo.txt、config.yaml、acceptance.json、sha256.json；完整数据、参数、环境与局限记录在子项目 docs/validation.md 和 docs/methods.md。
+- 独立环境 proteomics-analysis：R 4.4.3、DEP 1.28.0、limma 3.62.1、vsn 3.74.0、imputeLCMD 2.1；环境锁已保存。准备阶段克隆的 proteomics-r 未用于分析，仍保留。
+- 验收通过：小矩阵边界测试、所有 CSV/RDS 回读、BH/效应方向独立核验、11 张 PNG 解码、10 项关键结果固定种子复跑字节一致、缺图恢复及最终 dry-run；证据均在子项目 results/。PCA 已目视检查。
+- 初次 DEP 元数据缺失及报告 PIL 依赖错误已修复，失败日志保留在 demo/run-01/run-02 及对应工作流日志。最终无阻塞。
+- 局限：Ubi1 显著集合对缺失值处理敏感（共同可检验集合 Jaccard=0.1）；跨主机重建、其他输入、无显著结果端到端场景尚未验证。下一步可按实际实验设计接入用户矩阵；原始质谱检索、TMT、功能富集不在本轮范围。未推送 GitHub，未修改系统代理。
+
+
 ## README 总览恢复（2026-10-30 UTC）
 
 - 以旧总览为基础恢复分析范围、实测结果表、四张结果图、nf-core 测试和局限说明，命令及链接改为当前子项目结构。四图从干净验收产物复制到各子项目 `docs/figures/`，供 Git 跟踪和展示；历史报告中的旧路径保持原文。
