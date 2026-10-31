@@ -6,7 +6,7 @@
 - 从各子项目实际 CSV/JSON 回读结果，保存 `docs/results-summary.json`（含来源 SHA-256）；复制 7 张展示图至各子项目 docs/figures，保留旧图。蛋白组新增 PCA、Ubi4 火山图与热图；两级 README 共享同一图片文件。
 - 新增 `scripts/sync_readmes.py`：显式 --refresh 回读本地证据；普通生成及 --check 只依赖已发布摘要和展示图。维护说明为 `docs/readme-sync.md`，GitHub Actions 配置 `.github/workflows/readme-check.yml`。
 - 本机检查通过：5 份 README 的生成区块、图片 SHA-256、本地导航链接；重复生成无变化；仅复制可发布文件、不含本地结果的环境中检查通过；篡改结果区块与图片的负例均被拒绝。未重新运行科学分析。跨主机分析复现及远端 Actions 尚未验证。
-- 本轮准备提交蛋白组代码、环境锁、文档和展示图，以及 README 同步机制；数据、完整结果和日志维持 Git 忽略。发布结果在实际推送后记录。
+- 蛋白组代码、环境锁、文档、展示图及同步机制已提交为 `9221dd5ee622c17405c7990589656f6f839cc5f1` 并正常推送至 `origin/main`；git ls-remote 已确认远端 SHA 与本地一致。数据、完整结果和日志未上传。GitHub Actions 已触发，发布时仍在运行，尚不宣称远端检查通过。
 
 
 ## 蛋白组矩阵新项目（2026-10-30 UTC）
